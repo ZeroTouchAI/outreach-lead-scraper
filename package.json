@@ -1,0 +1,13 @@
+{
+  "name": "lead-scraper",
+  "version": "0.1.0",
+  "description": "Finds B2B leads with no website via Google Places API, as Phase 1 of the outreach automation pipeline.",
+  "main": "scripts/findLeads.js",
+  "type": "commonjs",
+  "scripts": {
+    "find-leads": "node scripts/findLeads.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
