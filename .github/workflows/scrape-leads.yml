@@ -25,10 +25,31 @@ jobs:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: node scripts/findLeads.js
 
-      - name: Commit updated leads.json
+      - name: Commit and push updated leads.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/leads.json
-          git diff --staged --quiet || git commit -m "chore: update leads $(date -u +'%Y-%m-%d')"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "No new leads, nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update leads $(date -u +'%Y-%m-%d')"
+
+          # Retry push in case another commit landed on main while this job
+          # was running (e.g. a manual file edit). Rebase our commit on top
+          # of the latest main and retry, instead of failing the whole job.
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) -- pulling latest and rebasing..."
+            git pull --rebase origin main
+            sleep 3
+          done
+
+          echo "Push failed after multiple retries."
+          exit 1
