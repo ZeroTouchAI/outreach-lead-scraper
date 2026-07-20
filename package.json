@@ -5,7 +5,8 @@
   "main": "scripts/findLeads.js",
   "type": "commonjs",
   "scripts": {
-    "find-leads": "node scripts/findLeads.js"
+    "find-leads": "node scripts/findLeads.js",
+    "enrich-leads": "node scripts/enrichLeads.js"
   },
   "engines": {
     "node": ">=18"
