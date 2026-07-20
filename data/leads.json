@@ -41,11 +41,11 @@
     "primaryType": "plumber",
     "googleMapsUrl": "https://maps.google.com/?cid=13263863132969208536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:46.096Z",
-    "lastUpdatedAt": "2026-07-20T06:43:46.096Z"
+    "lastUpdatedAt": "2026-07-20T06:47:59.128Z"
   },
   {
     "placeId": "ChIJTR5kfMDV1IkRfZp8APGIC6Y",
@@ -57,11 +57,11 @@
     "primaryType": "plumber",
     "googleMapsUrl": "https://maps.google.com/?cid=11964807403716516477&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:46.096Z",
-    "lastUpdatedAt": "2026-07-20T06:43:46.096Z"
+    "lastUpdatedAt": "2026-07-20T06:48:00.283Z"
   },
   {
     "placeId": "ChIJX1wSYu8vK4gR5Kz9LY73EZA",
@@ -73,11 +73,11 @@
     "primaryType": "plumber",
     "googleMapsUrl": "https://maps.google.com/?cid=10381350806094720228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:46.577Z",
-    "lastUpdatedAt": "2026-07-20T06:43:46.577Z"
+    "lastUpdatedAt": "2026-07-20T06:48:01.724Z"
   },
   {
     "placeId": "ChIJvRz-IRwvK4gR_awdn4N27X8",
@@ -89,11 +89,11 @@
     "primaryType": "plumber",
     "googleMapsUrl": "https://maps.google.com/?cid=9218154319979588861&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:46.577Z",
-    "lastUpdatedAt": "2026-07-20T06:43:46.577Z"
+    "lastUpdatedAt": "2026-07-20T06:48:03.157Z"
   },
   {
     "placeId": "ChIJ8Sk_2JcrK4gRDTchLn7gnjs",
@@ -105,11 +105,11 @@
     "primaryType": "electrician",
     "googleMapsUrl": "https://maps.google.com/?cid=4296117927102461709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:47.612Z",
-    "lastUpdatedAt": "2026-07-20T06:43:47.612Z"
+    "lastUpdatedAt": "2026-07-20T06:48:04.734Z"
   },
   {
     "placeId": "ChIJ-6pPWXsrK4gRmMy-ZKT9ovc",
@@ -121,11 +121,11 @@
     "primaryType": "electrician",
     "googleMapsUrl": "https://maps.google.com/?cid=17844103556102016152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:47.612Z",
-    "lastUpdatedAt": "2026-07-20T06:43:47.612Z"
+    "lastUpdatedAt": "2026-07-20T06:48:07.092Z"
   },
   {
     "placeId": "ChIJGddIqmHX1IkRC6HqTfkM4Q4",
@@ -137,11 +137,11 @@
     "primaryType": "electrician",
     "googleMapsUrl": "https://maps.google.com/?cid=1072152451184501003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:48.583Z",
-    "lastUpdatedAt": "2026-07-20T06:43:48.583Z"
+    "lastUpdatedAt": "2026-07-20T06:48:08.378Z"
   },
   {
     "placeId": "ChIJB1dMPFMvL0sR47lUeFGxRCs",
@@ -153,11 +153,11 @@
     "primaryType": "service",
     "googleMapsUrl": "https://maps.google.com/?cid=3117811805516511715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:51.072Z",
-    "lastUpdatedAt": "2026-07-20T06:43:51.072Z"
+    "lastUpdatedAt": "2026-07-20T06:48:13.576Z"
   },
   {
     "placeId": "ChIJGSjJT83VKogRhjVTu3PqpDU",
@@ -169,11 +169,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=3865472162975659398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:52.641Z",
-    "lastUpdatedAt": "2026-07-20T06:43:52.641Z"
+    "lastUpdatedAt": "2026-07-20T06:48:15.166Z"
   },
   {
     "placeId": "ChIJ-eQGCAArK4gR3hbpTA42yOE",
@@ -185,11 +185,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=16269313088923703006&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:52.641Z",
-    "lastUpdatedAt": "2026-07-20T06:43:52.641Z"
+    "lastUpdatedAt": "2026-07-20T06:48:16.573Z"
   },
   {
     "placeId": "ChIJlQtf5ngrK4gRtnJ2G9ZR1Y0",
@@ -201,11 +201,11 @@
     "primaryType": "beauty_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=10220164909412807350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:52.641Z",
-    "lastUpdatedAt": "2026-07-20T06:43:52.641Z"
+    "lastUpdatedAt": "2026-07-20T06:48:19.856Z"
   },
   {
     "placeId": "ChIJ4RrqtgoP-4gRvAaHljHz3Cs",
@@ -217,11 +217,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=3160668432811624124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:52.641Z",
-    "lastUpdatedAt": "2026-07-20T06:43:52.641Z"
+    "lastUpdatedAt": "2026-07-20T06:48:29.071Z"
   },
   {
     "placeId": "ChIJSw-K0otBK4gRLk5HzrZH8Kw",
@@ -233,11 +233,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=12461539019404561966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
-    "email": null,
-    "emailSource": null,
+    "status": "enriched",
+    "email": "hello@fresha.com",
+    "emailSource": "https://www.fresha.com/lp/en/tt/blow-dries-and-blowouts/in/ca-toronto/sheridan",
     "foundAt": "2026-07-20T06:43:53.142Z",
-    "lastUpdatedAt": "2026-07-20T06:43:53.142Z"
+    "lastUpdatedAt": "2026-07-20T06:48:31.366Z"
   },
   {
     "placeId": "ChIJ11B28CRBK4gRQaFS1QuNu2A",
@@ -249,11 +249,11 @@
     "primaryType": "beauty_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=6970319930249093441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
-    "email": null,
-    "emailSource": null,
+    "status": "enriched",
+    "email": "hello@fresha.com",
+    "emailSource": "https://www.fresha.com/lp/en/tt/eyebrow-shaping/in/ca-toronto/mississauga",
     "foundAt": "2026-07-20T06:43:53.142Z",
-    "lastUpdatedAt": "2026-07-20T06:43:53.142Z"
+    "lastUpdatedAt": "2026-07-20T06:48:38.107Z"
   },
   {
     "placeId": "ChIJe0e6he8rK4gRcC6eARKAMhk",
@@ -265,11 +265,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=1815654414608641648&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
-    "email": null,
-    "emailSource": null,
+    "status": "enriched",
+    "email": "hello@fresha.com",
+    "emailSource": "https://www.fresha.com/lp/en/tt/gel-nail-extensions/in/ca-toronto/deepsprings",
     "foundAt": "2026-07-20T06:43:54.136Z",
-    "lastUpdatedAt": "2026-07-20T06:43:54.136Z"
+    "lastUpdatedAt": "2026-07-20T06:48:39.274Z"
   },
   {
     "placeId": "ChIJ9xCyuCw7K4gRcVByLXt9Clw",
@@ -281,11 +281,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=6632251369253392497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:54.136Z",
-    "lastUpdatedAt": "2026-07-20T06:43:54.136Z"
+    "lastUpdatedAt": "2026-07-20T06:48:42.823Z"
   },
   {
     "placeId": "ChIJUXGWcT00K4gRrtllcTpShBk",
@@ -297,11 +297,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=1838684958838086062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:54.656Z",
-    "lastUpdatedAt": "2026-07-20T06:43:54.656Z"
+    "lastUpdatedAt": "2026-07-20T06:48:44.272Z"
   },
   {
     "placeId": "ChIJ-6tta3TL1IkR8ankk8YxylA",
@@ -313,11 +313,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=5821520197284309489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:54.656Z",
-    "lastUpdatedAt": "2026-07-20T06:43:54.656Z"
+    "lastUpdatedAt": "2026-07-20T06:48:46.249Z"
   },
   {
     "placeId": "ChIJr03bISYzK4gRCWhv7o5_RG8",
@@ -329,11 +329,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=8017673488488687625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:54.656Z",
-    "lastUpdatedAt": "2026-07-20T06:43:54.656Z"
+    "lastUpdatedAt": "2026-07-20T06:48:51.642Z"
   },
   {
     "placeId": "ChIJl3QyNxArK4gRY6UWR-gKXcM",
@@ -345,11 +345,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=14077420002971395427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.172Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.172Z"
+    "lastUpdatedAt": "2026-07-20T06:49:00.829Z"
   },
   {
     "placeId": "ChIJi42oUqArK4gRpplhjltxjwg",
@@ -361,11 +361,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=616836312017770918&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.172Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.172Z"
+    "lastUpdatedAt": "2026-07-20T06:49:02.570Z"
   },
   {
     "placeId": "ChIJ9dvCRMA3K4gRKKUd__fTfa0",
@@ -377,11 +377,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=12501381202740880680&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.172Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.172Z"
+    "lastUpdatedAt": "2026-07-20T06:49:08.659Z"
   },
   {
     "placeId": "ChIJf4fSL6ArK4gRA0sAiPc--Tc",
@@ -393,11 +393,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=4033324174146554627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.172Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.172Z"
+    "lastUpdatedAt": "2026-07-20T06:49:14.769Z"
   },
   {
     "placeId": "ChIJX8pIK-0rK4gR2Mi-LymRibA",
@@ -409,11 +409,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=12720858228565395672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.172Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.172Z"
+    "lastUpdatedAt": "2026-07-20T06:49:21.085Z"
   },
   {
     "placeId": "ChIJX8fikp8rK4gRcWphlDV3vew",
@@ -425,11 +425,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=17058922035555691121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.172Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.172Z"
+    "lastUpdatedAt": "2026-07-20T06:49:23.492Z"
   },
   {
     "placeId": "ChIJS5gpOQArK4gRdmJ_qPNnduM",
@@ -441,11 +441,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=16390402190063133302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.172Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.172Z"
+    "lastUpdatedAt": "2026-07-20T06:49:30.020Z"
   },
   {
     "placeId": "ChIJX9RvgzRBK4gR1vqWejP4-pY",
@@ -457,11 +457,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=10879280749850589910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.690Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.690Z"
+    "lastUpdatedAt": "2026-07-20T06:49:40.134Z"
   },
   {
     "placeId": "ChIJMSKe5chGK4gRJ_gaFx0vi0Y",
@@ -473,11 +473,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=5083208406405937191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.690Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.690Z"
+    "lastUpdatedAt": "2026-07-20T06:49:43.148Z"
   },
   {
     "placeId": "ChIJmdpd7NJBK4gRs-LrQQYqM50",
@@ -489,11 +489,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=11327443694131077811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.690Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.690Z"
+    "lastUpdatedAt": "2026-07-20T06:49:44.460Z"
   },
   {
     "placeId": "ChIJfwFcY79HK4gRhe2RbmsphmQ",
@@ -505,11 +505,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=7243522592065318277&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.690Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.690Z"
+    "lastUpdatedAt": "2026-07-20T06:49:46.238Z"
   },
   {
     "placeId": "ChIJmdpd7NJBK4gRzHUZYQwrw4k",
@@ -521,11 +521,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=9926825335823365580&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:55.690Z",
-    "lastUpdatedAt": "2026-07-20T06:43:55.690Z"
+    "lastUpdatedAt": "2026-07-20T06:49:48.062Z"
   },
   {
     "placeId": "ChIJWwTnL9MkK4gRxPXzg5m0Bb4",
@@ -537,11 +537,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=13692548813526660548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:49:49.514Z"
   },
   {
     "placeId": "ChIJW1dUNLMpK4gR4bz_EbMbdn4",
@@ -553,11 +553,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=9112501351945845985&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:49:52.463Z"
   },
   {
     "placeId": "ChIJ6QnBNOYuK4gRPH5PydEVvGE",
@@ -569,11 +569,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=7042527908070391356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:49:53.885Z"
   },
   {
     "placeId": "ChIJY6B0gvIvK4gRczuCEVeIvxU",
@@ -585,11 +585,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=1567121102885501811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:49:56.255Z"
   },
   {
     "placeId": "ChIJy-aqzIIvK4gRw7xnDRJCTdE",
@@ -601,11 +601,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=15081783372435406019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:49:59.881Z"
   },
   {
     "placeId": "ChIJ1ZyzrdsvK4gReVcMPV3LCE0",
@@ -617,11 +617,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=5550910142050752377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:50:03.180Z"
   },
   {
     "placeId": "ChIJWWydGNsvK4gRYVf_zLeqZhs",
@@ -633,11 +633,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=1974453193043564385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:50:05.201Z"
   },
   {
     "placeId": "ChIJebNHxp8rK4gRtzFNFLcucTE",
@@ -649,11 +649,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=3562680144081269175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:56.695Z",
-    "lastUpdatedAt": "2026-07-20T06:43:56.695Z"
+    "lastUpdatedAt": "2026-07-20T06:50:09.831Z"
   },
   {
     "placeId": "ChIJE5VkZRIrK4gRugNzihv1aig",
@@ -665,11 +665,11 @@
     "primaryType": "roofing_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=2912409607684162490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:57.656Z",
-    "lastUpdatedAt": "2026-07-20T06:43:57.656Z"
+    "lastUpdatedAt": "2026-07-20T06:50:11.815Z"
   },
   {
     "placeId": "ChIJ3xya-OfV1IkRDWPo98LTdN0",
@@ -681,11 +681,11 @@
     "primaryType": "roofing_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=15957612214016828173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:43:58.617Z",
-    "lastUpdatedAt": "2026-07-20T06:43:58.617Z"
+    "lastUpdatedAt": "2026-07-20T06:50:14.991Z"
   },
   {
     "placeId": "ChIJYZo9wHdJ0iMRuAMEmrwbYi4",
@@ -697,11 +697,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=3342264370314085304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:00.090Z",
-    "lastUpdatedAt": "2026-07-20T06:44:00.090Z"
+    "lastUpdatedAt": "2026-07-20T06:50:16.456Z"
   },
   {
     "placeId": "ChIJD8pGJeRRHCsR22upT-J6Orc",
@@ -713,11 +713,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=13203000370007731163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:00.090Z",
-    "lastUpdatedAt": "2026-07-20T06:44:00.090Z"
+    "lastUpdatedAt": "2026-07-20T06:50:22.879Z"
   },
   {
     "placeId": "ChIJBbG_9oFHK4gRXE3ldFLUHRI",
@@ -729,11 +729,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=1305432917620903260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:00.584Z",
-    "lastUpdatedAt": "2026-07-20T06:44:00.584Z"
+    "lastUpdatedAt": "2026-07-20T06:50:37.523Z"
   },
   {
     "placeId": "ChIJa3q3V-4rK4gRHBa_omZFKpM",
@@ -745,11 +745,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=10604364579716666908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:02.627Z",
-    "lastUpdatedAt": "2026-07-20T06:44:02.627Z"
+    "lastUpdatedAt": "2026-07-20T06:50:40.987Z"
   },
   {
     "placeId": "ChIJETLhZRHV1IkRoMjUx5S-dlc",
@@ -761,11 +761,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=6302434274768636064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:02.627Z",
-    "lastUpdatedAt": "2026-07-20T06:44:02.627Z"
+    "lastUpdatedAt": "2026-07-20T06:50:42.273Z"
   },
   {
     "placeId": "ChIJ52edPU9HK4gR4FxFEHPZTa8",
@@ -777,11 +777,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=12631991618061556960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:03.098Z",
-    "lastUpdatedAt": "2026-07-20T06:44:03.098Z"
+    "lastUpdatedAt": "2026-07-20T06:50:43.517Z"
   },
   {
     "placeId": "ChIJZ6u2wcfV1IkRxtGZ6zcQopQ",
@@ -793,11 +793,11 @@
     "primaryType": "dentist",
     "googleMapsUrl": "https://maps.google.com/?cid=10710140696202432966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:05.944Z",
-    "lastUpdatedAt": "2026-07-20T06:44:05.944Z"
+    "lastUpdatedAt": "2026-07-20T06:50:46.906Z"
   },
   {
     "placeId": "ChIJwxgdHAArK4gRufsfxGWhznA",
@@ -809,10 +809,10 @@
     "primaryType": "western_restaurant",
     "googleMapsUrl": "https://maps.google.com/?cid=8128611835904523193&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T06:44:07.413Z",
-    "lastUpdatedAt": "2026-07-20T06:44:07.413Z"
+    "lastUpdatedAt": "2026-07-20T06:50:49.259Z"
   }
 ]
