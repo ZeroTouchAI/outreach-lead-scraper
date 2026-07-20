@@ -2,16 +2,24 @@
  * enrichLeads.js
  *
  * Phase 2: for every lead with status "found", tries to find a real email
- * address using Google's Custom Search API (free tier: 100 queries/day).
- * This searches the public web broadly (directories, social pages, listings
- * -- wherever the business's contact info happens to be indexed), rather
- * than scraping any single platform directly.
+ * address using SerpApi's Google Search endpoint (free tier: 250
+ * searches/month). This searches the public web broadly (directories,
+ * social pages, listings -- wherever the business's contact info happens
+ * to be indexed), rather than scraping any single platform directly.
  *
- * Requires env vars:
- *   GOOGLE_SEARCH_API_KEY  - API key restricted to "Custom Search API"
- *   GOOGLE_SEARCH_CX       - your Programmable Search Engine ID
+ * NOTE: this originally used Google's Custom Search JSON API directly, but
+ * as of Jan 2026 Google closed that API to new projects entirely (confirmed
+ * via multiple 403 "This project does not have the access to Custom Search
+ * JSON API" errors even with correct setup) -- it's not usable for a new
+ * project like this one, so we switched to SerpApi, which you already have
+ * an account for from the flight-watcher project.
  *
- * On the free tier, if you have more "found" leads than remaining daily
+ * Requires env var:
+ *   SERPAPI_API_KEY  - same key type used in flight-watcher; you can reuse
+ *                       that account, just add the key as a secret in THIS
+ *                       repo too (secrets don't carry over between repos)
+ *
+ * On the free tier, if you have more "found" leads than remaining monthly
  * quota, this script stops cleanly partway through -- whatever it couldn't
  * get to just stays "found" and picks up again next run.
  */
@@ -21,9 +29,8 @@ const path = require("path");
 
 const LEADS_PATH = path.join(__dirname, "..", "data", "leads.json");
 
-const API_KEY = process.env.GOOGLE_SEARCH_API_KEY;
-const CX = process.env.GOOGLE_SEARCH_CX;
-const SEARCH_URL = "https://www.googleapis.com/customsearch/v1";
+const API_KEY = process.env.SERPAPI_API_KEY;
+const SEARCH_URL = "https://serpapi.com/search.json";
 
 // Domains that show up in search results but are never a business's real
 // contact email -- platform/support addresses, schema boilerplate, etc.
@@ -72,37 +79,34 @@ function extractEmail(text) {
 /**
  * Returns:
  *   { email, source } on success
- *   { quotaExceeded: true } if the daily free quota is used up
+ *   { quotaExceeded: true } if the monthly free quota is used up
  *   null if no email found (but quota still available)
  */
 async function searchForEmail(lead) {
   const query = `"${lead.name}" "${lead.address}" email contact`;
-  const url = `${SEARCH_URL}?key=${API_KEY}&cx=${CX}&q=${encodeURIComponent(query)}`;
+  const url = `${SEARCH_URL}?engine=google&q=${encodeURIComponent(query)}&api_key=${API_KEY}`;
 
   const res = await fetch(url);
+  const data = await res.json();
 
-  if (!res.ok) {
-    const errText = await res.text();
-
-    // Only treat this as "out of free quota" if Google's error body actually
-    // says so -- a bare 403 can just as easily mean the API isn't enabled,
-    // the key is restricted wrong, or billing isn't linked. Those need to
-    // surface as real errors, not get silently treated as quota.
-    const isRealQuotaError =
-      res.status === 429 ||
-      /rateLimitExceeded|quotaExceeded|RESOURCE_EXHAUSTED/i.test(errText);
-
+  // SerpApi returns 200 with an "error" field in the body for many failure
+  // cases (including running out of searches), rather than always using
+  // HTTP status codes -- so check the body first.
+  if (data.error) {
+    const isRealQuotaError = /run out of searches|rate limit|quota/i.test(data.error);
     if (isRealQuotaError) {
       return { quotaExceeded: true };
     }
-
-    throw new Error(`Custom Search API error (${res.status}): ${errText}`);
+    throw new Error(`SerpApi error: ${data.error}`);
   }
 
-  const data = await res.json();
-  const items = data.items || [];
+  if (!res.ok) {
+    throw new Error(`SerpApi HTTP error (${res.status}): ${JSON.stringify(data)}`);
+  }
 
-  for (const item of items) {
+  const results = data.organic_results || [];
+
+  for (const item of results) {
     const candidate =
       extractEmail(item.snippet) || extractEmail(item.title) || null;
     if (candidate) {
@@ -114,8 +118,8 @@ async function searchForEmail(lead) {
 }
 
 async function main() {
-  if (!API_KEY || !CX) {
-    console.error("Missing GOOGLE_SEARCH_API_KEY or GOOGLE_SEARCH_CX environment variable.");
+  if (!API_KEY) {
+    console.error("Missing SERPAPI_API_KEY environment variable.");
     process.exit(1);
   }
 
@@ -135,7 +139,7 @@ async function main() {
       const result = await searchForEmail(lead);
 
       if (result?.quotaExceeded) {
-        console.log("Daily search quota reached -- stopping here, will resume next run.");
+        console.log("Monthly search quota reached -- stopping here, will resume next run.");
         stoppedOnQuota = true;
         break;
       }
@@ -167,7 +171,7 @@ async function main() {
   console.log(`Emails found: ${enrichedCount}`);
   console.log(`No email found (-> manual call queue): ${notFoundCount}`);
   if (stoppedOnQuota) {
-    console.log("Stopped early due to daily quota -- remaining leads still marked 'found', will retry next run.");
+    console.log("Stopped early due to monthly quota -- remaining leads still marked 'found', will retry next run.");
   }
 }
 
