@@ -1,6 +1,23 @@
 {
-  "searchCategories": ["plumber"],
-  "searchLocations": ["Richmond Hill, ON"],
+  "searchCategories": [
+    "plumber",
+    "electrician",
+    "landscaping company",
+    "hair salon",
+    "auto repair shop",
+    "roofing contractor",
+    "hvac contractor",
+    "general contractor",
+    "dentist",
+    "restaurant"
+  ],
+  "searchLocations": [
+    "Toronto, ON",
+    "Richmond Hill, ON",
+    "Mississauga, ON",
+    "Markham, ON",
+    "Vaughan, ON"
+  ],
   "maxResultsPerQuery": 20,
   "requireNoWebsite": true,
   "requirePhone": true
