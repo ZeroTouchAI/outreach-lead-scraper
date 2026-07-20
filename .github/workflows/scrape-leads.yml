@@ -2,16 +2,9 @@ name: Scrape Leads
 
 on:
   schedule:
-    # Runs once a day at 13:00 UTC (9am ET). Adjust as needed.
+    # Runs once a day at 13:00 UTC (9am ET).
     - cron: "0 13 * * *"
   workflow_dispatch: {} # allows manual "Run workflow" trigger from the Actions tab
-
-# Only ever run one instance of this workflow at a time. If it's triggered
-# again while a run is still in progress, the new run waits in queue instead
-# of racing the in-progress one and corrupting data/leads.json.
-concurrency:
-  group: scrape-leads
-  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -32,36 +25,10 @@ jobs:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: node scripts/findLeads.js
 
-      - name: Commit and push updated leads.json
+      - name: Commit updated leads.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/leads.json
-
-          if git diff --staged --quiet; then
-            echo "No new leads, nothing to commit."
-            exit 0
-          fi
-
-          git commit -m "chore: update leads $(date -u +'%Y-%m-%d')"
-
-          # Retry push in case another commit landed on main while this job
-          # was running. With the concurrency lock above this should be rare,
-          # but retry as a safety net for edits made directly on GitHub.
-          for i in 1 2 3 4 5; do
-            if git push origin HEAD:main; then
-              echo "Push succeeded."
-              exit 0
-            fi
-            echo "Push rejected (attempt $i) -- pulling latest and rebasing..."
-            if ! git pull --rebase origin main; then
-              echo "Rebase conflict -- aborting rebase, will not force-push."
-              git rebase --abort
-              echo "Push failed due to conflicting data. Re-run the workflow once the other run has finished."
-              exit 1
-            fi
-            sleep 3
-          done
-
-          echo "Push failed after multiple retries."
-          exit 1
+          git diff --staged --quiet || git commit -m "chore: update leads $(date -u +'%Y-%m-%d')"
+          git push
