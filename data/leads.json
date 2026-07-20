@@ -9,11 +9,11 @@
     "primaryType": "plumber",
     "googleMapsUrl": "https://maps.google.com/?cid=6410554152974479149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T03:31:00.857Z",
-    "lastUpdatedAt": "2026-07-20T03:31:00.857Z"
+    "lastUpdatedAt": "2026-07-20T06:40:55.984Z"
   },
   {
     "placeId": "ChIJVVUBFecsK4gR2edVfDsXmAY",
@@ -25,10 +25,10 @@
     "primaryType": "plumber",
     "googleMapsUrl": "https://maps.google.com/?cid=475155304944101337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T03:31:00.857Z",
-    "lastUpdatedAt": "2026-07-20T03:31:00.857Z"
+    "lastUpdatedAt": "2026-07-20T06:40:57.429Z"
   }
 ]
