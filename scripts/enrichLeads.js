@@ -47,6 +47,13 @@ const EXCLUDED_EMAIL_DOMAINS = [
   "yourdomain.com",
   "domain.com",
   "email.com",
+  "fresha.com",
+  "booksy.com",
+  "vagaro.com",
+  "mindbodyonline.com",
+  "styleseat.com",
+  "square.site",
+  "squareup.com",
 ];
 
 const EMAIL_REGEX = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
