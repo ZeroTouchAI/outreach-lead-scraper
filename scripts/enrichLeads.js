@@ -81,12 +81,21 @@ async function searchForEmail(lead) {
 
   const res = await fetch(url);
 
-  if (res.status === 429 || res.status === 403) {
-    return { quotaExceeded: true };
-  }
-
   if (!res.ok) {
     const errText = await res.text();
+
+    // Only treat this as "out of free quota" if Google's error body actually
+    // says so -- a bare 403 can just as easily mean the API isn't enabled,
+    // the key is restricted wrong, or billing isn't linked. Those need to
+    // surface as real errors, not get silently treated as quota.
+    const isRealQuotaError =
+      res.status === 429 ||
+      /rateLimitExceeded|quotaExceeded|RESOURCE_EXHAUSTED/i.test(errText);
+
+    if (isRealQuotaError) {
+      return { quotaExceeded: true };
+    }
+
     throw new Error(`Custom Search API error (${res.status}): ${errText}`);
   }
 
