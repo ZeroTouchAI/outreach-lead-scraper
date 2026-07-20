@@ -100,19 +100,21 @@ async function main() {
   const existingLeads = loadJson(LEADS_PATH, []);
   const existingByPlaceId = new Map(existingLeads.map((l) => [l.placeId, l]));
 
-  const { searchCategories = [], searchLocations = [], maxResultsPerQuery = 20 } = config;
+  const { searchCategories = [], searchLocations = [], maxResultsPerQuery = 20, categoryOverrides = {} } = config;
 
   let newCount = 0;
   let skippedHasWebsite = 0;
   let skippedNoPhone = 0;
 
   for (const category of searchCategories) {
+    const effectiveMaxResults = categoryOverrides[category]?.maxResultsPerQuery || maxResultsPerQuery;
+
     for (const location of searchLocations) {
       const query = `${category} in ${location}`;
-      console.log(`Searching: "${query}"`);
+      console.log(`Searching: "${query}" (max ${effectiveMaxResults})`);
 
       try {
-        const places = await searchPlaces(query, maxResultsPerQuery);
+        const places = await searchPlaces(query, effectiveMaxResults);
 
         for (const place of places) {
           if (existingByPlaceId.has(place.id)) continue; // already tracked
