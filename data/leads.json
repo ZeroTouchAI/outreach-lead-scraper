@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "placeId": "ChIJndAcR-QrK4gRLe9ynQnd9lg",
+    "name": "ADM PRO PLUMBING",
+    "address": "430 Lynett Crescent, Richmond Hill, ON L4C 2V7, Canada",
+    "phone": "+1 647-686-1354",
+    "category": "plumber",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "plumber",
+    "googleMapsUrl": "https://maps.google.com/?cid=6410554152974479149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-20T03:31:00.857Z",
+    "lastUpdatedAt": "2026-07-20T03:31:00.857Z"
+  },
+  {
+    "placeId": "ChIJVVUBFecsK4gR2edVfDsXmAY",
+    "name": "TATPLUMBING&drain& heating system",
+    "address": "7181 Yonge St, North York, ON L3T 0C6, Canada",
+    "phone": "+1 416-333-6030",
+    "category": "plumber",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "plumber",
+    "googleMapsUrl": "https://maps.google.com/?cid=475155304944101337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-20T03:31:00.857Z",
+    "lastUpdatedAt": "2026-07-20T03:31:00.857Z"
+  }
+]
