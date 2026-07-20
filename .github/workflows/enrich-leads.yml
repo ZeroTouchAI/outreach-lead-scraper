@@ -23,8 +23,7 @@ jobs:
 
       - name: Run email enrichment
         env:
-          GOOGLE_SEARCH_API_KEY: ${{ secrets.GOOGLE_SEARCH_API_KEY }}
-          GOOGLE_SEARCH_CX: ${{ secrets.GOOGLE_SEARCH_CX }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: node scripts/enrichLeads.js
 
       - name: Commit and push updated leads.json
