@@ -1,0 +1,30 @@
+{
+  "lastUpdated": null,
+  "current": {
+    "category": "nail salon",
+    "cityIndex": 0,
+    "totalCities": 22,
+    "nextCity": "Downtown Toronto, ON"
+  },
+  "leaderboard": {
+    "completed": [],
+    "active": null,
+    "queuedCount": 19
+  },
+  "usage": {
+    "today": null,
+    "thisMonth": {
+      "placesApiCalls": 0,
+      "serpApiCalls": 0
+    },
+    "serpApiFreeTierLimit": 250
+  },
+  "totals": {
+    "totalLeadsFound": 51,
+    "totalEmailsFound": 0,
+    "categoriesCompleted": 0,
+    "categoriesKept": 0,
+    "categoriesRejected": 0
+  },
+  "dailyHistory": []
+}
