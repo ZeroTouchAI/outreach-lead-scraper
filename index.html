@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zero Touch AI — Lead Scraper Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0b0f14;
+    --card: #131a22;
+    --border: #223041;
+    --text: #e6edf3;
+    --muted: #8b98a5;
+    --accent: #4fd1c5;
+    --good: #4ade80;
+    --bad: #f87171;
+    --warn: #fbbf24;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 24px;
+  }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .card h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 10px; }
+  .big-stat { font-size: 28px; font-weight: 700; }
+  .stat-sub { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .progress-bar { background: #1c2733; border-radius: 6px; height: 10px; overflow: hidden; margin-top: 10px; }
+  .progress-fill { background: var(--accent); height: 100%; border-radius: 6px; transition: width 0.3s; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+  .badge-keep { background: rgba(74, 222, 128, 0.15); color: var(--good); }
+  .badge-reject { background: rgba(248, 113, 113, 0.15); color: var(--bad); }
+  .badge-active { background: rgba(79, 209, 197, 0.15); color: var(--accent); }
+  .chart-card { grid-column: span 2; }
+  canvas { max-height: 260px; }
+  .empty { color: var(--muted); font-size: 13px; padding: 12px 0; }
+  @media (max-width: 700px) { .chart-card { grid-column: span 1; } }
+</style>
+</head>
+<body>
+
+<h1>🎯 Zero Touch AI — Lead Scraper Dashboard</h1>
+<div class="subtitle" id="lastUpdated">Loading...</div>
+
+<div class="grid" id="statusCards"></div>
+
+<div class="grid">
+  <div class="card chart-card">
+    <h2>Hit Rate by Category</h2>
+    <canvas id="hitRateChart"></canvas>
+  </div>
+  <div class="card chart-card">
+    <h2>Daily Leads & Emails Found</h2>
+    <canvas id="historyChart"></canvas>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Category Leaderboard</h2>
+  <table id="leaderboardTable">
+    <thead>
+      <tr><th>Category</th><th>Status</th><th>Leads Processed</th><th>Emails Found</th><th>Hit Rate</th><th>Verdict</th></tr>
+    </thead>
+    <tbody id="leaderboardBody"></tbody>
+  </table>
+</div>
+
+<script>
+async function loadDashboard() {
+  let data;
+  try {
+    const res = await fetch("data/dashboardData.json?t=" + Date.now());
+    data = await res.json();
+  } catch (err) {
+    document.getElementById("lastUpdated").textContent = "Failed to load dashboard data: " + err.message;
+    return;
+  }
+
+  document.getElementById("lastUpdated").textContent = data.lastUpdated
+    ? "Last updated: " + new Date(data.lastUpdated).toLocaleString()
+    : "Not yet run -- this is the starting state before day 1.";
+
+  renderStatusCards(data);
+  renderLeaderboard(data);
+  renderHitRateChart(data);
+  renderHistoryChart(data);
+}
+
+function renderStatusCards(data) {
+  const container = document.getElementById("statusCards");
+  const current = data.current;
+  const usage = data.usage;
+  const totals = data.totals;
+
+  const cityProgressPct = current ? Math.round((current.cityIndex / current.totalCities) * 100) : 0;
+  const serpPct = usage.thisMonth.serpApiCalls
+    ? Math.min(100, Math.round((usage.thisMonth.serpApiCalls / usage.serpApiFreeTierLimit) * 100))
+    : 0;
+
+  container.innerHTML = `
+    <div class="card">
+      <h2>Current Category</h2>
+      <div class="big-stat">${current ? current.category : "—"}</div>
+      <div class="stat-sub">${current ? `City ${current.cityIndex} of ${current.totalCities} — next: ${current.nextCity || "cycle complete"}` : "Queue idle"}</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${cityProgressPct}%"></div></div>
+    </div>
+    <div class="card">
+      <h2>Leads &amp; Emails (All Time)</h2>
+      <div class="big-stat">${totals.totalLeadsFound}</div>
+      <div class="stat-sub">${totals.totalEmailsFound} emails found across all runs</div>
+    </div>
+    <div class="card">
+      <h2>Categories Scored</h2>
+      <div class="big-stat">${totals.categoriesCompleted}</div>
+      <div class="stat-sub"><span style="color:var(--good)">${totals.categoriesKept} kept</span> · <span style="color:var(--bad)">${totals.categoriesRejected} rejected</span></div>
+    </div>
+    <div class="card">
+      <h2>SerpApi Usage (This Month)</h2>
+      <div class="big-stat">${usage.thisMonth.serpApiCalls} / ${usage.serpApiFreeTierLimit}</div>
+      <div class="stat-sub">Free tier searches used — shared with the flight-watcher project</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${serpPct}%; background:${serpPct > 80 ? "var(--bad)" : "var(--accent)"}"></div></div>
+    </div>
+    <div class="card">
+      <h2>Places API Calls (This Month)</h2>
+      <div class="big-stat">${usage.thisMonth.placesApiCalls}</div>
+      <div class="stat-sub">Paid per call — check Google Cloud billing for actual cost</div>
+    </div>
+  `;
+}
+
+function renderLeaderboard(data) {
+  const body = document.getElementById("leaderboardBody");
+  const rows = [];
+
+  if (data.leaderboard.active) {
+    rows.push(`<tr>
+      <td>${data.leaderboard.active.category}</td>
+      <td><span class="badge badge-active">active</span></td>
+      <td>${data.leaderboard.active.leadsEnriched}</td>
+      <td>${data.leaderboard.active.emailsFound}</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>`);
+  }
+
+  for (const c of data.leaderboard.completed) {
+    const pct = c.hitRate !== null ? (c.hitRate * 100).toFixed(1) + "%" : "—";
+    const badgeClass = c.verdict === "keep" ? "badge-keep" : "badge-reject";
+    rows.push(`<tr>
+      <td>${c.category}</td>
+      <td>completed</td>
+      <td>${c.leadsEnriched}</td>
+      <td>${c.emailsFound}</td>
+      <td>${pct}</td>
+      <td><span class="badge ${badgeClass}">${c.verdict}</span></td>
+    </tr>`);
+  }
+
+  body.innerHTML = rows.length ? rows.join("") : `<tr><td colspan="6" class="empty">No data yet.</td></tr>`;
+
+  if (data.leaderboard.queuedCount > 0) {
+    body.innerHTML += `<tr><td colspan="6" class="empty">+ ${data.leaderboard.queuedCount} more categories queued</td></tr>`;
+  }
+}
+
+function renderHitRateChart(data) {
+  const completed = data.leaderboard.completed;
+  const ctx = document.getElementById("hitRateChart");
+
+  if (!completed.length) {
+    ctx.parentElement.querySelector("canvas").outerHTML = '<div class="empty">No completed categories yet -- chart will populate once the first 22-city cycle finishes.</div>';
+    return;
+  }
+
+  new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: completed.map((c) => c.category),
+      datasets: [{
+        label: "Hit Rate %",
+        data: completed.map((c) => (c.hitRate * 100).toFixed(1)),
+        backgroundColor: completed.map((c) => (c.verdict === "keep" ? "#4ade80" : "#f87171")),
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { color: "#8b98a5" } }, x: { ticks: { color: "#8b98a5" } } }
+    }
+  });
+}
+
+function renderHistoryChart(data) {
+  const history = data.dailyHistory;
+  const ctx = document.getElementById("historyChart");
+
+  if (!history.length) {
+    ctx.parentElement.querySelector("canvas").outerHTML = '<div class="empty">No daily runs logged yet.</div>';
+    return;
+  }
+
+  new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: history.map((h) => h.date),
+      datasets: [
+        { label: "Leads Found", data: history.map((h) => h.leadsFound), borderColor: "#4fd1c5", tension: 0.3 },
+        { label: "Emails Found", data: history.map((h) => h.emailsFound), borderColor: "#4ade80", tension: 0.3 },
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { labels: { color: "#e6edf3" } } },
+      scales: { y: { beginAtZero: true, ticks: { color: "#8b98a5" } }, x: { ticks: { color: "#8b98a5" } } }
+    }
+  });
+}
+
+loadDashboard();
+</script>
+</body>
+</html>
