@@ -261,5 +261,190 @@
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null
+  },
+  {
+    "order": 0,
+    "category": "plumber",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON",
+      "Richmond Hill, ON",
+      "Vaughan, ON"
+    ],
+    "leadsFound": 7,
+    "leadsEnriched": 7,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 3 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "electrician",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON",
+      "Richmond Hill, ON"
+    ],
+    "leadsFound": 3,
+    "leadsEnriched": 3,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "landscaping company",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON"
+    ],
+    "leadsFound": 1,
+    "leadsEnriched": 1,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 1 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "hair salon",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON",
+      "Mississauga, ON",
+      "Richmond Hill, ON",
+      "Vaughan, ON"
+    ],
+    "leadsFound": 11,
+    "leadsEnriched": 11,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 4 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "auto repair shop",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON",
+      "Mississauga, ON",
+      "Richmond Hill, ON",
+      "Toronto, ON",
+      "Vaughan, ON"
+    ],
+    "leadsFound": 31,
+    "leadsEnriched": 31,
+    "emailsFound": 1,
+    "hitRate": 0.03225806451612903,
+    "verdict": "keep",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 5 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "roofing contractor",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON",
+      "Richmond Hill, ON"
+    ],
+    "leadsFound": 3,
+    "leadsEnriched": 3,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "hvac contractor",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Mississauga, ON",
+      "Richmond Hill, ON",
+      "Toronto, ON"
+    ],
+    "leadsFound": 4,
+    "leadsEnriched": 4,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 3 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "general contractor",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Mississauga, ON",
+      "Richmond Hill, ON"
+    ],
+    "leadsFound": 5,
+    "leadsEnriched": 5,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "dentist",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON"
+    ],
+    "leadsFound": 1,
+    "leadsEnriched": 1,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 1 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
+  },
+  {
+    "order": 0,
+    "category": "restaurant",
+    "status": "completed",
+    "startedAt": null,
+    "completedAt": "2026-07-20T00:00:00.000Z",
+    "citiesCovered": [
+      "Markham, ON",
+      "Richmond Hill, ON"
+    ],
+    "leadsFound": 2,
+    "leadsEnriched": 2,
+    "emailsFound": 0,
+    "hitRate": 0.0,
+    "verdict": "reject",
+    "sampleType": "legacy_partial",
+    "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
   }
 ]
