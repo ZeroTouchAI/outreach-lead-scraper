@@ -1,0 +1,58 @@
+name: Send Outreach Emails
+
+on:
+  workflow_dispatch: {} # manual trigger only -- sending real emails to real businesses needs an explicit go-ahead each time until domain reputation is established
+
+concurrency:
+  group: send-outreach-emails
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Send outreach emails
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
+        run: node scripts/sendOutreachEmails.js
+
+      - name: Commit updated lead statuses
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/leads.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: send outreach emails $(date -u +'%Y-%m-%d')"
+
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) -- pulling latest and rebasing..."
+            if ! git pull --rebase origin main; then
+              git rebase --abort
+              echo "Push failed due to conflicting data."
+              exit 1
+            fi
+            sleep 3
+          done
+
+          echo "Push failed after multiple retries."
+          exit 1
