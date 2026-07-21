@@ -1,0 +1,27 @@
+{
+  "cities": [
+    "Downtown Toronto, ON",
+    "North York, ON",
+    "Scarborough, ON",
+    "Etobicoke, ON",
+    "York, Toronto, ON",
+    "East York, ON",
+    "Mississauga, ON",
+    "Brampton, ON",
+    "Caledon, ON",
+    "Vaughan, ON",
+    "Markham, ON",
+    "Richmond Hill, ON",
+    "Newmarket, ON",
+    "Aurora, ON",
+    "Oshawa, ON",
+    "Whitby, ON",
+    "Ajax, ON",
+    "Pickering, ON",
+    "Oakville, ON",
+    "Burlington, ON",
+    "Milton, ON",
+    "Halton Hills, ON"
+  ],
+  "currentIndex": 0
+}
