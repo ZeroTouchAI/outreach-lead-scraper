@@ -1,6 +1,10 @@
 {
-  "searchCategories": [],
-  "searchLocations": [],
+  "searchCategories": [
+    "nail salon"
+  ],
+  "searchLocations": [
+    "Downtown Toronto, ON"
+  ],
   "maxResultsPerQuery": 20,
   "requireNoWebsite": true,
   "requirePhone": true

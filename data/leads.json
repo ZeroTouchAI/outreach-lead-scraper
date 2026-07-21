@@ -825,11 +825,11 @@
     "primaryType": "plumber",
     "googleMapsUrl": "https://maps.google.com/?cid=8915589129944820578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:10.680Z",
-    "lastUpdatedAt": "2026-07-20T15:03:10.680Z"
+    "lastUpdatedAt": "2026-07-21T04:36:00.454Z"
   },
   {
     "placeId": "ChIJzz27dJNHK4gRA-FbgqLtonM",
@@ -841,11 +841,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=8332483542816383235&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:18.765Z",
-    "lastUpdatedAt": "2026-07-20T15:03:18.765Z"
+    "lastUpdatedAt": "2026-07-21T04:36:03.166Z"
   },
   {
     "placeId": "ChIJnUqVLwDX1IkRwUyUAziVtkE",
@@ -857,11 +857,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=4735136126037413057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:19.282Z",
-    "lastUpdatedAt": "2026-07-20T15:03:19.282Z"
+    "lastUpdatedAt": "2026-07-21T04:36:04.398Z"
   },
   {
     "placeId": "ChIJ2R_uRwDX1IkRzVffF3yFnU0",
@@ -873,11 +873,11 @@
     "primaryType": "hair_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=5592773080286975949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:19.282Z",
-    "lastUpdatedAt": "2026-07-20T15:03:19.282Z"
+    "lastUpdatedAt": "2026-07-21T04:36:08.111Z"
   },
   {
     "placeId": "ChIJFZJLT2k0K4gRUhjaRMkEH-4",
@@ -889,11 +889,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=17158438367794960466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:20.300Z",
-    "lastUpdatedAt": "2026-07-20T15:03:20.300Z"
+    "lastUpdatedAt": "2026-07-21T04:36:09.493Z"
   },
   {
     "placeId": "ChIJG5gO1aM0K4gRAetHJ2OAXj0",
@@ -905,11 +905,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=4422113047473548033&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
-    "email": null,
-    "emailSource": null,
+    "status": "enriched",
+    "email": "info@mcdermottmotors.com",
+    "emailSource": "https://bdir.in/p/best/ca/car-repair-shops-in-toronto-on/MzAyOTk=",
     "foundAt": "2026-07-20T15:03:20.300Z",
-    "lastUpdatedAt": "2026-07-20T15:03:20.300Z"
+    "lastUpdatedAt": "2026-07-21T04:36:25.794Z"
   },
   {
     "placeId": "ChIJcwkawV0qK4gR-JEtR2uQAHI",
@@ -921,11 +921,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=8214724510753853944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:20.815Z",
-    "lastUpdatedAt": "2026-07-20T15:03:20.815Z"
+    "lastUpdatedAt": "2026-07-21T04:36:42.369Z"
   },
   {
     "placeId": "ChIJZ3de61cqK4gRkb1ZZodbdEE",
@@ -937,11 +937,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=4716495346859621777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:20.815Z",
-    "lastUpdatedAt": "2026-07-20T15:03:20.815Z"
+    "lastUpdatedAt": "2026-07-21T04:36:43.430Z"
   },
   {
     "placeId": "ChIJzyefSa5DK4gRTjV5lIExRkA",
@@ -953,11 +953,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=4631443699408647502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:21.314Z",
-    "lastUpdatedAt": "2026-07-20T15:03:21.314Z"
+    "lastUpdatedAt": "2026-07-21T04:36:45.065Z"
   },
   {
     "placeId": "ChIJ9-awOnHW1IkRSW0VKMyoqDE",
@@ -969,11 +969,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=3578295498745146697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:21.811Z",
-    "lastUpdatedAt": "2026-07-20T15:03:21.811Z"
+    "lastUpdatedAt": "2026-07-21T04:36:46.718Z"
   },
   {
     "placeId": "ChIJdXxGV90uK4gRQzm60tzzMoc",
@@ -985,11 +985,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=9742117073709578563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:22.321Z",
-    "lastUpdatedAt": "2026-07-20T15:03:22.321Z"
+    "lastUpdatedAt": "2026-07-21T04:36:48.573Z"
   },
   {
     "placeId": "ChIJ2yqAmVslK4gRElnegHJc8o8",
@@ -1001,11 +1001,11 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=10372454538645756178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:22.321Z",
-    "lastUpdatedAt": "2026-07-20T15:03:22.321Z"
+    "lastUpdatedAt": "2026-07-21T04:36:54.757Z"
   },
   {
     "placeId": "ChIJq8nbgMLX1IkRsgzfiBLX9Iw",
@@ -1017,11 +1017,11 @@
     "primaryType": "roofing_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=10156979534233013426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:24.212Z",
-    "lastUpdatedAt": "2026-07-20T15:03:24.212Z"
+    "lastUpdatedAt": "2026-07-21T04:36:55.988Z"
   },
   {
     "placeId": "ChIJH8lj9onhlAARaZWq7-0_q1o",
@@ -1033,11 +1033,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=6533385975591769449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:25.187Z",
-    "lastUpdatedAt": "2026-07-20T15:03:25.187Z"
+    "lastUpdatedAt": "2026-07-21T04:36:59.387Z"
   },
   {
     "placeId": "ChIJoSkpiPAXx0sR2pUrM8TOHdg",
@@ -1049,11 +1049,11 @@
     "primaryType": "",
     "googleMapsUrl": "https://maps.google.com/?cid=15572830428584449498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:28.131Z",
-    "lastUpdatedAt": "2026-07-20T15:03:28.131Z"
+    "lastUpdatedAt": "2026-07-21T04:37:00.977Z"
   },
   {
     "placeId": "ChIJNa8v0psrK4gRkiWEWSe-47g",
@@ -1065,11 +1065,11 @@
     "primaryType": "general_contractor",
     "googleMapsUrl": "https://maps.google.com/?cid=13322701198906893714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:28.131Z",
-    "lastUpdatedAt": "2026-07-20T15:03:28.131Z"
+    "lastUpdatedAt": "2026-07-21T04:37:04.524Z"
   },
   {
     "placeId": "ChIJ9f94C4ctK4gR81ue5cH0yUQ",
@@ -1081,10 +1081,26 @@
     "primaryType": "restaurant",
     "googleMapsUrl": "https://maps.google.com/?cid=4956761978516167667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-20T15:03:34.013Z",
-    "lastUpdatedAt": "2026-07-20T15:03:34.013Z"
+    "lastUpdatedAt": "2026-07-21T04:37:06.755Z"
+  },
+  {
+    "placeId": "ChIJy0IcEwA1K4gRS95yH1NrTxw",
+    "name": "Meet U Nail Salon",
+    "address": "10 Wellesley St E, Toronto, ON M4Y 1G2, Canada",
+    "phone": "+1 647-594-3882",
+    "category": "nail salon",
+    "searchLocation": "Downtown Toronto, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=2039967160976203339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-21T04:35:45.466Z",
+    "lastUpdatedAt": "2026-07-21T04:37:08.977Z"
   }
 ]

@@ -1,30 +1,52 @@
 {
-  "lastUpdated": null,
+  "lastUpdated": "2026-07-21T04:37:09.322Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 0,
+    "cityIndex": 2,
     "totalCities": 22,
-    "nextCity": "Downtown Toronto, ON"
+    "nextCity": "North York, ON"
   },
   "leaderboard": {
     "completed": [],
-    "active": null,
+    "active": {
+      "category": "nail salon",
+      "leadsEnriched": 1,
+      "emailsFound": 0
+    },
     "queuedCount": 19
   },
   "usage": {
-    "today": null,
+    "today": {
+      "date": "2026-07-21",
+      "category": "nail salon",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
     "thisMonth": {
-      "placesApiCalls": 0,
-      "serpApiCalls": 0
+      "placesApiCalls": 1,
+      "serpApiCalls": 1
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 51,
-    "totalEmailsFound": 0,
+    "totalLeadsFound": 69,
+    "totalEmailsFound": 1,
     "categoriesCompleted": 0,
     "categoriesKept": 0,
     "categoriesRejected": 0
   },
-  "dailyHistory": []
+  "dailyHistory": [
+    {
+      "date": "2026-07-21",
+      "category": "nail salon",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    }
+  ]
 }

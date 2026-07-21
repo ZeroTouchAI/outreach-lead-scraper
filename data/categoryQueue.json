@@ -5,9 +5,11 @@
     "status": "active",
     "startedAt": null,
     "completedAt": null,
-    "citiesCovered": [],
-    "leadsFound": 0,
-    "leadsEnriched": 0,
+    "citiesCovered": [
+      "Downtown Toronto, ON"
+    ],
+    "leadsFound": 1,
+    "leadsEnriched": 1,
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null
