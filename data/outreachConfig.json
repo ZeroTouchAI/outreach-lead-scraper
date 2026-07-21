@@ -1,0 +1,4 @@
+{
+  "dailySendCap": 10,
+  "note": "Start low for a brand-new sending domain. Raise gradually (e.g. +5-10/week) once delivery looks clean -- check Resend's dashboard for bounce/complaint rates before increasing."
+}
