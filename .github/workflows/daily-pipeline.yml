@@ -1,0 +1,71 @@
+name: Daily Lead Pipeline
+
+on:
+  schedule:
+    # Runs once a day at 13:00 UTC (9am ET).
+    - cron: "0 13 * * *"
+  workflow_dispatch: {} # allows manual "Run workflow" trigger from the Actions tab
+
+concurrency:
+  group: daily-lead-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Prepare today's target (zero-cost)
+        run: node scripts/prepareDailyRun.js
+
+      - name: Scrape leads for today's category+city
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: node scripts/findLeads.js
+
+      - name: Enrich today's new leads with emails
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: node scripts/enrichLeads.js
+
+      - name: Finalize the day (zero-cost) -- log usage, advance queue, update dashboard
+        run: node scripts/finalizeDailyRun.js
+
+      - name: Commit and push all updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add config.json data/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: daily pipeline run $(date -u +'%Y-%m-%d')"
+
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) -- pulling latest and rebasing..."
+            if ! git pull --rebase origin main; then
+              git rebase --abort
+              echo "Push failed due to conflicting data."
+              exit 1
+            fi
+            sleep 3
+          done
+
+          echo "Push failed after multiple retries."
+          exit 1
