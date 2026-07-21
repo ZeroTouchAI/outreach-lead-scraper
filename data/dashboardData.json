@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T15:08:06.020Z",
+  "lastUpdated": "2026-07-21T23:30:29.862694+00:00",
   "current": {
     "category": "nail salon",
     "cityIndex": 3,
@@ -7,7 +7,88 @@
     "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
-    "completed": [],
+    "completed": [
+      {
+        "category": "auto repair shop",
+        "leadsEnriched": 31,
+        "emailsFound": 1,
+        "hitRate": 0.03225806451612903,
+        "verdict": "keep",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "plumber",
+        "leadsEnriched": 7,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "electrician",
+        "leadsEnriched": 3,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "landscaping company",
+        "leadsEnriched": 1,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "hair salon",
+        "leadsEnriched": 11,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "roofing contractor",
+        "leadsEnriched": 3,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "hvac contractor",
+        "leadsEnriched": 4,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "general contractor",
+        "leadsEnriched": 5,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "dentist",
+        "leadsEnriched": 1,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "restaurant",
+        "leadsEnriched": 2,
+        "emailsFound": 0,
+        "hitRate": 0.0,
+        "verdict": "reject",
+        "sampleType": "legacy_partial"
+      }
+    ],
     "active": {
       "category": "nail salon",
       "leadsEnriched": 6,
@@ -34,9 +115,9 @@
   "totals": {
     "totalLeadsFound": 74,
     "totalEmailsFound": 2,
-    "categoriesCompleted": 0,
-    "categoriesKept": 0,
-    "categoriesRejected": 0
+    "categoriesCompleted": 10,
+    "categoriesKept": 1,
+    "categoriesRejected": 9
   },
   "dailyHistory": [
     {
@@ -56,6 +137,26 @@
       "serpApiCalls": 5,
       "leadsFound": 5,
       "emailsFound": 1
+    }
+  ],
+  "reachedCompanies": [
+    {
+      "name": "Cuties Nails Spa",
+      "category": "nail salon",
+      "location": "North York, ON",
+      "email": "shsignaturenails@gmail.com",
+      "emailSource": "https://www.instagram.com/reel/DTqV73pjjTM/",
+      "phone": "+1 647-430-1938",
+      "foundAt": "2026-07-21T15:06:59.814Z"
+    },
+    {
+      "name": "Angelo Auto Repair",
+      "category": "auto repair shop",
+      "location": "Toronto, ON",
+      "email": "info@mcdermottmotors.com",
+      "emailSource": "https://bdir.in/p/best/ca/car-repair-shops-in-toronto-on/MzAyOTk=",
+      "phone": "+1 416-921-3074",
+      "foundAt": "2026-07-20T15:03:20.300Z"
     }
   ]
 }
