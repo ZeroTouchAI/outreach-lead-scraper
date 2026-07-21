@@ -4,17 +4,12 @@
  * Zero-cost step (no external API calls). Runs last each day, after
  * findLeads.js and enrichLeads.js have finished.
  *
- * 1. Logs today's (approximate) API usage to data/apiUsageLog.json --
- *    1 Places API call for the single category+city searched, and one
- *    SerpApi call per new lead that got enriched. This is our own internal
- *    ledger, not pulled from Google/SerpApi's own billing dashboards, so
- *    treat it as a close estimate rather than a byte-perfect number.
+ * 1. Logs today's (approximate) API usage to data/apiUsageLog.json.
  * 2. Updates that category's running totals in data/categoryQueue.json.
- * 3. Advances the city pointer. If the 22-city cycle just completed for
- *    this category, scores it (verdict: keep/reject), marks it completed,
- *    resets the city pointer, and activates the next queued category.
- * 4. Rebuilds data/dashboardData.json, the file the GitHub Pages dashboard
- *    reads from.
+ * 3. Advances the city pointer / scores completed category cycles.
+ * 4. Rebuilds data/dashboardData.json, including the full list of every
+ *    company where a real email was found (name, category, location,
+ *    email, source) for the dashboard's "Companies Reached" table.
  */
 
 const fs = require("fs");
@@ -26,7 +21,7 @@ const CITY_QUEUE_PATH = path.join(__dirname, "..", "data", "cityQueue.json");
 const USAGE_LOG_PATH = path.join(__dirname, "..", "data", "apiUsageLog.json");
 const DASHBOARD_PATH = path.join(__dirname, "..", "data", "dashboardData.json");
 
-const MAX_DAILY_HISTORY = 120; // keep the dashboard file from growing forever
+const MAX_DAILY_HISTORY = 120;
 
 function loadJson(filePath, fallback) {
   if (!fs.existsSync(filePath)) return fallback;
@@ -40,11 +35,11 @@ function saveJson(filePath, data) {
 }
 
 function todayDateString() {
-  return new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  return new Date().toISOString().slice(0, 10);
 }
 
 function monthKey(dateStr) {
-  return dateStr.slice(0, 7); // YYYY-MM
+  return dateStr.slice(0, 7);
 }
 
 function main() {
@@ -63,19 +58,15 @@ function main() {
 
   const todaysCity = cityQueue.cities[cityQueue.currentIndex];
 
-  // Leads from today's specific category+city combination. Since each
-  // combination only ever runs once across a category's full cycle, this
-  // match is unambiguous without needing a date filter.
   const todaysLeads = leads.filter(
     (l) => l.category === activeEntry.category && l.searchLocation === todaysCity
   );
   const todaysEnriched = todaysLeads.filter((l) => l.status === "enriched" || l.status === "no_email_found");
   const todaysEmails = todaysLeads.filter((l) => l.status === "enriched");
 
-  // --- 1. Usage log ---
   const date = todayDateString();
-  const placesCallsToday = todaysCity ? 1 : 0; // one category x one city = one Places Text Search call
-  const serpApiCallsToday = todaysLeads.length; // enrichLeads.js attempts one search per new lead
+  const placesCallsToday = todaysCity ? 1 : 0;
+  const serpApiCallsToday = todaysLeads.length;
 
   usageLog.daily.push({
     date,
@@ -97,17 +88,14 @@ function main() {
   usageLog.monthlyTotals[mKey].placesApiCalls += placesCallsToday;
   usageLog.monthlyTotals[mKey].serpApiCalls += serpApiCallsToday;
 
-  // --- 2. Update category running totals ---
   activeEntry.leadsFound += todaysLeads.length;
   activeEntry.leadsEnriched += todaysEnriched.length;
   activeEntry.emailsFound += todaysEmails.length;
   if (todaysCity) activeEntry.citiesCovered.push(todaysCity);
 
-  // --- 3. Advance city pointer / possibly complete the category ---
   cityQueue.currentIndex += 1;
 
   if (cityQueue.currentIndex >= cityQueue.cities.length) {
-    // Full cycle complete for this category
     activeEntry.status = "completed";
     activeEntry.completedAt = new Date().toISOString();
     activeEntry.hitRate = activeEntry.leadsEnriched > 0
@@ -131,10 +119,9 @@ function main() {
   saveJson(CITY_QUEUE_PATH, cityQueue);
   saveJson(USAGE_LOG_PATH, usageLog);
 
-  // --- 4. Rebuild dashboard snapshot ---
   saveJson(DASHBOARD_PATH, buildDashboard(categoryQueue, cityQueue, leads, usageLog));
 
-  console.log("--- Today's Results ---");
+  console.log("--- Today\'s Results ---");
   console.log(`${activeEntry.category} in ${todaysCity}: ${todaysLeads.length} leads, ${todaysEmails.length} emails found`);
 }
 
@@ -150,6 +137,21 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
 
   const totalLeadsFound = leads.length;
   const totalEmailsFound = leads.filter((l) => l.status === "enriched").length;
+
+  // Full list of every company where a real email was found -- feeds the
+  // dashboard's "Companies Reached" table.
+  const reachedCompanies = leads
+    .filter((l) => l.status === "enriched")
+    .map((l) => ({
+      name: l.name,
+      category: l.category,
+      location: l.searchLocation,
+      email: l.email,
+      emailSource: l.emailSource || null,
+      phone: l.phone || null,
+      foundAt: l.foundAt || null,
+    }))
+    .sort((a, b) => new Date(b.foundAt || 0) - new Date(a.foundAt || 0));
 
   return {
     lastUpdated: new Date().toISOString(),
@@ -168,6 +170,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
         emailsFound: c.emailsFound,
         hitRate: c.hitRate,
         verdict: c.verdict,
+        sampleType: c.sampleType || "full_cycle",
       })),
       active: active ? { category: active.category, leadsEnriched: active.leadsEnriched, emailsFound: active.emailsFound } : null,
       queuedCount: queued.length,
@@ -185,6 +188,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
       categoriesRejected: completed.filter((c) => c.verdict === "reject").length,
     },
     dailyHistory: usageLog.daily,
+    reachedCompanies,
   };
 }
 
