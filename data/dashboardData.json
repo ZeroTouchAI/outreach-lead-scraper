@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-07-21T04:37:09.322Z",
+  "lastUpdated": "2026-07-21T15:08:06.020Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 2,
+    "cityIndex": 3,
     "totalCities": 22,
-    "nextCity": "North York, ON"
+    "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
     "completed": [],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 1,
-      "emailsFound": 0
+      "leadsEnriched": 6,
+      "emailsFound": 1
     },
     "queuedCount": 19
   },
@@ -19,21 +19,21 @@
     "today": {
       "date": "2026-07-21",
       "category": "nail salon",
-      "city": "Downtown Toronto, ON",
+      "city": "North York, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 1,
-      "serpApiCalls": 1
+      "placesApiCalls": 2,
+      "serpApiCalls": 6
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 69,
-    "totalEmailsFound": 1,
+    "totalLeadsFound": 74,
+    "totalEmailsFound": 2,
     "categoriesCompleted": 0,
     "categoriesKept": 0,
     "categoriesRejected": 0
@@ -47,6 +47,15 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-21",
+      "category": "nail salon",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 1
     }
   ]
 }

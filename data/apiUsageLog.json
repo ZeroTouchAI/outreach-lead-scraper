@@ -8,12 +8,21 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-21",
+      "category": "nail salon",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 1
     }
   ],
   "monthlyTotals": {
     "2026-07": {
-      "placesApiCalls": 1,
-      "serpApiCalls": 1
+      "placesApiCalls": 2,
+      "serpApiCalls": 6
     }
   }
 }

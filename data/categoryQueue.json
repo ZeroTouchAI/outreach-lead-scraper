@@ -6,11 +6,12 @@
     "startedAt": null,
     "completedAt": null,
     "citiesCovered": [
-      "Downtown Toronto, ON"
+      "Downtown Toronto, ON",
+      "North York, ON"
     ],
-    "leadsFound": 1,
-    "leadsEnriched": 1,
-    "emailsFound": 0,
+    "leadsFound": 6,
+    "leadsEnriched": 6,
+    "emailsFound": 1,
     "hitRate": null,
     "verdict": null
   },
