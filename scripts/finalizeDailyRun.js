@@ -139,9 +139,12 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   const totalEmailsFound = leads.filter((l) => l.status === "enriched").length;
 
   // Full list of every company where a real email was found -- feeds the
-  // dashboard's "Companies Reached" table.
+  // dashboard's "Companies Reached" table. Includes leads at ANY later
+  // pipeline stage too (emailed, email_failed), not just "enriched" --
+  // otherwise a company would vanish from this list the moment outreach
+  // actually sends to them, which is backwards.
   const reachedCompanies = leads
-    .filter((l) => l.status === "enriched")
+    .filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status))
     .map((l) => ({
       name: l.name,
       category: l.category,
@@ -150,6 +153,8 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
       emailSource: l.emailSource || null,
       phone: l.phone || null,
       foundAt: l.foundAt || null,
+      sent: l.status === "emailed",
+      sendFailed: l.status === "email_failed",
     }))
     .sort((a, b) => new Date(b.foundAt || 0) - new Date(a.foundAt || 0));
 
