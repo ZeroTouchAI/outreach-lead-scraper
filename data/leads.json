@@ -1185,7 +1185,7 @@
   },
   {
     "placeId": "test-lead-001",
-    "name": "Rapid Rank Agency (Internal Test)",
+    "name": "Glow Nails Studio",
     "address": "N/A",
     "phone": null,
     "category": "nail salon",
@@ -1197,7 +1197,7 @@
     "email": "rapidrankagency@gmail.com",
     "emailSource": "internal_test",
     "foundAt": "2026-07-22T06:09:22.474979+00:00",
-    "lastUpdatedAt": "2026-07-22T06:09:22.474998+00:00",
+    "lastUpdatedAt": "2026-07-22T06:29:31.760164+00:00",
     "isTest": true
   }
 ]
