@@ -135,15 +135,20 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   const today = todayDateString();
   const thisMonth = monthKey(today);
 
-  const totalLeadsFound = leads.length;
-  const totalEmailsFound = leads.filter((l) => l.status === "enriched").length;
+  // Exclude internal test leads (isTest:true) from all public dashboard
+  // stats and lists -- they're not real scraped businesses, just used to
+  // validate the outreach email flow before it touches real leads.
+  const realLeads = leads.filter((l) => !l.isTest);
+
+  const totalLeadsFound = realLeads.length;
+  const totalEmailsFound = realLeads.filter((l) => l.status === "enriched").length;
 
   // Full list of every company where a real email was found -- feeds the
   // dashboard's "Companies Reached" table. Includes leads at ANY later
   // pipeline stage too (emailed, email_failed), not just "enriched" --
   // otherwise a company would vanish from this list the moment outreach
   // actually sends to them, which is backwards.
-  const reachedCompanies = leads
+  const reachedCompanies = realLeads
     .filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status))
     .map((l) => ({
       name: l.name,
