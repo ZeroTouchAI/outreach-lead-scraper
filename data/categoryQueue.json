@@ -7,10 +7,11 @@
     "completedAt": null,
     "citiesCovered": [
       "Downtown Toronto, ON",
-      "North York, ON"
+      "North York, ON",
+      "Scarborough, ON"
     ],
-    "leadsFound": 6,
-    "leadsEnriched": 6,
+    "leadsFound": 10,
+    "leadsEnriched": 10,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null
@@ -276,7 +277,7 @@
     "leadsFound": 7,
     "leadsEnriched": 7,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 3 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -294,7 +295,7 @@
     "leadsFound": 3,
     "leadsEnriched": 3,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -311,7 +312,7 @@
     "leadsFound": 1,
     "leadsEnriched": 1,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 1 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -331,7 +332,7 @@
     "leadsFound": 11,
     "leadsEnriched": 11,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 4 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -370,7 +371,7 @@
     "leadsFound": 3,
     "leadsEnriched": 3,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -389,7 +390,7 @@
     "leadsFound": 4,
     "leadsEnriched": 4,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 3 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -407,7 +408,7 @@
     "leadsFound": 5,
     "leadsEnriched": 5,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -424,7 +425,7 @@
     "leadsFound": 1,
     "leadsEnriched": 1,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 1 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."
@@ -442,7 +443,7 @@
     "leadsFound": 2,
     "leadsEnriched": 2,
     "emailsFound": 0,
-    "hitRate": 0.0,
+    "hitRate": 0,
     "verdict": "reject",
     "sampleType": "legacy_partial",
     "note": "Legacy test run across 2 of 22 GTA cities (not a full cycle) -- from early system testing before the 22-city rotation was built."

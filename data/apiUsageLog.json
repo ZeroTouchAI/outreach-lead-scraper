@@ -17,12 +17,21 @@
       "serpApiCalls": 5,
       "leadsFound": 5,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-07-22",
+      "category": "nail salon",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
     "2026-07": {
-      "placesApiCalls": 2,
-      "serpApiCalls": 6
+      "placesApiCalls": 3,
+      "serpApiCalls": 10
     }
   }
 }

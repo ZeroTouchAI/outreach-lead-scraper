@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-22T05:30:08.223010+00:00",
+  "lastUpdated": "2026-07-22T15:08:32.560Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 3,
+    "cityIndex": 4,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "Etobicoke, ON"
   },
   "leaderboard": {
     "completed": [
@@ -20,7 +20,7 @@
         "category": "plumber",
         "leadsEnriched": 7,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -28,7 +28,7 @@
         "category": "electrician",
         "leadsEnriched": 3,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -36,7 +36,7 @@
         "category": "landscaping company",
         "leadsEnriched": 1,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -44,7 +44,7 @@
         "category": "hair salon",
         "leadsEnriched": 11,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -52,7 +52,7 @@
         "category": "roofing contractor",
         "leadsEnriched": 3,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -60,7 +60,7 @@
         "category": "hvac contractor",
         "leadsEnriched": 4,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -68,7 +68,7 @@
         "category": "general contractor",
         "leadsEnriched": 5,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -76,7 +76,7 @@
         "category": "dentist",
         "leadsEnriched": 1,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       },
@@ -84,36 +84,36 @@
         "category": "restaurant",
         "leadsEnriched": 2,
         "emailsFound": 0,
-        "hitRate": 0.0,
+        "hitRate": 0,
         "verdict": "reject",
         "sampleType": "legacy_partial"
       }
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 6,
+      "leadsEnriched": 10,
       "emailsFound": 1
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "category": "nail salon",
-      "city": "North York, ON",
+      "city": "Scarborough, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 5,
-      "leadsFound": 5,
-      "emailsFound": 1
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 2,
-      "serpApiCalls": 6
+      "placesApiCalls": 3,
+      "serpApiCalls": 10
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 74,
+    "totalLeadsFound": 78,
     "totalEmailsFound": 2,
     "categoriesCompleted": 10,
     "categoriesKept": 1,
@@ -137,6 +137,15 @@
       "serpApiCalls": 5,
       "leadsFound": 5,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-07-22",
+      "category": "nail salon",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
