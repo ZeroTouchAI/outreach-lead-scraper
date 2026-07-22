@@ -273,7 +273,7 @@
   },
   {
     "placeId": "ChIJ9xCyuCw7K4gRcVByLXt9Clw",
-    "name": "M’s Hair Lounge",
+    "name": "M\u2019s Hair Lounge",
     "address": "5731 Hwy 7 Unit 22, Woodbridge, ON L4L 4Y9, Canada",
     "phone": "+1 905-265-2100",
     "category": "hair salon",
@@ -657,7 +657,7 @@
   },
   {
     "placeId": "ChIJE5VkZRIrK4gRugNzihv1aig",
-    "name": "Sina’s Roofing & Repair",
+    "name": "Sina\u2019s Roofing & Repair",
     "address": "41 Crosby Ave, Richmond Hill, ON L4C 0B2, Canada",
     "phone": "+1 647-769-2769",
     "category": "roofing contractor",
@@ -961,7 +961,7 @@
   },
   {
     "placeId": "ChIJ9-awOnHW1IkRSW0VKMyoqDE",
-    "name": "Shab’s Auto Service",
+    "name": "Shab\u2019s Auto Service",
     "address": "25 Heritage Rd, Markham, ON L3P 1M3, Canada",
     "phone": "+1 905-472-3519",
     "category": "auto repair shop",
@@ -1073,7 +1073,7 @@
   },
   {
     "placeId": "ChIJ9f94C4ctK4gR81ue5cH0yUQ",
-    "name": "白熊先森餐廳Bear Bear Cafe & Kitchen",
+    "name": "\u767d\u718a\u5148\u68ee\u9910\u5ef3Bear Bear Cafe & Kitchen",
     "address": "3636 Steeles Ave E Unit 125, Markham, ON L3R 1K9, Canada",
     "phone": "+1 647-928-1663",
     "category": "restaurant",
@@ -1182,5 +1182,22 @@
     "emailSource": "https://www.instagram.com/reel/DTqV73pjjTM/",
     "foundAt": "2026-07-21T15:06:59.814Z",
     "lastUpdatedAt": "2026-07-21T15:08:05.674Z"
+  },
+  {
+    "placeId": "test-lead-001",
+    "name": "Rapid Rank Agency (Internal Test)",
+    "address": "N/A",
+    "phone": null,
+    "category": "nail salon",
+    "searchLocation": "TEST -- Internal QA",
+    "primaryType": "test",
+    "googleMapsUrl": null,
+    "hasWebsite": false,
+    "status": "enriched",
+    "email": "rapidrankagency@gmail.com",
+    "emailSource": "internal_test",
+    "foundAt": "2026-07-22T06:09:22.474979+00:00",
+    "lastUpdatedAt": "2026-07-22T06:09:22.474998+00:00",
+    "isTest": true
   }
 ]
