@@ -1,7 +1,16 @@
 name: Send Outreach Emails
 
 on:
-  workflow_dispatch: {} # manual trigger only -- sending real emails to real businesses needs an explicit go-ahead each time until domain reputation is established
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: "true = only send to internal test leads. false = send to real leads."
+        required: true
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
 
 concurrency:
   group: send-outreach-emails
@@ -25,6 +34,8 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
+          OUTREACH_REPLY_TO: "info@rapidrankagency.com"
+          TEST_MODE: ${{ github.event.inputs.test_mode }}
         run: node scripts/sendOutreachEmails.js
 
       - name: Commit updated lead statuses
