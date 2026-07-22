@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T23:30:29.862694+00:00",
+  "lastUpdated": "2026-07-22T05:30:08.223010+00:00",
   "current": {
     "category": "nail salon",
     "cityIndex": 3,
@@ -147,7 +147,9 @@
       "email": "shsignaturenails@gmail.com",
       "emailSource": "https://www.instagram.com/reel/DTqV73pjjTM/",
       "phone": "+1 647-430-1938",
-      "foundAt": "2026-07-21T15:06:59.814Z"
+      "foundAt": "2026-07-21T15:06:59.814Z",
+      "sent": false,
+      "sendFailed": false
     },
     {
       "name": "Angelo Auto Repair",
@@ -156,7 +158,9 @@
       "email": "info@mcdermottmotors.com",
       "emailSource": "https://bdir.in/p/best/ca/car-repair-shops-in-toronto-on/MzAyOTk=",
       "phone": "+1 416-921-3074",
-      "foundAt": "2026-07-20T15:03:20.300Z"
+      "foundAt": "2026-07-20T15:03:20.300Z",
+      "sent": false,
+      "sendFailed": false
     }
   ]
 }
