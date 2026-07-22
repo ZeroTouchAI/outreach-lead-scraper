@@ -1,0 +1,29 @@
+{
+  "sharedTemplate": {
+    "subjectTemplate": "Quick note about {{businessName}}",
+    "bodyTemplate": "Hi there,\n\nI came across {{businessName}} and noticed {{hook}}.\n\nWe're Rapid Rank Agency -- we build, host, and maintain websites, handle upgrades, and do a bit of SEO too, basically everything involved in getting a business a proper digital presence. We also work with Zero Touch AI (zerotouchai.com) on the automation side -- they specialize in AI-driven social media and business automation, if that's ever useful down the line.\n\nWant me to put together a free demo of what a site for {{businessName}} could look like? No cost, no obligation either way -- just reply and let me know.\n\nBest,\nRapid Rank Agency"
+  },
+  "categoryHooks": {
+    "nail salon": "clients probably book you through Instagram DMs or word of mouth right now, with no easy way to see your services or prices online",
+    "spa": "people nearby are likely finding you through Google Maps or referrals alone, without a real page to show your services",
+    "massage therapist": "clients are probably booking by phone or word of mouth, with no easy way to see your rates or availability",
+    "photographer": "your portfolio's likely scattered across Instagram instead of living in one place people can actually browse",
+    "event planner": "people planning with you probably can't see past work or packages without messaging you directly first",
+    "bakery": "people nearby might not even know you exist unless they've driven by or heard from a friend",
+    "catering company": "clients probably can't see your menu or get a quote without calling first",
+    "bridal shop": "brides-to-be searching online might be missing you entirely in favor of shops that actually show up in search",
+    "tattoo shop": "people scouting artists' portfolios online might not be finding yours at all",
+    "florist": "orders for weddings and events might be going to competitors who show up in a quick search",
+    "yoga studio": "new students trying to check your class schedule probably have no way to do that without calling",
+    "martial arts studio": "parents researching programs for their kids can't easily compare what you offer online",
+    "pet grooming service": "pet owners searching for a groomer nearby might be missing you entirely",
+    "chiropractor": "new patients researching providers can't easily find your credentials or book online",
+    "physiotherapy clinic": "referrals from doctors might dead-end if patients can't find you online to confirm details",
+    "veterinary clinic": "pet owners searching for a vet nearby in an emergency might not find you in time",
+    "dentist": "new patients comparing dentists online are probably choosing whoever actually has a website",
+    "restaurant": "people checking your hours or menu before heading over might be stuck guessing",
+    "insurance broker": "people comparing brokers online are likely not finding you at all",
+    "mortgage broker": "clients researching brokers before reaching out can't easily see your rates or credentials"
+  },
+  "defaultHook": "you don't currently have a website, which likely means people searching for a business like yours online aren't finding you"
+}
