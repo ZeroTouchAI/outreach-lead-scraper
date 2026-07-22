@@ -3,25 +3,25 @@
  *
  * Phase 5: sends the actual outreach emails -- the "free website demo"
  * offer -- to every lead with a real email on file that hasn't been
- * contacted yet.
+ * contacted yet. Uses static, pre-written templates per business category
+ * (data/emailTemplates.json) -- no AI generation, by design. Every lead
+ * in a given category gets the same reviewed template, with just the
+ * business name substituted in.
  *
- * Uses Resend (https://resend.com) rather than Gmail API: Gmail's API is
- * built for sending from a Gmail-linked mailbox, not cleanly for an
- * arbitrary custom subdomain like mail.rapidrankagency.com without a paid
- * Google Workspace subscription. Resend has a real free tier (3,000
- * emails/month, 100/day) and verifies custom domains via simple DNS
- * records (SPF/DKIM), which is exactly what a dedicated sending subdomain
- * needs.
+ * Uses Resend (https://resend.com) rather than Gmail API -- see the repo
+ * README for why. Sends "from" the verified subdomain but with a separate
+ * "reply-to" address, so replies land wherever you actually check email.
  *
  * Requires env vars:
- *   RESEND_API_KEY   - from resend.com, after verifying the sending domain
- *   OUTREACH_FROM     - e.g. "Rapid Rank Agency <hello@mail.rapidrankagency.com>"
+ *   RESEND_API_KEY     - from resend.com, after verifying the sending domain
+ *   OUTREACH_FROM       - e.g. "Rapid Rank Agency <hello@mail.rapidrankagency.com>"
+ *   OUTREACH_REPLY_TO   - e.g. "info@rapidrankagency.com"
+ *   TEST_MODE            - "true" or "false". When "true", ONLY sends to
+ *                           leads flagged isTest:true in leads.json --
+ *                           real leads are completely skipped. Defaults to
+ *                           "true" if unset, as a safety net.
  *
- * Rate limiting: reads dailySendCap from data/outreachConfig.json. This
- * matters a lot for a brand-new sending domain -- sending too many too
- * fast on an unproven domain is what triggers spam folder placement.
- * Start low (the default config ships with 10/day) and raise it gradually
- * over a couple of weeks once delivery looks clean.
+ * Rate limiting: reads dailySendCap from data/outreachConfig.json.
  */
 
 const fs = require("fs");
@@ -29,9 +29,12 @@ const path = require("path");
 
 const LEADS_PATH = path.join(__dirname, "..", "data", "leads.json");
 const OUTREACH_CONFIG_PATH = path.join(__dirname, "..", "data", "outreachConfig.json");
+const TEMPLATES_PATH = path.join(__dirname, "..", "data", "emailTemplates.json");
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const OUTREACH_FROM = process.env.OUTREACH_FROM;
+const OUTREACH_REPLY_TO = process.env.OUTREACH_REPLY_TO;
+const TEST_MODE = (process.env.TEST_MODE || "true") === "true";
 const RESEND_URL = "https://api.resend.com/emails";
 
 function loadJson(filePath, fallback) {
@@ -45,36 +48,46 @@ function saveJson(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 }
 
+function fillTemplate(template, values) {
+  let result = template;
+  for (const [key, value] of Object.entries(values)) {
+    result = result.split(`{{${key}}}`).join(value);
+  }
+  return result;
+}
+
 /**
- * The actual outreach copy. Deliberately not promising a live demo link
- * yet -- Phase 6 (auto-generating a real mockup site per lead) doesn't
- * exist yet, so this invites a reply instead of over-promising.
+ * Builds subject/text/html from the static per-category template. Falls
+ * back to templates.defaultHook if a lead's category doesn't have a
+ * specific hook written yet (e.g. a reserve-pool category not templated).
  */
-function buildEmailContent(lead) {
-  const subject = `Quick question about ${lead.name}'s website`;
+function buildEmailContent(lead, templates) {
+  const hook = templates.categoryHooks[lead.category] || templates.defaultHook;
+  const values = { businessName: lead.name, hook };
 
-  const text = `Hi there,
-
-I came across ${lead.name} while looking at ${lead.category} businesses in the ${lead.searchLocation.replace(", ON", "")} area, and noticed you don't currently have a website.
-
-I run Rapid Rank Agency -- we build fast, modern websites for local businesses. I'd like to put together a free custom demo of what a site for ${lead.name} could look like, no cost and no obligation. If it's not for you, no hard feelings either way.
-
-Would you be open to seeing one? Just reply to this email and I'll get started.
-
-Best,
-Rapid Rank Agency`;
-
-  const html = `<p>Hi there,</p>
-<p>I came across <strong>${lead.name}</strong> while looking at ${lead.category} businesses in the ${lead.searchLocation.replace(", ON", "")} area, and noticed you don't currently have a website.</p>
-<p>I run <strong>Rapid Rank Agency</strong> -- we build fast, modern websites for local businesses. I'd like to put together a <strong>free custom demo</strong> of what a site for ${lead.name} could look like, no cost and no obligation. If it's not for you, no hard feelings either way.</p>
-<p>Would you be open to seeing one? Just reply to this email and I'll get started.</p>
-<p>Best,<br/>Rapid Rank Agency</p>`;
+  const subject = fillTemplate(templates.sharedTemplate.subjectTemplate, values);
+  const text = fillTemplate(templates.sharedTemplate.bodyTemplate, values);
+  const html = text
+    .split("\n\n")
+    .map((para) => `<p>${para.replace(/\n/g, "<br/>")}</p>`)
+    .join("\n");
 
   return { subject, text, html };
 }
 
-async function sendEmail(lead) {
-  const { subject, text, html } = buildEmailContent(lead);
+async function sendEmail(lead, templates) {
+  const { subject, text, html } = buildEmailContent(lead, templates);
+
+  const payload = {
+    from: OUTREACH_FROM,
+    to: [lead.email],
+    subject,
+    text,
+    html,
+  };
+  if (OUTREACH_REPLY_TO) {
+    payload.reply_to = OUTREACH_REPLY_TO;
+  }
 
   const res = await fetch(RESEND_URL, {
     method: "POST",
@@ -82,13 +95,7 @@ async function sendEmail(lead) {
       "Content-Type": "application/json",
       Authorization: `Bearer ${RESEND_API_KEY}`,
     },
-    body: JSON.stringify({
-      from: OUTREACH_FROM,
-      to: [lead.email],
-      subject,
-      text,
-      html,
-    }),
+    body: JSON.stringify(payload),
   });
 
   if (!res.ok) {
@@ -107,8 +114,25 @@ async function main() {
 
   const config = loadJson(OUTREACH_CONFIG_PATH, { dailySendCap: 10 });
   const leads = loadJson(LEADS_PATH, []);
+  const templates = loadJson(TEMPLATES_PATH, null);
 
-  const readyToSend = leads.filter((l) => l.status === "enriched");
+  if (!templates) {
+    console.error("Missing data/emailTemplates.json.");
+    process.exit(1);
+  }
+
+  console.log(`TEST_MODE: ${TEST_MODE}`);
+
+  let readyToSend = leads.filter((l) => l.status === "enriched");
+
+  if (TEST_MODE) {
+    readyToSend = readyToSend.filter((l) => l.isTest === true);
+    console.log("Test mode is ON -- only sending to leads flagged isTest:true. Real leads are skipped entirely.");
+  } else {
+    readyToSend = readyToSend.filter((l) => !l.isTest);
+    console.log("Test mode is OFF -- sending to real leads.");
+  }
+
   const capped = readyToSend.slice(0, config.dailySendCap);
 
   console.log(`Leads ready to email: ${readyToSend.length}`);
@@ -119,12 +143,12 @@ async function main() {
 
   for (const lead of capped) {
     try {
-      const result = await sendEmail(lead);
+      const result = await sendEmail(lead, templates);
       lead.status = "emailed";
       lead.emailedAt = new Date().toISOString();
       lead.resendId = result.id || null;
       sentCount++;
-      console.log(`  Sent to ${lead.name} <${lead.email}>`);
+      console.log(`  Sent to ${lead.name} <${lead.email}> (category: ${lead.category})`);
     } catch (err) {
       lead.status = "email_failed";
       lead.emailError = err.message;
@@ -132,7 +156,6 @@ async function main() {
       console.error(`  Failed for ${lead.name} <${lead.email}>:`, err.message);
     }
 
-    // Gentle pacing between sends
     await new Promise((r) => setTimeout(r, 500));
   }
 
