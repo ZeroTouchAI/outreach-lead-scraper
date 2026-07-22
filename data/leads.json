@@ -1193,12 +1193,14 @@
     "primaryType": "test",
     "googleMapsUrl": null,
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "rapidrankagency@gmail.com",
     "emailSource": "internal_test",
     "foundAt": "2026-07-22T06:09:22.474979+00:00",
     "lastUpdatedAt": "2026-07-22T06:29:31.760164+00:00",
-    "isTest": true
+    "isTest": true,
+    "emailedAt": "2026-07-22T22:34:24.087Z",
+    "resendId": "fa7b4635-033d-4c6d-b61a-b2b28fd6495b"
   },
   {
     "placeId": "ChIJQ7GGte7N1IkRJ5Uxnh0gQlw",
