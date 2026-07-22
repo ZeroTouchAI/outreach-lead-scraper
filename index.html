@@ -5,36 +5,41 @@
 <title>Rapid Rank Agency \u2014 No-Website Lead Radar</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <style>
-  :root { --bg:#081627; --card:#0d2440; --border:#1c3a5e; --text:#eaf2fb; --muted:#7f9cbf; --orange:#f2762e; --orange-bright:#ff8c3d; --cyan:#4fd8e8; --good:#4ade80; --bad:#f87171; }
+  :root { --bg:#f4f5f7; --card:#ffffff; --border:#e3e6eb; --text:#1a2233; --muted:#6b7686; --orange:#f2762e; --orange-bright:#ff8c3d; --cyan:#1fb3c4; --good:#16a34a; --bad:#dc2626; }
   * { box-sizing: border-box; }
-  body { margin:0; background: linear-gradient(180deg,#061220 0%,#081627 100%); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; padding:24px; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; padding:24px; }
   .brand-header { display:flex; align-items:center; gap:14px; margin-bottom:4px; }
-  .brand-mark { width:40px; height:40px; border-radius:10px; background:linear-gradient(135deg,var(--orange) 0%,var(--orange-bright) 100%); display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0; }
-  h1 { font-size:22px; margin:0; }
-  .brand-sub { font-size:12px; color:var(--cyan); text-transform:uppercase; letter-spacing:0.08em; font-weight:600; }
+  .brand-mark { width:40px; height:40px; border-radius:10px; background:linear-gradient(135deg,var(--orange) 0%,var(--orange-bright) 100%); display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:800; color:#fff; flex-shrink:0; }
+  h1 { font-size:22px; margin:0; color:var(--text); }
+  .brand-sub { font-size:12px; color:var(--cyan); text-transform:uppercase; letter-spacing:0.08em; font-weight:700; }
   .subtitle { color:var(--muted); font-size:13px; margin:10px 0 24px; }
   .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-bottom:24px; }
-  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; box-shadow:0 1px 3px rgba(20,30,50,0.05); }
   .card h2 { font-size:12px; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 10px; }
-  .big-stat { font-size:28px; font-weight:800; color:var(--text); }
-  .big-stat.accent { color:var(--orange-bright); }
+  .big-stat { font-size:26px; font-weight:800; color:var(--text); }
+  .big-stat.accent { color:var(--orange); text-transform:uppercase; letter-spacing:0.02em; }
   .stat-sub { font-size:13px; color:var(--muted); margin-top:4px; }
-  .progress-bar { background:#142c4a; border-radius:6px; height:10px; overflow:hidden; margin-top:10px; }
+  .countdown { font-size:13px; color:var(--cyan); font-weight:700; margin-top:8px; font-variant-numeric:tabular-nums; }
+  .progress-bar { background:#eceef2; border-radius:6px; height:10px; overflow:hidden; margin-top:10px; }
   .progress-fill { background:linear-gradient(90deg,var(--orange),var(--cyan)); height:100%; border-radius:6px; transition:width 0.3s; }
   table { width:100%; border-collapse:collapse; font-size:13px; }
   th, td { text-align:left; padding:9px 10px; border-bottom:1px solid var(--border); }
-  th { color:var(--muted); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:0.04em; }
-  tr:hover td { background:rgba(79,216,232,0.04); }
+  th { color:var(--muted); font-weight:700; font-size:11px; text-transform:uppercase; letter-spacing:0.04em; }
+  tr:hover td { background:#f9fafb; }
   a.email-link { color:var(--cyan); text-decoration:none; }
   a.email-link:hover { text-decoration:underline; }
   .badge { display:inline-block; padding:2px 9px; border-radius:999px; font-size:11px; font-weight:700; }
-  .badge-keep { background:rgba(74,222,128,0.15); color:var(--good); }
-  .badge-reject { background:rgba(248,113,113,0.15); color:var(--bad); }
-  .badge-active { background:rgba(242,118,46,0.18); color:var(--orange-bright); }
+  .badge-keep { background:rgba(22,163,74,0.1); color:var(--good); }
+  .badge-reject { background:rgba(220,38,38,0.1); color:var(--bad); }
+  .badge-active { background:rgba(242,118,46,0.12); color:var(--orange); }
+  .badge-sent { background:rgba(31,179,196,0.12); color:var(--cyan); }
+  .badge-pending { background:#eef0f3; color:var(--muted); }
   .chart-card { grid-column:span 2; }
   canvas { max-height:260px; }
   .empty { color:var(--muted); font-size:13px; padding:12px 0; }
-  .section-title { font-size:16px; font-weight:700; margin:32px 0 12px; display:flex; align-items:center; gap:8px; }
+  .section-title { font-size:16px; font-weight:700; margin:32px 0 4px; color:var(--text); }
+  .section-sub { font-size:12px; color:var(--muted); margin-bottom:12px; }
+  .info-note { font-size:12px; color:var(--muted); background:#f7f8fa; border:1px solid var(--border); border-radius:8px; padding:10px 12px; margin-top:12px; }
   @media (max-width:700px) { .chart-card { grid-column:span 1; } }
 </style>
 </head>
@@ -55,6 +60,7 @@
   <div class="card chart-card">
     <h2>Hit Rate by Category</h2>
     <canvas id="hitRateChart"></canvas>
+    <div class="info-note">Hit rate = % of processed leads where a real email was found. Categories are marked "keep" if any email was found, "reject" at 0% across a large enough sample \u2014 but a low rate (under ~5%) is marginal, not a strong performer, even if technically a "keep."</div>
   </div>
   <div class="card chart-card">
     <h2>Daily Leads &amp; Emails Found</h2>
@@ -70,15 +76,18 @@
   </table>
 </div>
 
-<div class="section-title">Companies Reached \u2014 Real Emails Found</div>
+<div class="section-title">Companies Reached</div>
+<div class="section-sub">Every business where a real email was found, and whether outreach has gone out yet.</div>
 <div class="card">
   <table id="companiesTable">
-    <thead><tr><th>Company</th><th>Category</th><th>Location</th><th>Email</th><th>Phone</th><th>Source</th></tr></thead>
+    <thead><tr><th>Company</th><th>Category</th><th>Location</th><th>Email</th><th>Phone</th><th>Source</th><th>Outreach</th></tr></thead>
     <tbody id="companiesBody"></tbody>
   </table>
 </div>
 
 <script>
+let cronTimerInterval = null;
+
 async function loadDashboard() {
   let data;
   try {
@@ -98,6 +107,33 @@ async function loadDashboard() {
   renderHistoryChart(data);
 }
 
+function getNextCronRunUTC() {
+  const now = new Date();
+  let next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 13, 0, 0));
+  if (next <= now) next.setUTCDate(next.getUTCDate() + 1);
+  return next;
+}
+
+function formatCountdown(ms) {
+  if (ms < 0) ms = 0;
+  const h = String(Math.floor(ms / 3600000)).padStart(2, "0");
+  const m = String(Math.floor((ms % 3600000) / 60000)).padStart(2, "0");
+  const s = String(Math.floor((ms % 60000) / 1000)).padStart(2, "0");
+  return `${h}h ${m}m ${s}s`;
+}
+
+function startCountdown() {
+  if (cronTimerInterval) clearInterval(cronTimerInterval);
+  const el = document.getElementById("cronCountdown");
+  if (!el) return;
+  function tick() {
+    const next = getNextCronRunUTC();
+    el.textContent = "Next scrape in: " + formatCountdown(next - new Date());
+  }
+  tick();
+  cronTimerInterval = setInterval(tick, 1000);
+}
+
 function renderStatusCards(data) {
   const container = document.getElementById("statusCards");
   const current = data.current;
@@ -110,6 +146,7 @@ function renderStatusCards(data) {
       <div class="big-stat accent">${current ? current.category : "\u2014"}</div>
       <div class="stat-sub">${current ? `City ${current.cityIndex} of ${current.totalCities} \u2014 next: ${current.nextCity || "cycle complete"}` : "Queue idle"}</div>
       <div class="progress-bar"><div class="progress-fill" style="width:${cityProgressPct}%"></div></div>
+      <div class="countdown" id="cronCountdown">Next scrape in: --</div>
     </div>
     <div class="card"><h2>Leads &amp; Emails (All Time)</h2>
       <div class="big-stat">${totals.totalLeadsFound}</div>
@@ -129,6 +166,7 @@ function renderStatusCards(data) {
       <div class="stat-sub">Paid per call \u2014 check Google Cloud billing for actual cost</div>
     </div>
   `;
+  startCountdown();
 }
 
 function renderLeaderboard(data) {
@@ -139,9 +177,10 @@ function renderLeaderboard(data) {
   }
   for (const c of data.leaderboard.completed) {
     const pct = c.hitRate !== null ? (c.hitRate * 100).toFixed(1) + "%" : "\u2014";
+    const fraction = ` (${c.emailsFound}/${c.leadsEnriched})`;
     const badgeClass = c.verdict === "keep" ? "badge-keep" : "badge-reject";
     const legacyNote = c.sampleType === "legacy_partial" ? ' <span style="color:var(--muted);font-size:11px;">(partial sample)</span>' : "";
-    rows.push(`<tr><td>${c.category}${legacyNote}</td><td>completed</td><td>${c.leadsEnriched}</td><td>${c.emailsFound}</td><td>${pct}</td><td><span class="badge ${badgeClass}">${c.verdict}</span></td></tr>`);
+    rows.push(`<tr><td>${c.category}${legacyNote}</td><td>completed</td><td>${c.leadsEnriched}</td><td>${c.emailsFound}</td><td>${pct}${fraction}</td><td><span class="badge ${badgeClass}">${c.verdict}</span></td></tr>`);
   }
   body.innerHTML = rows.length ? rows.join("") : `<tr><td colspan="6" class="empty">No data yet.</td></tr>`;
   if (data.leaderboard.queuedCount > 0) {
@@ -153,7 +192,7 @@ function renderCompanies(data) {
   const body = document.getElementById("companiesBody");
   const companies = data.reachedCompanies || [];
   if (!companies.length) {
-    body.innerHTML = `<tr><td colspan="6" class="empty">No emails found yet \u2014 this fills in as the pipeline runs.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="7" class="empty">No emails found yet \u2014 this fills in as the pipeline runs.</td></tr>`;
     return;
   }
   body.innerHTML = companies.map((c) => `
@@ -164,6 +203,7 @@ function renderCompanies(data) {
       <td><a class="email-link" href="mailto:${c.email}">${c.email}</a></td>
       <td>${c.phone || "\u2014"}</td>
       <td>${c.emailSource ? `<a class="email-link" href="${c.emailSource}" target="_blank" rel="noopener">source</a>` : "\u2014"}</td>
+      <td>${c.sent ? `<span class="badge badge-sent">sent</span>` : `<span class="badge badge-pending">not yet</span>`}</td>
     </tr>
   `).join("");
 }
@@ -177,8 +217,15 @@ function renderHitRateChart(data) {
   }
   new Chart(ctx, {
     type: "bar",
-    data: { labels: completed.map((c) => c.category), datasets: [{ label: "Hit Rate %", data: completed.map((c) => (c.hitRate * 100).toFixed(1)), backgroundColor: completed.map((c) => (c.verdict === "keep" ? "#4ade80" : "#f87171")) }] },
-    options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { color: "#7f9cbf" } }, x: { ticks: { color: "#7f9cbf" } } } }
+    data: { labels: completed.map((c) => c.category), datasets: [{ label: "Hit Rate %", data: completed.map((c) => (c.hitRate * 100).toFixed(1)), backgroundColor: completed.map((c) => (c.verdict === "keep" ? "#16a34a" : "#dc2626")) }] },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: "#475569" }, grid: { color: "#eef0f3" }, title: { display: true, text: "Hit Rate %", color: "#6b7686" } },
+        x: { ticks: { color: "#475569" }, grid: { display: false } }
+      }
+    }
   });
 }
 
@@ -191,11 +238,18 @@ function renderHistoryChart(data) {
   }
   new Chart(ctx, {
     type: "line",
-    data: { labels: history.map((h) => h.date + " - " + h.city), datasets: [
-      { label: "Leads Found", data: history.map((h) => h.leadsFound), borderColor: "#4fd8e8", tension: 0.3 },
-      { label: "Emails Found", data: history.map((h) => h.emailsFound), borderColor: "#f2762e", tension: 0.3 }
+    data: { labels: history.map((h) => h.date + " \u00b7 " + h.city.replace(", ON", "")), datasets: [
+      { label: "Leads Found", data: history.map((h) => h.leadsFound), borderColor: "#1fb3c4", backgroundColor: "#1fb3c4", tension: 0.3 },
+      { label: "Emails Found", data: history.map((h) => h.emailsFound), borderColor: "#f2762e", backgroundColor: "#f2762e", tension: 0.3 }
     ] },
-    options: { responsive: true, plugins: { legend: { labels: { color: "#eaf2fb" } } }, scales: { y: { beginAtZero: true, ticks: { color: "#7f9cbf" } }, x: { ticks: { color: "#7f9cbf" } } } }
+    options: {
+      responsive: true,
+      plugins: { legend: { labels: { color: "#1a2233" } } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: "#475569", precision: 0 }, grid: { color: "#eef0f3" }, title: { display: true, text: "Count", color: "#6b7686" } },
+        x: { ticks: { color: "#475569", maxRotation: 45, minRotation: 0 }, grid: { display: false }, title: { display: true, text: "Date \u00b7 City", color: "#6b7686" } }
+      }
+    }
   });
 }
 
