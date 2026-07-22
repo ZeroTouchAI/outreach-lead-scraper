@@ -1,7 +1,7 @@
 {
   "sharedTemplate": {
     "subjectTemplate": "Quick note about {{businessName}}",
-    "bodyTemplate": "Hi there,\n\nI came across {{businessName}} and noticed {{hook}}.\n\nWe're Rapid Rank Agency -- we build, host, and maintain websites, handle upgrades, and do a bit of SEO too, basically everything involved in getting a business a proper digital presence. We also work with Zero Touch AI (zerotouchai.com) on the automation side -- they specialize in AI-driven social media and business automation, if that's ever useful down the line.\n\nWant me to put together a free demo of what a site for {{businessName}} could look like? No cost, no obligation either way -- just reply and let me know.\n\nBest,\nRapid Rank Agency"
+    "bodyTemplate": "Hi there,\n\nI came across {{businessName}} and noticed {{hook}}.\n\nWe're Rapid Rank Agency -- we build, host, and maintain websites, handle upgrades, and do a bit of SEO too, basically everything involved in getting a business a proper digital presence. We also work with Zero Touch AI (zerotouchai.com) on the automation side -- they specialize in AI-driven social media and business automation, if that's ever useful down the line.\n\nWant me to put together a free demo of what a site for {{businessName}} could look like? No cost, no obligation either way -- just reply and let me know.\n\nRegards,\nJeremy Reid\nWeb Management Specialist\nRapid Rank Agency  |  1-888-778-9724\nrapidrankagency.com  |  rapidrankagency@gmail.com"
   },
   "categoryHooks": {
     "nail salon": "clients probably book you through Instagram DMs or word of mouth right now, with no easy way to see your services or prices online",
