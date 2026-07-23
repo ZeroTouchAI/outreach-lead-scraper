@@ -141,7 +141,8 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   const realLeads = leads.filter((l) => !l.isTest);
 
   const totalLeadsFound = realLeads.length;
-  const totalEmailsFound = realLeads.filter((l) => l.status === "enriched").length;
+  const totalEmailsFound = realLeads.filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status)).length;
+  const totalEmailsSent = realLeads.filter((l) => l.status === "emailed").length;
 
   // Full list of every company where a real email was found -- feeds the
   // dashboard's "Companies Reached" table. Includes leads at ANY later
@@ -193,6 +194,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
     totals: {
       totalLeadsFound,
       totalEmailsFound,
+      totalEmailsSent,
       categoriesCompleted: completed.length,
       categoriesKept: completed.filter((c) => c.verdict === "keep").length,
       categoriesRejected: completed.filter((c) => c.verdict === "reject").length,
