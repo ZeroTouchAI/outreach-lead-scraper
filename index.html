@@ -41,6 +41,9 @@
   .section-sub { font-size:12px; color:var(--muted); margin-bottom:12px; }
   .info-note { font-size:12px; color:var(--muted); background:#f7f8fa; border:1px solid var(--border); border-radius:8px; padding:10px 12px; margin-top:12px; }
   @media (max-width:700px) { .chart-card { grid-column:span 1; } }
+  .subtitle-row { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin:10px 0 24px; }
+  .templates-link { font-size:13px; color:var(--cyan); text-decoration:none; font-weight:600; white-space:nowrap; }
+  .templates-link:hover { text-decoration:underline; }
 </style>
 </head>
 <body>
@@ -52,7 +55,10 @@
     <div class="brand-sub">No-Website Lead Radar</div>
   </div>
 </div>
-<div class="subtitle" id="lastUpdated">Loading... &nbsp;&middot;&nbsp; <a href="templates.html" style="color:#1fb3c4; text-decoration:none; font-weight:600;">View &amp; Edit Email Templates &rarr;</a></div>
+<div class="subtitle-row">
+  <div class="subtitle" id="lastUpdated" style="margin:0;">Loading...</div>
+  <a class="templates-link" href="templates.html">View &amp; Edit Email Templates &rarr;</a>
+</div>
 
 <div class="grid" id="statusCards"></div>
 
@@ -97,10 +103,9 @@ async function loadDashboard() {
     document.getElementById("lastUpdated").textContent = "Failed to load dashboard data: " + err.message;
     return;
   }
-  document.getElementById("lastUpdated").innerHTML = (data.lastUpdated
+  document.getElementById("lastUpdated").textContent = data.lastUpdated
     ? "Last updated: " + new Date(data.lastUpdated).toLocaleString()
-    : "Not yet run -- this is the starting state before day 1.")
-    + ' &nbsp;&middot;&nbsp; <a href="templates.html" style="color:#1fb3c4; text-decoration:none; font-weight:600;">View &amp; Edit Email Templates &rarr;</a>';
+    : "Not yet run -- this is the starting state before day 1.";
   renderStatusCards(data);
   renderLeaderboard(data);
   renderCompanies(data);
