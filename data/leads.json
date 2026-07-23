@@ -905,11 +905,13 @@
     "primaryType": "car_repair",
     "googleMapsUrl": "https://maps.google.com/?cid=4422113047473548033&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "info@mcdermottmotors.com",
     "emailSource": "https://bdir.in/p/best/ca/car-repair-shops-in-toronto-on/MzAyOTk=",
     "foundAt": "2026-07-20T15:03:20.300Z",
-    "lastUpdatedAt": "2026-07-21T04:36:25.794Z"
+    "lastUpdatedAt": "2026-07-21T04:36:25.794Z",
+    "emailedAt": "2026-07-23T16:37:42.776Z",
+    "resendId": "e2bedcf5-7682-4249-be45-c4aa2f071839"
   },
   {
     "placeId": "ChIJcwkawV0qK4gR-JEtR2uQAHI",
@@ -1177,11 +1179,13 @@
     "primaryType": "nail_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=10591405399550895407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "shsignaturenails@gmail.com",
     "emailSource": "https://www.instagram.com/reel/DTqV73pjjTM/",
     "foundAt": "2026-07-21T15:06:59.814Z",
-    "lastUpdatedAt": "2026-07-21T15:08:05.674Z"
+    "lastUpdatedAt": "2026-07-21T15:08:05.674Z",
+    "emailedAt": "2026-07-23T16:37:43.445Z",
+    "resendId": "88357214-6a11-43e6-a330-24f70a7d7ef8"
   },
   {
     "placeId": "test-lead-001",
