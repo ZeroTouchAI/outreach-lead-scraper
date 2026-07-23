@@ -55,10 +55,7 @@
     <div class="brand-sub">No-Website Lead Radar</div>
   </div>
 </div>
-<div class="subtitle-row">
-  <div class="subtitle" id="lastUpdated" style="margin:0;">Loading...</div>
-  <a class="templates-link" href="templates.html">View &amp; Edit Email Templates &rarr;</a>
-</div>
+<div class="subtitle" id="lastUpdated">Loading...</div>
 
 <div class="grid" id="statusCards"></div>
 
@@ -152,7 +149,10 @@ function renderStatusCards(data) {
       <div class="big-stat accent">${current ? current.category : "\u2014"}</div>
       <div class="stat-sub">${current ? `City ${current.cityIndex} of ${current.totalCities} \u2014 next: ${current.nextCity || "cycle complete"}` : "Queue idle"}</div>
       <div class="progress-bar"><div class="progress-fill" style="width:${cityProgressPct}%"></div></div>
-      <div class="countdown" id="cronCountdown">Next scrape in: --</div>
+      <div class="countdown-row" style="display:flex; justify-content:space-between; align-items:center; margin-top:8px; flex-wrap:wrap; gap:8px;">
+        <div class="countdown" id="cronCountdown">Next scrape in: --</div>
+        <a class="templates-link" href="templates.html">Edit Templates &rarr;</a>
+      </div>
     </div>
     <div class="card"><h2>Leads &amp; Emails (All Time)</h2>
       <div class="big-stat">${totals.totalLeadsFound}</div>
