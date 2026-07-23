@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T15:12:54.785Z",
+  "lastUpdated": "2026-07-23T18:49:04.211349+00:00",
   "current": {
     "category": "nail salon",
     "cityIndex": 5,
@@ -114,7 +114,7 @@
   },
   "totals": {
     "totalLeadsFound": 78,
-    "totalEmailsFound": 2,
+    "totalEmailsFound": 0,
     "categoriesCompleted": 10,
     "categoriesKept": 1,
     "categoriesRejected": 9
@@ -166,7 +166,7 @@
       "emailSource": "https://www.instagram.com/reel/DTqV73pjjTM/",
       "phone": "+1 647-430-1938",
       "foundAt": "2026-07-21T15:06:59.814Z",
-      "sent": false,
+      "sent": true,
       "sendFailed": false
     },
     {
@@ -177,7 +177,7 @@
       "emailSource": "https://bdir.in/p/best/ca/car-repair-shops-in-toronto-on/MzAyOTk=",
       "phone": "+1 416-921-3074",
       "foundAt": "2026-07-20T15:03:20.300Z",
-      "sent": false,
+      "sent": true,
       "sendFailed": false
     }
   ]
