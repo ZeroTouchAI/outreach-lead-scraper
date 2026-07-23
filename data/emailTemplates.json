@@ -1,29 +1,37 @@
 {
   "sharedTemplate": {
-    "subjectTemplate": "Quick note about {{businessName}}",
-    "bodyTemplate": "Hi there,\n\nI came across {{businessName}} and noticed {{hook}}.\n\nWe're Rapid Rank Agency -- we build, host, and maintain websites, handle upgrades, and do a bit of SEO too, basically everything involved in getting a business a proper digital presence. We also work with Zero Touch AI (zerotouchai.com) on the automation side -- they specialize in AI-driven social media and business automation, if that's ever useful down the line.\n\nWant me to put together a free demo of what a site for {{businessName}} could look like? No cost, no obligation either way -- just reply and let me know.\n\nRegards,\nJeremy Reid\nWeb Management Specialist\nRapid Rank Agency  |  1-888-778-9724\nrapidrankagency.com  |  rapidrankagency@gmail.com"
+    "subjectTemplate": "A quick idea for {{businessName}}",
+    "bodyTemplate": "Hi there,\nI recently came across {{businessName}} on Google and wanted to reach out with an idea.\nWhen potential clients find {{businessTypeArticle}} online, they often want to quickly see {{clientNeeds}}. I thought {{businessName}} could benefit from having one central place where potential clients could learn more about your {{businessNoun}} and get a feel for your brand.\nA professional website could give {{businessName}} a place to showcase {{showcaseWhat}}, and make it easier for potential clients to take the next step.\nI'd be happy to create a free custom website demo designed specifically for {{businessName}}. You could take a look at it and see whether it feels like something that could be valuable for your business.\nThere's no cost or obligation. It would simply be a custom concept created specifically for your {{businessNoun}}.\nIf you'd like me to put one together, just reply to this email and let me know.\n\nRegards,\nJeremy Reid\nWeb Management Specialist\nRapid Rank Agency  |  1-888-778-9724\nrapidrankagency.com  |  rapidrankagency@gmail.com"
   },
-  "categoryHooks": {
-    "nail salon": "clients probably book you through Instagram DMs or word of mouth right now, with no easy way to see your services or prices online",
-    "spa": "people nearby are likely finding you through Google Maps or referrals alone, without a real page to show your services",
-    "massage therapist": "clients are probably booking by phone or word of mouth, with no easy way to see your rates or availability",
-    "photographer": "your portfolio's likely scattered across Instagram instead of living in one place people can actually browse",
-    "event planner": "people planning with you probably can't see past work or packages without messaging you directly first",
-    "bakery": "people nearby might not even know you exist unless they've driven by or heard from a friend",
-    "catering company": "clients probably can't see your menu or get a quote without calling first",
-    "bridal shop": "brides-to-be searching online might be missing you entirely in favor of shops that actually show up in search",
-    "tattoo shop": "people scouting artists' portfolios online might not be finding yours at all",
-    "florist": "orders for weddings and events might be going to competitors who show up in a quick search",
-    "yoga studio": "new students trying to check your class schedule probably have no way to do that without calling",
-    "martial arts studio": "parents researching programs for their kids can't easily compare what you offer online",
-    "pet grooming service": "pet owners searching for a groomer nearby might be missing you entirely",
-    "chiropractor": "new patients researching providers can't easily find your credentials or book online",
-    "physiotherapy clinic": "referrals from doctors might dead-end if patients can't find you online to confirm details",
-    "veterinary clinic": "pet owners searching for a vet nearby in an emergency might not find you in time",
-    "dentist": "new patients comparing dentists online are probably choosing whoever actually has a website",
-    "restaurant": "people checking your hours or menu before heading over might be stuck guessing",
-    "insurance broker": "people comparing brokers online are likely not finding you at all",
-    "mortgage broker": "clients researching brokers before reaching out can't easily see your rates or credentials"
+  "categoryDetails": {
+    "nail salon": { "businessTypeArticle": "a nail studio", "businessNoun": "studio", "clientNeeds": "the services offered, pricing, examples of the work, and how to book", "showcaseWhat": "your work, highlight your services" },
+    "spa": { "businessTypeArticle": "a spa", "businessNoun": "spa", "clientNeeds": "the treatments offered, pricing, and how to book an appointment", "showcaseWhat": "your treatments, highlight your ambiance" },
+    "massage therapist": { "businessTypeArticle": "a massage therapist", "businessNoun": "practice", "clientNeeds": "the services offered, pricing, and how to book a session", "showcaseWhat": "your services, highlight your expertise" },
+    "photographer": { "businessTypeArticle": "a photographer", "businessNoun": "portfolio", "clientNeeds": "examples of past work, pricing packages, and how to book a session", "showcaseWhat": "your portfolio, highlight your style" },
+    "event planner": { "businessTypeArticle": "an event planner", "businessNoun": "business", "clientNeeds": "examples of past events, the services offered, and how to get a quote", "showcaseWhat": "your past events, highlight your services" },
+    "bakery": { "businessTypeArticle": "a bakery", "businessNoun": "bakery", "clientNeeds": "the menu, pricing, and how to place an order", "showcaseWhat": "your baked goods, highlight your specialties" },
+    "catering company": { "businessTypeArticle": "a catering company", "businessNoun": "business", "clientNeeds": "the menu options, pricing, and how to get a quote", "showcaseWhat": "your menu, highlight past events" },
+    "bridal shop": { "businessTypeArticle": "a bridal shop", "businessNoun": "shop", "clientNeeds": "the dress selection, pricing, and how to book a fitting", "showcaseWhat": "your collection, highlight your services" },
+    "tattoo shop": { "businessTypeArticle": "a tattoo shop", "businessNoun": "shop", "clientNeeds": "examples of past work, artist portfolios, and how to book a session", "showcaseWhat": "your work, highlight your artists" },
+    "florist": { "businessTypeArticle": "a florist", "businessNoun": "shop", "clientNeeds": "the arrangements offered, pricing, and how to place an order", "showcaseWhat": "your arrangements, highlight your style" },
+    "yoga studio": { "businessTypeArticle": "a yoga studio", "businessNoun": "studio", "clientNeeds": "the class schedule, pricing, and how to sign up", "showcaseWhat": "your classes, highlight your instructors" },
+    "martial arts studio": { "businessTypeArticle": "a martial arts studio", "businessNoun": "studio", "clientNeeds": "the programs offered, pricing, and how to enroll", "showcaseWhat": "your programs, highlight your instructors" },
+    "pet grooming service": { "businessTypeArticle": "a pet groomer", "businessNoun": "business", "clientNeeds": "the services offered, pricing, and how to book an appointment", "showcaseWhat": "your services, highlight your work" },
+    "chiropractor": { "businessTypeArticle": "a chiropractor", "businessNoun": "practice", "clientNeeds": "the services offered, insurance accepted, and how to book an appointment", "showcaseWhat": "your services, highlight your credentials" },
+    "physiotherapy clinic": { "businessTypeArticle": "a physiotherapy clinic", "businessNoun": "clinic", "clientNeeds": "the services offered, insurance accepted, and how to book an appointment", "showcaseWhat": "your services, highlight your credentials" },
+    "veterinary clinic": { "businessTypeArticle": "a veterinary clinic", "businessNoun": "clinic", "clientNeeds": "the services offered, hours, and how to book an appointment", "showcaseWhat": "your services, highlight your team" },
+    "dentist": { "businessTypeArticle": "a dental practice", "businessNoun": "practice", "clientNeeds": "the services offered, insurance accepted, and how to book an appointment", "showcaseWhat": "your services, highlight your credentials" },
+    "restaurant": { "businessTypeArticle": "a restaurant", "businessNoun": "restaurant", "clientNeeds": "the menu, hours, and how to make a reservation", "showcaseWhat": "your menu, highlight your atmosphere" },
+    "insurance broker": { "businessTypeArticle": "an insurance broker", "businessNoun": "brokerage", "clientNeeds": "the coverage options, how to get a quote, and how to get in touch", "showcaseWhat": "your services, highlight your expertise" },
+    "mortgage broker": { "businessTypeArticle": "a mortgage broker", "businessNoun": "brokerage", "clientNeeds": "current rates, the services offered, and how to get in touch", "showcaseWhat": "your services, highlight your expertise" },
+    "plumber": { "businessTypeArticle": "a plumber", "businessNoun": "business", "clientNeeds": "the services offered, pricing, and how to get in touch", "showcaseWhat": "your services, highlight your expertise" },
+    "electrician": { "businessTypeArticle": "an electrician", "businessNoun": "business", "clientNeeds": "the services offered, pricing, and how to get in touch", "showcaseWhat": "your services, highlight your expertise" },
+    "landscaping company": { "businessTypeArticle": "a landscaping company", "businessNoun": "business", "clientNeeds": "the services offered, pricing, and how to get a quote", "showcaseWhat": "your work, highlight your services" },
+    "hair salon": { "businessTypeArticle": "a hair salon", "businessNoun": "salon", "clientNeeds": "the services offered, pricing, examples of the work, and how to book", "showcaseWhat": "your work, highlight your services" },
+    "roofing contractor": { "businessTypeArticle": "a roofing contractor", "businessNoun": "business", "clientNeeds": "the services offered, pricing, and how to get a quote", "showcaseWhat": "your work, highlight your services" },
+    "hvac contractor": { "businessTypeArticle": "an HVAC contractor", "businessNoun": "business", "clientNeeds": "the services offered, pricing, and how to get a quote", "showcaseWhat": "your services, highlight your expertise" },
+    "general contractor": { "businessTypeArticle": "a general contractor", "businessNoun": "business", "clientNeeds": "the services offered, past projects, and how to get a quote", "showcaseWhat": "your work, highlight past projects" },
+    "auto repair shop": { "businessTypeArticle": "an auto repair shop", "businessNoun": "shop", "clientNeeds": "the services offered, pricing, and how to book an appointment", "showcaseWhat": "your services, highlight your expertise" }
   },
-  "defaultHook": "you don't currently have a website, which likely means people searching for a business like yours online aren't finding you"
+  "defaultDetails": { "businessTypeArticle": "a local business", "businessNoun": "business", "clientNeeds": "the services offered and how to get in touch", "showcaseWhat": "your services, highlight what makes you different" }
 }
