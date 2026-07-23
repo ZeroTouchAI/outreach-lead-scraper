@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-22T15:08:32.560Z",
+  "lastUpdated": "2026-07-23T15:12:54.785Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 4,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Etobicoke, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -98,16 +98,16 @@
   },
   "usage": {
     "today": {
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "category": "nail salon",
-      "city": "Scarborough, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 3,
+      "placesApiCalls": 4,
       "serpApiCalls": 10
     },
     "serpApiFreeTierLimit": 250
@@ -145,6 +145,15 @@
       "placesApiCalls": 1,
       "serpApiCalls": 4,
       "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-23",
+      "category": "nail salon",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

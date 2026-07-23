@@ -26,11 +26,20 @@
       "serpApiCalls": 4,
       "leadsFound": 4,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-23",
+      "category": "nail salon",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
     "2026-07": {
-      "placesApiCalls": 3,
+      "placesApiCalls": 4,
       "serpApiCalls": 10
     }
   }
