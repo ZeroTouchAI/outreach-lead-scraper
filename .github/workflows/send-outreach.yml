@@ -41,23 +41,24 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
           OUTREACH_REPLY_TO: "info@rapidrankagency.com"
-          # Scheduled (cron) runs always send live. Manual runs use whatever
-          # you pick in the dropdown, defaulting to test-only for safety.
           TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.test_mode || 'false' }}
         run: node scripts/sendOutreachEmails.js
 
-      - name: Commit updated lead statuses
+      - name: Refresh dashboard snapshot (zero-cost)
+        run: node scripts/rebuildDashboard.js
+
+      - name: Commit updated lead statuses and dashboard
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/leads.json
+          git add data/leads.json data/dashboardData.json
 
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "chore: send outreach emails $(date -u +'%Y-%m-%d')"
+          git commit -m "chore: send outreach emails + refresh dashboard $(date -u +'%Y-%m-%d')"
 
           for i in 1 2 3 4 5; do
             if git push origin HEAD:main; then
