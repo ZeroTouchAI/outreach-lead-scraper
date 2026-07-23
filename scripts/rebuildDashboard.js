@@ -57,7 +57,11 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   const realLeads = leads.filter((l) => !l.isTest);
 
   const totalLeadsFound = realLeads.length;
-  const totalEmailsFound = realLeads.filter((l) => l.status === "enriched").length;
+  // "Found" means we ever discovered a real email for this lead, regardless
+  // of whether it's since been sent -- so this includes enriched, emailed,
+  // AND email_failed (the email was real, the send attempt just errored).
+  const totalEmailsFound = realLeads.filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status)).length;
+  const totalEmailsSent = realLeads.filter((l) => l.status === "emailed").length;
 
   const reachedCompanies = realLeads
     .filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status))
@@ -104,6 +108,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
     totals: {
       totalLeadsFound,
       totalEmailsFound,
+      totalEmailsSent,
       categoriesCompleted: completed.length,
       categoriesKept: completed.filter((c) => c.verdict === "keep").length,
       categoriesRejected: completed.filter((c) => c.verdict === "reject").length,
