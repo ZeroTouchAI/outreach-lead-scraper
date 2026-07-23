@@ -129,7 +129,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   const active = categoryQueue.find((c) => c.status === "active");
   const completed = categoryQueue
     .filter((c) => c.status === "completed")
-    .sort((a, b) => (b.hitRate || 0) - (a.hitRate || 0));
+    .sort((a, b) => (a.order || 0) - (b.order || 0));
   const queued = categoryQueue.filter((c) => c.status === "queued");
 
   const today = todayDateString();
@@ -180,10 +180,18 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
         leadsEnriched: c.leadsEnriched,
         emailsFound: c.emailsFound,
         hitRate: c.hitRate,
-        verdict: c.verdict,
+        verdict: c.verdict || "pending",
         sampleType: c.sampleType || "full_cycle",
       })),
-      active: active ? { category: active.category, leadsEnriched: active.leadsEnriched, emailsFound: active.emailsFound } : null,
+      active: active
+        ? {
+            category: active.category,
+            leadsEnriched: active.leadsEnriched,
+            emailsFound: active.emailsFound,
+            // Live/interim hit rate while still mid-cycle -- not a final verdict.
+            hitRate: active.leadsEnriched > 0 ? active.emailsFound / active.leadsEnriched : null,
+          }
+        : null,
       queuedCount: queued.length,
     },
     usage: {
@@ -195,9 +203,11 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
       totalLeadsFound,
       totalEmailsFound,
       totalEmailsSent,
+      totalCategories: categoryQueue.length,
       categoriesCompleted: completed.length,
-      categoriesKept: completed.filter((c) => c.verdict === "keep").length,
-      categoriesRejected: completed.filter((c) => c.verdict === "reject").length,
+      categoriesKept: categoryQueue.filter((c) => c.verdict === "keep").length,
+      categoriesRejected: categoryQueue.filter((c) => c.verdict === "reject").length,
+      categoriesPending: categoryQueue.length - categoryQueue.filter((c) => c.verdict === "keep").length - categoryQueue.filter((c) => c.verdict === "reject").length,
     },
     dailyHistory: usageLog.daily,
     reachedCompanies,
