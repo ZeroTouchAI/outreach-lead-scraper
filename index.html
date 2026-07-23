@@ -52,8 +52,7 @@
     <div class="brand-sub">No-Website Lead Radar</div>
   </div>
 </div>
-<div class="subtitle" id="lastUpdated">Loading...</div>
-<div style="margin-bottom:20px;"><a href="templates.html" style="font-size:13px; color:#1fb3c4; text-decoration:none; font-weight:600;">View &amp; Edit Email Templates &rarr;</a></div>
+<div class="subtitle" id="lastUpdated">Loading... &nbsp;&middot;&nbsp; <a href="templates.html" style="color:#1fb3c4; text-decoration:none; font-weight:600;">View &amp; Edit Email Templates &rarr;</a></div>
 
 <div class="grid" id="statusCards"></div>
 
@@ -98,9 +97,10 @@ async function loadDashboard() {
     document.getElementById("lastUpdated").textContent = "Failed to load dashboard data: " + err.message;
     return;
   }
-  document.getElementById("lastUpdated").textContent = data.lastUpdated
+  document.getElementById("lastUpdated").innerHTML = (data.lastUpdated
     ? "Last updated: " + new Date(data.lastUpdated).toLocaleString()
-    : "Not yet run -- this is the starting state before day 1.";
+    : "Not yet run -- this is the starting state before day 1.")
+    + ' &nbsp;&middot;&nbsp; <a href="templates.html" style="color:#1fb3c4; text-decoration:none; font-weight:600;">View &amp; Edit Email Templates &rarr;</a>';
   renderStatusCards(data);
   renderLeaderboard(data);
   renderCompanies(data);
