@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T18:49:04.211349+00:00",
+  "lastUpdated": "2026-07-23T19:00:00.879515+00:00",
   "current": {
     "category": "nail salon",
     "cityIndex": 5,
@@ -114,7 +114,8 @@
   },
   "totals": {
     "totalLeadsFound": 78,
-    "totalEmailsFound": 0,
+    "totalEmailsFound": 2,
+    "totalEmailsSent": 2,
     "categoriesCompleted": 10,
     "categoriesKept": 1,
     "categoriesRejected": 9
