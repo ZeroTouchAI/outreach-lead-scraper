@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Email Templates \u2014 Rapid Rank Agency</title>
+<style>
+  :root { --bg:#f4f5f7; --card:#ffffff; --border:#e3e6eb; --text:#1a2233; --muted:#6b7686; --orange:#f2762e; --cyan:#1fb3c4; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; padding:24px; }
+  .brand-header { display:flex; align-items:center; gap:14px; margin-bottom:4px; }
+  .brand-mark { width:40px; height:40px; border-radius:10px; background:linear-gradient(135deg,var(--orange) 0%,#ff8c3d 100%); display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:800; color:#fff; flex-shrink:0; }
+  h1 { font-size:22px; margin:0; }
+  .brand-sub { font-size:12px; color:var(--cyan); text-transform:uppercase; letter-spacing:0.08em; font-weight:700; }
+  .subtitle { color:var(--muted); font-size:13px; margin:10px 0 8px; }
+  .top-actions { display:flex; gap:10px; margin-bottom:24px; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:8px 14px; border-radius:8px; font-size:13px; font-weight:600; text-decoration:none; border:1px solid var(--border); }
+  .btn-primary { background:var(--orange); color:#fff; border-color:var(--orange); }
+  .btn-secondary { background:#fff; color:var(--text); }
+  .search-box { width:100%; max-width:320px; padding:8px 12px; border-radius:8px; border:1px solid var(--border); font-size:13px; margin-bottom:20px; }
+  .category-card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:18px 20px; margin-bottom:14px; box-shadow:0 1px 3px rgba(20,30,50,0.05); }
+  .category-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:8px; }
+  .category-name { font-size:15px; font-weight:700; text-transform:capitalize; }
+  .edit-link { font-size:12px; color:var(--cyan); text-decoration:none; font-weight:600; }
+  .edit-link:hover { text-decoration:underline; }
+  .subject-line { font-size:13px; color:var(--muted); margin-bottom:8px; }
+  .subject-line strong { color:var(--text); }
+  .email-body { font-size:13px; line-height:1.6; white-space:pre-wrap; background:#f9fafb; border-radius:8px; padding:12px 14px; border:1px solid var(--border); }
+  .example-name { color:var(--orange); font-weight:600; }
+</style>
+</head>
+<body>
+
+<div class="brand-header">
+  <div class="brand-mark">R</div>
+  <div>
+    <h1>Rapid Rank Agency</h1>
+    <div class="brand-sub">Email Template Preview</div>
+  </div>
+</div>
+<div class="subtitle">Every category's outreach email, rendered with a sample business name. Edit any of these directly on GitHub -- changes apply to all future sends in that category.</div>
+
+<div class="top-actions">
+  <a class="btn btn-primary" href="https://github.com/ZeroTouchAI/outreach-lead-scraper/edit/main/data/emailTemplates.json" target="_blank" rel="noopener">Edit All Templates on GitHub</a>
+  <a class="btn btn-secondary" href="index.html">Back to Dashboard</a>
+</div>
+
+<input class="search-box" id="searchBox" type="text" placeholder="Filter by category..." />
+
+<div id="categoryList"></div>
+
+<script>
+const SAMPLE_NAME = "Example Business Co.";
+
+function fillTemplate(template, values) {
+  let result = template;
+  for (const [key, value] of Object.entries(values)) {
+    result = result.split(`{{${key}}}`).join(value);
+  }
+  return result;
+}
+
+async function loadTemplates() {
+  const res = await fetch("data/emailTemplates.json?t=" + Date.now());
+  const templates = await res.json();
+  renderCategories(templates);
+
+  document.getElementById("searchBox").addEventListener("input", (e) => {
+    const q = e.target.value.toLowerCase();
+    document.querySelectorAll(".category-card").forEach((card) => {
+      const name = card.dataset.category;
+      card.style.display = name.includes(q) ? "" : "none";
+    });
+  });
+}
+
+function renderCategories(templates) {
+  const container = document.getElementById("categoryList");
+  const categories = Object.keys(templates.categoryDetails).sort();
+
+  container.innerHTML = categories.map((category) => {
+    const details = templates.categoryDetails[category];
+    const values = { businessName: SAMPLE_NAME, ...details };
+    const subject = fillTemplate(templates.sharedTemplate.subjectTemplate, values);
+    const body = fillTemplate(templates.sharedTemplate.bodyTemplate, values);
+    const highlightedBody = body.split(SAMPLE_NAME).join(`<span class="example-name">${SAMPLE_NAME}</span>`);
+
+    return `
+      <div class="category-card" data-category="${category.toLowerCase()}">
+        <div class="category-header">
+          <div class="category-name">${category}</div>
+          <a class="edit-link" href="https://github.com/ZeroTouchAI/outreach-lead-scraper/edit/main/data/emailTemplates.json" target="_blank" rel="noopener">Edit on GitHub &rarr;</a>
+        </div>
+        <div class="subject-line">Subject: <strong>${subject}</strong></div>
+        <div class="email-body">${highlightedBody}</div>
+      </div>
+    `;
+  }).join("");
+}
+
+loadTemplates();
+</script>
+</body>
+</html>
