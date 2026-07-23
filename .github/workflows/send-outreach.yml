@@ -1,6 +1,12 @@
 name: Send Outreach Emails
 
 on:
+  schedule:
+    # 15:00 UTC = 11am ET -- 2 hours after the 13:00 UTC scrape/enrich
+    # pipeline, timed for better open rates than sending first thing.
+    # Scheduled runs always send LIVE (test_mode has no effect here --
+    # GitHub doesn't pass workflow_dispatch inputs to schedule triggers).
+    - cron: "0 15 * * *"
   workflow_dispatch:
     inputs:
       test_mode:
@@ -35,7 +41,9 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
           OUTREACH_REPLY_TO: "info@rapidrankagency.com"
-          TEST_MODE: ${{ github.event.inputs.test_mode }}
+          # Scheduled (cron) runs always send live. Manual runs use whatever
+          # you pick in the dropdown, defaulting to test-only for safety.
+          TEST_MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.test_mode || 'false' }}
         run: node scripts/sendOutreachEmails.js
 
       - name: Commit updated lead statuses
