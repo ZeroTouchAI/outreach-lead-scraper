@@ -58,12 +58,19 @@ function fillTemplate(template, values) {
 
 /**
  * Builds subject/text/html from the static per-category template. Falls
- * back to templates.defaultHook if a lead's category doesn't have a
- * specific hook written yet (e.g. a reserve-pool category not templated).
+ * back to templates.defaultDetails if a lead's category doesn't have
+ * specific details written yet (e.g. a reserve-pool category not
+ * templated).
  */
 function buildEmailContent(lead, templates) {
-  const hook = templates.categoryHooks[lead.category] || templates.defaultHook;
-  const values = { businessName: lead.name, hook };
+  const details = templates.categoryDetails[lead.category] || templates.defaultDetails;
+  const values = {
+    businessName: lead.name,
+    businessTypeArticle: details.businessTypeArticle,
+    businessNoun: details.businessNoun,
+    clientNeeds: details.clientNeeds,
+    showcaseWhat: details.showcaseWhat,
+  };
 
   const subject = fillTemplate(templates.sharedTemplate.subjectTemplate, values);
   const text = fillTemplate(templates.sharedTemplate.bodyTemplate, values);
