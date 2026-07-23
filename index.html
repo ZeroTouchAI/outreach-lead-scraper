@@ -194,6 +194,36 @@ function renderLeaderboard(data) {
   }
 }
 
+const KNOWN_SOURCE_DOMAINS = {
+  "instagram.com": "Instagram",
+  "facebook.com": "Facebook",
+  "youtube.com": "YouTube",
+  "linkedin.com": "LinkedIn",
+  "yelp.com": "Yelp",
+  "yelp.ca": "Yelp",
+  "tiktok.com": "TikTok",
+  "twitter.com": "Twitter/X",
+  "x.com": "Twitter/X",
+  "google.com": "Google",
+  "maps.google.com": "Google Maps",
+  "yellowpages.ca": "Yellow Pages",
+  "canada411.ca": "Canada411",
+  "bbb.org": "BBB",
+  "foursquare.com": "Foursquare"
+};
+
+function getSourceLabel(url) {
+  try {
+    const hostname = new URL(url).hostname.replace(/^www\./, "");
+    for (const [domain, label] of Object.entries(KNOWN_SOURCE_DOMAINS)) {
+      if (hostname === domain || hostname.endsWith("." + domain)) return label;
+    }
+    return hostname;
+  } catch {
+    return "source";
+  }
+}
+
 function renderCompanies(data) {
   const body = document.getElementById("companiesBody");
   const companies = data.reachedCompanies || [];
@@ -208,7 +238,7 @@ function renderCompanies(data) {
       <td>${c.location}</td>
       <td><a class="email-link" href="mailto:${c.email}">${c.email}</a></td>
       <td>${c.phone || "\u2014"}</td>
-      <td>${c.emailSource ? `<a class="email-link" href="${c.emailSource}" target="_blank" rel="noopener">source</a>` : "\u2014"}</td>
+      <td>${c.emailSource ? `<a class="email-link" href="${c.emailSource}" target="_blank" rel="noopener">${getSourceLabel(c.emailSource)}</a>` : "\u2014"}</td>
       <td>${c.sent ? `<span class="badge badge-sent">sent</span>` : `<span class="badge badge-pending">not yet</span>`}</td>
     </tr>
   `).join("");
