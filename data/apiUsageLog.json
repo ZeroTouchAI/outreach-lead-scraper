@@ -35,11 +35,20 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-24",
+      "category": "nail salon",
+      "city": "York, Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
     "2026-07": {
-      "placesApiCalls": 4,
+      "placesApiCalls": 5,
       "serpApiCalls": 10
     }
   }

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-24T00:58:57.867103+00:00",
+  "lastUpdated": "2026-07-24T14:59:47.989Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 5,
+    "cityIndex": 6,
     "totalCities": 22,
-    "nextCity": "York, Toronto, ON"
+    "nextCity": "East York, ON"
   },
   "leaderboard": {
     "completed": [
@@ -83,16 +83,16 @@
   },
   "usage": {
     "today": {
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "category": "nail salon",
-      "city": "Etobicoke, ON",
+      "city": "York, Toronto, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 4,
+      "placesApiCalls": 5,
       "serpApiCalls": 10
     },
     "serpApiFreeTierLimit": 250
@@ -139,6 +139,15 @@
       "date": "2026-07-23",
       "category": "nail salon",
       "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-24",
+      "category": "nail salon",
+      "city": "York, Toronto, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
