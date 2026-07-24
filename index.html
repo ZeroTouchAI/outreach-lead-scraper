@@ -71,6 +71,14 @@
   </div>
 </div>
 
+<div class="grid">
+  <div class="card chart-card" style="grid-column: span 2;">
+    <h2>Daily SerpApi Usage (This Month)</h2>
+    <canvas id="dailyUsageChart"></canvas>
+    <div class="info-note">Bar per calendar day, resets on the 1st of each month. Use this to judge your actual daily send/search flow before deciding whether to increase volume -- the monthly total alone hides whether you're using it steadily or in bursts.</div>
+  </div>
+</div>
+
 <div class="card">
   <h2>Category Leaderboard</h2>
   <table id="leaderboardTable">
@@ -108,6 +116,7 @@ async function loadDashboard() {
   renderCompanies(data);
   renderHitRateChart(data);
   renderHistoryChart(data);
+  renderDailyUsageChart(data);
 }
 
 function getNextCronRunUTC() {
@@ -154,13 +163,10 @@ function renderStatusCards(data) {
         <a class="templates-link" href="templates.html">Edit Templates &rarr;</a>
       </div>
     </div>
-    <div class="card"><h2>Leads &amp; Emails (All Time)</h2>
-      <div class="big-stat">${totals.totalLeadsFound}</div>
+    <div class="card"><h2>Leads, Emails &amp; Categories</h2>
+      <div class="big-stat">${totals.totalLeadsFound} <span style="font-size:14px; font-weight:600; color:var(--muted);">leads scraped</span></div>
       <div class="stat-sub">${totals.totalEmailsFound} emails found &middot; ${totals.totalEmailsSent || 0} sent</div>
-    </div>
-    <div class="card"><h2>Categories Scored</h2>
-      <div class="big-stat">${totals.categoriesCompleted}</div>
-      <div class="stat-sub"><span style="color:var(--good)">${totals.categoriesKept} kept</span> &middot; <span style="color:var(--bad)">${totals.categoriesRejected} rejected</span></div>
+      <div class="stat-sub">${totals.totalCategories} categories &middot; <span style="color:var(--good)">${totals.categoriesKept} kept</span> &middot; <span style="color:var(--bad)">${totals.categoriesRejected} rejected</span> &middot; <span style="color:var(--muted)">${totals.categoriesPending} pending</span></div>
     </div>
     <div class="card"><h2>SerpApi Usage (This Month)</h2>
       <div class="big-stat">${usage.thisMonth.serpApiCalls} / ${usage.serpApiFreeTierLimit}</div>
@@ -179,14 +185,17 @@ function renderLeaderboard(data) {
   const body = document.getElementById("leaderboardBody");
   const rows = [];
   if (data.leaderboard.active) {
-    rows.push(`<tr><td>${data.leaderboard.active.category}</td><td><span class="badge badge-active">active</span></td><td>${data.leaderboard.active.leadsEnriched}</td><td>${data.leaderboard.active.emailsFound}</td><td>\u2014</td><td>\u2014</td></tr>`);
+    const a = data.leaderboard.active;
+    const activePct = a.hitRate !== null && a.hitRate !== undefined ? (a.hitRate * 100).toFixed(1) + "% (" + a.emailsFound + "/" + a.leadsEnriched + ")" : "\u2014";
+    rows.push(`<tr><td>${a.category}</td><td><span class="badge badge-active">active</span></td><td>${a.leadsEnriched}</td><td>${a.emailsFound}</td><td>${activePct}</td><td><span class="badge badge-pending">pending</span></td></tr>`);
   }
   for (const c of data.leaderboard.completed) {
     const pct = c.hitRate !== null ? (c.hitRate * 100).toFixed(1) + "%" : "\u2014";
     const fraction = ` (${c.emailsFound}/${c.leadsEnriched})`;
-    const badgeClass = c.verdict === "keep" ? "badge-keep" : "badge-reject";
-    const legacyNote = c.sampleType === "legacy_partial" ? ' <span style="color:var(--muted);font-size:11px;">(partial sample)</span>' : "";
-    rows.push(`<tr><td>${c.category}${legacyNote}</td><td>completed</td><td>${c.leadsEnriched}</td><td>${c.emailsFound}</td><td>${pct}${fraction}</td><td><span class="badge ${badgeClass}">${c.verdict}</span></td></tr>`);
+    const badgeClass = c.verdict === "keep" ? "badge-keep" : c.verdict === "reject" ? "badge-reject" : "badge-pending";
+    const statusLabel = c.verdict === "pending" ? "partial data" : "completed";
+    const legacyNote = c.sampleType === "legacy_partial" ? ' <span style="color:var(--muted);font-size:11px;">(old partial sample)</span>' : "";
+    rows.push(`<tr><td>${c.category}${legacyNote}</td><td>${statusLabel}</td><td>${c.leadsEnriched}</td><td>${c.emailsFound}</td><td>${pct}${fraction}</td><td><span class="badge ${badgeClass}">${c.verdict}</span></td></tr>`);
   }
   body.innerHTML = rows.length ? rows.join("") : `<tr><td colspan="6" class="empty">No data yet.</td></tr>`;
   if (data.leaderboard.queuedCount > 0) {
@@ -260,6 +269,45 @@ function renderHitRateChart(data) {
       scales: {
         y: { beginAtZero: true, ticks: { color: "#475569" }, grid: { color: "#eef0f3" }, title: { display: true, text: "Hit Rate %", color: "#6b7686" } },
         x: { ticks: { color: "#475569" }, grid: { display: false } }
+      }
+    }
+  });
+}
+
+function renderDailyUsageChart(data) {
+  const ctx = document.getElementById("dailyUsageChart");
+  const history = data.dailyHistory || [];
+
+  const now = new Date();
+  const year = now.getUTCFullYear();
+  const month = now.getUTCMonth(); // 0-indexed
+  const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
+  const monthPrefix = `${year}-${String(month + 1).padStart(2, "0")}`;
+
+  const byDate = {};
+  for (const h of history) {
+    if (h.date && h.date.startsWith(monthPrefix)) {
+      byDate[h.date] = (byDate[h.date] || 0) + (h.serpApiCalls || 0);
+    }
+  }
+
+  const labels = [];
+  const values = [];
+  for (let d = 1; d <= daysInMonth; d++) {
+    const dateStr = `${monthPrefix}-${String(d).padStart(2, "0")}`;
+    labels.push(String(d));
+    values.push(byDate[dateStr] || 0);
+  }
+
+  new Chart(ctx, {
+    type: "bar",
+    data: { labels, datasets: [{ label: "SerpApi calls", data: values, backgroundColor: "#f2762e" }] },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: "#475569", precision: 0 }, grid: { color: "#eef0f3" }, title: { display: true, text: "Calls", color: "#6b7686" } },
+        x: { ticks: { color: "#475569" }, grid: { display: false }, title: { display: true, text: "Day of month", color: "#6b7686" } }
       }
     }
   });
