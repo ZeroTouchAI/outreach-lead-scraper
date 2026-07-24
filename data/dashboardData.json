@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T19:00:00.879515+00:00",
+  "lastUpdated": "2026-07-24T00:58:57.867103+00:00",
   "current": {
     "category": "nail salon",
     "cityIndex": 5,
@@ -9,19 +9,11 @@
   "leaderboard": {
     "completed": [
       {
-        "category": "auto repair shop",
-        "leadsEnriched": 31,
-        "emailsFound": 1,
-        "hitRate": 0.03225806451612903,
-        "verdict": "keep",
-        "sampleType": "legacy_partial"
-      },
-      {
         "category": "plumber",
         "leadsEnriched": 7,
         "emailsFound": 0,
         "hitRate": 0,
-        "verdict": "reject",
+        "verdict": "pending",
         "sampleType": "legacy_partial"
       },
       {
@@ -29,7 +21,7 @@
         "leadsEnriched": 3,
         "emailsFound": 0,
         "hitRate": 0,
-        "verdict": "reject",
+        "verdict": "pending",
         "sampleType": "legacy_partial"
       },
       {
@@ -37,7 +29,7 @@
         "leadsEnriched": 1,
         "emailsFound": 0,
         "hitRate": 0,
-        "verdict": "reject",
+        "verdict": "pending",
         "sampleType": "legacy_partial"
       },
       {
@@ -45,7 +37,15 @@
         "leadsEnriched": 11,
         "emailsFound": 0,
         "hitRate": 0,
-        "verdict": "reject",
+        "verdict": "pending",
+        "sampleType": "legacy_partial"
+      },
+      {
+        "category": "auto repair shop",
+        "leadsEnriched": 31,
+        "emailsFound": 1,
+        "hitRate": 0.03225806451612903,
+        "verdict": "pending",
         "sampleType": "legacy_partial"
       },
       {
@@ -53,7 +53,7 @@
         "leadsEnriched": 3,
         "emailsFound": 0,
         "hitRate": 0,
-        "verdict": "reject",
+        "verdict": "pending",
         "sampleType": "legacy_partial"
       },
       {
@@ -61,7 +61,7 @@
         "leadsEnriched": 4,
         "emailsFound": 0,
         "hitRate": 0,
-        "verdict": "reject",
+        "verdict": "pending",
         "sampleType": "legacy_partial"
       },
       {
@@ -69,30 +69,15 @@
         "leadsEnriched": 5,
         "emailsFound": 0,
         "hitRate": 0,
-        "verdict": "reject",
-        "sampleType": "legacy_partial"
-      },
-      {
-        "category": "dentist",
-        "leadsEnriched": 1,
-        "emailsFound": 0,
-        "hitRate": 0,
-        "verdict": "reject",
-        "sampleType": "legacy_partial"
-      },
-      {
-        "category": "restaurant",
-        "leadsEnriched": 2,
-        "emailsFound": 0,
-        "hitRate": 0,
-        "verdict": "reject",
+        "verdict": "pending",
         "sampleType": "legacy_partial"
       }
     ],
     "active": {
       "category": "nail salon",
       "leadsEnriched": 10,
-      "emailsFound": 1
+      "emailsFound": 1,
+      "hitRate": 0.1
     },
     "queuedCount": 19
   },
@@ -116,9 +101,11 @@
     "totalLeadsFound": 78,
     "totalEmailsFound": 2,
     "totalEmailsSent": 2,
-    "categoriesCompleted": 10,
-    "categoriesKept": 1,
-    "categoriesRejected": 9
+    "totalCategories": 28,
+    "categoriesCompleted": 8,
+    "categoriesKept": 0,
+    "categoriesRejected": 0,
+    "categoriesPending": 28
   },
   "dailyHistory": [
     {
