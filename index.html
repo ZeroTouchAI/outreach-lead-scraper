@@ -172,10 +172,12 @@ function renderStatusCards(data) {
       <div class="big-stat">${usage.thisMonth.serpApiCalls} / ${usage.serpApiFreeTierLimit}</div>
       <div class="stat-sub">Free tier searches used \u2014 shared with the flight-watcher project</div>
       <div class="progress-bar"><div class="progress-fill" style="width:${serpPct}%; background:${serpPct > 80 ? "var(--bad)" : "linear-gradient(90deg, var(--orange), var(--cyan))"}"></div></div>
+      <a class="templates-link" href="https://serpapi.com/dashboard" target="_blank" rel="noopener" style="display:inline-block; margin-top:10px;">View SerpApi Usage &amp; Billing &rarr;</a>
     </div>
     <div class="card"><h2>Places API Calls (This Month)</h2>
       <div class="big-stat">${usage.thisMonth.placesApiCalls}</div>
-      <div class="stat-sub">Paid per call \u2014 check Google Cloud billing for actual cost</div>
+      <div class="stat-sub">Paid per call \u2014 this is our own count, not Google's billed total</div>
+      <a class="templates-link" href="https://console.cloud.google.com/billing/reports?project=362575264768" target="_blank" rel="noopener" style="display:inline-block; margin-top:10px;">View Google Cloud Billing &rarr;</a>
     </div>
   `;
   startCountdown();
