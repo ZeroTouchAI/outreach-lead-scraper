@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-24T16:44:55.182Z",
+  "lastUpdated": "2026-07-25T14:40:14.556Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 6,
+    "cityIndex": 7,
     "totalCities": 22,
-    "nextCity": "East York, ON"
+    "nextCity": "Mississauga, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,30 +75,30 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 10,
+      "leadsEnriched": 16,
       "emailsFound": 1,
-      "hitRate": 0.1
+      "hitRate": 0.0625
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-07-24",
+      "date": "2026-07-25",
       "category": "nail salon",
-      "city": "York, Toronto, ON",
+      "city": "East York, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 7,
+      "leadsFound": 7,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 5,
-      "serpApiCalls": 10
+      "placesApiCalls": 6,
+      "serpApiCalls": 17
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 78,
+    "totalLeadsFound": 85,
     "totalEmailsFound": 2,
     "totalEmailsSent": 2,
     "totalCategories": 28,
@@ -151,6 +151,15 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-25",
+      "category": "nail salon",
+      "city": "East York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 7,
+      "leadsFound": 7,
       "emailsFound": 0
     }
   ],
