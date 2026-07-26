@@ -53,12 +53,21 @@
       "serpApiCalls": 7,
       "leadsFound": 7,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-26",
+      "category": "nail salon",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
     "2026-07": {
-      "placesApiCalls": 6,
-      "serpApiCalls": 17
+      "placesApiCalls": 7,
+      "serpApiCalls": 19
     }
   }
 }

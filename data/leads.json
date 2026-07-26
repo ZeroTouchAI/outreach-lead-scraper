@@ -1328,11 +1328,11 @@
     "primaryType": "nail_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=3052590575813873252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
-    "email": null,
-    "emailSource": null,
+    "status": "enriched",
+    "email": "407@hearinglife.ca",
+    "emailSource": "https://portal.legion.ca/docs/default-source/branch-and-command-resources/poppy-and-remembrance/2024poppycampaign-corporatesupporters.xlsx?sfvrsn=b989d65b_6",
     "foundAt": "2026-07-25T14:39:47.220Z",
-    "lastUpdatedAt": "2026-07-25T14:39:47.220Z"
+    "lastUpdatedAt": "2026-07-26T14:39:38.404Z"
   },
   {
     "placeId": "ChIJhS5B8SOPyIkRHt9UnaMOesI",
@@ -1381,5 +1381,37 @@
     "emailSource": null,
     "foundAt": "2026-07-25T14:39:47.220Z",
     "lastUpdatedAt": "2026-07-25T14:40:14.210Z"
+  },
+  {
+    "placeId": "ChIJ14RXcDBBK4gRsct4Qrg2f5c",
+    "name": "9 Natural Nails & Spa",
+    "address": "900 Rathburn Rd W Unit B1, Mississauga, ON L5C 4L4, Canada",
+    "phone": "+1 905-290-2335",
+    "category": "nail salon",
+    "searchLocation": "Mississauga, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=10916504186786466737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-26T14:39:28.815Z",
+    "lastUpdatedAt": "2026-07-26T14:39:28.815Z"
+  },
+  {
+    "placeId": "ChIJRfAzE-NGK4gRNK_H0Xw24jQ",
+    "name": "LC Nails & Spa",
+    "address": "801 Dundas St E Unit D-5, Mississauga, ON L4Y 4G9, Canada",
+    "phone": "+1 905-276-6245",
+    "category": "nail salon",
+    "searchLocation": "Mississauga, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=3810668144432230196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-26T14:39:28.815Z",
+    "lastUpdatedAt": "2026-07-26T14:39:48.280Z"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-25T16:05:53.573Z",
+  "lastUpdated": "2026-07-26T14:39:48.626Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 7,
+    "cityIndex": 8,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Brampton, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,31 +75,31 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 16,
+      "leadsEnriched": 17,
       "emailsFound": 1,
-      "hitRate": 0.0625
+      "hitRate": 0.058823529411764705
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-07-25",
+      "date": "2026-07-26",
       "category": "nail salon",
-      "city": "East York, ON",
+      "city": "Mississauga, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 7,
-      "leadsFound": 7,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 6,
-      "serpApiCalls": 17
+      "placesApiCalls": 7,
+      "serpApiCalls": 19
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 85,
-    "totalEmailsFound": 2,
+    "totalLeadsFound": 87,
+    "totalEmailsFound": 3,
     "totalEmailsSent": 2,
     "totalCategories": 28,
     "categoriesCompleted": 8,
@@ -161,9 +161,29 @@
       "serpApiCalls": 7,
       "leadsFound": 7,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-26",
+      "category": "nail salon",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "San nails",
+      "category": "nail salon",
+      "location": "East York, ON",
+      "email": "407@hearinglife.ca",
+      "emailSource": "https://portal.legion.ca/docs/default-source/branch-and-command-resources/poppy-and-remembrance/2024poppycampaign-corporatesupporters.xlsx?sfvrsn=b989d65b_6",
+      "phone": "+1 204-891-5481",
+      "foundAt": "2026-07-25T14:39:47.220Z",
+      "sent": false,
+      "sendFailed": false
+    },
     {
       "name": "Cuties Nails Spa",
       "category": "nail salon",

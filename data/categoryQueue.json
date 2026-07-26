@@ -11,10 +11,11 @@
       "Scarborough, ON",
       "Etobicoke, ON",
       "York, Toronto, ON",
-      "East York, ON"
+      "East York, ON",
+      "Mississauga, ON"
     ],
-    "leadsFound": 17,
-    "leadsEnriched": 16,
+    "leadsFound": 19,
+    "leadsEnriched": 17,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null
