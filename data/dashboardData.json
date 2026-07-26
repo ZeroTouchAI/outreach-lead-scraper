@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T14:39:48.626Z",
+  "lastUpdated": "2026-07-26T16:03:11.946Z",
   "current": {
     "category": "nail salon",
     "cityIndex": 8,
@@ -100,7 +100,7 @@
   "totals": {
     "totalLeadsFound": 87,
     "totalEmailsFound": 3,
-    "totalEmailsSent": 2,
+    "totalEmailsSent": 3,
     "totalCategories": 28,
     "categoriesCompleted": 8,
     "categoriesKept": 0,
@@ -181,7 +181,7 @@
       "emailSource": "https://portal.legion.ca/docs/default-source/branch-and-command-resources/poppy-and-remembrance/2024poppycampaign-corporatesupporters.xlsx?sfvrsn=b989d65b_6",
       "phone": "+1 204-891-5481",
       "foundAt": "2026-07-25T14:39:47.220Z",
-      "sent": false,
+      "sent": true,
       "sendFailed": false
     },
     {

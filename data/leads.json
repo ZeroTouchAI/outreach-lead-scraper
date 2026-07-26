@@ -1328,11 +1328,13 @@
     "primaryType": "nail_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=3052590575813873252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "407@hearinglife.ca",
     "emailSource": "https://portal.legion.ca/docs/default-source/branch-and-command-resources/poppy-and-remembrance/2024poppycampaign-corporatesupporters.xlsx?sfvrsn=b989d65b_6",
     "foundAt": "2026-07-25T14:39:47.220Z",
-    "lastUpdatedAt": "2026-07-26T14:39:38.404Z"
+    "lastUpdatedAt": "2026-07-26T14:39:38.404Z",
+    "emailedAt": "2026-07-26T16:03:11.398Z",
+    "resendId": "7fea16ff-1fcf-415f-855d-4d6156628e2d"
   },
   {
     "placeId": "ChIJhS5B8SOPyIkRHt9UnaMOesI",
