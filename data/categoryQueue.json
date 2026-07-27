@@ -12,10 +12,11 @@
       "Etobicoke, ON",
       "York, Toronto, ON",
       "East York, ON",
-      "Mississauga, ON"
+      "Mississauga, ON",
+      "Brampton, ON"
     ],
-    "leadsFound": 19,
-    "leadsEnriched": 17,
+    "leadsFound": 22,
+    "leadsEnriched": 20,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null

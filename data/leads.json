@@ -1394,11 +1394,11 @@
     "primaryType": "nail_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=10916504186786466737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-07-26T14:39:28.815Z",
-    "lastUpdatedAt": "2026-07-26T14:39:28.815Z"
+    "lastUpdatedAt": "2026-07-27T15:46:07.188Z"
   },
   {
     "placeId": "ChIJRfAzE-NGK4gRNK_H0Xw24jQ",
@@ -1415,5 +1415,53 @@
     "emailSource": null,
     "foundAt": "2026-07-26T14:39:28.815Z",
     "lastUpdatedAt": "2026-07-26T14:39:48.280Z"
+  },
+  {
+    "placeId": "ChIJA_gSSccVK4gRjoHRkF3XI9E",
+    "name": "P&S Nails & Spa",
+    "address": "284 Queen St E, Brampton, ON L6V 1C2, Canada",
+    "phone": "+1 905-487-0120",
+    "category": "nail salon",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=15070125574973391246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-27T15:45:56.329Z",
+    "lastUpdatedAt": "2026-07-27T15:46:14.425Z"
+  },
+  {
+    "placeId": "ChIJna0fV-MXK4gRvocDnnYCLzk",
+    "name": "Nail’d By Noor- Nail Salon in Brampton",
+    "address": "71 Newbury Crescent, Brampton, ON L6S 5M1, Canada",
+    "phone": "+1 416-540-5979",
+    "category": "nail salon",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=4120514892547721150&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-27T15:45:56.331Z",
+    "lastUpdatedAt": "2026-07-27T15:46:17.025Z"
+  },
+  {
+    "placeId": "ChIJcZYbrhgVK4gR7YLn68fsKbY",
+    "name": "Nails by palak",
+    "address": "11 Mistybrook Crescent, Brampton, ON L6A 2S8, Canada",
+    "phone": "+1 416-315-5355",
+    "category": "nail salon",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=13126282932348486381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-27T15:45:56.331Z",
+    "lastUpdatedAt": "2026-07-27T15:46:19.986Z"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-26T16:03:11.946Z",
+  "lastUpdated": "2026-07-27T15:46:20.328Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 8,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Brampton, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,30 +75,30 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 17,
+      "leadsEnriched": 20,
       "emailsFound": 1,
-      "hitRate": 0.058823529411764705
+      "hitRate": 0.05
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-07-26",
+      "date": "2026-07-27",
       "category": "nail salon",
-      "city": "Mississauga, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 7,
-      "serpApiCalls": 19
+      "placesApiCalls": 8,
+      "serpApiCalls": 22
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 87,
+    "totalLeadsFound": 90,
     "totalEmailsFound": 3,
     "totalEmailsSent": 3,
     "totalCategories": 28,
@@ -169,6 +169,15 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-27",
+      "category": "nail salon",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     }
   ],
