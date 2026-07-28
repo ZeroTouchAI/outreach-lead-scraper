@@ -13,10 +13,11 @@
       "York, Toronto, ON",
       "East York, ON",
       "Mississauga, ON",
-      "Brampton, ON"
+      "Brampton, ON",
+      "Caledon, ON"
     ],
-    "leadsFound": 22,
-    "leadsEnriched": 20,
+    "leadsFound": 30,
+    "leadsEnriched": 28,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null

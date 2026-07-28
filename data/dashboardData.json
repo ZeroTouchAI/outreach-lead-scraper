@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-27T16:59:52.814Z",
+  "lastUpdated": "2026-07-28T15:25:27.563Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 9,
+    "cityIndex": 10,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Vaughan, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,30 +75,30 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 20,
+      "leadsEnriched": 28,
       "emailsFound": 1,
-      "hitRate": 0.05
+      "hitRate": 0.03571428571428571
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-07-27",
+      "date": "2026-07-28",
       "category": "nail salon",
-      "city": "Brampton, ON",
+      "city": "Caledon, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
+      "serpApiCalls": 8,
+      "leadsFound": 8,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 8,
-      "serpApiCalls": 22
+      "placesApiCalls": 9,
+      "serpApiCalls": 30
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 90,
+    "totalLeadsFound": 98,
     "totalEmailsFound": 3,
     "totalEmailsSent": 3,
     "totalCategories": 28,
@@ -178,6 +178,15 @@
       "placesApiCalls": 1,
       "serpApiCalls": 3,
       "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-28",
+      "category": "nail salon",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 8,
+      "leadsFound": 8,
       "emailsFound": 0
     }
   ],
