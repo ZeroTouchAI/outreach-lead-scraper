@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-28T16:42:11.251Z",
+  "lastUpdated": "2026-07-29T15:13:53.450Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 10,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Vaughan, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,30 +75,30 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 28,
+      "leadsEnriched": 31,
       "emailsFound": 1,
-      "hitRate": 0.03571428571428571
+      "hitRate": 0.03225806451612903
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "category": "nail salon",
-      "city": "Caledon, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 8,
-      "leadsFound": 8,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 9,
-      "serpApiCalls": 30
+      "placesApiCalls": 10,
+      "serpApiCalls": 33
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 98,
+    "totalLeadsFound": 101,
     "totalEmailsFound": 3,
     "totalEmailsSent": 3,
     "totalCategories": 28,
@@ -187,6 +187,15 @@
       "placesApiCalls": 1,
       "serpApiCalls": 8,
       "leadsFound": 8,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-29",
+      "category": "nail salon",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     }
   ],

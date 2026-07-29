@@ -1591,5 +1591,53 @@
     "emailSource": null,
     "foundAt": "2026-07-28T15:24:41.383Z",
     "lastUpdatedAt": "2026-07-28T15:25:27.218Z"
+  },
+  {
+    "placeId": "ChIJswOGBJopK4gRj5n3tEEfB7w",
+    "name": "Glossy Nails And Spa - Vaughn Area",
+    "address": "3560 Major Mackenzie Dr W Unit 5, Woodbridge, ON L4L 1A6, Canada",
+    "phone": "+1 905-303-6869",
+    "category": "nail salon",
+    "searchLocation": "Vaughan, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=13548832371036887439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-29T15:13:32.294Z",
+    "lastUpdatedAt": "2026-07-29T15:13:49.112Z"
+  },
+  {
+    "placeId": "ChIJ1_CVy2svK4gRb2vzfXGTld8",
+    "name": "Euphoria Nails",
+    "address": "9421 Jane St Unit 125, Maple, ON L6A 4J3, Canada",
+    "phone": "+1 647-368-7488",
+    "category": "nail salon",
+    "searchLocation": "Vaughan, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=16110945357641509743&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-29T15:13:32.295Z",
+    "lastUpdatedAt": "2026-07-29T15:13:51.279Z"
+  },
+  {
+    "placeId": "ChIJk2Ra-wovK4gRCn3E7DjSBAw",
+    "name": "Palazzo Nails Spa",
+    "address": "9200 Weston Rd #11, Vaughan, ON L4H 2P8, Canada",
+    "phone": "+1 905-832-1212",
+    "category": "nail salon",
+    "searchLocation": "Vaughan, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=866048170294279434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-07-29T15:13:32.295Z",
+    "lastUpdatedAt": "2026-07-29T15:13:53.107Z"
   }
 ]

@@ -14,10 +14,11 @@
       "East York, ON",
       "Mississauga, ON",
       "Brampton, ON",
-      "Caledon, ON"
+      "Caledon, ON",
+      "Vaughan, ON"
     ],
-    "leadsFound": 30,
-    "leadsEnriched": 28,
+    "leadsFound": 33,
+    "leadsEnriched": 31,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null
