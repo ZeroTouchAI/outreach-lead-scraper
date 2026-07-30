@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-29T16:23:32.349Z",
+  "lastUpdated": "2026-07-30T15:14:54.020Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 11,
+    "cityIndex": 12,
     "totalCities": 22,
-    "nextCity": "Markham, ON"
+    "nextCity": "Richmond Hill, ON"
   },
   "leaderboard": {
     "completed": [
@@ -83,16 +83,16 @@
   },
   "usage": {
     "today": {
-      "date": "2026-07-29",
+      "date": "2026-07-30",
       "category": "nail salon",
-      "city": "Vaughan, ON",
+      "city": "Markham, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 10,
+      "placesApiCalls": 11,
       "serpApiCalls": 33
     },
     "serpApiFreeTierLimit": 250
@@ -196,6 +196,15 @@
       "placesApiCalls": 1,
       "serpApiCalls": 3,
       "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-30",
+      "category": "nail salon",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

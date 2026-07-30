@@ -89,11 +89,20 @@
       "serpApiCalls": 3,
       "leadsFound": 3,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-30",
+      "category": "nail salon",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
     "2026-07": {
-      "placesApiCalls": 10,
+      "placesApiCalls": 11,
       "serpApiCalls": 33
     }
   }
