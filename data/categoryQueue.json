@@ -16,10 +16,11 @@
       "Brampton, ON",
       "Caledon, ON",
       "Vaughan, ON",
-      "Markham, ON"
+      "Markham, ON",
+      "Richmond Hill, ON"
     ],
-    "leadsFound": 33,
-    "leadsEnriched": 31,
+    "leadsFound": 39,
+    "leadsEnriched": 37,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null

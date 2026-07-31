@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-30T16:37:34.395Z",
+  "lastUpdated": "2026-07-31T15:23:24.753Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 12,
+    "cityIndex": 13,
     "totalCities": 22,
-    "nextCity": "Richmond Hill, ON"
+    "nextCity": "Newmarket, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,30 +75,30 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 31,
+      "leadsEnriched": 37,
       "emailsFound": 1,
-      "hitRate": 0.03225806451612903
+      "hitRate": 0.02702702702702703
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "category": "nail salon",
-      "city": "Markham, ON",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 6,
+      "leadsFound": 6,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 11,
-      "serpApiCalls": 33
+      "placesApiCalls": 12,
+      "serpApiCalls": 39
     },
     "serpApiFreeTierLimit": 250
   },
   "totals": {
-    "totalLeadsFound": 101,
+    "totalLeadsFound": 107,
     "totalEmailsFound": 3,
     "totalEmailsSent": 3,
     "totalCategories": 28,
@@ -205,6 +205,15 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-07-31",
+      "category": "nail salon",
+      "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 6,
+      "leadsFound": 6,
       "emailsFound": 0
     }
   ],

@@ -98,12 +98,21 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-07-31",
+      "category": "nail salon",
+      "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 6,
+      "leadsFound": 6,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
     "2026-07": {
-      "placesApiCalls": 11,
-      "serpApiCalls": 33
+      "placesApiCalls": 12,
+      "serpApiCalls": 39
     }
   }
 }
