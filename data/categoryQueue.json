@@ -17,10 +17,11 @@
       "Caledon, ON",
       "Vaughan, ON",
       "Markham, ON",
-      "Richmond Hill, ON"
+      "Richmond Hill, ON",
+      "Newmarket, ON"
     ],
-    "leadsFound": 39,
-    "leadsEnriched": 37,
+    "leadsFound": 40,
+    "leadsEnriched": 38,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null

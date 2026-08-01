@@ -1735,5 +1735,21 @@
     "emailSource": null,
     "foundAt": "2026-07-31T15:23:03.902Z",
     "lastUpdatedAt": "2026-07-31T15:23:24.410Z"
+  },
+  {
+    "placeId": "ChIJ-XWFHjZD2EcRKIUEjH2rw4Q",
+    "name": "Newmarket Nails & Spa",
+    "address": "1 Old Station Rd, Newmarket CB8 8DT, UK",
+    "phone": "+44 7466 032511",
+    "category": "nail salon",
+    "searchLocation": "Newmarket, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=9566678589173433640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-01T14:36:47.096Z",
+    "lastUpdatedAt": "2026-08-01T14:36:50.239Z"
   }
 ]

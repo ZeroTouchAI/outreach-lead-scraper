@@ -107,12 +107,25 @@
       "serpApiCalls": 6,
       "leadsFound": 6,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-01",
+      "category": "nail salon",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
     "2026-07": {
       "placesApiCalls": 12,
       "serpApiCalls": 39
+    },
+    "2026-08": {
+      "placesApiCalls": 1,
+      "serpApiCalls": 1
     }
   }
 }
