@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Rapid Rank Agency \u2014 No-Website Lead Radar</title>
+<title>Rapid Rank Agency — No-Website Lead Radar</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <style>
   :root { --bg:#f4f5f7; --card:#ffffff; --border:#e3e6eb; --text:#1a2233; --muted:#6b7686; --orange:#f2762e; --orange-bright:#ff8c3d; --cyan:#1fb3c4; --good:#16a34a; --bad:#dc2626; }
@@ -63,7 +63,7 @@
   <div class="card chart-card">
     <h2>Hit Rate by Category</h2>
     <canvas id="hitRateChart"></canvas>
-    <div class="info-note">Hit rate = % of processed leads where a real email was found. Categories are marked "keep" if any email was found, "reject" at 0% across a large enough sample \u2014 but a low rate (under ~5%) is marginal, not a strong performer, even if technically a "keep."</div>
+    <div class="info-note">Hit rate = % of processed leads where a real email was found. Categories are marked "keep" if any email was found, "reject" at 0% across a large enough sample — but a low rate (under ~5%) is marginal, not a strong performer, even if technically a "keep."</div>
   </div>
   <div class="card chart-card">
     <h2>Daily Leads &amp; Emails Found</h2>
@@ -153,10 +153,12 @@ function renderStatusCards(data) {
   const totals = data.totals;
   const cityProgressPct = current ? Math.round((current.cityIndex / current.totalCities) * 100) : 0;
   const serpPct = usage.thisMonth.serpApiCalls ? Math.min(100, Math.round((usage.thisMonth.serpApiCalls / usage.serpApiFreeTierLimit) * 100)) : 0;
+  const projectedCalls = usage.projectedMonthlySerpApiCalls || 0;
+  const projectedOverLimit = projectedCalls > usage.serpApiFreeTierLimit;
   container.innerHTML = `
     <div class="card"><h2>Current Category</h2>
-      <div class="big-stat accent">${current ? current.category : "\u2014"}</div>
-      <div class="stat-sub">${current ? `City ${current.cityIndex} of ${current.totalCities} \u2014 next: ${current.nextCity || "cycle complete"}` : "Queue idle"}</div>
+      <div class="big-stat accent">${current ? current.category : "—"}</div>
+      <div class="stat-sub">${current ? `City ${current.cityIndex} of ${current.totalCities} — next: ${current.nextCity || "cycle complete"}` : "Queue idle"}</div>
       <div class="progress-bar"><div class="progress-fill" style="width:${cityProgressPct}%"></div></div>
       <div class="countdown-row" style="display:flex; justify-content:space-between; align-items:center; margin-top:8px; flex-wrap:wrap; gap:8px;">
         <div class="countdown" id="cronCountdown">Next scrape in: --</div>
@@ -170,13 +172,14 @@ function renderStatusCards(data) {
     </div>
     <div class="card"><h2>SerpApi Usage (This Month)</h2>
       <div class="big-stat">${usage.thisMonth.serpApiCalls} / ${usage.serpApiFreeTierLimit}</div>
-      <div class="stat-sub">Free tier searches used \u2014 shared with the flight-watcher project</div>
+      <div class="stat-sub">Free tier searches used — shared with the flight-watcher project</div>
       <div class="progress-bar"><div class="progress-fill" style="width:${serpPct}%; background:${serpPct > 80 ? "var(--bad)" : "linear-gradient(90deg, var(--orange), var(--cyan))"}"></div></div>
+      <div class="stat-sub" style="color:${projectedOverLimit ? "var(--bad)" : "var(--muted)"}; margin-top:6px;">Projected month-end: <strong>${projectedCalls}</strong> / ${usage.serpApiFreeTierLimit}${projectedOverLimit ? " — on pace to exceed free tier" : ""}</div>
       <a class="templates-link" href="https://serpapi.com/dashboard" target="_blank" rel="noopener" style="display:inline-block; margin-top:10px;">View SerpApi Usage &amp; Billing &rarr;</a>
     </div>
     <div class="card"><h2>Places API Calls (This Month)</h2>
       <div class="big-stat">${usage.thisMonth.placesApiCalls}</div>
-      <div class="stat-sub">Paid per call \u2014 this is our own count, not Google's billed total</div>
+      <div class="stat-sub">Paid per call — this is our own count, not Google's billed total</div>
       <a class="templates-link" href="https://console.cloud.google.com/billing/reports?project=362575264768" target="_blank" rel="noopener" style="display:inline-block; margin-top:10px;">View Google Cloud Billing &rarr;</a>
     </div>
   `;
@@ -188,11 +191,11 @@ function renderLeaderboard(data) {
   const rows = [];
   if (data.leaderboard.active) {
     const a = data.leaderboard.active;
-    const activePct = a.hitRate !== null && a.hitRate !== undefined ? (a.hitRate * 100).toFixed(1) + "% (" + a.emailsFound + "/" + a.leadsEnriched + ")" : "\u2014";
+    const activePct = a.hitRate !== null && a.hitRate !== undefined ? (a.hitRate * 100).toFixed(1) + "% (" + a.emailsFound + "/" + a.leadsEnriched + ")" : "—";
     rows.push(`<tr><td>${a.category}</td><td><span class="badge badge-active">active</span></td><td>${a.leadsEnriched}</td><td>${a.emailsFound}</td><td>${activePct}</td><td><span class="badge badge-pending">pending</span></td></tr>`);
   }
   for (const c of data.leaderboard.completed) {
-    const pct = c.hitRate !== null ? (c.hitRate * 100).toFixed(1) + "%" : "\u2014";
+    const pct = c.hitRate !== null ? (c.hitRate * 100).toFixed(1) + "%" : "—";
     const fraction = ` (${c.emailsFound}/${c.leadsEnriched})`;
     const badgeClass = c.verdict === "keep" ? "badge-keep" : c.verdict === "reject" ? "badge-reject" : "badge-pending";
     const statusLabel = c.verdict === "pending" ? "partial data" : "completed";
@@ -239,7 +242,7 @@ function renderCompanies(data) {
   const body = document.getElementById("companiesBody");
   const companies = data.reachedCompanies || [];
   if (!companies.length) {
-    body.innerHTML = `<tr><td colspan="7" class="empty">No emails found yet \u2014 this fills in as the pipeline runs.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="7" class="empty">No emails found yet — this fills in as the pipeline runs.</td></tr>`;
     return;
   }
   body.innerHTML = companies.map((c) => `
@@ -248,8 +251,8 @@ function renderCompanies(data) {
       <td>${c.category}</td>
       <td>${c.location}</td>
       <td><a class="email-link" href="mailto:${c.email}">${c.email}</a></td>
-      <td>${c.phone || "\u2014"}</td>
-      <td>${c.emailSource ? `<a class="email-link" href="${c.emailSource}" target="_blank" rel="noopener">${getSourceLabel(c.emailSource)}</a>` : "\u2014"}</td>
+      <td>${c.phone || "—"}</td>
+      <td>${c.emailSource ? `<a class="email-link" href="${c.emailSource}" target="_blank" rel="noopener">${getSourceLabel(c.emailSource)}</a>` : "—"}</td>
       <td>${c.sent ? `<span class="badge badge-sent">sent</span>` : `<span class="badge badge-pending">not yet</span>`}</td>
     </tr>
   `).join("");
@@ -324,7 +327,7 @@ function renderHistoryChart(data) {
   }
   new Chart(ctx, {
     type: "line",
-    data: { labels: history.map((h) => h.date + " \u00b7 " + h.city.replace(", ON", "")), datasets: [
+    data: { labels: history.map((h) => h.date + " · " + h.city.replace(", ON", "")), datasets: [
       { label: "Leads Found", data: history.map((h) => h.leadsFound), borderColor: "#1fb3c4", backgroundColor: "#1fb3c4", tension: 0.3 },
       { label: "Emails Found", data: history.map((h) => h.emailsFound), borderColor: "#f2762e", backgroundColor: "#f2762e", tension: 0.3 }
     ] },
@@ -333,7 +336,7 @@ function renderHistoryChart(data) {
       plugins: { legend: { labels: { color: "#1a2233" } } },
       scales: {
         y: { beginAtZero: true, ticks: { color: "#475569", precision: 0 }, grid: { color: "#eef0f3" }, title: { display: true, text: "Count", color: "#6b7686" } },
-        x: { ticks: { color: "#475569", maxRotation: 45, minRotation: 0 }, grid: { display: false }, title: { display: true, text: "Date \u00b7 City", color: "#6b7686" } }
+        x: { ticks: { color: "#475569", maxRotation: 45, minRotation: 0 }, grid: { display: false }, title: { display: true, text: "Date · City", color: "#6b7686" } }
       }
     }
   });
