@@ -116,6 +116,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-02",
+      "category": "nail salon",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-02",
+      "category": "nail salon",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -124,8 +142,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 1,
-      "serpApiCalls": 1
+      "placesApiCalls": 3,
+      "serpApiCalls": 7
     }
   }
 }

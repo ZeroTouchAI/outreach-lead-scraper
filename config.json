@@ -3,7 +3,8 @@
     "nail salon"
   ],
   "searchLocations": [
-    "Newmarket, ON"
+    "Aurora, ON",
+    "Oshawa, ON"
   ],
   "maxResultsPerQuery": 20,
   "requireNoWebsite": true,

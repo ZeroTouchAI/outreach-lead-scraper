@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-01T16:02:30.382Z",
+  "lastUpdated": "2026-08-02T14:39:13.386Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 14,
+    "cityIndex": 16,
     "totalCities": 22,
-    "nextCity": "Aurora, ON"
+    "nextCity": "Whitby, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,30 +75,31 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 38,
+      "leadsEnriched": 44,
       "emailsFound": 1,
-      "hitRate": 0.02631578947368421
+      "hitRate": 0.022727272727272728
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-08-01",
+      "date": "2026-08-02",
       "category": "nail salon",
-      "city": "Newmarket, ON",
+      "city": "Oshawa, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 1,
-      "serpApiCalls": 1
+      "placesApiCalls": 3,
+      "serpApiCalls": 7
     },
-    "serpApiFreeTierLimit": 250
+    "serpApiFreeTierLimit": 250,
+    "projectedMonthlySerpApiCalls": 109
   },
   "totals": {
-    "totalLeadsFound": 108,
+    "totalLeadsFound": 114,
     "totalEmailsFound": 3,
     "totalEmailsSent": 3,
     "totalCategories": 28,
@@ -223,6 +224,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-02",
+      "category": "nail salon",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-02",
+      "category": "nail salon",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
       "emailsFound": 0
     }
   ],

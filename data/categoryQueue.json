@@ -18,10 +18,12 @@
       "Vaughan, ON",
       "Markham, ON",
       "Richmond Hill, ON",
-      "Newmarket, ON"
+      "Newmarket, ON",
+      "Aurora, ON",
+      "Oshawa, ON"
     ],
-    "leadsFound": 40,
-    "leadsEnriched": 38,
+    "leadsFound": 46,
+    "leadsEnriched": 44,
     "emailsFound": 1,
     "hitRate": null,
     "verdict": null
