@@ -5,9 +5,9 @@
  * findLeads.js or enrichLeads.js touch any paid/quota'd API.
  *
  * Reads the category queue and city queue, figures out which single
- * category + single city today's run should target, and writes that into
- * config.json as single-item arrays so findLeads.js only ever processes
- * one combination per day.
+ * category + up to CITIES_PER_DAY cities today's run should target, and
+ * writes that into config.json so findLeads.js processes that many
+ * category+city combinations today.
  *
  * If the category queue is fully exhausted (everything completed, nothing
  * queued left), this writes an EMPTY searchCategories array -- findLeads.js
@@ -21,6 +21,11 @@ const path = require("path");
 const CONFIG_PATH = path.join(__dirname, "..", "config.json");
 const CATEGORY_QUEUE_PATH = path.join(__dirname, "..", "data", "categoryQueue.json");
 const CITY_QUEUE_PATH = path.join(__dirname, "..", "data", "cityQueue.json");
+
+// How many cities to scrape+enrich per day. Raising this speeds up category
+// cycles but also raises daily SerpApi usage roughly proportionally -- check
+// the dashboard's projected month-end SerpApi total before raising further.
+const CITIES_PER_DAY = 2;
 
 function loadJson(filePath, fallback) {
   if (!fs.existsSync(filePath)) return fallback;
@@ -63,24 +68,24 @@ function main() {
     return;
   }
 
-  const todaysCity = cityQueue.cities[cityQueue.currentIndex];
+  const todaysCities = cityQueue.cities.slice(cityQueue.currentIndex, cityQueue.currentIndex + CITIES_PER_DAY);
 
-  if (!todaysCity) {
+  if (!todaysCities.length) {
     console.error("City queue index out of range -- this shouldn't happen. Check data/cityQueue.json.");
     process.exit(1);
   }
 
   const config = loadJson(CONFIG_PATH, {});
   config.searchCategories = [activeEntry.category];
-  config.searchLocations = [todaysCity];
+  config.searchLocations = todaysCities;
   config.maxResultsPerQuery = config.maxResultsPerQuery || 20;
   config.requireNoWebsite = true;
   config.requirePhone = true;
   saveJson(CONFIG_PATH, config);
 
   console.log("--- Today's Run ---");
-  console.log(`Category: ${activeEntry.category} (${cityQueue.currentIndex + 1} of ${cityQueue.cities.length} cities in this cycle)`);
-  console.log(`City: ${todaysCity}`);
+  console.log(`Category: ${activeEntry.category} (cities ${cityQueue.currentIndex + 1}-${cityQueue.currentIndex + todaysCities.length} of ${cityQueue.cities.length} in this cycle)`);
+  console.log(`Cities: ${todaysCities.join(", ")}`);
 }
 
 main();

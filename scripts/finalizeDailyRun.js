@@ -4,7 +4,9 @@
  * Zero-cost step (no external API calls). Runs last each day, after
  * findLeads.js and enrichLeads.js have finished.
  *
- * 1. Logs today's (approximate) API usage to data/apiUsageLog.json.
+ * 1. Logs today's (approximate) API usage to data/apiUsageLog.json, one
+ *    entry per city processed today (prepareDailyRun.js may target more
+ *    than one city per day -- see CITIES_PER_DAY there).
  * 2. Updates that category's running totals in data/categoryQueue.json.
  * 3. Advances the city pointer / scores completed category cycles.
  * 4. Rebuilds data/dashboardData.json, including the full list of every
@@ -14,7 +16,9 @@
 
 const fs = require("fs");
 const path = require("path");
+const { buildDashboard, todayDateString, monthKey } = require("./lib/dashboard");
 
+const CONFIG_PATH = path.join(__dirname, "..", "config.json");
 const LEADS_PATH = path.join(__dirname, "..", "data", "leads.json");
 const CATEGORY_QUEUE_PATH = path.join(__dirname, "..", "data", "categoryQueue.json");
 const CITY_QUEUE_PATH = path.join(__dirname, "..", "data", "cityQueue.json");
@@ -31,18 +35,12 @@ function loadJson(filePath, fallback) {
 }
 
 function saveJson(filePath, data) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 }
 
-function todayDateString() {
-  return new Date().toISOString().slice(0, 10);
-}
-
-function monthKey(dateStr) {
-  return dateStr.slice(0, 7);
-}
-
 function main() {
+  const config = loadJson(CONFIG_PATH, {});
   const categoryQueue = loadJson(CATEGORY_QUEUE_PATH, []);
   const cityQueue = loadJson(CITY_QUEUE_PATH, { cities: [], currentIndex: 0 });
   const leads = loadJson(LEADS_PATH, []);
@@ -56,27 +54,39 @@ function main() {
     return;
   }
 
-  const todaysCity = cityQueue.cities[cityQueue.currentIndex];
-
-  const todaysLeads = leads.filter(
-    (l) => l.category === activeEntry.category && l.searchLocation === todaysCity
-  );
-  const todaysEnriched = todaysLeads.filter((l) => l.status === "enriched" || l.status === "no_email_found");
-  const todaysEmails = todaysLeads.filter((l) => l.status === "enriched");
+  // The cities prepareDailyRun.js targeted today (may be more than one --
+  // see CITIES_PER_DAY in prepareDailyRun.js). Falls back to the single
+  // queue city if config.json wasn't written by that script for some reason.
+  const todaysCities = config.searchLocations && config.searchLocations.length
+    ? config.searchLocations
+    : [cityQueue.cities[cityQueue.currentIndex]].filter(Boolean);
 
   const date = todayDateString();
-  const placesCallsToday = todaysCity ? 1 : 0;
-  const serpApiCallsToday = todaysLeads.length;
+  let leadsToday = 0;
+  let enrichedToday = 0;
+  let emailsToday = 0;
 
-  usageLog.daily.push({
-    date,
-    category: activeEntry.category,
-    city: todaysCity,
-    placesApiCalls: placesCallsToday,
-    serpApiCalls: serpApiCallsToday,
-    leadsFound: todaysLeads.length,
-    emailsFound: todaysEmails.length,
-  });
+  for (const city of todaysCities) {
+    const cityLeads = leads.filter((l) => l.category === activeEntry.category && l.searchLocation === city);
+    const cityEnriched = cityLeads.filter((l) => l.status === "enriched" || l.status === "no_email_found");
+    const cityEmails = cityLeads.filter((l) => l.status === "enriched");
+
+    usageLog.daily.push({
+      date,
+      category: activeEntry.category,
+      city,
+      placesApiCalls: 1,
+      serpApiCalls: cityLeads.length,
+      leadsFound: cityLeads.length,
+      emailsFound: cityEmails.length,
+    });
+
+    activeEntry.citiesCovered.push(city);
+    leadsToday += cityLeads.length;
+    enrichedToday += cityEnriched.length;
+    emailsToday += cityEmails.length;
+  }
+
   if (usageLog.daily.length > MAX_DAILY_HISTORY) {
     usageLog.daily = usageLog.daily.slice(-MAX_DAILY_HISTORY);
   }
@@ -85,15 +95,14 @@ function main() {
   if (!usageLog.monthlyTotals[mKey]) {
     usageLog.monthlyTotals[mKey] = { placesApiCalls: 0, serpApiCalls: 0 };
   }
-  usageLog.monthlyTotals[mKey].placesApiCalls += placesCallsToday;
-  usageLog.monthlyTotals[mKey].serpApiCalls += serpApiCallsToday;
+  usageLog.monthlyTotals[mKey].placesApiCalls += todaysCities.length;
+  usageLog.monthlyTotals[mKey].serpApiCalls += leadsToday;
 
-  activeEntry.leadsFound += todaysLeads.length;
-  activeEntry.leadsEnriched += todaysEnriched.length;
-  activeEntry.emailsFound += todaysEmails.length;
-  if (todaysCity) activeEntry.citiesCovered.push(todaysCity);
+  activeEntry.leadsFound += leadsToday;
+  activeEntry.leadsEnriched += enrichedToday;
+  activeEntry.emailsFound += emailsToday;
 
-  cityQueue.currentIndex += 1;
+  cityQueue.currentIndex += todaysCities.length;
 
   if (cityQueue.currentIndex >= cityQueue.cities.length) {
     activeEntry.status = "completed";
@@ -121,97 +130,8 @@ function main() {
 
   saveJson(DASHBOARD_PATH, buildDashboard(categoryQueue, cityQueue, leads, usageLog));
 
-  console.log("--- Today\'s Results ---");
-  console.log(`${activeEntry.category} in ${todaysCity}: ${todaysLeads.length} leads, ${todaysEmails.length} emails found`);
-}
-
-function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
-  const active = categoryQueue.find((c) => c.status === "active");
-  const completed = categoryQueue
-    .filter((c) => c.status === "completed")
-    .sort((a, b) => (a.order || 0) - (b.order || 0));
-  const queued = categoryQueue.filter((c) => c.status === "queued");
-
-  const today = todayDateString();
-  const thisMonth = monthKey(today);
-
-  // Exclude internal test leads (isTest:true) from all public dashboard
-  // stats and lists -- they're not real scraped businesses, just used to
-  // validate the outreach email flow before it touches real leads.
-  const realLeads = leads.filter((l) => !l.isTest);
-
-  const totalLeadsFound = realLeads.length;
-  const totalEmailsFound = realLeads.filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status)).length;
-  const totalEmailsSent = realLeads.filter((l) => l.status === "emailed").length;
-
-  // Full list of every company where a real email was found -- feeds the
-  // dashboard's "Companies Reached" table. Includes leads at ANY later
-  // pipeline stage too (emailed, email_failed), not just "enriched" --
-  // otherwise a company would vanish from this list the moment outreach
-  // actually sends to them, which is backwards.
-  const reachedCompanies = realLeads
-    .filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status))
-    .map((l) => ({
-      name: l.name,
-      category: l.category,
-      location: l.searchLocation,
-      email: l.email,
-      emailSource: l.emailSource || null,
-      phone: l.phone || null,
-      foundAt: l.foundAt || null,
-      sent: l.status === "emailed",
-      sendFailed: l.status === "email_failed",
-    }))
-    .sort((a, b) => new Date(b.foundAt || 0) - new Date(a.foundAt || 0));
-
-  return {
-    lastUpdated: new Date().toISOString(),
-    current: active
-      ? {
-          category: active.category,
-          cityIndex: cityQueue.currentIndex + 1,
-          totalCities: cityQueue.cities.length,
-          nextCity: cityQueue.cities[cityQueue.currentIndex] || null,
-        }
-      : null,
-    leaderboard: {
-      completed: completed.map((c) => ({
-        category: c.category,
-        leadsEnriched: c.leadsEnriched,
-        emailsFound: c.emailsFound,
-        hitRate: c.hitRate,
-        verdict: c.verdict || "pending",
-        sampleType: c.sampleType || "full_cycle",
-      })),
-      active: active
-        ? {
-            category: active.category,
-            leadsEnriched: active.leadsEnriched,
-            emailsFound: active.emailsFound,
-            // Live/interim hit rate while still mid-cycle -- not a final verdict.
-            hitRate: active.leadsEnriched > 0 ? active.emailsFound / active.leadsEnriched : null,
-          }
-        : null,
-      queuedCount: queued.length,
-    },
-    usage: {
-      today: usageLog.daily.length ? usageLog.daily[usageLog.daily.length - 1] : null,
-      thisMonth: usageLog.monthlyTotals[thisMonth] || { placesApiCalls: 0, serpApiCalls: 0 },
-      serpApiFreeTierLimit: 250,
-    },
-    totals: {
-      totalLeadsFound,
-      totalEmailsFound,
-      totalEmailsSent,
-      totalCategories: categoryQueue.length,
-      categoriesCompleted: completed.length,
-      categoriesKept: categoryQueue.filter((c) => c.verdict === "keep").length,
-      categoriesRejected: categoryQueue.filter((c) => c.verdict === "reject").length,
-      categoriesPending: categoryQueue.length - categoryQueue.filter((c) => c.verdict === "keep").length - categoryQueue.filter((c) => c.verdict === "reject").length,
-    },
-    dailyHistory: usageLog.daily,
-    reachedCompanies,
-  };
+  console.log("--- Today's Results ---");
+  console.log(`${activeEntry.category} in ${todaysCities.join(", ")}: ${leadsToday} leads, ${emailsToday} emails found`);
 }
 
 main();
