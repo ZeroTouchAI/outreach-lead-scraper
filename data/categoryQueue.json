@@ -20,11 +20,13 @@
       "Richmond Hill, ON",
       "Newmarket, ON",
       "Aurora, ON",
-      "Oshawa, ON"
+      "Oshawa, ON",
+      "Whitby, ON",
+      "Ajax, ON"
     ],
-    "leadsFound": 46,
-    "leadsEnriched": 44,
-    "emailsFound": 1,
+    "leadsFound": 54,
+    "leadsEnriched": 52,
+    "emailsFound": 3,
     "hitRate": null,
     "verdict": null
   },

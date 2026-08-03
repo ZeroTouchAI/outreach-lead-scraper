@@ -134,6 +134,24 @@
       "serpApiCalls": 4,
       "leadsFound": 4,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-03",
+      "category": "nail salon",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-03",
+      "category": "nail salon",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 2
     }
   ],
   "monthlyTotals": {
@@ -142,8 +160,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 3,
-      "serpApiCalls": 7
+      "placesApiCalls": 5,
+      "serpApiCalls": 15
     }
   }
 }
