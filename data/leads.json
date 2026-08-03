@@ -1906,11 +1906,13 @@
     "primaryType": "nail_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=8606861735337706001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "contact@digitalmarketingdeal.com",
     "emailSource": "https://digitalmarketingdeal.com/blog/nail-salon-ajax/",
     "foundAt": "2026-08-03T15:46:46.690Z",
-    "lastUpdatedAt": "2026-08-03T15:47:07.919Z"
+    "lastUpdatedAt": "2026-08-03T15:47:07.919Z",
+    "emailedAt": "2026-08-03T17:10:01.364Z",
+    "resendId": "960ae89b-be6b-42cd-8f0f-b8683224c70a"
   },
   {
     "placeId": "ChIJn_Vm7OPf1IkR4nRDcddpokA",
@@ -1922,11 +1924,13 @@
     "primaryType": "nail_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=4657401338693645538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "contact@digitalmarketingdeal.com",
     "emailSource": "https://digitalmarketingdeal.com/blog/nail-salon-ajax/",
     "foundAt": "2026-08-03T15:46:46.690Z",
-    "lastUpdatedAt": "2026-08-03T15:47:09.462Z"
+    "lastUpdatedAt": "2026-08-03T15:47:09.462Z",
+    "emailedAt": "2026-08-03T17:10:01.961Z",
+    "resendId": "e37b113b-37ee-49c3-93c8-0880a7396be5"
   },
   {
     "placeId": "ChIJj0rQmTPf1IkRorf7gC-_3wM",

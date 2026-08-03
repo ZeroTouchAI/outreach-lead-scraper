@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T15:47:28.310Z",
+  "lastUpdated": "2026-08-03T17:10:02.508Z",
   "current": {
     "category": "nail salon",
     "cityIndex": 18,
@@ -101,7 +101,7 @@
   "totals": {
     "totalLeadsFound": 122,
     "totalEmailsFound": 5,
-    "totalEmailsSent": 3,
+    "totalEmailsSent": 5,
     "totalCategories": 28,
     "categoriesCompleted": 8,
     "categoriesKept": 0,
@@ -272,7 +272,7 @@
       "emailSource": "https://digitalmarketingdeal.com/blog/nail-salon-ajax/",
       "phone": "+1 905-233-2208",
       "foundAt": "2026-08-03T15:46:46.690Z",
-      "sent": false,
+      "sent": true,
       "sendFailed": false
     },
     {
@@ -283,7 +283,7 @@
       "emailSource": "https://digitalmarketingdeal.com/blog/nail-salon-ajax/",
       "phone": "+1 905-426-7475",
       "foundAt": "2026-08-03T15:46:46.690Z",
-      "sent": false,
+      "sent": true,
       "sendFailed": false
     },
     {
