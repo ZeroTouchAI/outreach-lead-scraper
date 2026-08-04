@@ -22,10 +22,12 @@
       "Aurora, ON",
       "Oshawa, ON",
       "Whitby, ON",
-      "Ajax, ON"
+      "Ajax, ON",
+      "Pickering, ON",
+      "Oakville, ON"
     ],
-    "leadsFound": 54,
-    "leadsEnriched": 52,
+    "leadsFound": 55,
+    "leadsEnriched": 53,
     "emailsFound": 3,
     "hitRate": null,
     "verdict": null

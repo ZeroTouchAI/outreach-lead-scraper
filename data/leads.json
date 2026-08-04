@@ -1979,5 +1979,21 @@
     "emailSource": null,
     "foundAt": "2026-08-03T15:46:46.690Z",
     "lastUpdatedAt": "2026-08-03T15:47:27.962Z"
+  },
+  {
+    "placeId": "ChIJvQ-aTmRnK4gRHf_AHhfc9WE",
+    "name": "VIET NAIL BAR INC.",
+    "address": "483 Dundas St W Unit 10, Oakville, ON L6M 1L9, Canada",
+    "phone": "+1 289-725-7815",
+    "category": "nail salon",
+    "searchLocation": "Oakville, ON",
+    "primaryType": "nail_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=7058789982831443741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-04T15:26:32.244Z",
+    "lastUpdatedAt": "2026-08-04T15:26:50.829Z"
   }
 ]

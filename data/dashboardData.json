@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-03T17:10:02.508Z",
+  "lastUpdated": "2026-08-04T15:26:51.176Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 18,
+    "cityIndex": 20,
     "totalCities": 22,
-    "nextCity": "Pickering, ON"
+    "nextCity": "Burlington, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,31 +75,31 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 52,
+      "leadsEnriched": 53,
       "emailsFound": 3,
-      "hitRate": 0.057692307692307696
+      "hitRate": 0.05660377358490566
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "category": "nail salon",
-      "city": "Ajax, ON",
+      "city": "Oakville, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 5,
-      "leadsFound": 5,
-      "emailsFound": 2
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 5,
-      "serpApiCalls": 15
+      "placesApiCalls": 7,
+      "serpApiCalls": 16
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 155
+    "projectedMonthlySerpApiCalls": 124
   },
   "totals": {
-    "totalLeadsFound": 122,
+    "totalLeadsFound": 123,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -261,6 +261,24 @@
       "serpApiCalls": 5,
       "leadsFound": 5,
       "emailsFound": 2
+    },
+    {
+      "date": "2026-08-04",
+      "category": "nail salon",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-04",
+      "category": "nail salon",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
