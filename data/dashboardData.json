@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-04T16:53:21.387Z",
+  "lastUpdated": "2026-08-05T15:18:53.438Z",
   "current": {
     "category": "nail salon",
-    "cityIndex": 20,
+    "cityIndex": 22,
     "totalCities": 22,
-    "nextCity": "Burlington, ON"
+    "nextCity": "Halton Hills, ON"
   },
   "leaderboard": {
     "completed": [
@@ -75,31 +75,31 @@
     ],
     "active": {
       "category": "nail salon",
-      "leadsEnriched": 53,
+      "leadsEnriched": 59,
       "emailsFound": 3,
-      "hitRate": 0.05660377358490566
+      "hitRate": 0.05084745762711865
     },
     "queuedCount": 19
   },
   "usage": {
     "today": {
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "category": "nail salon",
-      "city": "Oakville, ON",
+      "city": "Milton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 7,
-      "serpApiCalls": 16
+      "placesApiCalls": 9,
+      "serpApiCalls": 22
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 124
+    "projectedMonthlySerpApiCalls": 136
   },
   "totals": {
-    "totalLeadsFound": 123,
+    "totalLeadsFound": 129,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -278,6 +278,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-05",
+      "category": "nail salon",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-05",
+      "category": "nail salon",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
       "emailsFound": 0
     }
   ],

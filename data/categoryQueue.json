@@ -24,10 +24,12 @@
       "Whitby, ON",
       "Ajax, ON",
       "Pickering, ON",
-      "Oakville, ON"
+      "Oakville, ON",
+      "Burlington, ON",
+      "Milton, ON"
     ],
-    "leadsFound": 55,
-    "leadsEnriched": 53,
+    "leadsFound": 61,
+    "leadsEnriched": 59,
     "emailsFound": 3,
     "hitRate": null,
     "verdict": null

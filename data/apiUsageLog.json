@@ -170,6 +170,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-05",
+      "category": "nail salon",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-05",
+      "category": "nail salon",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -178,8 +196,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 7,
-      "serpApiCalls": 16
+      "placesApiCalls": 9,
+      "serpApiCalls": 22
     }
   }
 }
