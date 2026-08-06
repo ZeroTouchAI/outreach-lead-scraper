@@ -2,9 +2,9 @@
   {
     "order": 1,
     "category": "nail salon",
-    "status": "active",
+    "status": "completed",
     "startedAt": null,
-    "completedAt": null,
+    "completedAt": "2026-08-06T15:18:01.286Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -26,19 +26,20 @@
       "Pickering, ON",
       "Oakville, ON",
       "Burlington, ON",
-      "Milton, ON"
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 61,
-    "leadsEnriched": 59,
+    "leadsFound": 65,
+    "leadsEnriched": 63,
     "emailsFound": 3,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0.047619047619047616,
+    "verdict": "keep"
   },
   {
     "order": 2,
     "category": "spa",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-08-06T15:18:01.286Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,

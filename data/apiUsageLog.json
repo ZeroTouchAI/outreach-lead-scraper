@@ -188,6 +188,15 @@
       "serpApiCalls": 4,
       "leadsFound": 4,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-06",
+      "category": "nail salon",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -196,8 +205,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 9,
-      "serpApiCalls": 22
+      "placesApiCalls": 10,
+      "serpApiCalls": 26
     }
   }
 }
