@@ -1,9 +1,10 @@
 {
   "searchCategories": [
-    "nail salon"
+    "spa"
   ],
   "searchLocations": [
-    "Halton Hills, ON"
+    "Downtown Toronto, ON",
+    "North York, ON"
   ],
   "maxResultsPerQuery": 20,
   "requireNoWebsite": true,

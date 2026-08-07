@@ -197,6 +197,24 @@
       "serpApiCalls": 4,
       "leadsFound": 4,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-07",
+      "category": "spa",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-07",
+      "category": "spa",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -205,7 +223,7 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 10,
+      "placesApiCalls": 12,
       "serpApiCalls": 26
     }
   }
