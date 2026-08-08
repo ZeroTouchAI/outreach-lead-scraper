@@ -215,6 +215,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-08",
+      "category": "spa",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-08",
+      "category": "spa",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -223,8 +241,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 12,
-      "serpApiCalls": 26
+      "placesApiCalls": 14,
+      "serpApiCalls": 29
     }
   }
 }

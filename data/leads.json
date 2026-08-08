@@ -2155,5 +2155,53 @@
     "emailSource": null,
     "foundAt": "2026-08-06T15:17:54.592Z",
     "lastUpdatedAt": "2026-08-06T15:18:00.941Z"
+  },
+  {
+    "placeId": "ChIJWXbtVPbR1IkRCbbNmIyA5Lc",
+    "name": "K Spa",
+    "address": "4227 Sheppard Ave E B6, Scarborough, ON M1S 5H5, Canada",
+    "phone": "+1 647-792-7568",
+    "category": "spa",
+    "searchLocation": "Scarborough, ON",
+    "primaryType": "massage_spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=13250857344978236937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-08T13:49:27.383Z",
+    "lastUpdatedAt": "2026-08-08T13:49:34.153Z"
+  },
+  {
+    "placeId": "ChIJY5NP3UQ3K4gRSaTELB2b9Ps",
+    "name": "e-Spa",
+    "address": "12 Jutland Rd, Etobicoke, ON M8Z 2G9, Canada",
+    "phone": "+1 416-253-1666",
+    "category": "spa",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "massage_spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=18155306547444753481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-08T13:49:27.892Z",
+    "lastUpdatedAt": "2026-08-08T13:50:31.113Z"
+  },
+  {
+    "placeId": "ChIJ10764wVJK4gRUQGG8VWmiXI",
+    "name": "Lena Touch Massage and Spa",
+    "address": "3 Twenty Sixth St, Etobicoke, ON M8V 3R2, Canada",
+    "phone": "+1 765-508-6669",
+    "category": "spa",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "massage_spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=8253310680187666769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-08T13:49:27.892Z",
+    "lastUpdatedAt": "2026-08-08T13:49:27.892Z"
   }
 ]
