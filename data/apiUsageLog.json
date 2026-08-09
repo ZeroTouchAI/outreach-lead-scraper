@@ -233,6 +233,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-09",
+      "category": "spa",
+      "city": "York, Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-09",
+      "category": "spa",
+      "city": "East York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -241,7 +259,7 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 14,
+      "placesApiCalls": 16,
       "serpApiCalls": 29
     }
   }
