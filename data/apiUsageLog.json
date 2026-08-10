@@ -251,6 +251,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-10",
+      "category": "spa",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-10",
+      "category": "spa",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -259,8 +277,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 16,
-      "serpApiCalls": 29
+      "placesApiCalls": 18,
+      "serpApiCalls": 33
     }
   }
 }

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-09T15:33:44.134Z",
+  "lastUpdated": "2026-08-10T14:22:23.117Z",
   "current": {
     "category": "spa",
-    "cityIndex": 7,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -83,7 +83,7 @@
     ],
     "active": {
       "category": "spa",
-      "leadsEnriched": 2,
+      "leadsEnriched": 6,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -91,23 +91,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "category": "spa",
-      "city": "East York, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 16,
-      "serpApiCalls": 29
+      "placesApiCalls": 18,
+      "serpApiCalls": 33
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 100
+    "projectedMonthlySerpApiCalls": 102
   },
   "totals": {
-    "totalLeadsFound": 136,
+    "totalLeadsFound": 140,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -367,6 +367,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-10",
+      "category": "spa",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-10",
+      "category": "spa",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     }
   ],
