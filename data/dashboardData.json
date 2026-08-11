@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-10T16:01:13.607Z",
+  "lastUpdated": "2026-08-11T14:21:38.527Z",
   "current": {
     "category": "spa",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -83,7 +83,7 @@
     ],
     "active": {
       "category": "spa",
-      "leadsEnriched": 6,
+      "leadsEnriched": 7,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -91,23 +91,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-10",
+      "date": "2026-08-11",
       "category": "spa",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 18,
-      "serpApiCalls": 33
+      "placesApiCalls": 20,
+      "serpApiCalls": 34
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 102
+    "projectedMonthlySerpApiCalls": 96
   },
   "totals": {
-    "totalLeadsFound": 140,
+    "totalLeadsFound": 141,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -385,6 +385,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 3,
       "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-11",
+      "category": "spa",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-11",
+      "category": "spa",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

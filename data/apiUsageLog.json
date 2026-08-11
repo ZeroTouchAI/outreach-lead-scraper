@@ -269,6 +269,24 @@
       "serpApiCalls": 3,
       "leadsFound": 3,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-11",
+      "category": "spa",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-11",
+      "category": "spa",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -277,8 +295,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 18,
-      "serpApiCalls": 33
+      "placesApiCalls": 20,
+      "serpApiCalls": 34
     }
   }
 }

@@ -2267,5 +2267,21 @@
     "emailSource": null,
     "foundAt": "2026-08-10T14:21:30.853Z",
     "lastUpdatedAt": "2026-08-10T14:22:22.775Z"
+  },
+  {
+    "placeId": "ChIJqxPGZm0FK4gR3i_h1dy2aog",
+    "name": "Hidden Serenity Spa",
+    "address": "18371 Duplicate Hurontario St Unit 4, Caledon Village, ON L7K 0X7, Canada",
+    "phone": "+1 519-927-7772",
+    "category": "spa",
+    "searchLocation": "Caledon, ON",
+    "primaryType": "spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=9829870196286894046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-11T14:21:33.074Z",
+    "lastUpdatedAt": "2026-08-11T14:21:38.185Z"
   }
 ]
