@@ -287,6 +287,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-12",
+      "category": "spa",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-12",
+      "category": "spa",
+      "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -295,8 +313,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 20,
-      "serpApiCalls": 34
+      "placesApiCalls": 22,
+      "serpApiCalls": 35
     }
   }
 }

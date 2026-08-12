@@ -2283,5 +2283,21 @@
     "emailSource": null,
     "foundAt": "2026-08-11T14:21:33.074Z",
     "lastUpdatedAt": "2026-08-11T14:21:38.185Z"
+  },
+  {
+    "placeId": "ChIJwVaq3RvV1IkR-We8tX7id1Q",
+    "name": "Massage & Head Spa 名仁养生馆",
+    "address": "8360 Kennedy Rd b5, Markham, ON L3R 9W4, Canada",
+    "phone": "+1 437-607-8999",
+    "category": "spa",
+    "searchLocation": "Markham, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=6086582455257294841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-12T14:22:18.163Z",
+    "lastUpdatedAt": "2026-08-12T14:22:27.536Z"
   }
 ]

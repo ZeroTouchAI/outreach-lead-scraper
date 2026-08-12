@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-11T16:02:00.484Z",
+  "lastUpdated": "2026-08-12T14:22:27.880Z",
   "current": {
     "category": "spa",
-    "cityIndex": 11,
+    "cityIndex": 13,
     "totalCities": 22,
-    "nextCity": "Markham, ON"
+    "nextCity": "Newmarket, ON"
   },
   "leaderboard": {
     "completed": [
@@ -83,7 +83,7 @@
     ],
     "active": {
       "category": "spa",
-      "leadsEnriched": 7,
+      "leadsEnriched": 8,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -91,23 +91,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-11",
+      "date": "2026-08-12",
       "category": "spa",
-      "city": "Vaughan, ON",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 20,
-      "serpApiCalls": 34
+      "placesApiCalls": 22,
+      "serpApiCalls": 35
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 96
+    "projectedMonthlySerpApiCalls": 90
   },
   "totals": {
-    "totalLeadsFound": 141,
+    "totalLeadsFound": 142,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -400,6 +400,24 @@
       "date": "2026-08-11",
       "category": "spa",
       "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-12",
+      "category": "spa",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-12",
+      "category": "spa",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
