@@ -26,13 +26,21 @@ jobs:
 
       - name: Prepare today's target (zero-cost)
         run: node scripts/prepareDailyRun.js
-
       - name: Scrape leads for today's category+city
         env:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: node scripts/findLeads.js
 
       - name: Enrich today's new leads with emails
+        # continue-on-error: enrichLeads.js already stops itself cleanly and
+        # leaves unprocessed leads as status "found" when SerpApi's free-tier
+        # monthly quota (250 searches) is hit, so they're picked up again on
+        # the next run automatically. This flag is a backstop for any OTHER
+        # unexpected failure in this step (network blip, bad response, etc.)
+        # so a bad day here can never skip Finalize/Commit below and lose
+        # today's scraped leads -- the job just keeps retrying, once a day,
+        # until SerpApi usage resets.
+        continue-on-error: true
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: node scripts/enrichLeads.js
