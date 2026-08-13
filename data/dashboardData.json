@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-12T15:59:58.350Z",
+  "lastUpdated": "2026-08-13T14:24:37.403Z",
   "current": {
     "category": "spa",
-    "cityIndex": 13,
+    "cityIndex": 15,
     "totalCities": 22,
-    "nextCity": "Newmarket, ON"
+    "nextCity": "Oshawa, ON"
   },
   "leaderboard": {
     "completed": [
@@ -83,7 +83,7 @@
     ],
     "active": {
       "category": "spa",
-      "leadsEnriched": 8,
+      "leadsEnriched": 11,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -91,23 +91,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "category": "spa",
-      "city": "Richmond Hill, ON",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 22,
-      "serpApiCalls": 35
+      "placesApiCalls": 24,
+      "serpApiCalls": 38
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 90
+    "projectedMonthlySerpApiCalls": 91
   },
   "totals": {
-    "totalLeadsFound": 142,
+    "totalLeadsFound": 145,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -421,6 +421,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-13",
+      "category": "spa",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-13",
+      "category": "spa",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],

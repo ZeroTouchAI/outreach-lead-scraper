@@ -2299,5 +2299,53 @@
     "emailSource": null,
     "foundAt": "2026-08-12T14:22:18.163Z",
     "lastUpdatedAt": "2026-08-12T14:22:27.536Z"
+  },
+  {
+    "placeId": "ChIJc_muFCbSKogRCEbCs1K5Au8",
+    "name": "Juno Spa",
+    "address": "9983 Keele St #201, Maple, ON L6A 4W2, Canada",
+    "phone": "+1 647-892-8588",
+    "category": "spa",
+    "searchLocation": "Newmarket, ON",
+    "primaryType": "beauty_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=17222531689872508424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-13T14:24:05.953Z",
+    "lastUpdatedAt": "2026-08-13T14:24:12.138Z"
+  },
+  {
+    "placeId": "ChIJcdEQH5HRKogR959wzZnDlWU",
+    "name": "Rose Retreat SPA",
+    "address": "16715 Yonge St #26, Newmarket, ON L3X 1X4, Canada",
+    "phone": "+1 437-778-8855",
+    "category": "spa",
+    "searchLocation": "Newmarket, ON",
+    "primaryType": "massage_spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=7319971834704732151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-13T14:24:05.953Z",
+    "lastUpdatedAt": "2026-08-13T14:24:28.793Z"
+  },
+  {
+    "placeId": "ChIJOQpCzVP5DogRWbRMA-J42PI",
+    "name": "Eola Spa",
+    "address": "444 N Eola Rd, Aurora, IL 60502, USA",
+    "phone": "+1 312-792-5777",
+    "category": "spa",
+    "searchLocation": "Aurora, ON",
+    "primaryType": "spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=17498869264261362777&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-13T14:24:06.482Z",
+    "lastUpdatedAt": "2026-08-13T14:24:37.065Z"
   }
 ]

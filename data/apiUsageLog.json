@@ -305,6 +305,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-13",
+      "category": "spa",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-13",
+      "category": "spa",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -313,8 +331,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 22,
-      "serpApiCalls": 35
+      "placesApiCalls": 24,
+      "serpApiCalls": 38
     }
   }
 }
