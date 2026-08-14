@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-13T16:00:19.935Z",
+  "lastUpdated": "2026-08-14T14:17:09.443Z",
   "current": {
     "category": "spa",
-    "cityIndex": 15,
+    "cityIndex": 17,
     "totalCities": 22,
-    "nextCity": "Oshawa, ON"
+    "nextCity": "Ajax, ON"
   },
   "leaderboard": {
     "completed": [
@@ -83,7 +83,7 @@
     ],
     "active": {
       "category": "spa",
-      "leadsEnriched": 11,
+      "leadsEnriched": 14,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -91,23 +91,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "category": "spa",
-      "city": "Aurora, ON",
+      "city": "Whitby, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 24,
-      "serpApiCalls": 38
+      "placesApiCalls": 26,
+      "serpApiCalls": 41
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 91
   },
   "totals": {
-    "totalLeadsFound": 145,
+    "totalLeadsFound": 148,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -439,6 +439,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-14",
+      "category": "spa",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-14",
+      "category": "spa",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

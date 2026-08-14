@@ -2347,5 +2347,53 @@
     "emailSource": null,
     "foundAt": "2026-08-13T14:24:06.482Z",
     "lastUpdatedAt": "2026-08-13T14:24:37.065Z"
+  },
+  {
+    "placeId": "ChIJ85qzV5_T1IkRcNoqsgDCeCA",
+    "name": "Up Every Day Spa",
+    "address": "375 Bond St W, Oshawa, ON L1J 8A2, Canada",
+    "phone": "+1 905-579-6566",
+    "category": "spa",
+    "searchLocation": "Oshawa, ON",
+    "primaryType": "massage_spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=2339833314663914096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-14T14:16:50.349Z",
+    "lastUpdatedAt": "2026-08-14T14:17:05.046Z"
+  },
+  {
+    "placeId": "ChIJLRrPhMkd1YkRw1HBMwmr9hs",
+    "name": "Zen à la Relaxation",
+    "address": "200 Bond St W #102, Oshawa, ON L1J 2L7, Canada",
+    "phone": "+1 437-477-7886",
+    "category": "spa",
+    "searchLocation": "Oshawa, ON",
+    "primaryType": "massage_spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=2014985939306238403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-14T14:16:50.349Z",
+    "lastUpdatedAt": "2026-08-14T14:17:06.178Z"
+  },
+  {
+    "placeId": "ChIJ2_dAfNsc1YkRRVQFX03VzNQ",
+    "name": "Spa With Heart",
+    "address": "350 Wentworth St E, Oshawa, ON L1H 7R7, Canada",
+    "phone": "+1 289-928-4175",
+    "category": "spa",
+    "searchLocation": "Oshawa, ON",
+    "primaryType": "medical_clinic",
+    "googleMapsUrl": "https://maps.google.com/?cid=15333865359573079109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-14T14:16:50.349Z",
+    "lastUpdatedAt": "2026-08-14T14:17:09.099Z"
   }
 ]

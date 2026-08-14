@@ -323,6 +323,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-14",
+      "category": "spa",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-14",
+      "category": "spa",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -331,8 +349,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 24,
-      "serpApiCalls": 38
+      "placesApiCalls": 26,
+      "serpApiCalls": 41
     }
   }
 }
