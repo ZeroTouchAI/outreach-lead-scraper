@@ -341,6 +341,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-15",
+      "category": "spa",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-15",
+      "category": "spa",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -349,8 +367,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 26,
-      "serpApiCalls": 41
+      "placesApiCalls": 28,
+      "serpApiCalls": 43
     }
   }
 }

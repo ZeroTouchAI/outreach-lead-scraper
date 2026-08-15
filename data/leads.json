@@ -2395,5 +2395,37 @@
     "emailSource": null,
     "foundAt": "2026-08-14T14:16:50.349Z",
     "lastUpdatedAt": "2026-08-14T14:17:09.099Z"
+  },
+  {
+    "placeId": "ChIJ64TNZQcf1YkRkNH7FCJEi5U",
+    "name": "Sindy Facial and Spa",
+    "address": "53 Arfield Ave, Ajax, ON L1T 0G5, Canada",
+    "phone": "+1 416-684-3968",
+    "category": "spa",
+    "searchLocation": "Ajax, ON",
+    "primaryType": "spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=10775781446585667984&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-15T13:33:48.668Z",
+    "lastUpdatedAt": "2026-08-15T13:33:50.458Z"
+  },
+  {
+    "placeId": "ChIJu4qP0UvZ1IkR7Rx3hVueKW8",
+    "name": "Bella Spa",
+    "address": "705 Kingston Rd Unit 15, Pickering, ON L1V 6K3, Canada",
+    "phone": "+1 289-892-7979",
+    "category": "spa",
+    "searchLocation": "Pickering, ON",
+    "primaryType": "spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=8010107528173526253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-15T13:33:49.168Z",
+    "lastUpdatedAt": "2026-08-15T13:33:53.137Z"
   }
 ]
