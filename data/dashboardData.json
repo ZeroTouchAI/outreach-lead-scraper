@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-16T15:23:45.467Z",
+  "lastUpdated": "2026-08-17T13:42:12.461Z",
   "current": {
-    "category": "spa",
-    "cityIndex": 21,
+    "category": "massage therapist",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -14,6 +14,14 @@
         "emailsFound": 3,
         "hitRate": 0.047619047619047616,
         "verdict": "keep",
+        "sampleType": "full_cycle"
+      },
+      {
+        "category": "spa",
+        "leadsEnriched": 16,
+        "emailsFound": 0,
+        "hitRate": 0,
+        "verdict": "reject",
         "sampleType": "full_cycle"
       },
       {
@@ -82,39 +90,39 @@
       }
     ],
     "active": {
-      "category": "spa",
-      "leadsEnriched": 16,
+      "category": "massage therapist",
+      "leadsEnriched": 0,
       "emailsFound": 0,
-      "hitRate": 0
+      "hitRate": null
     },
-    "queuedCount": 18
+    "queuedCount": 17
   },
   "usage": {
     "today": {
-      "date": "2026-08-16",
+      "date": "2026-08-17",
       "category": "spa",
-      "city": "Burlington, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 30,
-      "serpApiCalls": 43
+      "placesApiCalls": 32,
+      "serpApiCalls": 45
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 83
+    "projectedMonthlySerpApiCalls": 82
   },
   "totals": {
-    "totalLeadsFound": 150,
+    "totalLeadsFound": 152,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
-    "categoriesCompleted": 9,
+    "categoriesCompleted": 10,
     "categoriesKept": 1,
-    "categoriesRejected": 0,
-    "categoriesPending": 27
+    "categoriesRejected": 1,
+    "categoriesPending": 26
   },
   "dailyHistory": [
     {
@@ -493,6 +501,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-17",
+      "category": "spa",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-17",
+      "category": "spa",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],

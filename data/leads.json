@@ -2427,5 +2427,37 @@
     "emailSource": null,
     "foundAt": "2026-08-15T13:33:49.168Z",
     "lastUpdatedAt": "2026-08-15T13:33:53.137Z"
+  },
+  {
+    "placeId": "ChIJ8yQ9QXplK4gRQUG4HTpPvwQ",
+    "name": "Aura Salon & Spa (Ladies Only)",
+    "address": "39 Rottenburg Ct, Milton, ON L9T 8S5, Canada",
+    "phone": "+1 647-470-7341",
+    "category": "spa",
+    "searchLocation": "Milton, ON",
+    "primaryType": "spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=342079207728759105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-17T13:42:11.351Z",
+    "lastUpdatedAt": "2026-08-17T13:42:11.352Z"
+  },
+  {
+    "placeId": "ChIJGWCu38gVK4gRyexIwzovvBs",
+    "name": "Surge Spa & Skin",
+    "address": "101 251Guelph Street, Georgetown, ON L7G 4B1, Canada",
+    "phone": "+1 742-778-3373",
+    "category": "spa",
+    "searchLocation": "Halton Hills, ON",
+    "primaryType": "beauty_salon",
+    "googleMapsUrl": "https://maps.google.com/?cid=1998524264076602569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-17T13:42:11.869Z",
+    "lastUpdatedAt": "2026-08-17T13:42:11.869Z"
   }
 ]

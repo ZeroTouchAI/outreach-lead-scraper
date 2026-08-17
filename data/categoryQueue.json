@@ -38,9 +38,9 @@
   {
     "order": 2,
     "category": "spa",
-    "status": "active",
+    "status": "completed",
     "startedAt": "2026-08-06T15:18:01.286Z",
-    "completedAt": null,
+    "completedAt": "2026-08-17T13:42:12.455Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -61,19 +61,21 @@
       "Ajax, ON",
       "Pickering, ON",
       "Oakville, ON",
-      "Burlington, ON"
+      "Burlington, ON",
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 17,
+    "leadsFound": 19,
     "leadsEnriched": 16,
     "emailsFound": 0,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0,
+    "verdict": "reject"
   },
   {
     "order": 3,
     "category": "massage therapist",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-08-17T13:42:12.455Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,
