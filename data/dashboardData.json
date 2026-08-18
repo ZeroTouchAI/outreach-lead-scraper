@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-17T15:27:14.710Z",
+  "lastUpdated": "2026-08-18T13:47:04.027Z",
   "current": {
     "category": "massage therapist",
-    "cityIndex": 1,
+    "cityIndex": 3,
     "totalCities": 22,
-    "nextCity": "Downtown Toronto, ON"
+    "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,20 +99,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-17",
-      "category": "spa",
-      "city": "Halton Hills, ON",
+      "date": "2026-08-18",
+      "category": "massage therapist",
+      "city": "North York, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 32,
+      "placesApiCalls": 34,
       "serpApiCalls": 45
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 82
+    "projectedMonthlySerpApiCalls": 78
   },
   "totals": {
     "totalLeadsFound": 152,
@@ -519,6 +519,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-18",
+      "category": "massage therapist",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-18",
+      "category": "massage therapist",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

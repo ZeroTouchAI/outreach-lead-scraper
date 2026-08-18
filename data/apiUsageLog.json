@@ -395,6 +395,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-18",
+      "category": "massage therapist",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-18",
+      "category": "massage therapist",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -403,7 +421,7 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 32,
+      "placesApiCalls": 34,
       "serpApiCalls": 45
     }
   }

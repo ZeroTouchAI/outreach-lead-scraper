@@ -77,7 +77,10 @@
     "status": "active",
     "startedAt": "2026-08-17T13:42:12.455Z",
     "completedAt": null,
-    "citiesCovered": [],
+    "citiesCovered": [
+      "Downtown Toronto, ON",
+      "North York, ON"
+    ],
     "leadsFound": 0,
     "leadsEnriched": 0,
     "emailsFound": 0,
