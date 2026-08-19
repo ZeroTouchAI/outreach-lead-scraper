@@ -2459,5 +2459,21 @@
     "emailSource": null,
     "foundAt": "2026-08-17T13:42:11.869Z",
     "lastUpdatedAt": "2026-08-17T13:42:11.869Z"
+  },
+  {
+    "placeId": "ChIJMx1bTy04K4gRSm7ZepDv5-o",
+    "name": "Healing Body Massage",
+    "address": "453 The East Mall, Etobicoke, ON M9B 4A1, Canada",
+    "phone": "+1 416-473-7175",
+    "category": "massage therapist",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=16926761128310697546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-19T13:48:52.878Z",
+    "lastUpdatedAt": "2026-08-19T13:48:52.878Z"
   }
 ]

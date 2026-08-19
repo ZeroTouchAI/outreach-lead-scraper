@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-18T15:33:27.506Z",
+  "lastUpdated": "2026-08-19T13:48:53.461Z",
   "current": {
     "category": "massage therapist",
-    "cityIndex": 3,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,23 +99,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "category": "massage therapist",
-      "city": "North York, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 34,
-      "serpApiCalls": 45
+      "placesApiCalls": 36,
+      "serpApiCalls": 46
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 78
+    "projectedMonthlySerpApiCalls": 75
   },
   "totals": {
-    "totalLeadsFound": 152,
+    "totalLeadsFound": 153,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -537,6 +537,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-19",
+      "category": "massage therapist",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-19",
+      "category": "massage therapist",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],
