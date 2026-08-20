@@ -2438,11 +2438,11 @@
     "primaryType": "spa",
     "googleMapsUrl": "https://maps.google.com/?cid=342079207728759105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-08-17T13:42:11.351Z",
-    "lastUpdatedAt": "2026-08-17T13:42:11.352Z"
+    "lastUpdatedAt": "2026-08-20T13:50:41.789Z"
   },
   {
     "placeId": "ChIJGWCu38gVK4gRyexIwzovvBs",
@@ -2454,11 +2454,11 @@
     "primaryType": "beauty_salon",
     "googleMapsUrl": "https://maps.google.com/?cid=1998524264076602569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-08-17T13:42:11.869Z",
-    "lastUpdatedAt": "2026-08-17T13:42:11.869Z"
+    "lastUpdatedAt": "2026-08-20T13:51:09.210Z"
   },
   {
     "placeId": "ChIJMx1bTy04K4gRSm7ZepDv5-o",
@@ -2470,10 +2470,42 @@
     "primaryType": "massage",
     "googleMapsUrl": "https://maps.google.com/?cid=16926761128310697546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-08-19T13:48:52.878Z",
-    "lastUpdatedAt": "2026-08-19T13:48:52.878Z"
+    "lastUpdatedAt": "2026-08-20T13:51:12.679Z"
+  },
+  {
+    "placeId": "ChIJGZtzci7N1IkR30gFWJs7REI",
+    "name": "North York RMT Linda",
+    "address": "725 Don Mills Rd., North York, ON M3C 1S8, Canada",
+    "phone": "+1 647-325-5385",
+    "category": "massage therapist",
+    "searchLocation": "East York, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=4775007043302279391&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-20T13:50:38.990Z",
+    "lastUpdatedAt": "2026-08-20T13:51:15.935Z"
+  },
+  {
+    "placeId": "ChIJ01alfPrN1IkRf62PFBgNvi0",
+    "name": "Massage therapy by Teresa",
+    "address": "108 Eastdale Ave, East York, ON M4C 5A1, Canada",
+    "phone": "+1 619-657-7318",
+    "category": "massage therapist",
+    "searchLocation": "East York, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=3296086374357118335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-20T13:50:38.990Z",
+    "lastUpdatedAt": "2026-08-20T13:51:22.742Z"
   }
 ]
