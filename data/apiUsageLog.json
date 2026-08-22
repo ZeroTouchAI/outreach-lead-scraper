@@ -467,6 +467,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-22",
+      "category": "massage therapist",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-22",
+      "category": "massage therapist",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -475,8 +493,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 40,
-      "serpApiCalls": 48
+      "placesApiCalls": 42,
+      "serpApiCalls": 53
     }
   }
 }

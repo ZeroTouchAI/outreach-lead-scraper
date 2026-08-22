@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-21T15:35:28.913Z",
+  "lastUpdated": "2026-08-22T13:35:18.309Z",
   "current": {
     "category": "massage therapist",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -91,7 +91,7 @@
     ],
     "active": {
       "category": "massage therapist",
-      "leadsEnriched": 2,
+      "leadsEnriched": 7,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -99,23 +99,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-21",
+      "date": "2026-08-22",
       "category": "massage therapist",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 40,
-      "serpApiCalls": 48
+      "placesApiCalls": 42,
+      "serpApiCalls": 53
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 71
+    "projectedMonthlySerpApiCalls": 75
   },
   "totals": {
-    "totalLeadsFound": 155,
+    "totalLeadsFound": 160,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -588,6 +588,24 @@
       "date": "2026-08-21",
       "category": "massage therapist",
       "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-22",
+      "category": "massage therapist",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-22",
+      "category": "massage therapist",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
