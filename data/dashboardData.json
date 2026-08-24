@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-23T15:24:50.584Z",
+  "lastUpdated": "2026-08-24T13:55:37.248Z",
   "current": {
     "category": "massage therapist",
-    "cityIndex": 13,
+    "cityIndex": 15,
     "totalCities": 22,
-    "nextCity": "Newmarket, ON"
+    "nextCity": "Oshawa, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,20 +99,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-23",
+      "date": "2026-08-24",
       "category": "massage therapist",
-      "city": "Richmond Hill, ON",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 44,
+      "placesApiCalls": 46,
       "serpApiCalls": 53
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 71
+    "projectedMonthlySerpApiCalls": 68
   },
   "totals": {
     "totalLeadsFound": 160,
@@ -624,6 +624,24 @@
       "date": "2026-08-23",
       "category": "massage therapist",
       "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-24",
+      "category": "massage therapist",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-24",
+      "category": "massage therapist",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,

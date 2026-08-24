@@ -503,6 +503,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-24",
+      "category": "massage therapist",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-24",
+      "category": "massage therapist",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -511,7 +529,7 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 44,
+      "placesApiCalls": 46,
       "serpApiCalls": 53
     }
   }
