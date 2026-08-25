@@ -91,10 +91,12 @@
       "Markham, ON",
       "Richmond Hill, ON",
       "Newmarket, ON",
-      "Aurora, ON"
+      "Aurora, ON",
+      "Oshawa, ON",
+      "Whitby, ON"
     ],
-    "leadsFound": 8,
-    "leadsEnriched": 7,
+    "leadsFound": 11,
+    "leadsEnriched": 10,
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null

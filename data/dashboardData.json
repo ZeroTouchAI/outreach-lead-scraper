@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-24T15:41:18.687Z",
+  "lastUpdated": "2026-08-25T13:54:42.145Z",
   "current": {
     "category": "massage therapist",
-    "cityIndex": 15,
+    "cityIndex": 17,
     "totalCities": 22,
-    "nextCity": "Oshawa, ON"
+    "nextCity": "Ajax, ON"
   },
   "leaderboard": {
     "completed": [
@@ -91,7 +91,7 @@
     ],
     "active": {
       "category": "massage therapist",
-      "leadsEnriched": 7,
+      "leadsEnriched": 10,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -99,23 +99,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "category": "massage therapist",
-      "city": "Aurora, ON",
+      "city": "Whitby, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 46,
-      "serpApiCalls": 53
+      "placesApiCalls": 48,
+      "serpApiCalls": 56
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 68
+    "projectedMonthlySerpApiCalls": 69
   },
   "totals": {
-    "totalLeadsFound": 160,
+    "totalLeadsFound": 163,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -645,6 +645,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-25",
+      "category": "massage therapist",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-25",
+      "category": "massage therapist",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     }
   ],

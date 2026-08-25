@@ -2587,5 +2587,53 @@
     "emailSource": null,
     "foundAt": "2026-08-22T13:34:56.526Z",
     "lastUpdatedAt": "2026-08-22T13:35:17.966Z"
+  },
+  {
+    "placeId": "ChIJc4HWF-wd1YkR_Xxjwm_n2kU",
+    "name": "Momentum Massage and Wellness Studio",
+    "address": "43 Gladstone Ave, Oshawa, ON L1J 4E4 (UNIT, Oshawa, ON 1, Canada",
+    "phone": "+1 905-720-2000",
+    "category": "massage therapist",
+    "searchLocation": "Oshawa, ON",
+    "primaryType": "wellness_center",
+    "googleMapsUrl": "https://maps.google.com/?cid=5033590000728636669&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-25T13:54:05.491Z",
+    "lastUpdatedAt": "2026-08-25T13:54:36.404Z"
+  },
+  {
+    "placeId": "ChIJHxJmD9Yd1YkRdygfEcusOek",
+    "name": "Durham Massage (PhysioRehab Group, Whitby)",
+    "address": "728 Anderson St, Whitby, ON L1N 9E6, Canada",
+    "phone": "+1 905-493-7687",
+    "category": "massage therapist",
+    "searchLocation": "Whitby, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=16805653472675309687&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-25T13:54:06.055Z",
+    "lastUpdatedAt": "2026-08-25T13:54:37.653Z"
+  },
+  {
+    "placeId": "ChIJD96Y8G8e1YkROJ_soJGSzuQ",
+    "name": "Mobility Massage Therapy",
+    "address": "573 Bradley Dr, Whitby, ON L1N 6B8, Canada",
+    "phone": "+1 289-387-3332",
+    "category": "massage therapist",
+    "searchLocation": "Whitby, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=16487276440017739576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-25T13:54:06.055Z",
+    "lastUpdatedAt": "2026-08-25T13:54:41.801Z"
   }
 ]

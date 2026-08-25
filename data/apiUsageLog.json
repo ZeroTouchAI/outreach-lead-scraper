@@ -521,6 +521,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-25",
+      "category": "massage therapist",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-25",
+      "category": "massage therapist",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -529,8 +547,8 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 46,
-      "serpApiCalls": 53
+      "placesApiCalls": 48,
+      "serpApiCalls": 56
     }
   }
 }
