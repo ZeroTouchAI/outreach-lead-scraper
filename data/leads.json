@@ -2635,5 +2635,21 @@
     "emailSource": null,
     "foundAt": "2026-08-25T13:54:06.055Z",
     "lastUpdatedAt": "2026-08-25T13:54:41.801Z"
+  },
+  {
+    "placeId": "ChIJmRCF1REe1YkRXHRh120wIVU",
+    "name": "Pain Solutions Physiotherapy and Massage Therapy",
+    "address": "617 Kingston Rd, Pickering, ON L1V 3N7, Canada",
+    "phone": "+1 905-492-7246",
+    "category": "massage therapist",
+    "searchLocation": "Pickering, ON",
+    "primaryType": "physiotherapist",
+    "googleMapsUrl": "https://maps.google.com/?cid=6134237415778382940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-26T13:57:28.075Z",
+    "lastUpdatedAt": "2026-08-26T13:57:29.857Z"
   }
 ]

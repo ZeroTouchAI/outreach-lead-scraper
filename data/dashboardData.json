@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-25T15:43:46.202Z",
+  "lastUpdated": "2026-08-26T13:57:30.201Z",
   "current": {
     "category": "massage therapist",
-    "cityIndex": 17,
+    "cityIndex": 19,
     "totalCities": 22,
-    "nextCity": "Ajax, ON"
+    "nextCity": "Oakville, ON"
   },
   "leaderboard": {
     "completed": [
@@ -91,7 +91,7 @@
     ],
     "active": {
       "category": "massage therapist",
-      "leadsEnriched": 10,
+      "leadsEnriched": 11,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -99,23 +99,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "category": "massage therapist",
-      "city": "Whitby, ON",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 48,
-      "serpApiCalls": 56
+      "placesApiCalls": 50,
+      "serpApiCalls": 57
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 69
+    "projectedMonthlySerpApiCalls": 68
   },
   "totals": {
-    "totalLeadsFound": 163,
+    "totalLeadsFound": 164,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -663,6 +663,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-26",
+      "category": "massage therapist",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-26",
+      "category": "massage therapist",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],
