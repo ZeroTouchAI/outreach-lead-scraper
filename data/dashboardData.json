@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-26T16:19:10.004Z",
+  "lastUpdated": "2026-08-27T22:52:59.121Z",
   "current": {
     "category": "massage therapist",
-    "cityIndex": 19,
+    "cityIndex": 21,
     "totalCities": 22,
-    "nextCity": "Oakville, ON"
+    "nextCity": "Milton, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,20 +99,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "category": "massage therapist",
-      "city": "Pickering, ON",
+      "city": "Burlington, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 50,
+      "placesApiCalls": 52,
       "serpApiCalls": 57
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 68
+    "projectedMonthlySerpApiCalls": 65
   },
   "totals": {
     "totalLeadsFound": 164,
@@ -681,6 +681,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-27",
+      "category": "massage therapist",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-27",
+      "category": "massage therapist",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

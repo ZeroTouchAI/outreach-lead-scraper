@@ -557,6 +557,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-27",
+      "category": "massage therapist",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-27",
+      "category": "massage therapist",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -565,7 +583,7 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 50,
+      "placesApiCalls": 52,
       "serpApiCalls": 57
     }
   }
