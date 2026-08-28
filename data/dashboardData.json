@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-28T00:17:06.093Z",
+  "lastUpdated": "2026-08-28T22:57:58.855Z",
   "current": {
-    "category": "massage therapist",
-    "cityIndex": 21,
+    "category": "photographer",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -19,6 +19,14 @@
       {
         "category": "spa",
         "leadsEnriched": 16,
+        "emailsFound": 0,
+        "hitRate": 0,
+        "verdict": "reject",
+        "sampleType": "full_cycle"
+      },
+      {
+        "category": "massage therapist",
+        "leadsEnriched": 14,
         "emailsFound": 0,
         "hitRate": 0,
         "verdict": "reject",
@@ -90,39 +98,39 @@
       }
     ],
     "active": {
-      "category": "massage therapist",
-      "leadsEnriched": 11,
+      "category": "photographer",
+      "leadsEnriched": 0,
       "emailsFound": 0,
-      "hitRate": 0
+      "hitRate": null
     },
-    "queuedCount": 17
+    "queuedCount": 16
   },
   "usage": {
     "today": {
-      "date": "2026-08-27",
+      "date": "2026-08-28",
       "category": "massage therapist",
-      "city": "Burlington, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 52,
-      "serpApiCalls": 57
+      "placesApiCalls": 54,
+      "serpApiCalls": 60
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 63
+    "projectedMonthlySerpApiCalls": 66
   },
   "totals": {
-    "totalLeadsFound": 164,
+    "totalLeadsFound": 167,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
-    "categoriesCompleted": 10,
+    "categoriesCompleted": 11,
     "categoriesKept": 1,
-    "categoriesRejected": 1,
-    "categoriesPending": 26
+    "categoriesRejected": 2,
+    "categoriesPending": 25
   },
   "dailyHistory": [
     {
@@ -699,6 +707,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-28",
+      "category": "massage therapist",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-28",
+      "category": "massage therapist",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     }
   ],

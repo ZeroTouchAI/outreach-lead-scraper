@@ -2651,5 +2651,53 @@
     "emailSource": null,
     "foundAt": "2026-08-26T13:57:28.075Z",
     "lastUpdatedAt": "2026-08-26T13:57:29.857Z"
+  },
+  {
+    "placeId": "ChIJI7Fwo2BvK4gRHC3xM4bbPvw",
+    "name": "Mary the best massage therapy in Canada",
+    "address": "1287 Costigan Rd, Milton, ON L9T 9M6, Canada",
+    "phone": "+1 213-853-6798",
+    "category": "massage therapist",
+    "searchLocation": "Milton, ON",
+    "primaryType": "massage_spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=18176206515557444892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-28T22:57:32.442Z",
+    "lastUpdatedAt": "2026-08-28T22:57:37.141Z"
+  },
+  {
+    "placeId": "ChIJpz5j3WATK4gRx7UUFRmFX0g",
+    "name": "Paige massage therapist",
+    "address": "Gibbs Rd, Brampton, ON M9B 0E8, Canada",
+    "phone": "+1 602-760-6942",
+    "category": "massage therapist",
+    "searchLocation": "Halton Hills, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=5215033236292679111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-28T22:57:32.981Z",
+    "lastUpdatedAt": "2026-08-28T22:57:55.406Z"
+  },
+  {
+    "placeId": "ChIJVSc7cNMSK4gR6hZS7hryw9M",
+    "name": "Therapeutic Massage Treatments",
+    "address": "360 Guelph St, Georgetown, ON L7G 4B5, Canada",
+    "phone": "+1 905-867-0594",
+    "category": "massage therapist",
+    "searchLocation": "Halton Hills, ON",
+    "primaryType": "massage",
+    "googleMapsUrl": "https://maps.google.com/?cid=15259306159942801130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-28T22:57:32.981Z",
+    "lastUpdatedAt": "2026-08-28T22:57:58.506Z"
   }
 ]

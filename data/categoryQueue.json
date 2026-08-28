@@ -74,9 +74,9 @@
   {
     "order": 3,
     "category": "massage therapist",
-    "status": "active",
+    "status": "completed",
     "startedAt": "2026-08-17T13:42:12.455Z",
-    "completedAt": null,
+    "completedAt": "2026-08-28T22:57:58.849Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -97,19 +97,21 @@
       "Ajax, ON",
       "Pickering, ON",
       "Oakville, ON",
-      "Burlington, ON"
+      "Burlington, ON",
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 12,
-    "leadsEnriched": 11,
+    "leadsFound": 15,
+    "leadsEnriched": 14,
     "emailsFound": 0,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0,
+    "verdict": "reject"
   },
   {
     "order": 4,
     "category": "photographer",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-08-28T22:57:58.849Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,
