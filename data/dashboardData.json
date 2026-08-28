@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T22:52:59.121Z",
+  "lastUpdated": "2026-08-28T00:17:06.093Z",
   "current": {
     "category": "massage therapist",
     "cityIndex": 21,
@@ -112,7 +112,7 @@
       "serpApiCalls": 57
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 65
+    "projectedMonthlySerpApiCalls": 63
   },
   "totals": {
     "totalLeadsFound": 164,
