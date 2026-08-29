@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-28T23:53:41.368Z",
+  "lastUpdated": "2026-08-29T17:02:17.356Z",
   "current": {
     "category": "photographer",
-    "cityIndex": 1,
+    "cityIndex": 3,
     "totalCities": 22,
-    "nextCity": "Downtown Toronto, ON"
+    "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,31 +99,31 @@
     ],
     "active": {
       "category": "photographer",
-      "leadsEnriched": 0,
+      "leadsEnriched": 1,
       "emailsFound": 0,
-      "hitRate": null
+      "hitRate": 0
     },
     "queuedCount": 16
   },
   "usage": {
     "today": {
-      "date": "2026-08-28",
-      "category": "massage therapist",
-      "city": "Halton Hills, ON",
+      "date": "2026-08-29",
+      "category": "photographer",
+      "city": "North York, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 54,
-      "serpApiCalls": 60
+      "placesApiCalls": 56,
+      "serpApiCalls": 61
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 66
+    "projectedMonthlySerpApiCalls": 65
   },
   "totals": {
-    "totalLeadsFound": 167,
+    "totalLeadsFound": 168,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -725,6 +725,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-29",
+      "category": "photographer",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-29",
+      "category": "photographer",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],

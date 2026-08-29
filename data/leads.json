@@ -2699,5 +2699,21 @@
     "emailSource": null,
     "foundAt": "2026-08-28T22:57:32.981Z",
     "lastUpdatedAt": "2026-08-28T22:57:58.506Z"
+  },
+  {
+    "placeId": "ChIJXRUoBQAtK4gR-SE2gDJHF1U",
+    "name": "Best Capture Studio",
+    "address": "6305 Yonge St, North York, ON M2M 3X7, Canada",
+    "phone": "+1 437-445-0204",
+    "category": "photographer",
+    "searchLocation": "North York, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=6131447699913187833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-29T17:02:14.185Z",
+    "lastUpdatedAt": "2026-08-29T17:02:17.008Z"
   }
 ]
