@@ -115,7 +115,9 @@
     "completedAt": null,
     "citiesCovered": [
       "Downtown Toronto, ON",
-      "North York, ON"
+      "North York, ON",
+      "Scarborough, ON",
+      "Etobicoke, ON"
     ],
     "leadsFound": 1,
     "leadsEnriched": 1,

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-29T18:12:48.110Z",
+  "lastUpdated": "2026-08-30T17:15:42.764Z",
   "current": {
     "category": "photographer",
-    "cityIndex": 3,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,20 +107,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-29",
+      "date": "2026-08-30",
       "category": "photographer",
-      "city": "North York, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 56,
+      "placesApiCalls": 58,
       "serpApiCalls": 61
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 65
+    "projectedMonthlySerpApiCalls": 63
   },
   "totals": {
     "totalLeadsFound": 168,
@@ -743,6 +743,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-30",
+      "category": "photographer",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-30",
+      "category": "photographer",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

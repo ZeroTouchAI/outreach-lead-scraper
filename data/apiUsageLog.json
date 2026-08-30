@@ -611,6 +611,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-08-30",
+      "category": "photographer",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-08-30",
+      "category": "photographer",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -619,7 +637,7 @@
       "serpApiCalls": 39
     },
     "2026-08": {
-      "placesApiCalls": 56,
+      "placesApiCalls": 58,
       "serpApiCalls": 61
     }
   }
