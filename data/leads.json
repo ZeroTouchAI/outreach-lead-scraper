@@ -2715,5 +2715,37 @@
     "emailSource": null,
     "foundAt": "2026-08-29T17:02:14.185Z",
     "lastUpdatedAt": "2026-08-29T17:02:17.008Z"
+  },
+  {
+    "placeId": "ChIJWcr1TB3N1IkRuMmbCaOoipE",
+    "name": "Images Etc Photos",
+    "address": "45 Overlea Blvd, East York, ON M4H 1C3, Canada",
+    "phone": "+1 416-423-6500",
+    "category": "photographer",
+    "searchLocation": "East York, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=10487380100479961528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-31T19:27:07.554Z",
+    "lastUpdatedAt": "2026-08-31T19:27:11.420Z"
+  },
+  {
+    "placeId": "ChIJ2WN6zSjVj6IRr0GJrJsNQXg",
+    "name": "Peak one media | Real Estate Photographer Toronto",
+    "address": "80 Cosburn Ave., East York, ON M4K 2G6, Canada",
+    "phone": "+1 306-501-3696",
+    "category": "photographer",
+    "searchLocation": "East York, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=8665222120303313327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-08-31T19:27:07.554Z",
+    "lastUpdatedAt": "2026-08-31T19:27:15.156Z"
   }
 ]
