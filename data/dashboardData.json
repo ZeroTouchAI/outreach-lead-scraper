@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-31T20:42:07.510Z",
+  "lastUpdated": "2026-09-01T17:14:49.169Z",
   "current": {
     "category": "photographer",
-    "cityIndex": 7,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,7 +99,7 @@
     ],
     "active": {
       "category": "photographer",
-      "leadsEnriched": 3,
+      "leadsEnriched": 4,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -107,23 +107,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-08-31",
+      "date": "2026-09-01",
       "category": "photographer",
-      "city": "East York, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 60,
-      "serpApiCalls": 63
+      "placesApiCalls": 2,
+      "serpApiCalls": 1
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 63
+    "projectedMonthlySerpApiCalls": 30
   },
   "totals": {
-    "totalLeadsFound": 170,
+    "totalLeadsFound": 171,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -779,6 +779,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-01",
+      "category": "photographer",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-01",
+      "category": "photographer",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],

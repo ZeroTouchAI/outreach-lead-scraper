@@ -2747,5 +2747,21 @@
     "emailSource": null,
     "foundAt": "2026-08-31T19:27:07.554Z",
     "lastUpdatedAt": "2026-08-31T19:27:15.156Z"
+  },
+  {
+    "placeId": "ChIJycCNSlQVK4gRoojUnNUJPVw",
+    "name": "The Soul Portraits",
+    "address": "134 Queen St E, Brampton, ON L6V 1B2, Canada",
+    "phone": "+1 705-970-8822",
+    "category": "photographer",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=6646479438132578466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-01T17:14:46.582Z",
+    "lastUpdatedAt": "2026-09-01T17:14:48.814Z"
   }
 ]

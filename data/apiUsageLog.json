@@ -647,6 +647,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-01",
+      "category": "photographer",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-01",
+      "category": "photographer",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -657,6 +675,10 @@
     "2026-08": {
       "placesApiCalls": 60,
       "serpApiCalls": 63
+    },
+    "2026-09": {
+      "placesApiCalls": 2,
+      "serpApiCalls": 1
     }
   }
 }
