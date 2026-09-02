@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-01T18:14:05.954Z",
+  "lastUpdated": "2026-09-02T17:04:19.707Z",
   "current": {
     "category": "photographer",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,7 +99,7 @@
     ],
     "active": {
       "category": "photographer",
-      "leadsEnriched": 4,
+      "leadsEnriched": 5,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -107,23 +107,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "category": "photographer",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 2,
-      "serpApiCalls": 1
+      "placesApiCalls": 4,
+      "serpApiCalls": 2
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 30
   },
   "totals": {
-    "totalLeadsFound": 171,
+    "totalLeadsFound": 172,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -797,6 +797,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-02",
+      "category": "photographer",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-02",
+      "category": "photographer",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],
