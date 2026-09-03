@@ -2779,5 +2779,37 @@
     "emailSource": null,
     "foundAt": "2026-09-02T17:04:16.511Z",
     "lastUpdatedAt": "2026-09-02T17:04:19.363Z"
+  },
+  {
+    "placeId": "ChIJbZlN7sbTKogRXJNA0U1pKJw",
+    "name": "U TIME photo studio",
+    "address": "6 Cathedral High St, Markham, ON L6C 0P2, Canada",
+    "phone": "+1 289-763-8180",
+    "category": "photographer",
+    "searchLocation": "Markham, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=11252359451929252700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-03T16:58:34.032Z",
+    "lastUpdatedAt": "2026-09-03T16:58:53.351Z"
+  },
+  {
+    "placeId": "ChIJXQlDpmorK4gRAINXG5yw0jo",
+    "name": "Crixpixels photography",
+    "address": "95 Oneida Crescent, Richmond Hill, ON L4B 0H5, Canada",
+    "phone": "+1 437-315-0515",
+    "category": "photographer",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=4238644383829164800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-03T16:58:34.592Z",
+    "lastUpdatedAt": "2026-09-03T16:58:55.583Z"
   }
 ]
