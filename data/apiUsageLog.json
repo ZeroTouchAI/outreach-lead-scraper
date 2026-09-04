@@ -701,6 +701,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-04",
+      "category": "photographer",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-04",
+      "category": "photographer",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -713,7 +731,7 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 6,
+      "placesApiCalls": 8,
       "serpApiCalls": 4
     }
   }

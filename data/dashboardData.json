@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-03T18:24:01.281Z",
+  "lastUpdated": "2026-09-04T16:47:47.233Z",
   "current": {
     "category": "photographer",
-    "cityIndex": 13,
+    "cityIndex": 15,
     "totalCities": 22,
-    "nextCity": "Newmarket, ON"
+    "nextCity": "Oshawa, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,20 +107,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-03",
+      "date": "2026-09-04",
       "category": "photographer",
-      "city": "Richmond Hill, ON",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 6,
+      "placesApiCalls": 8,
       "serpApiCalls": 4
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 40
+    "projectedMonthlySerpApiCalls": 30
   },
   "totals": {
     "totalLeadsFound": 174,
@@ -833,6 +833,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-04",
+      "category": "photographer",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-04",
+      "category": "photographer",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],
