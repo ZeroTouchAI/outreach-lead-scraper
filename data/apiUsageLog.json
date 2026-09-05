@@ -719,6 +719,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-05",
+      "category": "photographer",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-05",
+      "category": "photographer",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -731,7 +749,7 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 8,
+      "placesApiCalls": 10,
       "serpApiCalls": 4
     }
   }
