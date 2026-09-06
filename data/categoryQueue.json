@@ -129,10 +129,12 @@
       "Newmarket, ON",
       "Aurora, ON",
       "Oshawa, ON",
-      "Whitby, ON"
+      "Whitby, ON",
+      "Ajax, ON",
+      "Pickering, ON"
     ],
-    "leadsFound": 7,
-    "leadsEnriched": 7,
+    "leadsFound": 8,
+    "leadsEnriched": 8,
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null

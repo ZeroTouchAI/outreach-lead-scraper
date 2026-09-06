@@ -2811,5 +2811,21 @@
     "emailSource": null,
     "foundAt": "2026-09-03T16:58:34.592Z",
     "lastUpdatedAt": "2026-09-03T16:58:55.583Z"
+  },
+  {
+    "placeId": "ChIJcVLpzSzf1IkRXVIYFCpAZSM",
+    "name": "Stuart Wright Photography",
+    "address": "1134 Glen Eden Ct, Pickering, ON L1V 6N8, Canada",
+    "phone": "+1 289-388-7629",
+    "category": "photographer",
+    "searchLocation": "Pickering, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=2550515313445196381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-06T16:04:23.020Z",
+    "lastUpdatedAt": "2026-09-06T16:04:36.330Z"
   }
 ]

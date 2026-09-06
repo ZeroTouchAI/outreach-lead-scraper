@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-05T17:12:26.359Z",
+  "lastUpdated": "2026-09-06T16:04:36.663Z",
   "current": {
     "category": "photographer",
-    "cityIndex": 17,
+    "cityIndex": 19,
     "totalCities": 22,
-    "nextCity": "Ajax, ON"
+    "nextCity": "Oakville, ON"
   },
   "leaderboard": {
     "completed": [
@@ -99,7 +99,7 @@
     ],
     "active": {
       "category": "photographer",
-      "leadsEnriched": 7,
+      "leadsEnriched": 8,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -107,23 +107,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-05",
+      "date": "2026-09-06",
       "category": "photographer",
-      "city": "Whitby, ON",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 10,
-      "serpApiCalls": 4
+      "placesApiCalls": 12,
+      "serpApiCalls": 5
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 24
+    "projectedMonthlySerpApiCalls": 25
   },
   "totals": {
-    "totalLeadsFound": 174,
+    "totalLeadsFound": 175,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -869,6 +869,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-06",
+      "category": "photographer",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-06",
+      "category": "photographer",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],
