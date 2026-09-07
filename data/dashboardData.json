@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-06T17:31:53.200Z",
+  "lastUpdated": "2026-09-07T18:10:21.716Z",
   "current": {
     "category": "photographer",
-    "cityIndex": 19,
+    "cityIndex": 21,
     "totalCities": 22,
-    "nextCity": "Oakville, ON"
+    "nextCity": "Milton, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,20 +107,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-06",
+      "date": "2026-09-07",
       "category": "photographer",
-      "city": "Pickering, ON",
+      "city": "Burlington, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 12,
+      "placesApiCalls": 14,
       "serpApiCalls": 5
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 25
+    "projectedMonthlySerpApiCalls": 21
   },
   "totals": {
     "totalLeadsFound": 175,
@@ -887,6 +887,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-07",
+      "category": "photographer",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-07",
+      "category": "photographer",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],
