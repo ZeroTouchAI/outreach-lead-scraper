@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-07T19:01:59.699Z",
+  "lastUpdated": "2026-09-08T17:09:34.654Z",
   "current": {
-    "category": "photographer",
-    "cityIndex": 21,
+    "category": "event planner",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -27,6 +27,14 @@
       {
         "category": "massage therapist",
         "leadsEnriched": 14,
+        "emailsFound": 0,
+        "hitRate": 0,
+        "verdict": "reject",
+        "sampleType": "full_cycle"
+      },
+      {
+        "category": "photographer",
+        "leadsEnriched": 8,
         "emailsFound": 0,
         "hitRate": 0,
         "verdict": "reject",
@@ -98,39 +106,39 @@
       }
     ],
     "active": {
-      "category": "photographer",
-      "leadsEnriched": 8,
+      "category": "event planner",
+      "leadsEnriched": 0,
       "emailsFound": 0,
-      "hitRate": 0
+      "hitRate": null
     },
-    "queuedCount": 16
+    "queuedCount": 15
   },
   "usage": {
     "today": {
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "category": "photographer",
-      "city": "Burlington, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 14,
+      "placesApiCalls": 16,
       "serpApiCalls": 5
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 21
+    "projectedMonthlySerpApiCalls": 19
   },
   "totals": {
     "totalLeadsFound": 175,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
-    "categoriesCompleted": 11,
+    "categoriesCompleted": 12,
     "categoriesKept": 1,
-    "categoriesRejected": 2,
-    "categoriesPending": 25
+    "categoriesRejected": 3,
+    "categoriesPending": 24
   },
   "dailyHistory": [
     {
@@ -902,6 +910,24 @@
       "date": "2026-09-07",
       "category": "photographer",
       "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-08",
+      "category": "photographer",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-08",
+      "category": "photographer",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,

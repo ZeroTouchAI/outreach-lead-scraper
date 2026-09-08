@@ -773,6 +773,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-08",
+      "category": "photographer",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-08",
+      "category": "photographer",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -785,7 +803,7 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 14,
+      "placesApiCalls": 16,
       "serpApiCalls": 5
     }
   }
