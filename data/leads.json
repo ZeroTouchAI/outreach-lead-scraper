@@ -2827,5 +2827,53 @@
     "emailSource": null,
     "foundAt": "2026-09-06T16:04:23.020Z",
     "lastUpdatedAt": "2026-09-06T16:04:36.330Z"
+  },
+  {
+    "placeId": "ChIJrwunrTbL1IkRTGlzKrW74KE",
+    "name": "Finer Events",
+    "address": "111 Queen St E, Toronto, ON M5C 1S2, Canada",
+    "phone": "+1 416-833-1319",
+    "category": "event planner",
+    "searchLocation": "Downtown Toronto, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=11664529421665265996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-09T17:04:52.836Z",
+    "lastUpdatedAt": "2026-09-09T17:04:54.712Z"
+  },
+  {
+    "placeId": "ChIJWZT09MbT1IkRaxq0NndVS-Q",
+    "name": "Amouraevents.ca",
+    "address": "101 Gordon Baker Rd, North York, ON M2H 0B1, Canada",
+    "phone": "+1 416-880-2401",
+    "category": "event planner",
+    "searchLocation": "North York, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=16450336034408110699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-09T17:04:53.372Z",
+    "lastUpdatedAt": "2026-09-09T17:05:06.042Z"
+  },
+  {
+    "placeId": "ChIJZcSyUe4zK4gR5GLghWNuSZI",
+    "name": "Backdrop studio Co.",
+    "address": "33 The Links Rd, North York, ON M2P 1T7, Canada",
+    "phone": "+1 647-221-3051",
+    "category": "event planner",
+    "searchLocation": "North York, ON",
+    "primaryType": "",
+    "googleMapsUrl": "https://maps.google.com/?cid=10541077776564249316&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-09T17:04:53.372Z",
+    "lastUpdatedAt": "2026-09-09T17:05:29.514Z"
   }
 ]

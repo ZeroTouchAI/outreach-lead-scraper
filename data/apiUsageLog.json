@@ -791,6 +791,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-09",
+      "category": "event planner",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-09",
+      "category": "event planner",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -803,8 +821,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 16,
-      "serpApiCalls": 5
+      "placesApiCalls": 18,
+      "serpApiCalls": 8
     }
   }
 }
