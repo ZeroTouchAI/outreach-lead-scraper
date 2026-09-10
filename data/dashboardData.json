@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-09T18:21:58.879Z",
+  "lastUpdated": "2026-09-10T16:58:14.300Z",
   "current": {
     "category": "event planner",
-    "cityIndex": 3,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,7 +107,7 @@
     ],
     "active": {
       "category": "event planner",
-      "leadsEnriched": 3,
+      "leadsEnriched": 6,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -115,23 +115,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "category": "event planner",
-      "city": "North York, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 18,
-      "serpApiCalls": 8
+      "placesApiCalls": 20,
+      "serpApiCalls": 12
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 27
+    "projectedMonthlySerpApiCalls": 36
   },
   "totals": {
-    "totalLeadsFound": 178,
+    "totalLeadsFound": 182,
     "totalEmailsFound": 5,
     "totalEmailsSent": 5,
     "totalCategories": 28,
@@ -949,6 +949,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-10",
+      "category": "event planner",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-10",
+      "category": "event planner",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

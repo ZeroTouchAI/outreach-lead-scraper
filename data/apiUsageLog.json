@@ -809,6 +809,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-10",
+      "category": "event planner",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-10",
+      "category": "event planner",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -821,8 +839,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 18,
-      "serpApiCalls": 8
+      "placesApiCalls": 20,
+      "serpApiCalls": 12
     }
   }
 }
