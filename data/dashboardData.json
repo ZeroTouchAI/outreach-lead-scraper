@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-11T18:14:15.604Z",
+  "lastUpdated": "2026-09-12T16:11:09.576Z",
   "current": {
     "category": "event planner",
-    "cityIndex": 7,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,32 +107,32 @@
     ],
     "active": {
       "category": "event planner",
-      "leadsEnriched": 6,
-      "emailsFound": 0,
-      "hitRate": 0
+      "leadsEnriched": 8,
+      "emailsFound": 1,
+      "hitRate": 0.125
     },
     "queuedCount": 15
   },
   "usage": {
     "today": {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "category": "event planner",
-      "city": "East York, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 22,
-      "serpApiCalls": 12
+      "placesApiCalls": 24,
+      "serpApiCalls": 16
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 33
+    "projectedMonthlySerpApiCalls": 40
   },
   "totals": {
-    "totalLeadsFound": 182,
-    "totalEmailsFound": 5,
+    "totalLeadsFound": 186,
+    "totalEmailsFound": 6,
     "totalEmailsSent": 5,
     "totalCategories": 28,
     "categoriesCompleted": 12,
@@ -986,9 +986,38 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-12",
+      "category": "event planner",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-12",
+      "category": "event planner",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "Agnus Family Enterprises",
+      "category": "event planner",
+      "location": "Brampton, ON",
+      "email": "info@induscs.ca",
+      "emailSource": "https://www.centralwesthealthline.ca/displayservice.aspx?id=166208",
+      "phone": "+1 647-860-8520",
+      "foundAt": "2026-09-12T16:07:08.636Z",
+      "sent": false,
+      "sendFailed": false
+    },
     {
       "name": "Zen Nails Spa",
       "category": "nail salon",
