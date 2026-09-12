@@ -2998,10 +2998,12 @@
     "primaryType": "service",
     "googleMapsUrl": "https://maps.google.com/?cid=8487053813784267597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "info@induscs.ca",
     "emailSource": "https://www.centralwesthealthline.ca/displayservice.aspx?id=166208",
     "foundAt": "2026-09-12T16:07:08.636Z",
-    "lastUpdatedAt": "2026-09-12T16:11:09.241Z"
+    "lastUpdatedAt": "2026-09-12T16:11:09.241Z",
+    "emailedAt": "2026-09-12T17:42:02.656Z",
+    "resendId": "901db2b3-4111-43d0-b15b-25ae3cbdeac0"
   }
 ]

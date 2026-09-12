@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T16:11:09.576Z",
+  "lastUpdated": "2026-09-12T17:42:03.200Z",
   "current": {
     "category": "event planner",
     "cityIndex": 9,
@@ -133,7 +133,7 @@
   "totals": {
     "totalLeadsFound": 186,
     "totalEmailsFound": 6,
-    "totalEmailsSent": 5,
+    "totalEmailsSent": 6,
     "totalCategories": 28,
     "categoriesCompleted": 12,
     "categoriesKept": 1,
@@ -1015,7 +1015,7 @@
       "emailSource": "https://www.centralwesthealthline.ca/displayservice.aspx?id=166208",
       "phone": "+1 647-860-8520",
       "foundAt": "2026-09-12T16:07:08.636Z",
-      "sent": false,
+      "sent": true,
       "sendFailed": false
     },
     {
