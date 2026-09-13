@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-12T17:42:03.200Z",
+  "lastUpdated": "2026-09-13T16:56:39.960Z",
   "current": {
     "category": "event planner",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,31 +107,31 @@
     ],
     "active": {
       "category": "event planner",
-      "leadsEnriched": 8,
+      "leadsEnriched": 10,
       "emailsFound": 1,
-      "hitRate": 0.125
+      "hitRate": 0.1
     },
     "queuedCount": 15
   },
   "usage": {
     "today": {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "category": "event planner",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 1
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 24,
-      "serpApiCalls": 16
+      "placesApiCalls": 26,
+      "serpApiCalls": 18
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 40
+    "projectedMonthlySerpApiCalls": 42
   },
   "totals": {
-    "totalLeadsFound": 186,
+    "totalLeadsFound": 188,
     "totalEmailsFound": 6,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -1004,6 +1004,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-09-13",
+      "category": "event planner",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-13",
+      "category": "event planner",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [

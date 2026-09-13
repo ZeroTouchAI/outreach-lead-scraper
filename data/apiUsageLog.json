@@ -863,6 +863,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-09-13",
+      "category": "event planner",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-13",
+      "category": "event planner",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -875,8 +893,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 24,
-      "serpApiCalls": 16
+      "placesApiCalls": 26,
+      "serpApiCalls": 18
     }
   }
 }
