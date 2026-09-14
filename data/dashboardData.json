@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-13T17:58:21.234Z",
+  "lastUpdated": "2026-09-14T18:27:51.076Z",
   "current": {
     "category": "event planner",
-    "cityIndex": 11,
+    "cityIndex": 13,
     "totalCities": 22,
-    "nextCity": "Markham, ON"
+    "nextCity": "Newmarket, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,31 +107,31 @@
     ],
     "active": {
       "category": "event planner",
-      "leadsEnriched": 10,
+      "leadsEnriched": 15,
       "emailsFound": 1,
-      "hitRate": 0.1
+      "hitRate": 0.06666666666666667
     },
     "queuedCount": 15
   },
   "usage": {
     "today": {
-      "date": "2026-09-13",
+      "date": "2026-09-14",
       "category": "event planner",
-      "city": "Vaughan, ON",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 26,
-      "serpApiCalls": 18
+      "placesApiCalls": 28,
+      "serpApiCalls": 23
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 42
+    "projectedMonthlySerpApiCalls": 49
   },
   "totals": {
-    "totalLeadsFound": 188,
+    "totalLeadsFound": 193,
     "totalEmailsFound": 6,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -1021,6 +1021,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-14",
+      "category": "event planner",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-14",
+      "category": "event planner",
+      "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
       "emailsFound": 0
     }
   ],
