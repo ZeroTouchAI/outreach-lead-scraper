@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-14T19:45:05.044Z",
+  "lastUpdated": "2026-09-15T17:34:19.919Z",
   "current": {
     "category": "event planner",
-    "cityIndex": 13,
+    "cityIndex": 15,
     "totalCities": 22,
-    "nextCity": "Newmarket, ON"
+    "nextCity": "Oshawa, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,20 +115,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "category": "event planner",
-      "city": "Richmond Hill, ON",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 28,
+      "placesApiCalls": 30,
       "serpApiCalls": 23
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 49
+    "projectedMonthlySerpApiCalls": 46
   },
   "totals": {
     "totalLeadsFound": 193,
@@ -1039,6 +1039,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 4,
       "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-15",
+      "category": "event planner",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-15",
+      "category": "event planner",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],
