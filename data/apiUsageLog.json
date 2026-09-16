@@ -917,6 +917,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-16",
+      "category": "event planner",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-16",
+      "category": "event planner",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -929,7 +947,7 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 30,
+      "placesApiCalls": 32,
       "serpApiCalls": 23
     }
   }
