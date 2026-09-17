@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-16T18:44:06.367Z",
+  "lastUpdated": "2026-09-17T17:33:08.782Z",
   "current": {
     "category": "event planner",
-    "cityIndex": 17,
+    "cityIndex": 19,
     "totalCities": 22,
-    "nextCity": "Ajax, ON"
+    "nextCity": "Oakville, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,20 +115,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "category": "event planner",
-      "city": "Whitby, ON",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 32,
+      "placesApiCalls": 34,
       "serpApiCalls": 23
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 43
+    "projectedMonthlySerpApiCalls": 41
   },
   "totals": {
     "totalLeadsFound": 193,
@@ -1072,6 +1072,24 @@
       "date": "2026-09-16",
       "category": "event planner",
       "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-17",
+      "category": "event planner",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-17",
+      "category": "event planner",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
