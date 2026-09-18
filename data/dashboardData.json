@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-17T18:51:18.404Z",
+  "lastUpdated": "2026-09-18T17:00:16.564Z",
   "current": {
     "category": "event planner",
-    "cityIndex": 19,
+    "cityIndex": 21,
     "totalCities": 22,
-    "nextCity": "Oakville, ON"
+    "nextCity": "Milton, ON"
   },
   "leaderboard": {
     "completed": [
@@ -107,31 +107,31 @@
     ],
     "active": {
       "category": "event planner",
-      "leadsEnriched": 15,
+      "leadsEnriched": 19,
       "emailsFound": 1,
-      "hitRate": 0.06666666666666667
+      "hitRate": 0.05263157894736842
     },
     "queuedCount": 15
   },
   "usage": {
     "today": {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "category": "event planner",
-      "city": "Pickering, ON",
+      "city": "Burlington, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 34,
-      "serpApiCalls": 23
+      "placesApiCalls": 36,
+      "serpApiCalls": 27
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 41
+    "projectedMonthlySerpApiCalls": 45
   },
   "totals": {
-    "totalLeadsFound": 193,
+    "totalLeadsFound": 197,
     "totalEmailsFound": 6,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -1093,6 +1093,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-18",
+      "category": "event planner",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-18",
+      "category": "event planner",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     }
   ],
