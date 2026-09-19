@@ -146,9 +146,9 @@
   {
     "order": 5,
     "category": "event planner",
-    "status": "active",
+    "status": "completed",
     "startedAt": "2026-09-08T17:09:34.649Z",
-    "completedAt": null,
+    "completedAt": "2026-09-19T16:19:24.325Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -169,19 +169,21 @@
       "Ajax, ON",
       "Pickering, ON",
       "Oakville, ON",
-      "Burlington, ON"
+      "Burlington, ON",
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 22,
-    "leadsEnriched": 19,
+    "leadsFound": 24,
+    "leadsEnriched": 21,
     "emailsFound": 1,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0.047619047619047616,
+    "verdict": "keep"
   },
   {
     "order": 6,
     "category": "bakery",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-09-19T16:19:24.325Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,

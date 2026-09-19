@@ -3181,5 +3181,37 @@
     "emailSource": null,
     "foundAt": "2026-09-18T16:59:27.271Z",
     "lastUpdatedAt": "2026-09-18T17:00:16.231Z"
+  },
+  {
+    "placeId": "ChIJu-bQITFvK4gRuRx7-Fjg-e4",
+    "name": "Hours Wedding & Event Planning",
+    "address": "503 Hartley Blvd, Milton, ON L9T 6K9, Canada",
+    "phone": "+1 905-617-1967",
+    "category": "event planner",
+    "searchLocation": "Milton, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=17220041322958363833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-19T16:19:21.300Z",
+    "lastUpdatedAt": "2026-09-19T16:19:22.876Z"
+  },
+  {
+    "placeId": "ChIJNx1FB-RvK4gRiwF-m8Bp83M",
+    "name": "Birthday blingss",
+    "address": "541 Thompson Rd S #2, Milton, ON L9T 7Z1, Canada",
+    "phone": "+1 365-338-1904",
+    "category": "event planner",
+    "searchLocation": "Milton, ON",
+    "primaryType": "service",
+    "googleMapsUrl": "https://maps.google.com/?cid=8355138009665765771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-19T16:19:21.300Z",
+    "lastUpdatedAt": "2026-09-19T16:19:23.980Z"
   }
 ]

@@ -971,6 +971,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-19",
+      "category": "event planner",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-19",
+      "category": "event planner",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -983,8 +1001,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 36,
-      "serpApiCalls": 27
+      "placesApiCalls": 38,
+      "serpApiCalls": 29
     }
   }
 }
