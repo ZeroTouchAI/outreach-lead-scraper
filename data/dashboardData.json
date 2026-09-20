@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-19T17:49:48.111Z",
+  "lastUpdated": "2026-09-20T16:43:47.893Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 1,
+    "cityIndex": 3,
     "totalCities": 22,
-    "nextCity": "Downtown Toronto, ON"
+    "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,31 +115,31 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 0,
+      "leadsEnriched": 3,
       "emailsFound": 0,
-      "hitRate": null
+      "hitRate": 0
     },
     "queuedCount": 14
   },
   "usage": {
     "today": {
-      "date": "2026-09-19",
-      "category": "event planner",
-      "city": "Halton Hills, ON",
+      "date": "2026-09-20",
+      "category": "bakery",
+      "city": "North York, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 38,
-      "serpApiCalls": 29
+      "placesApiCalls": 40,
+      "serpApiCalls": 32
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 46
+    "projectedMonthlySerpApiCalls": 48
   },
   "totals": {
-    "totalLeadsFound": 199,
+    "totalLeadsFound": 202,
     "totalEmailsFound": 6,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -1137,6 +1137,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-20",
+      "category": "bakery",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-20",
+      "category": "bakery",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     }
   ],

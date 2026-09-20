@@ -3213,5 +3213,53 @@
     "emailSource": null,
     "foundAt": "2026-09-19T16:19:21.300Z",
     "lastUpdatedAt": "2026-09-19T16:19:23.980Z"
+  },
+  {
+    "placeId": "ChIJAQUSJQAtK4gREJorYxtSZMU",
+    "name": "Brick & Butter Bakehouse",
+    "address": "28 Finch Ave W #116, North York, ON M2N 2G7, Canada",
+    "phone": "+1 416-223-8916",
+    "category": "bakery",
+    "searchLocation": "North York, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=14223583800724265488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-20T16:43:10.842Z",
+    "lastUpdatedAt": "2026-09-20T16:43:11.972Z"
+  },
+  {
+    "placeId": "ChIJp_44xNktK4gRBc_UPjU0MW4",
+    "name": "Monte Bakery_Sheppard & Kenneth",
+    "address": "100 Sheppard Ave E Unit 101, North York, ON M2N 6N5, Canada",
+    "phone": "+1 416-590-0060",
+    "category": "bakery",
+    "searchLocation": "North York, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=7940185021322940165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-20T16:43:10.842Z",
+    "lastUpdatedAt": "2026-09-20T16:43:13.027Z"
+  },
+  {
+    "placeId": "ChIJK9iisO_T1IkRV-gGUPwUCvs",
+    "name": "Komugi Bakery",
+    "address": "3030 Don Mills Rd. #12B, North York, ON M2J 3C1, Canada",
+    "phone": "+1 416-490-1142",
+    "category": "bakery",
+    "searchLocation": "North York, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=18089293927193962583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-20T16:43:10.842Z",
+    "lastUpdatedAt": "2026-09-20T16:43:47.549Z"
   }
 ]
