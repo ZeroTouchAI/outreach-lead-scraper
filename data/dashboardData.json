@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-20T18:04:09.610Z",
+  "lastUpdated": "2026-09-21T18:33:54.689Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 3,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,7 +115,7 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 3,
+      "leadsEnriched": 10,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -123,23 +123,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-20",
+      "date": "2026-09-21",
       "category": "bakery",
-      "city": "North York, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 40,
-      "serpApiCalls": 32
+      "placesApiCalls": 42,
+      "serpApiCalls": 39
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 48
+    "projectedMonthlySerpApiCalls": 56
   },
   "totals": {
-    "totalLeadsFound": 202,
+    "totalLeadsFound": 209,
     "totalEmailsFound": 6,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -1155,6 +1155,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 3,
       "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-21",
+      "category": "bakery",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-21",
+      "category": "bakery",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     }
   ],

@@ -1007,6 +1007,24 @@
       "serpApiCalls": 3,
       "leadsFound": 3,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-21",
+      "category": "bakery",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-21",
+      "category": "bakery",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1019,8 +1037,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 40,
-      "serpApiCalls": 32
+      "placesApiCalls": 42,
+      "serpApiCalls": 39
     }
   }
 }
