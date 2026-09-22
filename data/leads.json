@@ -3373,5 +3373,37 @@
     "emailSource": null,
     "foundAt": "2026-09-21T18:33:42.473Z",
     "lastUpdatedAt": "2026-09-21T18:33:54.354Z"
+  },
+  {
+    "placeId": "ChIJ7YbUqm_N1IkRznquuIqRlCA",
+    "name": "Best Cake Toronto",
+    "address": "168 Holborne Ave, East York, ON M4C 2R6, Canada",
+    "phone": "+1 416-573-6788",
+    "category": "bakery",
+    "searchLocation": "East York, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=2347661330756827854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-22T17:34:42.048Z",
+    "lastUpdatedAt": "2026-09-22T17:34:43.665Z"
+  },
+  {
+    "placeId": "ChIJ38ToBUbN1IkRjcUf7hpeKvg",
+    "name": "Tehzeeb Bakers sweets & pizza",
+    "address": "60 Overlea Blvd Unit 1B, East York, ON M4H 1B6, Canada",
+    "phone": "+1 416-421-4222",
+    "category": "bakery",
+    "searchLocation": "East York, ON",
+    "primaryType": "restaurant",
+    "googleMapsUrl": "https://maps.google.com/?cid=17882208740185195917&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-22T17:34:42.048Z",
+    "lastUpdatedAt": "2026-09-22T17:34:45.848Z"
   }
 ]

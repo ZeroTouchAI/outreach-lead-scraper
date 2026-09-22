@@ -189,10 +189,12 @@
       "Downtown Toronto, ON",
       "North York, ON",
       "Scarborough, ON",
-      "Etobicoke, ON"
+      "Etobicoke, ON",
+      "York, Toronto, ON",
+      "East York, ON"
     ],
-    "leadsFound": 10,
-    "leadsEnriched": 10,
+    "leadsFound": 12,
+    "leadsEnriched": 12,
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null
