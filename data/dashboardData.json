@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-22T18:35:26.256Z",
+  "lastUpdated": "2026-09-23T17:46:48.972Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 7,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,7 +115,7 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 12,
+      "leadsEnriched": 18,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -123,23 +123,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "category": "bakery",
-      "city": "East York, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 44,
-      "serpApiCalls": 41
+      "placesApiCalls": 46,
+      "serpApiCalls": 47
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 56
+    "projectedMonthlySerpApiCalls": 61
   },
   "totals": {
-    "totalLeadsFound": 211,
+    "totalLeadsFound": 217,
     "totalEmailsFound": 6,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -1191,6 +1191,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-23",
+      "category": "bakery",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-23",
+      "category": "bakery",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
       "emailsFound": 0
     }
   ],
