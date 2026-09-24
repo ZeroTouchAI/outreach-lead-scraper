@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T17:48:18.503Z",
+  "lastUpdated": "2026-09-24T18:51:47.306Z",
   "current": {
     "category": "bakery",
     "cityIndex": 11,
@@ -1240,7 +1240,7 @@
       "phone": "+1 905-850-3240",
       "foundAt": "2026-09-24T17:48:01.868Z",
       "sent": false,
-      "sendFailed": false
+      "sendFailed": true
     },
     {
       "name": "Agnus Family Enterprises",
