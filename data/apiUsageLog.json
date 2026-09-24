@@ -1061,6 +1061,24 @@
       "serpApiCalls": 5,
       "leadsFound": 5,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-24",
+      "category": "bakery",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 8,
+      "leadsFound": 8,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-24",
+      "category": "bakery",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "monthlyTotals": {
@@ -1073,8 +1091,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 46,
-      "serpApiCalls": 47
+      "placesApiCalls": 48,
+      "serpApiCalls": 57
     }
   }
 }

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-23T18:54:12.368Z",
+  "lastUpdated": "2026-09-24T17:48:18.503Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,32 +115,32 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 18,
-      "emailsFound": 0,
-      "hitRate": 0
+      "leadsEnriched": 28,
+      "emailsFound": 1,
+      "hitRate": 0.03571428571428571
     },
     "queuedCount": 14
   },
   "usage": {
     "today": {
-      "date": "2026-09-23",
+      "date": "2026-09-24",
       "category": "bakery",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 5,
-      "leadsFound": 5,
-      "emailsFound": 0
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 46,
-      "serpApiCalls": 47
+      "placesApiCalls": 48,
+      "serpApiCalls": 57
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 61
+    "projectedMonthlySerpApiCalls": 71
   },
   "totals": {
-    "totalLeadsFound": 217,
-    "totalEmailsFound": 6,
+    "totalLeadsFound": 227,
+    "totalEmailsFound": 7,
     "totalEmailsSent": 6,
     "totalCategories": 28,
     "categoriesCompleted": 13,
@@ -1210,9 +1210,38 @@
       "serpApiCalls": 5,
       "leadsFound": 5,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-24",
+      "category": "bakery",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 8,
+      "leadsFound": 8,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-24",
+      "category": "bakery",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "Cosenza Bakery",
+      "category": "bakery",
+      "location": "Vaughan, ON",
+      "email": "rjalbert@vaughandirect.info",
+      "emailSource": "https://cosenza-bakery-woodbridge.vaughandirect.ca/contact",
+      "phone": "+1 905-850-3240",
+      "foundAt": "2026-09-24T17:48:01.868Z",
+      "sent": false,
+      "sendFailed": false
+    },
     {
       "name": "Agnus Family Enterprises",
       "category": "event planner",
