@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-24T18:51:47.306Z",
+  "lastUpdated": "2026-09-25T17:52:16.229Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 11,
+    "cityIndex": 13,
     "totalCities": 22,
-    "nextCity": "Markham, ON"
+    "nextCity": "Newmarket, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,31 +115,31 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 28,
+      "leadsEnriched": 34,
       "emailsFound": 1,
-      "hitRate": 0.03571428571428571
+      "hitRate": 0.029411764705882353
     },
     "queuedCount": 14
   },
   "usage": {
     "today": {
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "category": "bakery",
-      "city": "Vaughan, ON",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
-      "emailsFound": 1
+      "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 48,
-      "serpApiCalls": 57
+      "placesApiCalls": 50,
+      "serpApiCalls": 63
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 71
+    "projectedMonthlySerpApiCalls": 76
   },
   "totals": {
-    "totalLeadsFound": 227,
+    "totalLeadsFound": 233,
     "totalEmailsFound": 7,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -149,24 +149,6 @@
     "categoriesPending": 23
   },
   "dailyHistory": [
-    {
-      "date": "2026-07-21",
-      "category": "nail salon",
-      "city": "Downtown Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-07-21",
-      "category": "nail salon",
-      "city": "North York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 5,
-      "leadsFound": 5,
-      "emailsFound": 1
-    },
     {
       "date": "2026-07-22",
       "category": "nail salon",
@@ -1228,6 +1210,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-09-25",
+      "category": "bakery",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-25",
+      "category": "bakery",
+      "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
