@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-07-22",
-      "category": "nail salon",
-      "city": "Scarborough, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-07-23",
-      "category": "nail salon",
-      "city": "Etobicoke, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-07-24",
       "category": "nail salon",
       "city": "York, Toronto, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-26",
+      "category": "bakery",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-26",
+      "category": "bakery",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 1
     }
   ],
   "monthlyTotals": {
@@ -1091,8 +1091,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 50,
-      "serpApiCalls": 63
+      "placesApiCalls": 52,
+      "serpApiCalls": 68
     }
   }
 }

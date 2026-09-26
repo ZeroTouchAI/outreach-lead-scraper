@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-25T19:09:50.338Z",
+  "lastUpdated": "2026-09-26T16:59:47.876Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 13,
+    "cityIndex": 15,
     "totalCities": 22,
-    "nextCity": "Newmarket, ON"
+    "nextCity": "Oshawa, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,32 +115,32 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 34,
-      "emailsFound": 1,
-      "hitRate": 0.029411764705882353
+      "leadsEnriched": 39,
+      "emailsFound": 2,
+      "hitRate": 0.05128205128205128
     },
     "queuedCount": 14
   },
   "usage": {
     "today": {
-      "date": "2026-09-25",
+      "date": "2026-09-26",
       "category": "bakery",
-      "city": "Richmond Hill, ON",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 50,
-      "serpApiCalls": 63
+      "placesApiCalls": 52,
+      "serpApiCalls": 68
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 76
+    "projectedMonthlySerpApiCalls": 78
   },
   "totals": {
-    "totalLeadsFound": 233,
-    "totalEmailsFound": 7,
+    "totalLeadsFound": 238,
+    "totalEmailsFound": 8,
     "totalEmailsSent": 6,
     "totalCategories": 28,
     "categoriesCompleted": 13,
@@ -149,24 +149,6 @@
     "categoriesPending": 23
   },
   "dailyHistory": [
-    {
-      "date": "2026-07-22",
-      "category": "nail salon",
-      "city": "Scarborough, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-07-23",
-      "category": "nail salon",
-      "city": "Etobicoke, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-07-24",
       "category": "nail salon",
@@ -1228,9 +1210,38 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-26",
+      "category": "bakery",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-26",
+      "category": "bakery",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "TAT Bakery and Pastry",
+      "category": "bakery",
+      "location": "Aurora, ON",
+      "email": "Legislative.affairs@eda.gov",
+      "emailSource": "https://www.eda.gov/about/contact",
+      "phone": "+1 905-503-8282",
+      "foundAt": "2026-09-26T16:58:12.861Z",
+      "sent": false,
+      "sendFailed": false
+    },
     {
       "name": "Cosenza Bakery",
       "category": "bakery",
