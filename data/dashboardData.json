@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-26T18:24:42.666Z",
+  "lastUpdated": "2026-09-27T17:37:05.012Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 15,
+    "cityIndex": 17,
     "totalCities": 22,
-    "nextCity": "Oshawa, ON"
+    "nextCity": "Ajax, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,32 +115,32 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 39,
-      "emailsFound": 2,
-      "hitRate": 0.05128205128205128
+      "leadsEnriched": 44,
+      "emailsFound": 3,
+      "hitRate": 0.06818181818181818
     },
     "queuedCount": 14
   },
   "usage": {
     "today": {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "category": "bakery",
-      "city": "Aurora, ON",
+      "city": "Whitby, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
-      "emailsFound": 1
+      "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 52,
-      "serpApiCalls": 68
+      "placesApiCalls": 54,
+      "serpApiCalls": 73
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 78
+    "projectedMonthlySerpApiCalls": 81
   },
   "totals": {
-    "totalLeadsFound": 238,
-    "totalEmailsFound": 8,
+    "totalLeadsFound": 243,
+    "totalEmailsFound": 9,
     "totalEmailsSent": 6,
     "totalCategories": 28,
     "categoriesCompleted": 13,
@@ -149,24 +149,6 @@
     "categoriesPending": 23
   },
   "dailyHistory": [
-    {
-      "date": "2026-07-24",
-      "category": "nail salon",
-      "city": "York, Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-07-25",
-      "category": "nail salon",
-      "city": "East York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 7,
-      "leadsFound": 7,
-      "emailsFound": 0
-    },
     {
       "date": "2026-07-26",
       "category": "nail salon",
@@ -1228,9 +1210,38 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-09-27",
+      "category": "bakery",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 1
+    },
+    {
+      "date": "2026-09-27",
+      "category": "bakery",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "Uncle Fluffy",
+      "category": "bakery",
+      "location": "Oshawa, ON",
+      "email": "Legislative.affairs@eda.gov",
+      "emailSource": "https://www.eda.gov/about/contact",
+      "phone": "+1 905-728-1188",
+      "foundAt": "2026-09-27T17:36:56.586Z",
+      "sent": false,
+      "sendFailed": false
+    },
     {
       "name": "TAT Bakery and Pastry",
       "category": "bakery",

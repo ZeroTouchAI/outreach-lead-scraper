@@ -199,11 +199,13 @@
       "Markham, ON",
       "Richmond Hill, ON",
       "Newmarket, ON",
-      "Aurora, ON"
+      "Aurora, ON",
+      "Oshawa, ON",
+      "Whitby, ON"
     ],
-    "leadsFound": 39,
-    "leadsEnriched": 39,
-    "emailsFound": 2,
+    "leadsFound": 44,
+    "leadsEnriched": 44,
+    "emailsFound": 3,
     "hitRate": null,
     "verdict": null
   },
