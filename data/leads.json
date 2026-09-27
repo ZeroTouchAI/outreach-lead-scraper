@@ -3850,11 +3850,12 @@
     "primaryType": "dessert_shop",
     "googleMapsUrl": "https://maps.google.com/?cid=6949951524988893585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "email_failed",
     "email": "Legislative.affairs@eda.gov",
     "emailSource": "https://www.eda.gov/about/contact",
     "foundAt": "2026-09-27T17:36:56.586Z",
-    "lastUpdatedAt": "2026-09-27T17:36:58.892Z"
+    "lastUpdatedAt": "2026-09-27T17:36:58.892Z",
+    "emailError": "Resend API error (403): {\"statusCode\":403,\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\"}"
   },
   {
     "placeId": "ChIJz-d5ZkMd1YkRuVTxcoBF9Ug",

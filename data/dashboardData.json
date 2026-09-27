@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T17:37:05.012Z",
+  "lastUpdated": "2026-09-27T18:55:36.355Z",
   "current": {
     "category": "bakery",
     "cityIndex": 17,
@@ -1240,7 +1240,7 @@
       "phone": "+1 905-728-1188",
       "foundAt": "2026-09-27T17:36:56.586Z",
       "sent": false,
-      "sendFailed": false
+      "sendFailed": true
     },
     {
       "name": "TAT Bakery and Pastry",
