@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-07-26",
-      "category": "nail salon",
-      "city": "Mississauga, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-07-27",
-      "category": "nail salon",
-      "city": "Brampton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-07-28",
       "category": "nail salon",
       "city": "Caledon, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-09-28",
+      "category": "bakery",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-28",
+      "category": "bakery",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1091,8 +1091,8 @@
       "serpApiCalls": 63
     },
     "2026-09": {
-      "placesApiCalls": 54,
-      "serpApiCalls": 73
+      "placesApiCalls": 56,
+      "serpApiCalls": 75
     }
   }
 }

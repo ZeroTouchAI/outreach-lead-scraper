@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-27T18:55:36.355Z",
+  "lastUpdated": "2026-09-28T20:03:26.277Z",
   "current": {
     "category": "bakery",
-    "cityIndex": 17,
+    "cityIndex": 19,
     "totalCities": 22,
-    "nextCity": "Ajax, ON"
+    "nextCity": "Oakville, ON"
   },
   "leaderboard": {
     "completed": [
@@ -115,31 +115,31 @@
     ],
     "active": {
       "category": "bakery",
-      "leadsEnriched": 44,
+      "leadsEnriched": 46,
       "emailsFound": 3,
-      "hitRate": 0.06818181818181818
+      "hitRate": 0.06521739130434782
     },
     "queuedCount": 14
   },
   "usage": {
     "today": {
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "category": "bakery",
-      "city": "Whitby, ON",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 54,
-      "serpApiCalls": 73
+      "placesApiCalls": 56,
+      "serpApiCalls": 75
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 81
+    "projectedMonthlySerpApiCalls": 80
   },
   "totals": {
-    "totalLeadsFound": 243,
+    "totalLeadsFound": 245,
     "totalEmailsFound": 9,
     "totalEmailsSent": 6,
     "totalCategories": 28,
@@ -149,24 +149,6 @@
     "categoriesPending": 23
   },
   "dailyHistory": [
-    {
-      "date": "2026-07-26",
-      "category": "nail salon",
-      "city": "Mississauga, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-07-27",
-      "category": "nail salon",
-      "city": "Brampton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
-      "emailsFound": 0
-    },
     {
       "date": "2026-07-28",
       "category": "nail salon",
@@ -1224,6 +1206,24 @@
       "date": "2026-09-27",
       "category": "bakery",
       "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-28",
+      "category": "bakery",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-28",
+      "category": "bakery",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,

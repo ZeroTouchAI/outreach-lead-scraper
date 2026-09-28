@@ -3920,5 +3920,37 @@
     "emailSource": null,
     "foundAt": "2026-09-27T17:36:57.091Z",
     "lastUpdatedAt": "2026-09-27T17:37:04.668Z"
+  },
+  {
+    "placeId": "ChIJFdyY2crf1IkRkw4m-GUTxfk",
+    "name": "Nazareth Brothers Bakery",
+    "address": "240 Harwood Ave S #5, Ajax, ON L1S 2H6, Canada",
+    "phone": "+1 905-426-2577",
+    "category": "bakery",
+    "searchLocation": "Ajax, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=17997812814531923603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-28T20:03:07.260Z",
+    "lastUpdatedAt": "2026-09-28T20:03:24.063Z"
+  },
+  {
+    "placeId": "ChIJSbqqLgDf1IkRPLFrajuxpH0",
+    "name": "Marino's Bakery & Take-Out",
+    "address": "2200 Brock Rd, Pickering, ON L1X 2R2, Canada",
+    "phone": "+1 905-426-6969",
+    "category": "bakery",
+    "searchLocation": "Pickering, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=9053556019668169020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-28T20:03:07.803Z",
+    "lastUpdatedAt": "2026-09-28T20:03:25.940Z"
   }
 ]
