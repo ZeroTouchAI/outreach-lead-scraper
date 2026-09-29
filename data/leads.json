@@ -3952,5 +3952,53 @@
     "emailSource": null,
     "foundAt": "2026-09-28T20:03:07.803Z",
     "lastUpdatedAt": "2026-09-28T20:03:25.940Z"
+  },
+  {
+    "placeId": "ChIJSxzSGKtdK4gROXE9l_OpKJQ",
+    "name": "OLA BAKERY OAKVILLE",
+    "address": "447 Speers Rd, Oakville, ON L6K 3S4, Canada",
+    "phone": "+1 905-845-5221",
+    "category": "bakery",
+    "searchLocation": "Oakville, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=10675969780361294137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-29T18:30:48.442Z",
+    "lastUpdatedAt": "2026-09-29T18:30:51.864Z"
+  },
+  {
+    "placeId": "ChIJreAYMQBdK4gR8VZaY5Hpl7Q",
+    "name": "Olivara Bakery & Cafe",
+    "address": "353 Iroquois Shore Rd, Oakville, ON L6H 1M3, Canada",
+    "phone": "+1 905-338-6333",
+    "category": "bakery",
+    "searchLocation": "Oakville, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=13013126458956732145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-29T18:30:48.442Z",
+    "lastUpdatedAt": "2026-09-29T18:31:13.585Z"
+  },
+  {
+    "placeId": "ChIJZ0hAvpFcK4gRU8WOq1I282I",
+    "name": "Croissant Express Bakery",
+    "address": "325 Lakeshore Rd E, Oakville, ON L6J 1J4, Canada",
+    "phone": "+1 905-845-2267",
+    "category": "bakery",
+    "searchLocation": "Oakville, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=7130102363751105875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-29T18:30:48.442Z",
+    "lastUpdatedAt": "2026-09-29T18:31:14.705Z"
   }
 ]

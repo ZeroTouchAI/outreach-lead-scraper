@@ -203,10 +203,12 @@
       "Oshawa, ON",
       "Whitby, ON",
       "Ajax, ON",
-      "Pickering, ON"
+      "Pickering, ON",
+      "Oakville, ON",
+      "Burlington, ON"
     ],
-    "leadsFound": 46,
-    "leadsEnriched": 46,
+    "leadsFound": 49,
+    "leadsEnriched": 49,
     "emailsFound": 3,
     "hitRate": null,
     "verdict": null
