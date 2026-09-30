@@ -182,9 +182,9 @@
   {
     "order": 6,
     "category": "bakery",
-    "status": "active",
+    "status": "completed",
     "startedAt": "2026-09-19T16:19:24.325Z",
-    "completedAt": null,
+    "completedAt": "2026-09-30T18:19:55.446Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -205,19 +205,21 @@
       "Ajax, ON",
       "Pickering, ON",
       "Oakville, ON",
-      "Burlington, ON"
+      "Burlington, ON",
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 49,
-    "leadsEnriched": 49,
+    "leadsFound": 52,
+    "leadsEnriched": 52,
     "emailsFound": 3,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0.057692307692307696,
+    "verdict": "keep"
   },
   {
     "order": 7,
     "category": "catering company",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-09-30T18:19:55.446Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,

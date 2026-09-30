@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-29T19:51:04.902Z",
+  "lastUpdated": "2026-09-30T18:19:55.452Z",
   "current": {
-    "category": "bakery",
-    "cityIndex": 21,
+    "category": "catering company",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -45,6 +45,14 @@
         "leadsEnriched": 21,
         "emailsFound": 1,
         "hitRate": 0.047619047619047616,
+        "verdict": "keep",
+        "sampleType": "full_cycle"
+      },
+      {
+        "category": "bakery",
+        "leadsEnriched": 52,
+        "emailsFound": 3,
+        "hitRate": 0.057692307692307696,
         "verdict": "keep",
         "sampleType": "full_cycle"
       },
@@ -114,59 +122,41 @@
       }
     ],
     "active": {
-      "category": "bakery",
-      "leadsEnriched": 49,
-      "emailsFound": 3,
-      "hitRate": 0.061224489795918366
+      "category": "catering company",
+      "leadsEnriched": 0,
+      "emailsFound": 0,
+      "hitRate": null
     },
-    "queuedCount": 14
+    "queuedCount": 13
   },
   "usage": {
     "today": {
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "category": "bakery",
-      "city": "Burlington, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 58,
-      "serpApiCalls": 78
+      "placesApiCalls": 60,
+      "serpApiCalls": 81
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 81
   },
   "totals": {
-    "totalLeadsFound": 248,
+    "totalLeadsFound": 251,
     "totalEmailsFound": 9,
     "totalEmailsSent": 6,
     "totalCategories": 28,
-    "categoriesCompleted": 13,
-    "categoriesKept": 2,
+    "categoriesCompleted": 14,
+    "categoriesKept": 3,
     "categoriesRejected": 3,
-    "categoriesPending": 23
+    "categoriesPending": 22
   },
   "dailyHistory": [
-    {
-      "date": "2026-07-30",
-      "category": "nail salon",
-      "city": "Markham, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-07-31",
-      "category": "nail salon",
-      "city": "Richmond Hill, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 6,
-      "leadsFound": 6,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-01",
       "category": "nail salon",
@@ -1224,6 +1214,24 @@
       "date": "2026-09-29",
       "category": "bakery",
       "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-30",
+      "category": "bakery",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-09-30",
+      "category": "bakery",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,

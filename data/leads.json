@@ -4000,5 +4000,53 @@
     "emailSource": null,
     "foundAt": "2026-09-29T18:30:48.442Z",
     "lastUpdatedAt": "2026-09-29T18:31:14.705Z"
+  },
+  {
+    "placeId": "ChIJ2TjslgNvK4gRffmXcsqoWe8",
+    "name": "Main Street Italian Eatery",
+    "address": "18 Thompson Rd N, Milton, ON L9T 2X5, Canada",
+    "phone": "+1 905-878-2938",
+    "category": "bakery",
+    "searchLocation": "Milton, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=17247001835451447677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-30T18:19:49.582Z",
+    "lastUpdatedAt": "2026-09-30T18:19:52.457Z"
+  },
+  {
+    "placeId": "ChIJRyWNUIFpK4gRpZqFaRub75o",
+    "name": "Cakes By Me Bakery",
+    "address": "1527 Stewart Crescent, Milton, ON L9T 6P8, Canada",
+    "phone": "+1 647-832-5699",
+    "category": "bakery",
+    "searchLocation": "Milton, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=11164312543311534757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-30T18:19:49.582Z",
+    "lastUpdatedAt": "2026-09-30T18:19:53.875Z"
+  },
+  {
+    "placeId": "ChIJ27FEeqFvK4gRbWl2Sx0CeTQ",
+    "name": "Wisla Delicatessen",
+    "address": "377 Main St E, Milton, ON L9T 1P7, Canada",
+    "phone": "+1 905-878-5764",
+    "category": "bakery",
+    "searchLocation": "Milton, ON",
+    "primaryType": "bakery",
+    "googleMapsUrl": "https://maps.google.com/?cid=3781055686997600621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-09-30T18:19:49.582Z",
+    "lastUpdatedAt": "2026-09-30T18:19:55.101Z"
   }
 ]
