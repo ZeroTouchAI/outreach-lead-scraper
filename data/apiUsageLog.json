@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-08-01",
-      "category": "nail salon",
-      "city": "Newmarket, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-02",
-      "category": "nail salon",
-      "city": "Aurora, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-08-02",
       "category": "nail salon",
       "city": "Oshawa, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-01",
+      "category": "catering company",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-01",
+      "category": "catering company",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1093,6 +1093,10 @@
     "2026-09": {
       "placesApiCalls": 60,
       "serpApiCalls": 81
+    },
+    "2026-10": {
+      "placesApiCalls": 2,
+      "serpApiCalls": 0
     }
   }
 }
