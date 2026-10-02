@@ -223,10 +223,12 @@
     "completedAt": null,
     "citiesCovered": [
       "Downtown Toronto, ON",
-      "North York, ON"
+      "North York, ON",
+      "Scarborough, ON",
+      "Etobicoke, ON"
     ],
-    "leadsFound": 0,
-    "leadsEnriched": 0,
+    "leadsFound": 2,
+    "leadsEnriched": 2,
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null

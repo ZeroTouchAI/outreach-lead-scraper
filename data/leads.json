@@ -4048,5 +4048,37 @@
     "emailSource": null,
     "foundAt": "2026-09-30T18:19:49.582Z",
     "lastUpdatedAt": "2026-09-30T18:19:55.101Z"
+  },
+  {
+    "placeId": "ChIJEQSpM5rO1IkRNXuVdlxfeiQ",
+    "name": "Mayettes , 411 Catering Services",
+    "address": "15 Patterson Ave, Scarborough, ON M1L 3Y1, Canada",
+    "phone": "+1 416-463-0338",
+    "category": "catering company",
+    "searchLocation": "Scarborough, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=2628518183255243573&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-02T18:17:19.615Z",
+    "lastUpdatedAt": "2026-10-02T18:17:21.499Z"
+  },
+  {
+    "placeId": "ChIJ30EUwxvQ1IkRzhrgRhtwBW8",
+    "name": "Island catering",
+    "address": "3260 Eglinton Ave E, Scarborough, ON M1J 2H6, Canada",
+    "phone": "+1 416-265-1212",
+    "category": "catering company",
+    "searchLocation": "Scarborough, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=7999923575549074126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-02T18:17:19.615Z",
+    "lastUpdatedAt": "2026-10-02T18:17:23.201Z"
   }
 ]
