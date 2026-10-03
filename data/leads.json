@@ -4080,5 +4080,21 @@
     "emailSource": null,
     "foundAt": "2026-10-02T18:17:19.615Z",
     "lastUpdatedAt": "2026-10-02T18:17:23.201Z"
+  },
+  {
+    "placeId": "ChIJ-7z1vCIxK4gROherKmTbDcE",
+    "name": "Lola's Catering",
+    "address": "1822 Jane St A, York, ON M9N 2T3, Canada",
+    "phone": "+1 647-427-4773",
+    "category": "catering company",
+    "searchLocation": "York, Toronto, ON",
+    "primaryType": "restaurant",
+    "googleMapsUrl": "https://maps.google.com/?cid=13911016047276398394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-03T17:06:40.708Z",
+    "lastUpdatedAt": "2026-10-03T17:06:43.095Z"
   }
 ]
