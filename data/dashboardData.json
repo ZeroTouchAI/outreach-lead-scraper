@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T17:22:25.251Z",
+  "lastUpdated": "2026-10-04T18:33:34.201Z",
   "current": {
     "category": "catering company",
     "cityIndex": 9,
@@ -1248,7 +1248,7 @@
       "phone": "+1 437-331-3363",
       "foundAt": "2026-10-04T17:22:21.708Z",
       "sent": false,
-      "sendFailed": false
+      "sendFailed": true
     },
     {
       "name": "Uncle Fluffy",

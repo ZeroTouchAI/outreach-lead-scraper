@@ -4123,10 +4123,11 @@
     "primaryType": "catering_service",
     "googleMapsUrl": "https://maps.google.com/?cid=5977687497762775209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "email_failed",
     "email": "info@grandtravel.ca",
     "emailSource": "https://www.infobel.com/en/canada/grand_travel/mississauga/CA100768131-6478634210/businessdetails.aspx",
     "foundAt": "2026-10-04T17:22:21.708Z",
-    "lastUpdatedAt": "2026-10-04T17:22:24.914Z"
+    "lastUpdatedAt": "2026-10-04T17:22:24.914Z",
+    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}"
   }
 ]
