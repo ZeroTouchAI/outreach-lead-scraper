@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-03T18:34:52.064Z",
+  "lastUpdated": "2026-10-04T17:22:25.251Z",
   "current": {
     "category": "catering company",
-    "cityIndex": 7,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -123,32 +123,32 @@
     ],
     "active": {
       "category": "catering company",
-      "leadsEnriched": 3,
-      "emailsFound": 0,
-      "hitRate": 0
+      "leadsEnriched": 5,
+      "emailsFound": 1,
+      "hitRate": 0.2
     },
     "queuedCount": 13
   },
   "usage": {
     "today": {
-      "date": "2026-10-03",
+      "date": "2026-10-04",
       "category": "catering company",
-      "city": "East York, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 6,
-      "serpApiCalls": 3
+      "placesApiCalls": 8,
+      "serpApiCalls": 5
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 31
+    "projectedMonthlySerpApiCalls": 39
   },
   "totals": {
-    "totalLeadsFound": 254,
-    "totalEmailsFound": 9,
+    "totalLeadsFound": 256,
+    "totalEmailsFound": 10,
     "totalEmailsSent": 6,
     "totalCategories": 28,
     "categoriesCompleted": 14,
@@ -157,24 +157,6 @@
     "categoriesPending": 22
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-04",
-      "category": "nail salon",
-      "city": "Oakville, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-05",
-      "category": "nail salon",
-      "city": "Burlington, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-05",
       "category": "nail salon",
@@ -1236,9 +1218,38 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-04",
+      "category": "catering company",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-04",
+      "category": "catering company",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "The Grand Spice",
+      "category": "catering company",
+      "location": "Brampton, ON",
+      "email": "info@grandtravel.ca",
+      "emailSource": "https://www.infobel.com/en/canada/grand_travel/mississauga/CA100768131-6478634210/businessdetails.aspx",
+      "phone": "+1 437-331-3363",
+      "foundAt": "2026-10-04T17:22:21.708Z",
+      "sent": false,
+      "sendFailed": false
+    },
     {
       "name": "Uncle Fluffy",
       "category": "bakery",

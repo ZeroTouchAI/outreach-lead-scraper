@@ -227,11 +227,13 @@
       "Scarborough, ON",
       "Etobicoke, ON",
       "York, Toronto, ON",
-      "East York, ON"
+      "East York, ON",
+      "Mississauga, ON",
+      "Brampton, ON"
     ],
-    "leadsFound": 3,
-    "leadsEnriched": 3,
-    "emailsFound": 0,
+    "leadsFound": 5,
+    "leadsEnriched": 5,
+    "emailsFound": 1,
     "hitRate": null,
     "verdict": null
   },

@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-08-04",
-      "category": "nail salon",
-      "city": "Oakville, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-05",
-      "category": "nail salon",
-      "city": "Burlington, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-08-05",
       "category": "nail salon",
       "city": "Milton, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-04",
+      "category": "catering company",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-04",
+      "category": "catering company",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "monthlyTotals": {
@@ -1095,8 +1095,8 @@
       "serpApiCalls": 81
     },
     "2026-10": {
-      "placesApiCalls": 6,
-      "serpApiCalls": 3
+      "placesApiCalls": 8,
+      "serpApiCalls": 5
     }
   }
 }

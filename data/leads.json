@@ -4096,5 +4096,37 @@
     "emailSource": null,
     "foundAt": "2026-10-03T17:06:40.708Z",
     "lastUpdatedAt": "2026-10-03T17:06:43.095Z"
+  },
+  {
+    "placeId": "ChIJccZmjHg_K4gR9pmEbTR5-mc",
+    "name": "NS Catering",
+    "address": "2080 Steeles Ave E Unit #18, Brampton, ON L6T 1A7, Canada",
+    "phone": "+1 416-770-0892",
+    "category": "catering company",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=7492434196166908406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-04T17:22:21.708Z",
+    "lastUpdatedAt": "2026-10-04T17:22:23.891Z"
+  },
+  {
+    "placeId": "ChIJq7NglVkXK4gRqaBxqhsD9VI",
+    "name": "The Grand Spice",
+    "address": "114 Calm Waters Crescent, Brampton, ON L6V 4S2, Canada",
+    "phone": "+1 437-331-3363",
+    "category": "catering company",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=5977687497762775209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "enriched",
+    "email": "info@grandtravel.ca",
+    "emailSource": "https://www.infobel.com/en/canada/grand_travel/mississauga/CA100768131-6478634210/businessdetails.aspx",
+    "foundAt": "2026-10-04T17:22:21.708Z",
+    "lastUpdatedAt": "2026-10-04T17:22:24.914Z"
   }
 ]
