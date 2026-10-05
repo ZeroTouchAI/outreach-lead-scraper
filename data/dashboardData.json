@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-04T18:33:34.201Z",
+  "lastUpdated": "2026-10-05T21:12:21.527Z",
   "current": {
     "category": "catering company",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -123,32 +123,32 @@
     ],
     "active": {
       "category": "catering company",
-      "leadsEnriched": 5,
-      "emailsFound": 1,
-      "hitRate": 0.2
+      "leadsEnriched": 9,
+      "emailsFound": 2,
+      "hitRate": 0.2222222222222222
     },
     "queuedCount": 13
   },
   "usage": {
     "today": {
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "category": "catering company",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 8,
-      "serpApiCalls": 5
+      "placesApiCalls": 10,
+      "serpApiCalls": 9
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 39
+    "projectedMonthlySerpApiCalls": 56
   },
   "totals": {
-    "totalLeadsFound": 256,
-    "totalEmailsFound": 10,
+    "totalLeadsFound": 260,
+    "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalCategories": 28,
     "categoriesCompleted": 14,
@@ -157,24 +157,6 @@
     "categoriesPending": 22
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-05",
-      "category": "nail salon",
-      "city": "Milton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-06",
-      "category": "nail salon",
-      "city": "Halton Hills, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-07",
       "category": "spa",
@@ -1236,9 +1218,38 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-10-05",
+      "category": "catering company",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-05",
+      "category": "catering company",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "Mandarino European Catering",
+      "category": "catering company",
+      "location": "Vaughan, ON",
+      "email": "nnannable@yahoo.com",
+      "emailSource": "https://vinoenology.com/directory/wine-industry-suppliers/winemaking-supplier/4",
+      "phone": "+1 905-850-1099",
+      "foundAt": "2026-10-05T21:11:39.866Z",
+      "sent": false,
+      "sendFailed": false
+    },
     {
       "name": "The Grand Spice",
       "category": "catering company",

@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-08-05",
-      "category": "nail salon",
-      "city": "Milton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-06",
-      "category": "nail salon",
-      "city": "Halton Hills, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-08-07",
       "category": "spa",
       "city": "Downtown Toronto, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-10-05",
+      "category": "catering company",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-05",
+      "category": "catering company",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "monthlyTotals": {
@@ -1095,8 +1095,8 @@
       "serpApiCalls": 81
     },
     "2026-10": {
-      "placesApiCalls": 8,
-      "serpApiCalls": 5
+      "placesApiCalls": 10,
+      "serpApiCalls": 9
     }
   }
 }

@@ -229,11 +229,13 @@
       "York, Toronto, ON",
       "East York, ON",
       "Mississauga, ON",
-      "Brampton, ON"
+      "Brampton, ON",
+      "Caledon, ON",
+      "Vaughan, ON"
     ],
-    "leadsFound": 5,
-    "leadsEnriched": 5,
-    "emailsFound": 1,
+    "leadsFound": 9,
+    "leadsEnriched": 9,
+    "emailsFound": 2,
     "hitRate": null,
     "verdict": null
   },
