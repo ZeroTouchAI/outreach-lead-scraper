@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T21:12:21.527Z",
+  "lastUpdated": "2026-10-05T21:52:28.486Z",
   "current": {
     "category": "catering company",
     "cityIndex": 11,
@@ -1248,7 +1248,7 @@
       "phone": "+1 905-850-1099",
       "foundAt": "2026-10-05T21:11:39.866Z",
       "sent": false,
-      "sendFailed": false
+      "sendFailed": true
     },
     {
       "name": "The Grand Spice",
