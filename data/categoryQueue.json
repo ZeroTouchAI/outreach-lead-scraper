@@ -231,10 +231,12 @@
       "Mississauga, ON",
       "Brampton, ON",
       "Caledon, ON",
-      "Vaughan, ON"
+      "Vaughan, ON",
+      "Markham, ON",
+      "Richmond Hill, ON"
     ],
-    "leadsFound": 9,
-    "leadsEnriched": 9,
+    "leadsFound": 11,
+    "leadsEnriched": 10,
     "emailsFound": 2,
     "hitRate": null,
     "verdict": null

@@ -4194,5 +4194,37 @@
     "foundAt": "2026-10-05T21:11:39.866Z",
     "lastUpdatedAt": "2026-10-05T21:12:21.180Z",
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}"
+  },
+  {
+    "placeId": "ChIJ7xpeEmMqK4gR3RBSjOx_Jkk",
+    "name": "Maria's Kitchen Italian Cuisine",
+    "address": "588 Edward Ave, Richmond Hill, ON L4C 9Y6, Canada",
+    "phone": "+1 905-737-8752",
+    "category": "catering company",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "italian_restaurant",
+    "googleMapsUrl": "https://maps.google.com/?cid=5271041067826942173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-06T18:50:37.606Z",
+    "lastUpdatedAt": "2026-10-06T18:50:37.606Z"
+  },
+  {
+    "placeId": "ChIJ4_93VUsrK4gRhuw_fHjOxmY",
+    "name": "Roztea",
+    "address": "Lanebrooke Crescent, Richmond Hill, ON L4S 1W6, Canada",
+    "phone": "+1 647-239-2260",
+    "category": "catering company",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "food",
+    "googleMapsUrl": "https://maps.google.com/?cid=7405833654133320838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-06T18:50:37.606Z",
+    "lastUpdatedAt": "2026-10-06T18:52:09.309Z"
   }
 ]
