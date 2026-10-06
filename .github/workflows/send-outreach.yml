@@ -37,6 +37,8 @@ jobs:
           node-version: "20"
 
       - name: Send outreach emails
+        id: send
+        continue-on-error: true
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           OUTREACH_FROM: ${{ secrets.OUTREACH_FROM }}
@@ -75,4 +77,10 @@ jobs:
           done
 
           echo "Push failed after multiple retries."
+          exit 1
+
+      - name: Fail run if any sends failed
+        if: steps.send.outcome == 'failure'
+        run: |
+          echo "::error::One or more outreach emails failed to send -- see the 'Send outreach emails' step log for the Resend error."
           exit 1

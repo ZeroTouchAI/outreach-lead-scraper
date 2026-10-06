@@ -34,6 +34,10 @@
   .badge-active { background:rgba(242,118,46,0.12); color:var(--orange); }
   .badge-sent { background:rgba(31,179,196,0.12); color:var(--cyan); }
   .badge-pending { background:#eef0f3; color:var(--muted); }
+.badge-error { background:rgba(220,38,38,0.1); color:var(--bad); cursor:help; }
+.badge-skipped { background:rgba(242,118,46,0.12); color:var(--orange); cursor:help; }
+.age-note { display:block; font-size:11px; color:var(--muted); margin-top:3px; }
+.age-note.stale { color:var(--orange); font-weight:700; }
   .chart-card { grid-column:span 2; }
   canvas { max-height:260px; }
   .empty { color:var(--muted); font-size:13px; padding:12px 0; }
@@ -91,7 +95,7 @@
 <div class="section-sub">Every business where a real email was found, and whether outreach has gone out yet.</div>
 <div class="card">
   <table id="companiesTable">
-    <thead><tr><th>Company</th><th>Category</th><th>Location</th><th>Email</th><th>Phone</th><th>Source</th><th>Outreach</th></tr></thead>
+    <thead><tr><th>Company</th><th>Category</th><th>Location</th><th>Email</th><th>Phone</th><th>Source</th><th>Found</th><th>Outreach</th></tr></thead>
     <tbody id="companiesBody"></tbody>
   </table>
 </div>
@@ -238,11 +242,41 @@ function getSourceLabel(url) {
   }
 }
 
+function daysSince(iso) {
+  if (!iso) return null;
+  return Math.max(0, Math.floor((Date.now() - new Date(iso).getTime()) / 86400000));
+}
+
+function fmtDate(iso) {
+  return iso ? new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "—";
+}
+
+function escAttr(str) {
+  return String(str || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+// sent / error / skipped / not yet -- with dates so a lead stuck for days is obvious.
+function outreachCell(c) {
+  if (c.sent) {
+    return `<span class="badge badge-sent">sent</span><span class="age-note">${fmtDate(c.emailedAt)}</span>`;
+  }
+  if (c.sendFailed) {
+    const when = c.failedAt ? "failed " + fmtDate(c.failedAt) : "send failed";
+    return `<span class="badge badge-error" title="${escAttr(c.emailError)}">error</span><span class="age-note stale">${when}</span>`;
+  }
+  if (c.skipped) {
+    return `<span class="badge badge-skipped" title="${escAttr(c.emailError)}">skipped</span>`;
+  }
+  const age = daysSince(c.foundAt);
+  const stale = age !== null && age >= 3;
+  return `<span class="badge badge-pending">not yet</span>${age === null ? "" : `<span class="age-note${stale ? " stale" : ""}">${age}d waiting</span>`}`;
+}
+
 function renderCompanies(data) {
   const body = document.getElementById("companiesBody");
   const companies = data.reachedCompanies || [];
   if (!companies.length) {
-    body.innerHTML = `<tr><td colspan="7" class="empty">No emails found yet — this fills in as the pipeline runs.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="8" class="empty">No emails found yet — this fills in as the pipeline runs.</td></tr>`;
     return;
   }
   body.innerHTML = companies.map((c) => `
@@ -253,7 +287,8 @@ function renderCompanies(data) {
       <td><a class="email-link" href="mailto:${c.email}">${c.email}</a></td>
       <td>${c.phone || "—"}</td>
       <td>${c.emailSource ? `<a class="email-link" href="${c.emailSource}" target="_blank" rel="noopener">${getSourceLabel(c.emailSource)}</a>` : "—"}</td>
-      <td>${c.sent ? `<span class="badge badge-sent">sent</span>` : `<span class="badge badge-pending">not yet</span>`}</td>
+      <td>${fmtDate(c.foundAt)}<span class="age-note">${daysSince(c.foundAt) === null ? "" : daysSince(c.foundAt) + "d ago"}</span></td>
+      <td>${outreachCell(c)}</td>
     </tr>
   `).join("");
 }

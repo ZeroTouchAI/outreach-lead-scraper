@@ -59,7 +59,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   // otherwise a company would vanish from this list the moment outreach
   // actually sends to them, which is backwards.
   const reachedCompanies = realLeads
-    .filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status))
+    .filter((l) => ["enriched", "emailed", "email_failed", "skipped"].includes(l.status))
     .map((l) => ({
       name: l.name,
       category: l.category,
@@ -70,6 +70,10 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
       foundAt: l.foundAt || null,
       sent: l.status === "emailed",
       sendFailed: l.status === "email_failed",
+      skipped: l.status === "skipped",
+      emailedAt: l.emailedAt || null,
+      failedAt: l.failedAt || null,
+      emailError: l.emailError ? String(l.emailError).slice(0, 300) : null,
     }))
     .sort((a, b) => new Date(b.foundAt || 0) - new Date(a.foundAt || 0));
 
