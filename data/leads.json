@@ -3661,7 +3661,9 @@
     "emailSource": "https://cosenza-bakery-woodbridge.vaughandirect.ca/contact",
     "foundAt": "2026-09-24T17:48:01.868Z",
     "lastUpdatedAt": "2026-09-24T17:48:18.162Z",
-    "emailError": "Resend API error (403): {\"statusCode\":403,\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\"}"
+    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+    "failedAt": "2026-10-06T20:02:29.939Z",
+    "sendAttempts": 1
   },
   {
     "placeId": "ChIJU7wpWW3W1IkRtVzEdognT0Q",
@@ -4128,7 +4130,9 @@
     "emailSource": "https://www.infobel.com/en/canada/grand_travel/mississauga/CA100768131-6478634210/businessdetails.aspx",
     "foundAt": "2026-10-04T17:22:21.708Z",
     "lastUpdatedAt": "2026-10-04T17:22:24.914Z",
-    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}"
+    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+    "failedAt": "2026-10-06T20:02:30.539Z",
+    "sendAttempts": 1
   },
   {
     "placeId": "ChIJJ4csOvgTK4gRZmggKn4Vq8w",
@@ -4193,7 +4197,9 @@
     "emailSource": "https://vinoenology.com/directory/wine-industry-suppliers/winemaking-supplier/4",
     "foundAt": "2026-10-05T21:11:39.866Z",
     "lastUpdatedAt": "2026-10-05T21:12:21.180Z",
-    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}"
+    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+    "failedAt": "2026-10-06T20:02:31.133Z",
+    "sendAttempts": 1
   },
   {
     "placeId": "ChIJ7xpeEmMqK4gR3RBSjOx_Jkk",
