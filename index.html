@@ -258,11 +258,15 @@ function escAttr(str) {
 // sent / error / skipped / not yet -- with dates so a lead stuck for days is obvious.
 function outreachCell(c) {
   if (c.sent) {
-    return `<span class="badge badge-sent">sent</span><span class="age-note">${fmtDate(c.emailedAt)}</span>`;
+    const via = c.sendAttempts > 1 ? `sent on attempt ${c.sendAttempts} · ` : "";
+    return `<span class="badge badge-sent">sent</span><span class="age-note">${via}${fmtDate(c.emailedAt)}</span>`;
   }
   if (c.sendFailed) {
-    const when = c.failedAt ? "failed " + fmtDate(c.failedAt) : "send failed";
-    return `<span class="badge badge-error" title="${escAttr(c.emailError)}">error</span><span class="age-note stale">${when}</span>`;
+    const max = c.maxAttempts || 5;
+    const tries = c.sendAttempts || 1;
+    const gaveUp = tries >= max;
+    const when = c.failedAt ? " · " + fmtDate(c.failedAt) : "";
+    return `<span class="badge badge-error" title="${escAttr(c.emailError)}">${gaveUp ? "error — gave up" : "error"}</span><span class="age-note stale">attempt ${tries} of ${max}${gaveUp ? " (no more retries)" : ""}${when}</span>`;
   }
   if (c.skipped) {
     return `<span class="badge badge-skipped" title="${escAttr(c.emailError)}">skipped</span>`;

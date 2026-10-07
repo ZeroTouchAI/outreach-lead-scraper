@@ -66,6 +66,8 @@ function isBlockedEmail(email) {
 // side or temporary: unverified sending domain (403), rate limit (429), or a
 // Resend server error (5xx). Anything else (e.g. invalid recipient) stays
 // failed. Capped so a persistent problem can't retry forever.
+// Total attempts per lead, counting the first send. Keep in sync with
+// maxAttempts in scripts/lib/dashboard.js.
 const MAX_SEND_ATTEMPTS = 5;
 function isRetryableFailure(lead) {
   if (lead.status !== "email_failed") return false;
@@ -191,6 +193,8 @@ async function main() {
   let failedCount = 0;
 
   for (const lead of capped) {
+    const attempt = (lead.sendAttempts || 0) + 1;
+    console.log(`Attempt ${attempt} of ${MAX_SEND_ATTEMPTS}: ${lead.name} <${lead.email}>`);
     try {
       const result = await sendEmail(lead, templates);
       lead.status = "emailed";
@@ -198,15 +202,19 @@ async function main() {
       lead.resendId = result.id || null;
       delete lead.emailError;
       delete lead.failedAt;
+      lead.sendAttempts = attempt;
       sentCount++;
       console.log(`  Sent to ${lead.name} <${lead.email}> (category: ${lead.category})`);
     } catch (err) {
       lead.status = "email_failed";
       lead.emailError = err.message;
       lead.failedAt = new Date().toISOString();
-      lead.sendAttempts = (lead.sendAttempts || 0) + 1;
+      lead.sendAttempts = attempt;
       failedCount++;
-      console.error(`  Failed for ${lead.name} <${lead.email}>:`, err.message);
+      console.error(`  Failed (attempt ${attempt} of ${MAX_SEND_ATTEMPTS}) for ${lead.name} <${lead.email}>:`, err.message);
+      if (attempt >= MAX_SEND_ATTEMPTS) {
+        console.error(`  Giving up on ${lead.name} -- reached ${MAX_SEND_ATTEMPTS} attempts, no more automatic retries.`);
+      }
     }
 
     await new Promise((r) => setTimeout(r, 500));

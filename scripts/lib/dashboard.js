@@ -74,6 +74,8 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
       emailedAt: l.emailedAt || null,
       failedAt: l.failedAt || null,
       emailError: l.emailError ? String(l.emailError).slice(0, 300) : null,
+      sendAttempts: l.sendAttempts || 0,
+      maxAttempts: 5, // keep in sync with MAX_SEND_ATTEMPTS in sendOutreachEmails.js
     }))
     .sort((a, b) => new Date(b.foundAt || 0) - new Date(a.foundAt || 0));
 
