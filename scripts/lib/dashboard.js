@@ -50,7 +50,8 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   // "Found" means we ever discovered a real email for this lead, regardless
   // of whether it's since been sent -- so this includes enriched, emailed,
   // AND email_failed (the email was real, the send attempt just errored).
-  const totalEmailsFound = realLeads.filter((l) => ["enriched", "emailed", "email_failed"].includes(l.status)).length;
+  const totalEmailsFound = realLeads.filter((l) => ["enriched", "emailed", "email_failed", "needs_review"].includes(l.status)).length;
+  const totalNeedsReview = realLeads.filter((l) => l.status === "needs_review").length;
   const totalEmailsSent = realLeads.filter((l) => l.status === "emailed").length;
 
   // Full list of every company where a real email was found -- feeds the
@@ -59,7 +60,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
   // otherwise a company would vanish from this list the moment outreach
   // actually sends to them, which is backwards.
   const reachedCompanies = realLeads
-    .filter((l) => ["enriched", "emailed", "email_failed", "skipped"].includes(l.status))
+    .filter((l) => ["enriched", "emailed", "email_failed", "skipped", "needs_review"].includes(l.status))
     .map((l) => ({
       name: l.name,
       category: l.category,
@@ -74,6 +75,10 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
       emailedAt: l.emailedAt || null,
       failedAt: l.failedAt || null,
       emailError: l.emailError ? String(l.emailError).slice(0, 300) : null,
+      placeId: l.placeId || null,
+      needsReview: l.status === "needs_review",
+      reviewReason: l.emailReviewReason || null,
+      emailSnippet: l.emailSnippet || null,
       sendAttempts: l.sendAttempts || 0,
       maxAttempts: 5, // keep in sync with MAX_SEND_ATTEMPTS in sendOutreachEmails.js
     }))
@@ -119,6 +124,7 @@ function buildDashboard(categoryQueue, cityQueue, leads, usageLog) {
       totalLeadsFound,
       totalEmailsFound,
       totalEmailsSent,
+      totalNeedsReview,
       totalCategories: categoryQueue.length,
       categoriesCompleted: completed.length,
       categoriesKept: categoryQueue.filter((c) => c.verdict === "keep").length,

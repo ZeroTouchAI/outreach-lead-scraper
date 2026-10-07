@@ -174,14 +174,14 @@ function main() {
   // leads.json is the source of truth, this avoids double-counting.
   const byCategory = {};
   for (const lead of leads) {
-    const wasEnrichmentAttempted = lead.status === "enriched" || lead.status === "no_email_found";
+    const wasEnrichmentAttempted = lead.status === "enriched" || lead.status === "needs_review" || lead.status === "no_email_found";
     if (!wasEnrichmentAttempted) continue; // still "found", hasn't gone through enrichment yet
 
     if (!byCategory[lead.category]) {
       byCategory[lead.category] = { leadsProcessed: 0, emailsFound: 0 };
     }
     byCategory[lead.category].leadsProcessed++;
-    if (lead.status === "enriched") {
+    if (lead.status === "enriched" || lead.status === "needs_review") {
       byCategory[lead.category].emailsFound++;
     }
   }

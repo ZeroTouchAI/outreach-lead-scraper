@@ -26,6 +26,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { classifyEmail } = require("./lib/emailMatch");
 
 const LEADS_PATH = path.join(__dirname, "..", "data", "leads.json");
 
@@ -75,6 +76,13 @@ function isPlausibleEmail(email) {
   return !EXCLUDED_EMAIL_DOMAINS.some((bad) => domain.endsWith(bad));
 }
 
+// Every distinct plausible email in a block of text.
+function allEmails(text) {
+  if (!text) return [];
+  const matches = text.match(EMAIL_REGEX) || [];
+  return [...new Set(matches.map((m) => m.toLowerCase()).filter(isPlausibleEmail))];
+}
+
 function extractEmail(text) {
   if (!text) return null;
   const matches = text.match(EMAIL_REGEX);
@@ -113,15 +121,38 @@ async function searchForEmail(lead) {
 
   const results = data.organic_results || [];
 
+  // Judge every email in every result against the lead (see
+  // lib/emailMatch.js). A confident match wins immediately; otherwise the
+  // first borderline one is held for the owner's approval; the rest are
+  // dropped.
+  let bestReview = null;
   for (const item of results) {
-    const candidate =
-      extractEmail(item.snippet) || extractEmail(item.title) || null;
-    if (candidate) {
-      return { email: candidate, source: item.link || "google_search" };
+    const emails = allEmails(`${item.title || ""} ${item.snippet || ""}`);
+    for (const email of emails) {
+      const v = classifyEmail({
+        lead,
+        email,
+        title: item.title,
+        snippet: item.snippet,
+        link: item.link,
+        emailsInResult: emails,
+      });
+      if (v.verdict === "accept") {
+        return { email, source: item.link || "google_search", confidence: "high", reason: v.reason };
+      }
+      if (v.verdict === "review" && !bestReview) {
+        bestReview = {
+          email,
+          source: item.link || "google_search",
+          confidence: "review",
+          reason: v.reason,
+          snippet: String(item.snippet || item.title || "").slice(0, 240),
+        };
+      }
     }
   }
 
-  return null;
+  return bestReview;
 }
 
 async function main() {
@@ -137,6 +168,7 @@ async function main() {
 
   let enrichedCount = 0;
   let notFoundCount = 0;
+  let reviewCount = 0;
   let stoppedOnQuota = false;
 
   for (const lead of toEnrich) {
@@ -154,10 +186,20 @@ async function main() {
       if (result?.email) {
         lead.email = result.email;
         lead.emailSource = result.source;
-        lead.status = "enriched";
+        lead.emailConfidence = result.confidence;
         lead.lastUpdatedAt = new Date().toISOString();
-        enrichedCount++;
-        console.log(`  Found: ${result.email}`);
+        if (result.confidence === "high") {
+          lead.status = "enriched";
+          enrichedCount++;
+          console.log(`  Found: ${result.email} (confident match)`);
+        } else {
+          // Borderline: nothing is sent until the owner approves it.
+          lead.status = "needs_review";
+          lead.emailReviewReason = result.reason;
+          lead.emailSnippet = result.snippet || null;
+          reviewCount++;
+          console.log(`  Borderline: ${result.email} -- held for your review. ${result.reason}`);
+        }
       } else {
         lead.status = "no_email_found";
         lead.lastUpdatedAt = new Date().toISOString();
@@ -175,7 +217,8 @@ async function main() {
   saveJson(LEADS_PATH, leads);
 
   console.log("---");
-  console.log(`Emails found: ${enrichedCount}`);
+  console.log(`Emails found (confident match): ${enrichedCount}`);
+  console.log(`Held for your review (borderline): ${reviewCount}`);
   console.log(`No email found (-> manual call queue): ${notFoundCount}`);
   if (stoppedOnQuota) {
     console.log("Stopped early due to monthly quota -- remaining leads still marked 'found', will retry next run.");

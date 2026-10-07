@@ -68,8 +68,8 @@ function main() {
 
   for (const city of todaysCities) {
     const cityLeads = leads.filter((l) => l.category === activeEntry.category && l.searchLocation === city);
-    const cityEnriched = cityLeads.filter((l) => l.status === "enriched" || l.status === "no_email_found");
-    const cityEmails = cityLeads.filter((l) => l.status === "enriched");
+    const cityEnriched = cityLeads.filter((l) => l.status === "enriched" || l.status === "needs_review" || l.status === "no_email_found");
+    const cityEmails = cityLeads.filter((l) => l.status === "enriched" || l.status === "needs_review");
 
     usageLog.daily.push({
       date,

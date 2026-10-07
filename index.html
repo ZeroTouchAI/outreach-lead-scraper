@@ -38,6 +38,13 @@
 .badge-skipped { background:rgba(242,118,46,0.12); color:var(--orange); cursor:help; }
 .age-note { display:block; font-size:11px; color:var(--muted); margin-top:3px; }
 .age-note.stale { color:var(--orange); font-weight:700; }
+.badge-review { background:rgba(234,179,8,0.18); color:#a16207; }
+.copy-btn { display:inline-block; border:1px solid rgba(128,128,128,0.35); background:transparent; color:inherit; border-radius:8px; padding:6px 12px; font-size:13px; cursor:pointer; text-decoration:none; margin:6px 8px 6px 0; }
+.review-item { border:1px solid rgba(128,128,128,0.25); border-radius:10px; padding:12px 14px; margin-top:10px; }
+.review-email { font-weight:700; margin-top:4px; word-break:break-all; }
+.review-reason { margin-top:4px; font-size:13px; color:var(--muted); }
+.review-snippet { margin-top:6px; font-size:12px; color:var(--muted); font-style:italic; }
+.review-foot { margin-top:8px; font-size:13px; }
   .chart-card { grid-column:span 2; }
   canvas { max-height:260px; }
   .empty { color:var(--muted); font-size:13px; padding:12px 0; }
@@ -91,6 +98,16 @@
   </table>
 </div>
 
+<div class="card" id="reviewCard" style="display:none;">
+  <h2>Needs Your Review</h2>
+  <div class="info-note" style="margin-top:0;">These emails look borderline, so nothing is sent until you decide. Tap <strong>Copy all IDs</strong>, then <strong>Open review workflow</strong> &rarr; <strong>Run workflow</strong>, paste the IDs, choose approve or reject, and run it. Approved leads go out on the next send run; rejected ones move to your manual call list.</div>
+  <div>
+    <button class="copy-btn" id="reviewAllBtn" data-copy="">Copy all IDs</button>
+    <a class="copy-btn" href="https://github.com/ZeroTouchAI/outreach-lead-scraper/actions/workflows/review-lead.yml" target="_blank" rel="noopener noreferrer">Open review workflow</a>
+  </div>
+  <div id="reviewList"></div>
+</div>
+
 <div class="section-title">Companies Reached</div>
 <div class="section-sub">Every business where a real email was found, and whether outreach has gone out yet.</div>
 <div class="card">
@@ -117,6 +134,7 @@ async function loadDashboard() {
     : "Not yet run -- this is the starting state before day 1.";
   renderStatusCards(data);
   renderLeaderboard(data);
+  renderReview(data);
   renderCompanies(data);
   renderHitRateChart(data);
   renderHistoryChart(data);
@@ -256,6 +274,39 @@ function escAttr(str) {
 }
 
 // sent / error / skipped / not yet -- with dates so a lead stuck for days is obvious.
+function renderReview(data) {
+  const items = (data.reachedCompanies || []).filter((c) => c.needsReview);
+  const card = document.getElementById("reviewCard");
+  if (!items.length) { card.style.display = "none"; return; }
+  card.style.display = "";
+  document.getElementById("reviewList").innerHTML = items.map((c) => {
+    const age = daysSince(c.foundAt);
+    const src = c.emailSource
+      ? `<a href="${escAttr(c.emailSource)}" target="_blank" rel="noopener noreferrer">Open source page</a> `
+      : "";
+    return `<div class="review-item">
+      <div><strong>${escAttr(c.name)}</strong> <span class="age-note" style="display:inline;">${escAttr(c.category || "")} &middot; ${escAttr(c.location || "")}${age === null ? "" : " &middot; waiting " + age + "d"}</span></div>
+      <div class="review-email">${escAttr(c.email)}</div>
+      <div class="review-reason">${escAttr(c.reviewReason || "Looks borderline.")}</div>
+      ${c.emailSnippet ? `<div class="review-snippet">&ldquo;${escAttr(c.emailSnippet)}&rdquo;</div>` : ""}
+      <div class="review-foot">${src}<button class="copy-btn" data-copy="${escAttr(c.placeId)}">Copy ID</button></div>
+    </div>`;
+  }).join("");
+  document.getElementById("reviewAllBtn").setAttribute("data-copy", items.map((c) => c.placeId).join(","));
+}
+
+document.addEventListener("click", (ev) => {
+  const btn = ev.target.closest("[data-copy]");
+  if (!btn) return;
+  const text = btn.getAttribute("data-copy");
+  const done = () => { const old = btn.textContent; btn.textContent = "Copied!"; setTimeout(() => { btn.textContent = old; }, 1500); };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done, () => window.prompt("Copy this:", text));
+  } else {
+    window.prompt("Copy this:", text);
+  }
+});
+
 function outreachCell(c) {
   if (c.sent) {
     const via = c.sendAttempts > 1 ? `sent on attempt ${c.sendAttempts} · ` : "";
@@ -267,6 +318,10 @@ function outreachCell(c) {
     const gaveUp = tries >= max;
     const when = c.failedAt ? " · " + fmtDate(c.failedAt) : "";
     return `<span class="badge badge-error" title="${escAttr(c.emailError)}">${gaveUp ? "error — gave up" : "error"}</span><span class="age-note stale">attempt ${tries} of ${max}${gaveUp ? " (no more retries)" : ""}${when}</span>`;
+  }
+  if (c.needsReview) {
+    const age = daysSince(c.foundAt);
+    return `<span class="badge badge-review" title="${escAttr(c.reviewReason)}">needs review</span>${age === null ? "" : `<span class="age-note${age >= 3 ? " stale" : ""}">waiting on you ${age}d</span>`}`;
   }
   if (c.skipped) {
     return `<span class="badge badge-skipped" title="${escAttr(c.emailError)}">skipped</span>`;

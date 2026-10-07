@@ -1,0 +1,76 @@
+name: Review Lead
+
+# Run this by hand (Actions tab, or the GitHub mobile app) to approve or
+# reject emails the dashboard flagged as "Needs Your Review". Only people
+# with write access to the repo can run it.
+on:
+  workflow_dispatch:
+    inputs:
+      place_ids:
+        description: "Lead ID(s) from the dashboard -- comma separated (use 'Copy all IDs')"
+        required: true
+        type: string
+      decision:
+        description: "approve = send on the next run. reject = move to the manual call queue."
+        required: true
+        type: choice
+        options:
+          - approve
+          - reject
+
+concurrency:
+  group: review-lead
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Apply decision
+        env:
+          PLACE_IDS: ${{ github.event.inputs.place_ids }}
+          DECISION: ${{ github.event.inputs.decision }}
+        run: node scripts/reviewLead.js
+
+      - name: Refresh dashboard snapshot (zero-cost)
+        run: node scripts/rebuildDashboard.js
+
+      - name: Commit updated lead statuses and dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/leads.json data/dashboardData.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: review decision (${{ github.event.inputs.decision }}) $(date -u +'%Y-%m-%d')"
+
+          for i in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) -- pulling latest and rebasing..."
+            if ! git pull --rebase origin main; then
+              git rebase --abort
+              echo "Push failed due to conflicting data."
+              exit 1
+            fi
+            sleep 3
+          done
+
+          echo "Push failed after multiple retries."
+          exit 1
