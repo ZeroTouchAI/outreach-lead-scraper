@@ -4211,11 +4211,11 @@
     "primaryType": "italian_restaurant",
     "googleMapsUrl": "https://maps.google.com/?cid=5271041067826942173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-10-06T18:50:37.606Z",
-    "lastUpdatedAt": "2026-10-06T18:50:37.606Z"
+    "lastUpdatedAt": "2026-10-07T19:15:46.979Z"
   },
   {
     "placeId": "ChIJ4_93VUsrK4gRhuw_fHjOxmY",
@@ -4232,5 +4232,37 @@
     "emailSource": null,
     "foundAt": "2026-10-06T18:50:37.606Z",
     "lastUpdatedAt": "2026-10-06T18:52:09.309Z"
+  },
+  {
+    "placeId": "ChIJN9KbIPjRKogRfDavEHuGxlo",
+    "name": "Sandhya Foods",
+    "address": "Ford Wilson Blvd, Newmarket, ON L3X 3G6, Canada",
+    "phone": "+1 647-467-2603",
+    "category": "catering company",
+    "searchLocation": "Newmarket, ON",
+    "primaryType": "manufacturer",
+    "googleMapsUrl": "https://maps.google.com/?cid=6541063371921241724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-07T19:15:44.579Z",
+    "lastUpdatedAt": "2026-10-07T19:15:59.216Z"
+  },
+  {
+    "placeId": "ChIJLVveC7PTKogRw8WccV0MNkg",
+    "name": "Catharina's Kitchen",
+    "address": "41 Industrial Pkwy S, Aurora, ON L4G 3Y5, Canada",
+    "phone": "+1 905-503-7797",
+    "category": "catering company",
+    "searchLocation": "Aurora, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=5203360014950778307&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-07T19:15:45.099Z",
+    "lastUpdatedAt": "2026-10-07T19:17:04.402Z"
   }
 ]

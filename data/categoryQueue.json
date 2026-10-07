@@ -233,10 +233,12 @@
       "Caledon, ON",
       "Vaughan, ON",
       "Markham, ON",
-      "Richmond Hill, ON"
+      "Richmond Hill, ON",
+      "Newmarket, ON",
+      "Aurora, ON"
     ],
-    "leadsFound": 11,
-    "leadsEnriched": 10,
+    "leadsFound": 13,
+    "leadsEnriched": 12,
     "emailsFound": 2,
     "hitRate": null,
     "verdict": null

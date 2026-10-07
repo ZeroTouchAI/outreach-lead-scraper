@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-08-08",
-      "category": "spa",
-      "city": "Scarborough, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-08",
-      "category": "spa",
-      "city": "Etobicoke, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-08-09",
       "category": "spa",
       "city": "York, Toronto, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-07",
+      "category": "catering company",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-07",
+      "category": "catering company",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1095,8 +1095,8 @@
       "serpApiCalls": 81
     },
     "2026-10": {
-      "placesApiCalls": 12,
-      "serpApiCalls": 11
+      "placesApiCalls": 14,
+      "serpApiCalls": 13
     }
   }
 }

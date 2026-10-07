@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-06T20:02:31.679Z",
+  "lastUpdated": "2026-10-07T19:17:04.756Z",
   "current": {
     "category": "catering company",
-    "cityIndex": 13,
+    "cityIndex": 15,
     "totalCities": 22,
-    "nextCity": "Newmarket, ON"
+    "nextCity": "Oshawa, ON"
   },
   "leaderboard": {
     "completed": [
@@ -123,33 +123,34 @@
     ],
     "active": {
       "category": "catering company",
-      "leadsEnriched": 10,
+      "leadsEnriched": 12,
       "emailsFound": 2,
-      "hitRate": 0.2
+      "hitRate": 0.16666666666666666
     },
     "queuedCount": 13
   },
   "usage": {
     "today": {
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "category": "catering company",
-      "city": "Richmond Hill, ON",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 12,
-      "serpApiCalls": 11
+      "placesApiCalls": 14,
+      "serpApiCalls": 13
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 57
+    "projectedMonthlySerpApiCalls": 58
   },
   "totals": {
-    "totalLeadsFound": 262,
-    "totalEmailsFound": 9,
+    "totalLeadsFound": 264,
+    "totalEmailsFound": 7,
     "totalEmailsSent": 6,
+    "totalNeedsReview": 1,
     "totalCategories": 28,
     "categoriesCompleted": 14,
     "categoriesKept": 3,
@@ -157,24 +158,6 @@
     "categoriesPending": 22
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-08",
-      "category": "spa",
-      "city": "Scarborough, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-08",
-      "category": "spa",
-      "city": "Etobicoke, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-09",
       "category": "spa",
@@ -1236,39 +1219,27 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-07",
+      "category": "catering company",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-07",
+      "category": "catering company",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
-    {
-      "name": "Mandarino European Catering",
-      "category": "catering company",
-      "location": "Vaughan, ON",
-      "email": "nnannable@yahoo.com",
-      "emailSource": "https://vinoenology.com/directory/wine-industry-suppliers/winemaking-supplier/4",
-      "phone": "+1 905-850-1099",
-      "foundAt": "2026-10-05T21:11:39.866Z",
-      "sent": false,
-      "sendFailed": true,
-      "skipped": false,
-      "emailedAt": null,
-      "failedAt": "2026-10-06T20:02:31.133Z",
-      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}"
-    },
-    {
-      "name": "The Grand Spice",
-      "category": "catering company",
-      "location": "Brampton, ON",
-      "email": "info@grandtravel.ca",
-      "emailSource": "https://www.infobel.com/en/canada/grand_travel/mississauga/CA100768131-6478634210/businessdetails.aspx",
-      "phone": "+1 437-331-3363",
-      "foundAt": "2026-10-04T17:22:21.708Z",
-      "sent": false,
-      "sendFailed": true,
-      "skipped": false,
-      "emailedAt": null,
-      "failedAt": "2026-10-06T20:02:30.539Z",
-      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}"
-    },
     {
       "name": "Uncle Fluffy",
       "category": "bakery",
@@ -1282,7 +1253,13 @@
       "skipped": true,
       "emailedAt": null,
       "failedAt": null,
-      "emailError": "Skipped: government/institutional address"
+      "emailError": "Skipped: government/institutional address",
+      "placeId": "ChIJsbkiOxMd1YkRkbkl7RYwc2A",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "TAT Bakery and Pastry",
@@ -1297,7 +1274,13 @@
       "skipped": true,
       "emailedAt": null,
       "failedAt": null,
-      "emailError": "Skipped: government/institutional address"
+      "emailError": "Skipped: government/institutional address",
+      "placeId": "ChIJha5gI9LTKogRHfegQSKyOt8",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "Cosenza Bakery",
@@ -1308,11 +1291,17 @@
       "phone": "+1 905-850-3240",
       "foundAt": "2026-09-24T17:48:01.868Z",
       "sent": false,
-      "sendFailed": true,
+      "sendFailed": false,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-06T20:02:29.939Z",
-      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}"
+      "failedAt": null,
+      "emailError": null,
+      "placeId": "ChIJy-aqzIIvK4gRyj3kCeXWDrA",
+      "needsReview": true,
+      "reviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory. (Earlier send attempts had failed because the sending domain was unverified; the attempt counter was reset.)",
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "Agnus Family Enterprises",
@@ -1327,7 +1316,13 @@
       "skipped": false,
       "emailedAt": "2026-09-12T17:42:02.656Z",
       "failedAt": null,
-      "emailError": null
+      "emailError": null,
+      "placeId": "ChIJZdESja0XK4gRTUs8MHoSyHU",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "Zen Nails Spa",
@@ -1342,7 +1337,13 @@
       "skipped": false,
       "emailedAt": "2026-08-03T17:10:01.364Z",
       "failedAt": null,
-      "emailError": null
+      "emailError": null,
+      "placeId": "ChIJ55Tyq-Eh1YkREcK0rSW3cXc",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "Nail World & Spa",
@@ -1357,7 +1358,13 @@
       "skipped": false,
       "emailedAt": "2026-08-03T17:10:01.961Z",
       "failedAt": null,
-      "emailError": null
+      "emailError": null,
+      "placeId": "ChIJn_Vm7OPf1IkR4nRDcddpokA",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "San nails",
@@ -1372,7 +1379,13 @@
       "skipped": false,
       "emailedAt": "2026-07-26T16:03:11.398Z",
       "failedAt": null,
-      "emailError": null
+      "emailError": null,
+      "placeId": "ChIJC48zfBLN1IkRZE4XlPT6XCo",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "Cuties Nails Spa",
@@ -1387,7 +1400,13 @@
       "skipped": false,
       "emailedAt": "2026-07-23T16:37:43.445Z",
       "failedAt": null,
-      "emailError": null
+      "emailError": null,
+      "placeId": "ChIJPV7x-LovK4gRL6ViYBg7_JI",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     },
     {
       "name": "Angelo Auto Repair",
@@ -1402,7 +1421,13 @@
       "skipped": false,
       "emailedAt": "2026-07-23T16:37:42.776Z",
       "failedAt": null,
-      "emailError": null
+      "emailError": null,
+      "placeId": "ChIJG5gO1aM0K4gRAetHJ2OAXj0",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
     }
   ]
 }
