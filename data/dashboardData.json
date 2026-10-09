@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-08T20:32:43.053Z",
+  "lastUpdated": "2026-10-09T18:45:44.122Z",
   "current": {
     "category": "catering company",
-    "cityIndex": 17,
+    "cityIndex": 19,
     "totalCities": 22,
-    "nextCity": "Ajax, ON"
+    "nextCity": "Oakville, ON"
   },
   "leaderboard": {
     "completed": [
@@ -123,32 +123,32 @@
     ],
     "active": {
       "category": "catering company",
-      "leadsEnriched": 16,
-      "emailsFound": 2,
-      "hitRate": 0.125
+      "leadsEnriched": 22,
+      "emailsFound": 4,
+      "hitRate": 0.18181818181818182
     },
     "queuedCount": 13
   },
   "usage": {
     "today": {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "category": "catering company",
-      "city": "Whitby, ON",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
-      "emailsFound": 0
+      "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 16,
-      "serpApiCalls": 18
+      "placesApiCalls": 18,
+      "serpApiCalls": 25
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 70
+    "projectedMonthlySerpApiCalls": 86
   },
   "totals": {
-    "totalLeadsFound": 269,
-    "totalEmailsFound": 7,
+    "totalLeadsFound": 276,
+    "totalEmailsFound": 9,
     "totalEmailsSent": 6,
     "totalNeedsReview": 1,
     "totalCategories": 28,
@@ -158,24 +158,6 @@
     "categoriesPending": 22
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-10",
-      "category": "spa",
-      "city": "Mississauga, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-10",
-      "category": "spa",
-      "city": "Brampton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-11",
       "category": "spa",
@@ -1237,9 +1219,69 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-09",
+      "category": "catering company",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
+      "emailsFound": 1
+    },
+    {
+      "date": "2026-10-09",
+      "category": "catering company",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "Katrina's Kitchen",
+      "category": "catering company",
+      "location": "Pickering, ON",
+      "email": "katrinas.kitchen@hotmail.com",
+      "emailSource": "https://www.facebook.com/100071206861727/posts/the-perfect-appetizer-easy-clean-up-and-you-will-really-wow-your-guestemail-us-k/627818742935016/",
+      "phone": "+1 416-836-5407",
+      "foundAt": "2026-10-09T18:42:44.898Z",
+      "sent": false,
+      "sendFailed": false,
+      "skipped": false,
+      "emailedAt": null,
+      "failedAt": null,
+      "emailError": null,
+      "placeId": "ChIJM1nvVCfZ1IkR5HepE_-0Igs",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
+    },
+    {
+      "name": "Barberyn Catering",
+      "category": "catering company",
+      "location": "Ajax, ON",
+      "email": "info@barberynresorts.com",
+      "emailSource": "https://www.barberynresorts.com/sk/reef/barberyn-ayurveda-resort-reef_02/",
+      "phone": "+1 647-966-4637",
+      "foundAt": "2026-10-09T18:42:44.397Z",
+      "sent": false,
+      "sendFailed": false,
+      "skipped": false,
+      "emailedAt": null,
+      "failedAt": null,
+      "emailError": null,
+      "placeId": "ChIJnfLPgi3N1IkRpvF7GTmvq-s",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
+    },
     {
       "name": "Uncle Fluffy",
       "category": "bakery",
