@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T18:45:44.122Z",
+  "lastUpdated": "2026-10-09T20:01:01.524Z",
   "current": {
     "category": "catering company",
     "cityIndex": 19,
@@ -1249,16 +1249,16 @@
       "phone": "+1 416-836-5407",
       "foundAt": "2026-10-09T18:42:44.898Z",
       "sent": false,
-      "sendFailed": false,
+      "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": null,
-      "emailError": null,
+      "failedAt": "2026-10-09T20:01:00.970Z",
+      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJM1nvVCfZ1IkR5HepE_-0Igs",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 0,
+      "sendAttempts": 1,
       "maxAttempts": 5
     },
     {
@@ -1270,16 +1270,16 @@
       "phone": "+1 647-966-4637",
       "foundAt": "2026-10-09T18:42:44.397Z",
       "sent": false,
-      "sendFailed": false,
+      "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": null,
-      "emailError": null,
+      "failedAt": "2026-10-09T20:01:00.420Z",
+      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJnfLPgi3N1IkRpvF7GTmvq-s",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 0,
+      "sendAttempts": 1,
       "maxAttempts": 5
     },
     {
