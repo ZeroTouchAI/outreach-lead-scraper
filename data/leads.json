@@ -4410,8 +4410,8 @@
     "lastUpdatedAt": "2026-10-09T18:44:09.139Z",
     "emailConfidence": "high",
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
-    "failedAt": "2026-10-09T20:01:00.420Z",
-    "sendAttempts": 1
+    "failedAt": "2026-10-10T19:09:04.898Z",
+    "sendAttempts": 2
   },
   {
     "placeId": "ChIJ3bonvwzg1IkRVJWoN6HJcNw",
@@ -4446,8 +4446,8 @@
     "lastUpdatedAt": "2026-10-09T18:44:13.295Z",
     "emailConfidence": "high",
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
-    "failedAt": "2026-10-09T20:01:00.970Z",
-    "sendAttempts": 1
+    "failedAt": "2026-10-10T19:09:05.436Z",
+    "sendAttempts": 2
   },
   {
     "placeId": "ChIJN5S1bJPZ1IkR1IdiwridglU",
@@ -4542,11 +4542,14 @@
     "primaryType": "catering_service",
     "googleMapsUrl": "https://maps.google.com/?cid=6962832629750885186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "email_failed",
     "email": "info@thelunchlady.ca",
     "emailSource": "https://www.infobel.com/fr/canada/the_lunch_lady/gloucester/CA103248016-6136807001/businessdetails.aspx",
     "foundAt": "2026-10-10T17:42:44.871Z",
     "lastUpdatedAt": "2026-10-10T17:43:19.419Z",
-    "emailConfidence": "high"
+    "emailConfidence": "high",
+    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+    "failedAt": "2026-10-10T19:09:05.962Z",
+    "sendAttempts": 1
   }
 ]
