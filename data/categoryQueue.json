@@ -239,11 +239,13 @@
       "Oshawa, ON",
       "Whitby, ON",
       "Ajax, ON",
-      "Pickering, ON"
+      "Pickering, ON",
+      "Oakville, ON",
+      "Burlington, ON"
     ],
-    "leadsFound": 25,
-    "leadsEnriched": 22,
-    "emailsFound": 4,
+    "leadsFound": 30,
+    "leadsEnriched": 27,
+    "emailsFound": 6,
     "hitRate": null,
     "verdict": null
   },

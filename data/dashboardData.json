@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-09T20:01:01.524Z",
+  "lastUpdated": "2026-10-10T17:43:19.764Z",
   "current": {
     "category": "catering company",
-    "cityIndex": 19,
+    "cityIndex": 21,
     "totalCities": 22,
-    "nextCity": "Oakville, ON"
+    "nextCity": "Milton, ON"
   },
   "leaderboard": {
     "completed": [
@@ -123,34 +123,34 @@
     ],
     "active": {
       "category": "catering company",
-      "leadsEnriched": 22,
-      "emailsFound": 4,
-      "hitRate": 0.18181818181818182
+      "leadsEnriched": 27,
+      "emailsFound": 6,
+      "hitRate": 0.2222222222222222
     },
     "queuedCount": 13
   },
   "usage": {
     "today": {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "category": "catering company",
-      "city": "Pickering, ON",
+      "city": "Burlington, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 18,
-      "serpApiCalls": 25
+      "placesApiCalls": 20,
+      "serpApiCalls": 30
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 86
+    "projectedMonthlySerpApiCalls": 93
   },
   "totals": {
-    "totalLeadsFound": 276,
-    "totalEmailsFound": 9,
+    "totalLeadsFound": 281,
+    "totalEmailsFound": 11,
     "totalEmailsSent": 6,
-    "totalNeedsReview": 1,
+    "totalNeedsReview": 2,
     "totalCategories": 28,
     "categoriesCompleted": 14,
     "categoriesKept": 3,
@@ -158,24 +158,6 @@
     "categoriesPending": 22
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-11",
-      "category": "spa",
-      "city": "Caledon, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-11",
-      "category": "spa",
-      "city": "Vaughan, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-12",
       "category": "spa",
@@ -1237,9 +1219,69 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-10-10",
+      "category": "catering company",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 1
+    },
+    {
+      "date": "2026-10-10",
+      "category": "catering company",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "Lunch Company The",
+      "category": "catering company",
+      "location": "Burlington, ON",
+      "email": "info@thelunchlady.ca",
+      "emailSource": "https://www.infobel.com/fr/canada/the_lunch_lady/gloucester/CA103248016-6136807001/businessdetails.aspx",
+      "phone": "+1 905-332-8646",
+      "foundAt": "2026-10-10T17:42:44.871Z",
+      "sent": false,
+      "sendFailed": false,
+      "skipped": false,
+      "emailedAt": null,
+      "failedAt": null,
+      "emailError": null,
+      "placeId": "ChIJZRxJlepgK4gRQuvM1mLzoGA",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
+    },
+    {
+      "name": "Sixteen Mile Catering",
+      "category": "catering company",
+      "location": "Oakville, ON",
+      "email": "jenny@stevenfriendly.com",
+      "emailSource": "https://mediatours.ca/property/75-sixteen-mile-drive-oakville/",
+      "phone": "+1 416-357-9430",
+      "foundAt": "2026-10-10T17:42:44.327Z",
+      "sent": false,
+      "sendFailed": false,
+      "skipped": false,
+      "emailedAt": null,
+      "failedAt": null,
+      "emailError": null,
+      "placeId": "ChIJn49dTANnK4gRn649SJdOkGQ",
+      "needsReview": true,
+      "reviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory.",
+      "emailSnippet": "75 Sixteen Mile Drive Oakville by Jenny Tang. Sales Representative 416-568-2121 | 905-568-2121 http://www.thefriendlyteam.com/ jenny@stevenfriendly.com",
+      "sendAttempts": 0,
+      "maxAttempts": 5
+    },
     {
       "name": "Katrina's Kitchen",
       "category": "catering company",
