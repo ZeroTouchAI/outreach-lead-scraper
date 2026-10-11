@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-08-12",
-      "category": "spa",
-      "city": "Markham, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-12",
-      "category": "spa",
-      "city": "Richmond Hill, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-08-13",
       "category": "spa",
       "city": "Newmarket, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-10-11",
+      "category": "catering company",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-11",
+      "category": "catering company",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1095,8 +1095,8 @@
       "serpApiCalls": 81
     },
     "2026-10": {
-      "placesApiCalls": 20,
-      "serpApiCalls": 30
+      "placesApiCalls": 22,
+      "serpApiCalls": 33
     }
   }
 }

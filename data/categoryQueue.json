@@ -218,9 +218,9 @@
   {
     "order": 7,
     "category": "catering company",
-    "status": "active",
+    "status": "completed",
     "startedAt": "2026-09-30T18:19:55.446Z",
-    "completedAt": null,
+    "completedAt": "2026-10-11T17:56:56.594Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -241,19 +241,21 @@
       "Ajax, ON",
       "Pickering, ON",
       "Oakville, ON",
-      "Burlington, ON"
+      "Burlington, ON",
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 30,
-    "leadsEnriched": 27,
+    "leadsFound": 33,
+    "leadsEnriched": 30,
     "emailsFound": 6,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0.2,
+    "verdict": "keep"
   },
   {
     "order": 8,
     "category": "bridal shop",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-10-11T17:56:56.594Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,

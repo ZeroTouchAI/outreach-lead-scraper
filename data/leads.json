@@ -4551,5 +4551,53 @@
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
     "failedAt": "2026-10-10T19:09:05.962Z",
     "sendAttempts": 1
+  },
+  {
+    "placeId": "ChIJWSn0FVFpK4gRincETCAwUXo",
+    "name": "The Complete Gourmet Catering",
+    "address": "6198 Trafalgar Rd, Milton, ON L9E 0Z2, Canada",
+    "phone": "+1 905-510-0166",
+    "category": "catering company",
+    "searchLocation": "Milton, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=8813878861013219210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-11T17:56:31.289Z",
+    "lastUpdatedAt": "2026-10-11T17:56:53.717Z"
+  },
+  {
+    "placeId": "ChIJ5f36yJdpK4gRxv7IZKuYrqU",
+    "name": "Skj kitchen",
+    "address": "Manatee Way, Milton, ON L5M 6P5, Canada",
+    "phone": "+1 647-677-6808",
+    "category": "catering company",
+    "searchLocation": "Milton, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=11938647524103487174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-11T17:56:31.289Z",
+    "lastUpdatedAt": "2026-10-11T17:56:54.868Z"
+  },
+  {
+    "placeId": "ChIJ0QbNJ2xlK4gR-JMfJ-J1SbQ",
+    "name": "Halal Middle Eastern Catering",
+    "address": "496 Downes Jackson Heights, Milton, ON L9T 8W2, Canada",
+    "phone": "+1 437-972-2015",
+    "category": "catering company",
+    "searchLocation": "Milton, ON",
+    "primaryType": "catering_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=12991044214306345976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-11T17:56:31.289Z",
+    "lastUpdatedAt": "2026-10-11T17:56:56.245Z"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-10T19:09:06.511Z",
+  "lastUpdated": "2026-10-11T17:56:56.600Z",
   "current": {
-    "category": "catering company",
-    "cityIndex": 21,
+    "category": "bridal shop",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -53,6 +53,14 @@
         "leadsEnriched": 52,
         "emailsFound": 3,
         "hitRate": 0.057692307692307696,
+        "verdict": "keep",
+        "sampleType": "full_cycle"
+      },
+      {
+        "category": "catering company",
+        "leadsEnriched": 30,
+        "emailsFound": 6,
+        "hitRate": 0.2,
         "verdict": "keep",
         "sampleType": "full_cycle"
       },
@@ -122,60 +130,42 @@
       }
     ],
     "active": {
-      "category": "catering company",
-      "leadsEnriched": 27,
-      "emailsFound": 6,
-      "hitRate": 0.2222222222222222
+      "category": "bridal shop",
+      "leadsEnriched": 0,
+      "emailsFound": 0,
+      "hitRate": null
     },
-    "queuedCount": 13
+    "queuedCount": 12
   },
   "usage": {
     "today": {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "category": "catering company",
-      "city": "Burlington, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 1
-    },
-    "thisMonth": {
-      "placesApiCalls": 20,
-      "serpApiCalls": 30
-    },
-    "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 93
-  },
-  "totals": {
-    "totalLeadsFound": 281,
-    "totalEmailsFound": 11,
-    "totalEmailsSent": 6,
-    "totalNeedsReview": 2,
-    "totalCategories": 28,
-    "categoriesCompleted": 14,
-    "categoriesKept": 3,
-    "categoriesRejected": 3,
-    "categoriesPending": 22
-  },
-  "dailyHistory": [
-    {
-      "date": "2026-08-12",
-      "category": "spa",
-      "city": "Markham, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-12",
-      "category": "spa",
-      "city": "Richmond Hill, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
+    "thisMonth": {
+      "placesApiCalls": 22,
+      "serpApiCalls": 33
+    },
+    "serpApiFreeTierLimit": 250,
+    "projectedMonthlySerpApiCalls": 93
+  },
+  "totals": {
+    "totalLeadsFound": 284,
+    "totalEmailsFound": 11,
+    "totalEmailsSent": 6,
+    "totalNeedsReview": 2,
+    "totalCategories": 28,
+    "categoriesCompleted": 15,
+    "categoriesKept": 4,
+    "categoriesRejected": 3,
+    "categoriesPending": 21
+  },
+  "dailyHistory": [
     {
       "date": "2026-08-13",
       "category": "spa",
@@ -1237,6 +1227,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-10-11",
+      "category": "catering company",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-11",
+      "category": "catering company",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
