@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T17:56:56.600Z",
+  "lastUpdated": "2026-10-11T19:23:24.530Z",
   "current": {
     "category": "bridal shop",
     "cityIndex": 1,
@@ -1260,13 +1260,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-10T19:09:05.962Z",
+      "failedAt": "2026-10-11T19:23:23.987Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJZRxJlepgK4gRQuvM1mLzoGA",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 1,
+      "sendAttempts": 2,
       "maxAttempts": 5
     },
     {
@@ -1302,13 +1302,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-10T19:09:05.436Z",
+      "failedAt": "2026-10-11T19:23:23.430Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJM1nvVCfZ1IkR5HepE_-0Igs",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 2,
+      "sendAttempts": 3,
       "maxAttempts": 5
     },
     {
@@ -1323,13 +1323,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-10T19:09:04.898Z",
+      "failedAt": "2026-10-11T19:23:22.871Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJnfLPgi3N1IkRpvF7GTmvq-s",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 2,
+      "sendAttempts": 3,
       "maxAttempts": 5
     },
     {
