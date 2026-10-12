@@ -1,10 +1,10 @@
 {
   "searchCategories": [
-    "catering company"
+    "bridal shop"
   ],
   "searchLocations": [
-    "Milton, ON",
-    "Halton Hills, ON"
+    "Downtown Toronto, ON",
+    "North York, ON"
   ],
   "maxResultsPerQuery": 20,
   "requireNoWebsite": true,

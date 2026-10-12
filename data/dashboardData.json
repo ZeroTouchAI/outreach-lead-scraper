@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-11T19:23:24.530Z",
+  "lastUpdated": "2026-10-12T21:39:04.521Z",
   "current": {
     "category": "bridal shop",
-    "cityIndex": 1,
+    "cityIndex": 3,
     "totalCities": 22,
-    "nextCity": "Downtown Toronto, ON"
+    "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,20 +139,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-11",
-      "category": "catering company",
-      "city": "Halton Hills, ON",
+      "date": "2026-10-12",
+      "category": "bridal shop",
+      "city": "North York, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 22,
+      "placesApiCalls": 24,
       "serpApiCalls": 33
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 93
+    "projectedMonthlySerpApiCalls": 85
   },
   "totals": {
     "totalLeadsFound": 284,
@@ -166,24 +166,6 @@
     "categoriesPending": 21
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-13",
-      "category": "spa",
-      "city": "Newmarket, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-13",
-      "category": "spa",
-      "city": "Aurora, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-14",
       "category": "spa",
@@ -1241,6 +1223,24 @@
       "date": "2026-10-11",
       "category": "catering company",
       "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-12",
+      "category": "bridal shop",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-12",
+      "category": "bridal shop",
+      "city": "North York, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
