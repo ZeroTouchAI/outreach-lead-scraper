@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-13T20:32:24.550Z",
+  "lastUpdated": "2026-10-14T17:52:57.156Z",
   "current": {
     "category": "bridal shop",
-    "cityIndex": 5,
+    "cityIndex": 7,
     "totalCities": 22,
-    "nextCity": "York, Toronto, ON"
+    "nextCity": "Mississauga, ON"
   },
   "leaderboard": {
     "completed": [
@@ -131,7 +131,7 @@
     ],
     "active": {
       "category": "bridal shop",
-      "leadsEnriched": 1,
+      "leadsEnriched": 3,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -139,23 +139,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "category": "bridal shop",
-      "city": "Etobicoke, ON",
+      "city": "East York, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 26,
-      "serpApiCalls": 35
+      "placesApiCalls": 28,
+      "serpApiCalls": 37
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 83
+    "projectedMonthlySerpApiCalls": 82
   },
   "totals": {
-    "totalLeadsFound": 286,
+    "totalLeadsFound": 288,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -166,24 +166,6 @@
     "categoriesPending": 21
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-15",
-      "category": "spa",
-      "city": "Ajax, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-15",
-      "category": "spa",
-      "city": "Pickering, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-16",
       "category": "spa",
@@ -1244,6 +1226,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-14",
+      "category": "bridal shop",
+      "city": "York, Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-14",
+      "category": "bridal shop",
+      "city": "East York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     }
   ],

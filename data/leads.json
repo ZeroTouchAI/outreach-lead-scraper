@@ -4610,11 +4610,11 @@
     "primaryType": "clothing_store",
     "googleMapsUrl": "https://maps.google.com/?cid=12455783464139989213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "found",
+    "status": "no_email_found",
     "email": null,
     "emailSource": null,
     "foundAt": "2026-10-13T19:47:45.354Z",
-    "lastUpdatedAt": "2026-10-13T19:47:45.354Z"
+    "lastUpdatedAt": "2026-10-14T17:52:54.002Z"
   },
   {
     "placeId": "ChIJz5KutRLS1IkRKhp4o9IjHnc",
@@ -4631,5 +4631,37 @@
     "emailSource": null,
     "foundAt": "2026-10-13T19:47:45.354Z",
     "lastUpdatedAt": "2026-10-13T19:50:36.360Z"
+  },
+  {
+    "placeId": "ChIJH438IdDN1IkRu8wZIpDXQiQ",
+    "name": "Kandahar store",
+    "address": "CENTRE, East York, ON M4H 1C3, Canada",
+    "phone": "+1 437-445-4560",
+    "category": "bridal shop",
+    "searchLocation": "East York, ON",
+    "primaryType": "clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=2612887747875687611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-14T17:52:51.929Z",
+    "lastUpdatedAt": "2026-10-14T17:52:55.478Z"
+  },
+  {
+    "placeId": "ChIJUcNJ-c3M1IkRtefQKo4SDgY",
+    "name": "Irene's Studio",
+    "address": "201 Wicksteed Ave, East York, ON M4G 0B1, Canada",
+    "phone": "+1 416-482-4579",
+    "category": "bridal shop",
+    "searchLocation": "East York, ON",
+    "primaryType": "clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=436306615714506677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-14T17:52:51.929Z",
+    "lastUpdatedAt": "2026-10-14T17:52:56.814Z"
   }
 ]
