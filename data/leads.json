@@ -4549,8 +4549,8 @@
     "lastUpdatedAt": "2026-10-10T17:43:19.419Z",
     "emailConfidence": "high",
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
-    "failedAt": "2026-10-13T20:32:23.997Z",
-    "sendAttempts": 4
+    "failedAt": "2026-10-14T19:13:20.804Z",
+    "sendAttempts": 5
   },
   {
     "placeId": "ChIJWSn0FVFpK4gRincETCAwUXo",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T17:52:57.156Z",
+  "lastUpdated": "2026-10-14T19:13:21.348Z",
   "current": {
     "category": "bridal shop",
     "cityIndex": 7,
@@ -1260,13 +1260,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-13T20:32:23.997Z",
+      "failedAt": "2026-10-14T19:13:20.804Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJZRxJlepgK4gRQuvM1mLzoGA",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 4,
+      "sendAttempts": 5,
       "maxAttempts": 5
     },
     {
