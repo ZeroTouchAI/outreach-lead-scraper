@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-14T19:13:21.348Z",
+  "lastUpdated": "2026-10-15T17:41:55.872Z",
   "current": {
     "category": "bridal shop",
-    "cityIndex": 7,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -131,7 +131,7 @@
     ],
     "active": {
       "category": "bridal shop",
-      "leadsEnriched": 3,
+      "leadsEnriched": 6,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -139,23 +139,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "category": "bridal shop",
-      "city": "East York, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 28,
-      "serpApiCalls": 37
+      "placesApiCalls": 30,
+      "serpApiCalls": 40
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 82
+    "projectedMonthlySerpApiCalls": 83
   },
   "totals": {
-    "totalLeadsFound": 288,
+    "totalLeadsFound": 291,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -166,24 +166,6 @@
     "categoriesPending": 21
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-16",
-      "category": "spa",
-      "city": "Oakville, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-16",
-      "category": "spa",
-      "city": "Burlington, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-17",
       "category": "spa",
@@ -1241,6 +1223,24 @@
       "date": "2026-10-14",
       "category": "bridal shop",
       "city": "East York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-15",
+      "category": "bridal shop",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-15",
+      "category": "bridal shop",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
