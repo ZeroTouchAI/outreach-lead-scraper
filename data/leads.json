@@ -4711,5 +4711,21 @@
     "emailSource": null,
     "foundAt": "2026-10-15T17:41:00.728Z",
     "lastUpdatedAt": "2026-10-15T17:41:55.533Z"
+  },
+  {
+    "placeId": "ChIJyY4i-WEvK4gRxiQ0RcUZ4hA",
+    "name": "White Dove Bridal",
+    "address": "2100 Steeles Ave W Unit 7, Concord, ON L4K 2V1, Canada",
+    "phone": "+1 905-738-3888",
+    "category": "bridal shop",
+    "searchLocation": "Vaughan, ON",
+    "primaryType": "clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=1216563184403752134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-16T17:14:37.834Z",
+    "lastUpdatedAt": "2026-10-16T17:14:39.160Z"
   }
 ]
