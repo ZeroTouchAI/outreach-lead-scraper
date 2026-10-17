@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-16T18:40:08.075Z",
+  "lastUpdated": "2026-10-17T16:13:54.067Z",
   "current": {
     "category": "bridal shop",
-    "cityIndex": 11,
+    "cityIndex": 13,
     "totalCities": 22,
-    "nextCity": "Markham, ON"
+    "nextCity": "Newmarket, ON"
   },
   "leaderboard": {
     "completed": [
@@ -131,7 +131,7 @@
     ],
     "active": {
       "category": "bridal shop",
-      "leadsEnriched": 7,
+      "leadsEnriched": 8,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -139,23 +139,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "category": "bridal shop",
-      "city": "Vaughan, ON",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 32,
-      "serpApiCalls": 41
+      "placesApiCalls": 34,
+      "serpApiCalls": 42
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 79
+    "projectedMonthlySerpApiCalls": 77
   },
   "totals": {
-    "totalLeadsFound": 292,
+    "totalLeadsFound": 293,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -166,24 +166,6 @@
     "categoriesPending": 21
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-18",
-      "category": "massage therapist",
-      "city": "Downtown Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-18",
-      "category": "massage therapist",
-      "city": "North York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-19",
       "category": "massage therapist",
@@ -1241,6 +1223,24 @@
       "date": "2026-10-16",
       "category": "bridal shop",
       "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-17",
+      "category": "bridal shop",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-17",
+      "category": "bridal shop",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,

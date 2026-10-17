@@ -4727,5 +4727,21 @@
     "emailSource": null,
     "foundAt": "2026-10-16T17:14:37.834Z",
     "lastUpdatedAt": "2026-10-16T17:14:39.160Z"
+  },
+  {
+    "placeId": "ChIJ1WgWXOI1K4gRO6XkCskodvA",
+    "name": "L’oeuf Studio",
+    "address": "51 Harold Wilson Ln, Richmond Hill, ON L4S 0M3, Canada",
+    "phone": "+1 365-888-2779",
+    "category": "bridal shop",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=17327081460290856251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-17T16:13:50.493Z",
+    "lastUpdatedAt": "2026-10-17T16:13:53.724Z"
   }
 ]
