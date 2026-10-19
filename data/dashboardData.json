@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T17:52:40.031Z",
+  "lastUpdated": "2026-10-19T06:00:45.980Z",
   "current": {
     "category": "bridal shop",
     "cityIndex": 15,
@@ -152,7 +152,7 @@
       "serpApiCalls": 42
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 72
+    "projectedMonthlySerpApiCalls": 69
   },
   "totals": {
     "totalLeadsFound": 293,
@@ -1257,16 +1257,16 @@
       "phone": "+1 905-332-8646",
       "foundAt": "2026-10-10T17:42:44.871Z",
       "sent": false,
-      "sendFailed": true,
+      "sendFailed": false,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-14T19:13:20.804Z",
-      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+      "failedAt": null,
+      "emailError": null,
       "placeId": "ChIJZRxJlepgK4gRQuvM1mLzoGA",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {
@@ -1299,16 +1299,16 @@
       "phone": "+1 416-836-5407",
       "foundAt": "2026-10-09T18:42:44.898Z",
       "sent": false,
-      "sendFailed": true,
+      "sendFailed": false,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-13T20:32:23.443Z",
-      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+      "failedAt": null,
+      "emailError": null,
       "placeId": "ChIJM1nvVCfZ1IkR5HepE_-0Igs",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {
@@ -1320,16 +1320,16 @@
       "phone": "+1 647-966-4637",
       "foundAt": "2026-10-09T18:42:44.397Z",
       "sent": false,
-      "sendFailed": true,
+      "sendFailed": false,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-13T20:32:22.906Z",
-      "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+      "failedAt": null,
+      "emailError": null,
       "placeId": "ChIJnfLPgi3N1IkRpvF7GTmvq-s",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {
