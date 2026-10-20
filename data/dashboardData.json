@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-19T20:25:35.752Z",
+  "lastUpdated": "2026-10-20T17:50:49.604Z",
   "current": {
     "category": "bridal shop",
-    "cityIndex": 17,
+    "cityIndex": 19,
     "totalCities": 22,
-    "nextCity": "Ajax, ON"
+    "nextCity": "Oakville, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,20 +139,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "category": "bridal shop",
-      "city": "Whitby, ON",
+      "city": "Pickering, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 38,
+      "placesApiCalls": 40,
       "serpApiCalls": 47
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 77
+    "projectedMonthlySerpApiCalls": 73
   },
   "totals": {
     "totalLeadsFound": 298,
@@ -166,24 +166,6 @@
     "categoriesPending": 21
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-21",
-      "category": "massage therapist",
-      "city": "Mississauga, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-21",
-      "category": "massage therapist",
-      "city": "Brampton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-22",
       "category": "massage therapist",
@@ -1244,6 +1226,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 3,
       "leadsFound": 3,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-20",
+      "category": "bridal shop",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-20",
+      "category": "bridal shop",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

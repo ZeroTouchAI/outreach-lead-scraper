@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-08-21",
-      "category": "massage therapist",
-      "city": "Mississauga, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-21",
-      "category": "massage therapist",
-      "city": "Brampton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-08-22",
       "category": "massage therapist",
       "city": "Caledon, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 3,
       "leadsFound": 3,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-20",
+      "category": "bridal shop",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-20",
+      "category": "bridal shop",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1095,7 +1095,7 @@
       "serpApiCalls": 81
     },
     "2026-10": {
-      "placesApiCalls": 38,
+      "placesApiCalls": 40,
       "serpApiCalls": 47
     }
   }
