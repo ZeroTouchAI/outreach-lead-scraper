@@ -4823,5 +4823,37 @@
     "emailSource": null,
     "foundAt": "2026-10-19T19:09:38.462Z",
     "lastUpdatedAt": "2026-10-19T19:09:44.677Z"
+  },
+  {
+    "placeId": "ChIJnQr8xPZcK4gRQuCdg2WyGe4",
+    "name": "Lucy's Boutique & Alteration",
+    "address": "276 Kerr St, Oakville, ON L6K 3B3, Canada",
+    "phone": "+1 905-842-9436",
+    "category": "bridal shop",
+    "searchLocation": "Oakville, ON",
+    "primaryType": "clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=17156940404514218050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-21T17:56:44.178Z",
+    "lastUpdatedAt": "2026-10-21T17:56:46.434Z"
+  },
+  {
+    "placeId": "ChIJ60t_LxCeLIgR1X9aN2YjJfY",
+    "name": "JuIie's",
+    "address": "900 Maple Ave, Burlington, ON L7S 2J8, Canada",
+    "phone": "+1 905-631-6301",
+    "category": "bridal shop",
+    "searchLocation": "Burlington, ON",
+    "primaryType": "womens_clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=17736621629390880725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-21T17:56:44.726Z",
+    "lastUpdatedAt": "2026-10-21T17:56:47.559Z"
   }
 ]
