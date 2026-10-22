@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-21T19:09:30.725Z",
+  "lastUpdated": "2026-10-22T17:53:59.424Z",
   "current": {
-    "category": "bridal shop",
-    "cityIndex": 21,
+    "category": "tattoo shop",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -62,6 +62,14 @@
         "emailsFound": 6,
         "hitRate": 0.2,
         "verdict": "keep",
+        "sampleType": "full_cycle"
+      },
+      {
+        "category": "bridal shop",
+        "leadsEnriched": 17,
+        "emailsFound": 0,
+        "hitRate": 0,
+        "verdict": "reject",
         "sampleType": "full_cycle"
       },
       {
@@ -130,60 +138,42 @@
       }
     ],
     "active": {
-      "category": "bridal shop",
-      "leadsEnriched": 15,
+      "category": "tattoo shop",
+      "leadsEnriched": 0,
       "emailsFound": 0,
-      "hitRate": 0
+      "hitRate": null
     },
-    "queuedCount": 12
+    "queuedCount": 11
   },
   "usage": {
     "today": {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "category": "bridal shop",
-      "city": "Burlington, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 42,
-      "serpApiCalls": 49
+      "placesApiCalls": 44,
+      "serpApiCalls": 51
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 72
   },
   "totals": {
-    "totalLeadsFound": 300,
+    "totalLeadsFound": 302,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
     "totalCategories": 28,
-    "categoriesCompleted": 15,
+    "categoriesCompleted": 16,
     "categoriesKept": 4,
-    "categoriesRejected": 3,
-    "categoriesPending": 21
+    "categoriesRejected": 4,
+    "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-23",
-      "category": "massage therapist",
-      "city": "Markham, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-23",
-      "category": "massage therapist",
-      "city": "Richmond Hill, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-24",
       "category": "massage therapist",
@@ -1244,6 +1234,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-22",
+      "category": "bridal shop",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-22",
+      "category": "bridal shop",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],

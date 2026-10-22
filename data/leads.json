@@ -4855,5 +4855,37 @@
     "emailSource": null,
     "foundAt": "2026-10-21T17:56:44.726Z",
     "lastUpdatedAt": "2026-10-21T17:56:47.559Z"
+  },
+  {
+    "placeId": "ChIJa2DYNxtvK4gRlj6i8BdZ4OY",
+    "name": "Paisleys & Bia",
+    "address": "537 Thompson Rd S, Milton, ON L9T 7Z1, Canada",
+    "phone": "+1 905-876-2417",
+    "category": "bridal shop",
+    "searchLocation": "Milton, ON",
+    "primaryType": "clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=16636394982862896790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-22T17:53:55.784Z",
+    "lastUpdatedAt": "2026-10-22T17:53:57.529Z"
+  },
+  {
+    "placeId": "ChIJ4aS9xj1vK4gR6GrQUWJLGhw",
+    "name": "Pérahun",
+    "address": "7Z9, 9075 Derry Rd W #1, Milton, ON L9T 7Y9, Canada",
+    "phone": "+1 647-738-8344",
+    "category": "bridal shop",
+    "searchLocation": "Milton, ON",
+    "primaryType": "clothing_store",
+    "googleMapsUrl": "https://maps.google.com/?cid=2025013868107950824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-22T17:53:55.784Z",
+    "lastUpdatedAt": "2026-10-22T17:53:59.069Z"
   }
 ]
