@@ -1,10 +1,10 @@
 {
   "searchCategories": [
-    "bridal shop"
+    "tattoo shop"
   ],
   "searchLocations": [
-    "Milton, ON",
-    "Halton Hills, ON"
+    "Downtown Toronto, ON",
+    "North York, ON"
   ],
   "maxResultsPerQuery": 20,
   "requireNoWebsite": true,

@@ -4887,5 +4887,53 @@
     "emailSource": null,
     "foundAt": "2026-10-22T17:53:55.784Z",
     "lastUpdatedAt": "2026-10-22T17:53:59.069Z"
+  },
+  {
+    "placeId": "ChIJw4kgJ_g1K4gRLJqq6OQgX_I",
+    "name": "Sanctum ink house (PIERCING AND TATTOO STUDIO)",
+    "address": "5 Charles St W, Toronto, ON M4Y 1R4, Canada",
+    "phone": "+1 416-474-8139",
+    "category": "tattoo shop",
+    "searchLocation": "Downtown Toronto, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=17464714047494199852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-23T17:47:50.590Z",
+    "lastUpdatedAt": "2026-10-23T17:47:52.599Z"
+  },
+  {
+    "placeId": "ChIJWQ5yairN1IkRq-EcXwav-i4",
+    "name": "La Noire Bat Studio",
+    "address": "161 Bartley Dr, North York, ON M4A 1E6, Canada",
+    "phone": "+1 437-236-7784",
+    "category": "tattoo shop",
+    "searchLocation": "North York, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=3385210511822741931&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-23T17:47:51.168Z",
+    "lastUpdatedAt": "2026-10-23T17:47:53.826Z"
+  },
+  {
+    "placeId": "ChIJ6Yi2mWIzK4gR_TBeE5FHazA",
+    "name": "Silver Jaguar Tattoos",
+    "address": "5527 Yonge St Unit202, North York, ON M2N 5S3, Canada",
+    "phone": "+1 647-394-4431",
+    "category": "tattoo shop",
+    "searchLocation": "North York, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=3488961024749351165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-23T17:47:51.168Z",
+    "lastUpdatedAt": "2026-10-23T17:47:55.285Z"
   }
 ]
