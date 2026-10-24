@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-23T18:54:40.966Z",
+  "lastUpdated": "2026-10-24T16:28:22.790Z",
   "current": {
     "category": "tattoo shop",
-    "cityIndex": 3,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,7 +139,7 @@
     ],
     "active": {
       "category": "tattoo shop",
-      "leadsEnriched": 3,
+      "leadsEnriched": 6,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -147,23 +147,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "category": "tattoo shop",
-      "city": "North York, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 46,
-      "serpApiCalls": 54
+      "placesApiCalls": 48,
+      "serpApiCalls": 57
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 73
+    "projectedMonthlySerpApiCalls": 74
   },
   "totals": {
-    "totalLeadsFound": 305,
+    "totalLeadsFound": 308,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -174,24 +174,6 @@
     "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-25",
-      "category": "massage therapist",
-      "city": "Oshawa, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-25",
-      "category": "massage therapist",
-      "city": "Whitby, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-26",
       "category": "massage therapist",
@@ -1249,6 +1231,24 @@
       "date": "2026-10-23",
       "category": "tattoo shop",
       "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-24",
+      "category": "tattoo shop",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-24",
+      "category": "tattoo shop",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,

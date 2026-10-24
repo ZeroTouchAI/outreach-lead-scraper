@@ -4935,5 +4935,53 @@
     "emailSource": null,
     "foundAt": "2026-10-23T17:47:51.168Z",
     "lastUpdatedAt": "2026-10-23T17:47:55.285Z"
+  },
+  {
+    "placeId": "ChIJweGwud3T1IkRudNWNycYffY",
+    "name": "Tintados Tattoo Studio",
+    "address": "Heron's hill way, Crossroad condominiums, Sheppard Ave E, North York, ON M2J 4T4, Canada",
+    "phone": "+1 647-917-6283",
+    "category": "tattoo shop",
+    "searchLocation": "Scarborough, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=17761379062130332601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-24T16:28:16.661Z",
+    "lastUpdatedAt": "2026-10-24T16:28:18.964Z"
+  },
+  {
+    "placeId": "ChIJeSOOm9ArK4gRN7I9-ehBTdg",
+    "name": "Tattoo Soul",
+    "address": "3425 Lake Shore Blvd W, Etobicoke, ON M8W 1N2, Canada",
+    "phone": "+1 416-509-4740",
+    "category": "tattoo shop",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=15586186354268942903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-24T16:28:17.162Z",
+    "lastUpdatedAt": "2026-10-24T16:28:20.800Z"
+  },
+  {
+    "placeId": "ChIJQRailQMxK4gRo--hD5iazbo",
+    "name": "Ink District Tattoo Studio",
+    "address": "14 Dixington Crescent, Etobicoke, ON M9P 2M1, Canada",
+    "phone": "+1 804-243-6411",
+    "category": "tattoo shop",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=13460584839168257955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-24T16:28:17.162Z",
+    "lastUpdatedAt": "2026-10-24T16:28:22.439Z"
   }
 ]
