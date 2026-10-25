@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T16:59:39.318Z",
+  "lastUpdated": "2026-10-25T18:13:41.980Z",
   "current": {
     "category": "tattoo shop",
     "cityIndex": 7,
@@ -1268,13 +1268,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-23T18:54:40.423Z",
+      "failedAt": "2026-10-25T18:13:41.426Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJZRxJlepgK4gRQuvM1mLzoGA",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 0,
+      "sendAttempts": 1,
       "maxAttempts": 5
     },
     {
@@ -1310,13 +1310,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-23T18:54:39.761Z",
+      "failedAt": "2026-10-25T18:13:40.893Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJM1nvVCfZ1IkR5HepE_-0Igs",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 0,
+      "sendAttempts": 1,
       "maxAttempts": 5
     },
     {
@@ -1331,13 +1331,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-10-23T18:54:39.157Z",
+      "failedAt": "2026-10-25T18:13:40.356Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJnfLPgi3N1IkRpvF7GTmvq-s",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 0,
+      "sendAttempts": 1,
       "maxAttempts": 5
     },
     {
