@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-24T17:56:09.494Z",
+  "lastUpdated": "2026-10-25T16:59:39.318Z",
   "current": {
     "category": "tattoo shop",
-    "cityIndex": 5,
+    "cityIndex": 7,
     "totalCities": 22,
-    "nextCity": "York, Toronto, ON"
+    "nextCity": "Mississauga, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,7 +139,7 @@
     ],
     "active": {
       "category": "tattoo shop",
-      "leadsEnriched": 6,
+      "leadsEnriched": 8,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -147,23 +147,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "category": "tattoo shop",
-      "city": "Etobicoke, ON",
+      "city": "East York, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 48,
-      "serpApiCalls": 57
+      "placesApiCalls": 50,
+      "serpApiCalls": 59
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 74
+    "projectedMonthlySerpApiCalls": 73
   },
   "totals": {
-    "totalLeadsFound": 308,
+    "totalLeadsFound": 310,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -174,24 +174,6 @@
     "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-26",
-      "category": "massage therapist",
-      "city": "Ajax, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-26",
-      "category": "massage therapist",
-      "city": "Pickering, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-27",
       "category": "massage therapist",
@@ -1253,6 +1235,24 @@
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-25",
+      "category": "tattoo shop",
+      "city": "York, Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-25",
+      "category": "tattoo shop",
+      "city": "East York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [
@@ -1274,7 +1274,7 @@
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {
@@ -1316,7 +1316,7 @@
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {
@@ -1337,7 +1337,7 @@
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {

@@ -4983,5 +4983,37 @@
     "emailSource": null,
     "foundAt": "2026-10-24T16:28:17.162Z",
     "lastUpdatedAt": "2026-10-24T16:28:22.439Z"
+  },
+  {
+    "placeId": "ChIJVRw22NrN1IkRLtXCfz-UrXg",
+    "name": "Tattoos On Dawes",
+    "address": "500 Dawes Rd, East York, ON M4B 2G1, Canada",
+    "phone": "+1 437-912-1063",
+    "category": "tattoo shop",
+    "searchLocation": "East York, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=8695769455969621294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-25T16:59:36.398Z",
+    "lastUpdatedAt": "2026-10-25T16:59:37.760Z"
+  },
+  {
+    "placeId": "ChIJSdUysV80K4gRd1VSE8dOzFY",
+    "name": "Anbu Tattoo Studio",
+    "address": "260 Carlaw Ave #215, Toronto, ON M4M 3L1, Canada",
+    "phone": "+1 416-533-0941",
+    "category": "tattoo shop",
+    "searchLocation": "East York, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=6254460599440397687&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-25T16:59:36.398Z",
+    "lastUpdatedAt": "2026-10-25T16:59:38.965Z"
   }
 ]
