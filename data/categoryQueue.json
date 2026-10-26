@@ -299,10 +299,12 @@
       "Scarborough, ON",
       "Etobicoke, ON",
       "York, Toronto, ON",
-      "East York, ON"
+      "East York, ON",
+      "Mississauga, ON",
+      "Brampton, ON"
     ],
-    "leadsFound": 8,
-    "leadsEnriched": 8,
+    "leadsFound": 15,
+    "leadsEnriched": 15,
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null

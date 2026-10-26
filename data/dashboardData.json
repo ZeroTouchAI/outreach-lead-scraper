@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-25T18:13:41.980Z",
+  "lastUpdated": "2026-10-26T19:05:10.921Z",
   "current": {
     "category": "tattoo shop",
-    "cityIndex": 7,
+    "cityIndex": 9,
     "totalCities": 22,
-    "nextCity": "Mississauga, ON"
+    "nextCity": "Caledon, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,7 +139,7 @@
     ],
     "active": {
       "category": "tattoo shop",
-      "leadsEnriched": 8,
+      "leadsEnriched": 15,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -147,23 +147,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "category": "tattoo shop",
-      "city": "East York, ON",
+      "city": "Brampton, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 50,
-      "serpApiCalls": 59
+      "placesApiCalls": 52,
+      "serpApiCalls": 66
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 73
+    "projectedMonthlySerpApiCalls": 79
   },
   "totals": {
-    "totalLeadsFound": 310,
+    "totalLeadsFound": 317,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -174,24 +174,6 @@
     "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-27",
-      "category": "massage therapist",
-      "city": "Oakville, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-27",
-      "category": "massage therapist",
-      "city": "Burlington, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-28",
       "category": "massage therapist",
@@ -1252,6 +1234,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-26",
+      "category": "tattoo shop",
+      "city": "Mississauga, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 4,
+      "leadsFound": 4,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-26",
+      "category": "tattoo shop",
+      "city": "Brampton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 3,
+      "leadsFound": 3,
       "emailsFound": 0
     }
   ],
