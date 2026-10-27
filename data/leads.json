@@ -5127,5 +5127,53 @@
     "emailSource": null,
     "foundAt": "2026-10-26T19:05:01.249Z",
     "lastUpdatedAt": "2026-10-26T19:05:10.568Z"
+  },
+  {
+    "placeId": "ChIJL82EDXgXK4gRCEzSQC48LRY",
+    "name": "Prabh inks",
+    "address": "Kennedy Rd N, Caledon, ON L7C 4C4, Canada",
+    "phone": "+1 647-926-7460",
+    "category": "tattoo shop",
+    "searchLocation": "Caledon, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=1597999612140080136&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-27T18:36:12.399Z",
+    "lastUpdatedAt": "2026-10-27T18:36:14.588Z"
+  },
+  {
+    "placeId": "ChIJ-YIrEP8RK4gRD9_QPuq9hHw",
+    "name": "Boa4rt Tattoo Studio",
+    "address": "Camino Real Dr, Caledon, ON L7C 4L9, Canada",
+    "phone": "+1 437-988-2145",
+    "category": "tattoo shop",
+    "searchLocation": "Caledon, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=8972505171402743567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-27T18:36:12.399Z",
+    "lastUpdatedAt": "2026-10-27T18:36:16.045Z"
+  },
+  {
+    "placeId": "ChIJL4zprlQNK4gR_xh3xO3XSNA",
+    "name": "Sideshow Tattoo & Piercings",
+    "address": "43 Guelph St, Georgetown, ON L7G 3Z6, Canada",
+    "phone": "+1 905-702-0949",
+    "category": "tattoo shop",
+    "searchLocation": "Caledon, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=15008483174415538431&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-27T18:36:12.399Z",
+    "lastUpdatedAt": "2026-10-27T18:36:37.105Z"
   }
 ]

@@ -301,10 +301,12 @@
       "York, Toronto, ON",
       "East York, ON",
       "Mississauga, ON",
-      "Brampton, ON"
+      "Brampton, ON",
+      "Caledon, ON",
+      "Vaughan, ON"
     ],
-    "leadsFound": 15,
-    "leadsEnriched": 15,
+    "leadsFound": 18,
+    "leadsEnriched": 18,
     "emailsFound": 0,
     "hitRate": null,
     "verdict": null
