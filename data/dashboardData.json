@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-27T19:54:06.712Z",
+  "lastUpdated": "2026-10-28T18:42:54.521Z",
   "current": {
     "category": "tattoo shop",
-    "cityIndex": 11,
+    "cityIndex": 13,
     "totalCities": 22,
-    "nextCity": "Markham, ON"
+    "nextCity": "Newmarket, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,7 +139,7 @@
     ],
     "active": {
       "category": "tattoo shop",
-      "leadsEnriched": 18,
+      "leadsEnriched": 20,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -147,23 +147,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "category": "tattoo shop",
-      "city": "Vaughan, ON",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 54,
-      "serpApiCalls": 69
+      "placesApiCalls": 56,
+      "serpApiCalls": 71
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 79
   },
   "totals": {
-    "totalLeadsFound": 320,
+    "totalLeadsFound": 322,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -174,24 +174,6 @@
     "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-29",
-      "category": "photographer",
-      "city": "Downtown Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-29",
-      "category": "photographer",
-      "city": "North York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-30",
       "category": "photographer",
@@ -1252,6 +1234,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-28",
+      "category": "tattoo shop",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-28",
+      "category": "tattoo shop",
+      "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     }
   ],

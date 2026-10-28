@@ -5175,5 +5175,37 @@
     "emailSource": null,
     "foundAt": "2026-10-27T18:36:12.399Z",
     "lastUpdatedAt": "2026-10-27T18:36:37.105Z"
+  },
+  {
+    "placeId": "ChIJwQz17_QrK4gRXetwVTR2TN4",
+    "name": "Tattoo Graphy",
+    "address": "10720 Yonge St, Richmond Hill, ON L4C 3C9, Canada",
+    "phone": "+1 647-617-1372",
+    "category": "tattoo shop",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "body_art_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=16018307941793852253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-28T18:42:46.053Z",
+    "lastUpdatedAt": "2026-10-28T18:42:51.676Z"
+  },
+  {
+    "placeId": "ChIJozaAkf4rK4gRXxU-yX64fy0",
+    "name": "Azdex ink and fine arts",
+    "address": "10610 Bayview Ave, Richmond Hill, ON L4C 2T8, Canada",
+    "phone": "+1 647-298-4595",
+    "category": "tattoo shop",
+    "searchLocation": "Richmond Hill, ON",
+    "primaryType": "body_art_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=3278541908430689631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-28T18:42:46.053Z",
+    "lastUpdatedAt": "2026-10-28T18:42:54.180Z"
   }
 ]
