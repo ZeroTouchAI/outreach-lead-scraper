@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-28T20:07:22.866Z",
+  "lastUpdated": "2026-10-29T18:51:48.180Z",
   "current": {
     "category": "tattoo shop",
-    "cityIndex": 13,
+    "cityIndex": 15,
     "totalCities": 22,
-    "nextCity": "Newmarket, ON"
+    "nextCity": "Oshawa, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,7 +139,7 @@
     ],
     "active": {
       "category": "tattoo shop",
-      "leadsEnriched": 20,
+      "leadsEnriched": 23,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -147,23 +147,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "category": "tattoo shop",
-      "city": "Richmond Hill, ON",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 56,
-      "serpApiCalls": 71
+      "placesApiCalls": 58,
+      "serpApiCalls": 74
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 79
   },
   "totals": {
-    "totalLeadsFound": 322,
+    "totalLeadsFound": 325,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -174,24 +174,6 @@
     "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-30",
-      "category": "photographer",
-      "city": "Scarborough, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-30",
-      "category": "photographer",
-      "city": "Etobicoke, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-08-31",
       "category": "photographer",
@@ -1249,6 +1231,24 @@
       "date": "2026-10-28",
       "category": "tattoo shop",
       "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-29",
+      "category": "tattoo shop",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-29",
+      "category": "tattoo shop",
+      "city": "Aurora, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,

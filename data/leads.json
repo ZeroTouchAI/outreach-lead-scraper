@@ -5207,5 +5207,53 @@
     "emailSource": null,
     "foundAt": "2026-10-28T18:42:46.053Z",
     "lastUpdatedAt": "2026-10-28T18:42:54.180Z"
+  },
+  {
+    "placeId": "ChIJlelbxizTKogRUBsnQfA6HBg",
+    "name": "the market",
+    "address": "258 Main St S, Newmarket, ON L3Y 3Z5, Canada",
+    "phone": "+1 647-862-3465",
+    "category": "tattoo shop",
+    "searchLocation": "Newmarket, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=1737328359817812816&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-29T18:51:41.903Z",
+    "lastUpdatedAt": "2026-10-29T18:51:43.658Z"
+  },
+  {
+    "placeId": "ChIJe7xxzj_VKogRaqq1009OKPg",
+    "name": "Snail's Grail Tattoo Studio",
+    "address": "4 Vata Ct Unit 29, Aurora, ON L4G 4B6, Canada",
+    "phone": "+1 289-802-6968",
+    "category": "tattoo shop",
+    "searchLocation": "Aurora, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=17881628425235835498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-29T18:51:42.416Z",
+    "lastUpdatedAt": "2026-10-29T18:51:46.401Z"
+  },
+  {
+    "placeId": "ChIJCShYehH6DogRC-0GBhMyg2c",
+    "name": "Skin of A Different Color",
+    "address": "2080 E New York St, Aurora, IL 60505, USA",
+    "phone": "+1 630-851-9936",
+    "category": "tattoo shop",
+    "searchLocation": "Aurora, ON",
+    "primaryType": "body_art_service",
+    "googleMapsUrl": "https://maps.google.com/?cid=7458860465142557963&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-10-29T18:51:42.416Z",
+    "lastUpdatedAt": "2026-10-29T18:51:47.848Z"
   }
 ]
