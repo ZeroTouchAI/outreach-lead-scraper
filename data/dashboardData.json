@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-29T20:05:43.335Z",
+  "lastUpdated": "2026-10-30T18:29:15.102Z",
   "current": {
     "category": "tattoo shop",
-    "cityIndex": 15,
+    "cityIndex": 17,
     "totalCities": 22,
-    "nextCity": "Oshawa, ON"
+    "nextCity": "Ajax, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,7 +139,7 @@
     ],
     "active": {
       "category": "tattoo shop",
-      "leadsEnriched": 23,
+      "leadsEnriched": 29,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -147,23 +147,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "category": "tattoo shop",
-      "city": "Aurora, ON",
+      "city": "Whitby, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 58,
-      "serpApiCalls": 74
+      "placesApiCalls": 60,
+      "serpApiCalls": 80
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 79
+    "projectedMonthlySerpApiCalls": 83
   },
   "totals": {
-    "totalLeadsFound": 325,
+    "totalLeadsFound": 331,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -174,24 +174,6 @@
     "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-08-31",
-      "category": "photographer",
-      "city": "York, Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-08-31",
-      "category": "photographer",
-      "city": "East York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-01",
       "category": "photographer",
@@ -1252,6 +1234,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-30",
+      "category": "tattoo shop",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-30",
+      "category": "tattoo shop",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 5,
+      "leadsFound": 5,
       "emailsFound": 0
     }
   ],
