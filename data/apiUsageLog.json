@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-09-01",
-      "category": "photographer",
-      "city": "Mississauga, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-01",
-      "category": "photographer",
-      "city": "Brampton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-02",
       "category": "photographer",
       "city": "Caledon, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 5,
       "leadsFound": 5,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-10-31",
+      "category": "tattoo shop",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-10-31",
+      "category": "tattoo shop",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1095,8 +1095,8 @@
       "serpApiCalls": 81
     },
     "2026-10": {
-      "placesApiCalls": 60,
-      "serpApiCalls": 80
+      "placesApiCalls": 62,
+      "serpApiCalls": 82
     }
   }
 }
