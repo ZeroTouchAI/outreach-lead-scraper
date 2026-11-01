@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-10-31T19:09:05.033Z",
+  "lastUpdated": "2026-11-01T18:19:06.142Z",
   "current": {
     "category": "tattoo shop",
-    "cityIndex": 19,
+    "cityIndex": 21,
     "totalCities": 22,
-    "nextCity": "Oakville, ON"
+    "nextCity": "Milton, ON"
   },
   "leaderboard": {
     "completed": [
@@ -139,7 +139,7 @@
     ],
     "active": {
       "category": "tattoo shop",
-      "leadsEnriched": 31,
+      "leadsEnriched": 32,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -147,23 +147,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "category": "tattoo shop",
-      "city": "Pickering, ON",
+      "city": "Burlington, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 62,
-      "serpApiCalls": 82
+      "placesApiCalls": 2,
+      "serpApiCalls": 1
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 82
+    "projectedMonthlySerpApiCalls": 30
   },
   "totals": {
-    "totalLeadsFound": 333,
+    "totalLeadsFound": 334,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
@@ -174,24 +174,6 @@
     "categoriesPending": 20
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-02",
-      "category": "photographer",
-      "city": "Caledon, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-02",
-      "category": "photographer",
-      "city": "Vaughan, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-03",
       "category": "photographer",
@@ -1249,6 +1231,24 @@
       "date": "2026-10-31",
       "category": "tattoo shop",
       "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-01",
+      "category": "tattoo shop",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-01",
+      "category": "tattoo shop",
+      "city": "Burlington, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,

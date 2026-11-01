@@ -5383,5 +5383,21 @@
     "emailSource": null,
     "foundAt": "2026-10-31T17:33:47.526Z",
     "lastUpdatedAt": "2026-10-31T17:33:51.130Z"
+  },
+  {
+    "placeId": "ChIJh7mpyzmTuocRczg_glIz15Y",
+    "name": "D'inkredible tattoo by Teky mikky",
+    "address": "218 Ross Ln, Oakville, ON L6H 5K5, Canada",
+    "phone": "+1 647-321-9442",
+    "category": "tattoo shop",
+    "searchLocation": "Oakville, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=10869212655147497587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-01T18:19:03.535Z",
+    "lastUpdatedAt": "2026-11-01T18:19:05.805Z"
   }
 ]
