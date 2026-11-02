@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-01T19:24:16.892Z",
+  "lastUpdated": "2026-11-02T22:14:11.341Z",
   "current": {
-    "category": "tattoo shop",
-    "cityIndex": 21,
+    "category": "florist",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -67,6 +67,14 @@
       {
         "category": "bridal shop",
         "leadsEnriched": 17,
+        "emailsFound": 0,
+        "hitRate": 0,
+        "verdict": "reject",
+        "sampleType": "full_cycle"
+      },
+      {
+        "category": "tattoo shop",
+        "leadsEnriched": 33,
         "emailsFound": 0,
         "hitRate": 0,
         "verdict": "reject",
@@ -138,60 +146,42 @@
       }
     ],
     "active": {
-      "category": "tattoo shop",
-      "leadsEnriched": 32,
+      "category": "florist",
+      "leadsEnriched": 0,
       "emailsFound": 0,
-      "hitRate": 0
+      "hitRate": null
     },
-    "queuedCount": 11
+    "queuedCount": 10
   },
   "usage": {
     "today": {
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "category": "tattoo shop",
-      "city": "Burlington, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 2,
-      "serpApiCalls": 1
+      "placesApiCalls": 4,
+      "serpApiCalls": 2
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 30
   },
   "totals": {
-    "totalLeadsFound": 334,
+    "totalLeadsFound": 335,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 2,
     "totalCategories": 28,
-    "categoriesCompleted": 16,
+    "categoriesCompleted": 17,
     "categoriesKept": 4,
-    "categoriesRejected": 4,
-    "categoriesPending": 20
+    "categoriesRejected": 5,
+    "categoriesPending": 19
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-03",
-      "category": "photographer",
-      "city": "Markham, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-03",
-      "category": "photographer",
-      "city": "Richmond Hill, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-04",
       "category": "photographer",
@@ -1252,6 +1242,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-02",
+      "category": "tattoo shop",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-02",
+      "category": "tattoo shop",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],

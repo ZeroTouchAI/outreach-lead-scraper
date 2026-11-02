@@ -5399,5 +5399,21 @@
     "emailSource": null,
     "foundAt": "2026-11-01T18:19:03.535Z",
     "lastUpdatedAt": "2026-11-01T18:19:05.805Z"
+  },
+  {
+    "placeId": "ChIJD2IB-WJrK4gRGvyNKUb__FU",
+    "name": "Kaizen Tatt Tattoo Studio",
+    "address": "Centre, Mississauga, ON L5N 2R5, Canada",
+    "phone": "+1 647-919-0512",
+    "category": "tattoo shop",
+    "searchLocation": "Halton Hills, ON",
+    "primaryType": "store",
+    "googleMapsUrl": "https://maps.google.com/?cid=6196107864164924442&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-02T22:14:09.561Z",
+    "lastUpdatedAt": "2026-11-02T22:14:10.991Z"
   }
 ]

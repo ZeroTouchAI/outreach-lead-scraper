@@ -290,9 +290,9 @@
   {
     "order": 9,
     "category": "tattoo shop",
-    "status": "active",
+    "status": "completed",
     "startedAt": "2026-10-22T17:53:59.418Z",
-    "completedAt": null,
+    "completedAt": "2026-11-02T22:14:11.335Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -313,19 +313,21 @@
       "Ajax, ON",
       "Pickering, ON",
       "Oakville, ON",
-      "Burlington, ON"
+      "Burlington, ON",
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 32,
-    "leadsEnriched": 32,
+    "leadsFound": 33,
+    "leadsEnriched": 33,
     "emailsFound": 0,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0,
+    "verdict": "reject"
   },
   {
     "order": 10,
     "category": "florist",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-11-02T22:14:11.335Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,
