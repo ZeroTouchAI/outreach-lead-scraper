@@ -1274,7 +1274,7 @@
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {
@@ -1316,7 +1316,7 @@
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {
@@ -1337,7 +1337,7 @@
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 5,
+      "sendAttempts": 0,
       "maxAttempts": 5
     },
     {

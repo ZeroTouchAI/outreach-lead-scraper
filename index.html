@@ -35,7 +35,9 @@
   .badge-sent { background:rgba(31,179,196,0.12); color:var(--cyan); }
   .badge-pending { background:#eef0f3; color:var(--muted); }
 .badge-error { background:rgba(220,38,38,0.1); color:var(--bad); cursor:help; }
-.badge-skipped { background:rgba(242,118,46,0.12); color:var(--orange); cursor:help; }
+.badge-skipped { background:#eef0f3; color:#9aa3b0; cursor:help; }
+.row-skipped td, .row-skipped td a.email-link { color:#9aa3b0; }
+#reviewCard { margin-top:24px; }
 .age-note { display:block; font-size:11px; color:var(--muted); margin-top:3px; }
 .age-note.stale { color:var(--orange); font-weight:700; }
 .badge-review { background:rgba(234,179,8,0.18); color:#a16207; }
@@ -110,6 +112,10 @@
 
 <div class="section-title">Companies Reached</div>
 <div class="section-sub">Every business where a real email was found, and whether outreach has gone out yet.</div>
+<div style="margin-bottom:12px;">
+  <a class="copy-btn" href="https://github.com/ZeroTouchAI/outreach-lead-scraper/actions/workflows/send-outreach.yml" target="_blank" rel="noopener noreferrer">Send emails now</a>
+  <span class="age-note" style="display:inline;">Opens GitHub &rarr; <strong>Run workflow</strong> &rarr; set <strong>test_mode</strong> to <strong>false</strong>. Sends up to the daily cap (10).</span>
+</div>
 <div class="card">
   <table id="companiesTable">
     <thead><tr><th>Company</th><th>Category</th><th>Location</th><th>Email</th><th>Phone</th><th>Source</th><th>Found</th><th>Outreach</th></tr></thead>
@@ -312,6 +318,9 @@ function outreachCell(c) {
     const via = c.sendAttempts > 1 ? `sent on attempt ${c.sendAttempts} · ` : "";
     return `<span class="badge badge-sent">sent</span><span class="age-note">${via}${fmtDate(c.emailedAt)}</span>`;
   }
+  if (c.sendFailed && !c.sendAttempts) {
+    return `<span class="badge badge-pending" title="${escAttr(c.emailError)}">queued to retry</span><span class="age-note">will send on the next run &middot; last error ${fmtDate(c.failedAt)}</span>`;
+  }
   if (c.sendFailed) {
     const max = c.maxAttempts || 5;
     const tries = c.sendAttempts || 1;
@@ -339,7 +348,7 @@ function renderCompanies(data) {
     return;
   }
   body.innerHTML = companies.map((c) => `
-    <tr>
+    <tr class="${c.skipped ? "row-skipped" : ""}">
       <td>${c.name}</td>
       <td>${c.category}</td>
       <td>${c.location}</td>
