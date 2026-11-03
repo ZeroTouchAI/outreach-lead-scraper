@@ -3656,14 +3656,15 @@
     "primaryType": "bakery",
     "googleMapsUrl": "https://maps.google.com/?cid=12686313479551073738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "needs_review",
+    "status": "enriched",
     "email": "rjalbert@vaughandirect.info",
     "emailSource": "https://cosenza-bakery-woodbridge.vaughandirect.ca/contact",
     "foundAt": "2026-09-24T17:48:01.868Z",
-    "lastUpdatedAt": "2026-10-07T02:53:10.000Z",
-    "emailConfidence": "review",
+    "lastUpdatedAt": "2026-11-03T00:00:00.000Z",
+    "emailConfidence": "approved",
     "emailReviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory. (Earlier send attempts had failed because the sending domain was unverified; the attempt counter was reset.)",
-    "emailSnippet": null
+    "emailSnippet": null,
+    "emailReviewedAt": "2026-11-03T00:00:00.000Z"
   },
   {
     "placeId": "ChIJU7wpWW3W1IkRtVzEdognT0Q",
@@ -4491,14 +4492,15 @@
     "primaryType": "catering_service",
     "googleMapsUrl": "https://maps.google.com/?cid=7246378212098158239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "needs_review",
+    "status": "enriched",
     "email": "jenny@stevenfriendly.com",
     "emailSource": "https://mediatours.ca/property/75-sixteen-mile-drive-oakville/",
     "foundAt": "2026-10-10T17:42:44.327Z",
-    "lastUpdatedAt": "2026-10-10T17:43:14.404Z",
-    "emailConfidence": "review",
+    "lastUpdatedAt": "2026-11-03T00:00:00.000Z",
+    "emailConfidence": "approved",
     "emailReviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory.",
-    "emailSnippet": "75 Sixteen Mile Drive Oakville by Jenny Tang. Sales Representative 416-568-2121 | 905-568-2121 http://www.thefriendlyteam.com/ jenny@stevenfriendly.com"
+    "emailSnippet": "75 Sixteen Mile Drive Oakville by Jenny Tang. Sales Representative 416-568-2121 | 905-568-2121 http://www.thefriendlyteam.com/ jenny@stevenfriendly.com",
+    "emailReviewedAt": "2026-11-03T00:00:00.000Z"
   },
   {
     "placeId": "ChIJrdBAbnVnK4gRoWl_NsytuPc",

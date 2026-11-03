@@ -123,7 +123,7 @@ async function searchForEmail(lead) {
 
   // Judge every email in every result against the lead (see
   // lib/emailMatch.js). A confident match wins immediately; otherwise the
-  // first borderline one is held for the owner's approval; the rest are
+  // first borderline one is used as well; the rest are
   // dropped.
   let bestReview = null;
   for (const item of results) {
@@ -168,7 +168,6 @@ async function main() {
 
   let enrichedCount = 0;
   let notFoundCount = 0;
-  let reviewCount = 0;
   let stoppedOnQuota = false;
 
   for (const lead of toEnrich) {
@@ -193,12 +192,15 @@ async function main() {
           enrichedCount++;
           console.log(`  Found: ${result.email} (confident match)`);
         } else {
-          // Borderline: nothing is sent until the owner approves it.
-          lead.status = "needs_review";
+          // Borderline match: no review step (owner's decision) -- it goes
+          // straight to the send queue. Government/institutional addresses
+          // never get here: classifyEmail rejects them, and the send step
+          // skips them again as a second check.
+          lead.status = "enriched";
           lead.emailReviewReason = result.reason;
           lead.emailSnippet = result.snippet || null;
-          reviewCount++;
-          console.log(`  Borderline: ${result.email} -- held for your review. ${result.reason}`);
+          enrichedCount++;
+          console.log(`  Borderline match: ${result.email} -- will send. ${result.reason}`);
         }
       } else {
         lead.status = "no_email_found";
@@ -217,8 +219,7 @@ async function main() {
   saveJson(LEADS_PATH, leads);
 
   console.log("---");
-  console.log(`Emails found (confident match): ${enrichedCount}`);
-  console.log(`Held for your review (borderline): ${reviewCount}`);
+  console.log(`Emails found (confident + borderline): ${enrichedCount}`);
   console.log(`No email found (-> manual call queue): ${notFoundCount}`);
   if (stoppedOnQuota) {
     console.log("Stopped early due to monthly quota -- remaining leads still marked 'found', will retry next run.");
