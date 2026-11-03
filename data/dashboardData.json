@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T20:48:50.277Z",
+  "lastUpdated": "2026-11-03T21:20:16.767Z",
   "current": {
     "category": "florist",
     "cityIndex": 3,
@@ -1276,13 +1276,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-11-03T20:48:49.745Z",
+      "failedAt": "2026-11-03T21:20:16.223Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJZRxJlepgK4gRQuvM1mLzoGA",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 2,
+      "sendAttempts": 3,
       "maxAttempts": 5
     },
     {
@@ -1297,13 +1297,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-11-03T20:48:49.162Z",
+      "failedAt": "2026-11-03T21:20:15.595Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJn49dTANnK4gRn649SJdOkGQ",
       "needsReview": false,
       "reviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory.",
       "emailSnippet": "75 Sixteen Mile Drive Oakville by Jenny Tang. Sales Representative 416-568-2121 | 905-568-2121 http://www.thefriendlyteam.com/ jenny@stevenfriendly.com",
-      "sendAttempts": 1,
+      "sendAttempts": 2,
       "maxAttempts": 5
     },
     {
@@ -1318,13 +1318,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-11-03T20:48:48.578Z",
+      "failedAt": "2026-11-03T21:20:14.948Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJM1nvVCfZ1IkR5HepE_-0Igs",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 2,
+      "sendAttempts": 3,
       "maxAttempts": 5
     },
     {
@@ -1339,13 +1339,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-11-03T20:48:48.000Z",
+      "failedAt": "2026-11-03T21:20:14.330Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJnfLPgi3N1IkRpvF7GTmvq-s",
       "needsReview": false,
       "reviewReason": null,
       "emailSnippet": null,
-      "sendAttempts": 2,
+      "sendAttempts": 3,
       "maxAttempts": 5
     },
     {
@@ -1402,13 +1402,13 @@
       "sendFailed": true,
       "skipped": false,
       "emailedAt": null,
-      "failedAt": "2026-11-03T20:48:47.430Z",
+      "failedAt": "2026-11-03T21:20:13.724Z",
       "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
       "placeId": "ChIJy-aqzIIvK4gRyj3kCeXWDrA",
       "needsReview": false,
       "reviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory. (Earlier send attempts had failed because the sending domain was unverified; the attempt counter was reset.)",
       "emailSnippet": null,
-      "sendAttempts": 1,
+      "sendAttempts": 2,
       "maxAttempts": 5
     },
     {
