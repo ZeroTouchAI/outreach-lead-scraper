@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-09-04",
-      "category": "photographer",
-      "city": "Newmarket, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-04",
-      "category": "photographer",
-      "city": "Aurora, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-05",
       "category": "photographer",
       "city": "Oshawa, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-11-03",
+      "category": "florist",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-03",
+      "category": "florist",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1099,8 +1099,8 @@
       "serpApiCalls": 82
     },
     "2026-11": {
-      "placesApiCalls": 4,
-      "serpApiCalls": 2
+      "placesApiCalls": 6,
+      "serpApiCalls": 3
     }
   }
 }

@@ -5417,5 +5417,21 @@
     "emailSource": null,
     "foundAt": "2026-11-02T22:14:09.561Z",
     "lastUpdatedAt": "2026-11-02T22:14:10.991Z"
+  },
+  {
+    "placeId": "ChIJhdG-Udc0K4gR2STw2JchWOs",
+    "name": "Rosabella Flower Boutique",
+    "address": "263 Wellington St W Unit 102, Toronto, ON M5V 3P6, Canada",
+    "phone": "+1 416-576-2252",
+    "category": "florist",
+    "searchLocation": "Downtown Toronto, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=16958341332926997721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-03T19:59:56.867Z",
+    "lastUpdatedAt": "2026-11-03T19:59:58.983Z"
   }
 ]
