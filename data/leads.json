@@ -3656,7 +3656,7 @@
     "primaryType": "bakery",
     "googleMapsUrl": "https://maps.google.com/?cid=12686313479551073738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "email_failed",
     "email": "rjalbert@vaughandirect.info",
     "emailSource": "https://cosenza-bakery-woodbridge.vaughandirect.ca/contact",
     "foundAt": "2026-09-24T17:48:01.868Z",
@@ -3664,7 +3664,10 @@
     "emailConfidence": "approved",
     "emailReviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory. (Earlier send attempts had failed because the sending domain was unverified; the attempt counter was reset.)",
     "emailSnippet": null,
-    "emailReviewedAt": "2026-11-03T00:00:00.000Z"
+    "emailReviewedAt": "2026-11-03T00:00:00.000Z",
+    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+    "failedAt": "2026-11-03T20:48:47.430Z",
+    "sendAttempts": 1
   },
   {
     "placeId": "ChIJU7wpWW3W1IkRtVzEdognT0Q",
@@ -4410,9 +4413,9 @@
     "foundAt": "2026-10-09T18:42:44.397Z",
     "lastUpdatedAt": "2026-10-09T18:44:09.139Z",
     "emailConfidence": "high",
-    "sendAttempts": 1,
+    "sendAttempts": 2,
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
-    "failedAt": "2026-11-02T23:00:47.986Z"
+    "failedAt": "2026-11-03T20:48:48.000Z"
   },
   {
     "placeId": "ChIJ3bonvwzg1IkRVJWoN6HJcNw",
@@ -4446,9 +4449,9 @@
     "foundAt": "2026-10-09T18:42:44.898Z",
     "lastUpdatedAt": "2026-10-09T18:44:13.295Z",
     "emailConfidence": "high",
-    "sendAttempts": 1,
+    "sendAttempts": 2,
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
-    "failedAt": "2026-11-02T23:00:48.597Z"
+    "failedAt": "2026-11-03T20:48:48.578Z"
   },
   {
     "placeId": "ChIJN5S1bJPZ1IkR1IdiwridglU",
@@ -4492,7 +4495,7 @@
     "primaryType": "catering_service",
     "googleMapsUrl": "https://maps.google.com/?cid=7246378212098158239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "email_failed",
     "email": "jenny@stevenfriendly.com",
     "emailSource": "https://mediatours.ca/property/75-sixteen-mile-drive-oakville/",
     "foundAt": "2026-10-10T17:42:44.327Z",
@@ -4500,7 +4503,10 @@
     "emailConfidence": "approved",
     "emailReviewReason": "Business name appears with this address, but the address doesn't match the business name -- could be a parent company or a directory.",
     "emailSnippet": "75 Sixteen Mile Drive Oakville by Jenny Tang. Sales Representative 416-568-2121 | 905-568-2121 http://www.thefriendlyteam.com/ jenny@stevenfriendly.com",
-    "emailReviewedAt": "2026-11-03T00:00:00.000Z"
+    "emailReviewedAt": "2026-11-03T00:00:00.000Z",
+    "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
+    "failedAt": "2026-11-03T20:48:49.162Z",
+    "sendAttempts": 1
   },
   {
     "placeId": "ChIJrdBAbnVnK4gRoWl_NsytuPc",
@@ -4550,9 +4556,9 @@
     "foundAt": "2026-10-10T17:42:44.871Z",
     "lastUpdatedAt": "2026-10-10T17:43:19.419Z",
     "emailConfidence": "high",
-    "sendAttempts": 1,
+    "sendAttempts": 2,
     "emailError": "Resend API error (403): {\"message\":\"The mail.rapidrankagency.com domain is not verified. Please, add and verify your domain on https://resend.com/domains\",\"name\":\"validation_error\",\"statusCode\":403}",
-    "failedAt": "2026-11-02T23:00:49.208Z"
+    "failedAt": "2026-11-03T20:48:49.745Z"
   },
   {
     "placeId": "ChIJWSn0FVFpK4gRincETCAwUXo",
