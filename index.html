@@ -103,7 +103,14 @@
 <div class="section-sub">Every business where a real email was found, and whether outreach has gone out yet.</div>
 <div style="margin-bottom:12px;">
   <div class="countdown" id="sendCountdown" style="margin-top:0;">Next email send: --</div>
+  <div class="age-note" id="lastSendAttempt" style="margin-top:2px;"></div>
   <span class="age-note">Scheduled time, Eastern. GitHub has been starting this run about 4&ndash;8 hours late, so the emails actually go out later that day.</span>
+</div>
+<div class="card" id="sendErrorsCard" style="display:none; margin-bottom:24px; border-left:4px solid var(--bad);">
+  <div style="font-weight:700; margin-bottom:4px;">Email send errors</div>
+  <div class="section-sub" id="sendErrorsSummary"></div>
+  <div id="sendErrorsList"></div>
+  <button type="button" class="copy-btn" id="sendErrorsCopy">Copy error details</button>
 </div>
 <div class="card">
   <table id="companiesTable">
@@ -127,6 +134,7 @@ async function loadDashboard() {
   document.getElementById("lastUpdated").textContent = data.lastUpdated
     ? "Last updated: " + new Date(data.lastUpdated).toLocaleString()
     : "Not yet run -- this is the starting state before day 1.";
+  computeLastAttempt(data);
   renderStatusCards(data);
   renderLeaderboard(data);
   renderCompanies(data);
@@ -134,6 +142,7 @@ async function loadDashboard() {
   renderHistoryChart(data);
   renderDailyUsageChart(data);
   startSendCountdown();
+  renderSendAttemptInfo(data);
 }
 
 function getNextCronRunUTC() {
@@ -154,28 +163,124 @@ function formatCountdown(ms) {
 // Keep in sync with the cron in .github/workflows/send-outreach.yml (15:00 UTC).
 const SEND_HOUR_UTC = 15;
 let sendTimerInterval = null;
+let lastSendAttemptMs = 0;
 
-function getNextSendRunUTC() {
+const ET_FMT = new Intl.DateTimeFormat("en-US", {
+  timeZone: "America/Toronto", weekday: "short", month: "short", day: "numeric",
+  hour: "numeric", minute: "2-digit", timeZoneName: "short",
+});
+function fmtET(v) {
+  if (!v) return "—";
+  const d = v instanceof Date ? v : new Date(v);
+  return isNaN(d) ? "—" : ET_FMT.format(d);
+}
+function escHtml(s) {
+  return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+// Latest time any email was attempted (sent or failed), from the lead data.
+function computeLastAttempt(data) {
+  let last = 0;
+  (data.reachedCompanies || []).forEach((c) => {
+    [c.emailedAt, c.failedAt].forEach((iso) => {
+      const t = iso ? new Date(iso).getTime() : 0;
+      if (t > last) last = t;
+    });
+  });
+  lastSendAttemptMs = last;
+}
+
+// Next scheduled send. GitHub starts the run hours after its scheduled time, so if
+// today's slot has passed and nothing has been attempted since, report it as late
+// instead of jumping to tomorrow.
+function getNextSendInfo() {
   const now = new Date();
-  const next = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), SEND_HOUR_UTC, 0, 0));
-  if (next <= now) next.setUTCDate(next.getUTCDate() + 1);
-  return next;
+  const slot = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), SEND_HOUR_UTC, 0, 0));
+  if (now < slot) return { at: slot, late: false };
+  if (lastSendAttemptMs >= slot.getTime()) {
+    const tomorrow = new Date(slot);
+    tomorrow.setUTCDate(tomorrow.getUTCDate() + 1);
+    return { at: tomorrow, late: false };
+  }
+  return { at: slot, late: true };
 }
 
 function startSendCountdown() {
   if (sendTimerInterval) clearInterval(sendTimerInterval);
   const el = document.getElementById("sendCountdown");
   if (!el) return;
-  const fmt = new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/Toronto", weekday: "short", month: "short", day: "numeric",
-    hour: "numeric", minute: "2-digit", timeZoneName: "short",
-  });
   function tick() {
-    const next = getNextSendRunUTC();
-    el.textContent = "Next email send: " + fmt.format(next) + " (in " + formatCountdown(next - new Date()) + ")";
+    const info = getNextSendInfo();
+    el.textContent = info.late
+      ? "Today's email run is late: scheduled for " + fmtET(info.at) + ", GitHub hasn't started it yet"
+      : "Next email send: " + fmtET(info.at) + " (in " + formatCountdown(info.at - new Date()) + ")";
   }
   tick();
   sendTimerInterval = setInterval(tick, 1000);
+}
+
+function parseSendError(raw) {
+  const s = String(raw || "");
+  const m = s.match(/Resend API error \((\d+)\):\s*(\{[\s\S]*\})/);
+  if (m) {
+    try {
+      const j = JSON.parse(m[2]);
+      return { status: m[1], name: j.name || "", message: j.message || s };
+    } catch (e) { /* fall through */ }
+  }
+  return { status: "", name: "", message: s };
+}
+
+function renderSendAttemptInfo(data) {
+  const cs = data.reachedCompanies || [];
+  const lastEl = document.getElementById("lastSendAttempt");
+  let lastText = "Last send attempt: none yet";
+  if (lastSendAttemptMs) {
+    const inRun = (iso) => iso && Math.abs(new Date(iso).getTime() - lastSendAttemptMs) < 10 * 60 * 1000;
+    const sent = cs.filter((c) => inRun(c.emailedAt)).length;
+    const failedNow = cs.filter((c) => c.sendFailed && inRun(c.failedAt)).length;
+    lastText = "Last send attempt: " + fmtET(new Date(lastSendAttemptMs)) + " — " + sent + " sent, " + failedNow + " failed";
+  }
+  if (lastEl) lastEl.textContent = lastText;
+
+  const card = document.getElementById("sendErrorsCard");
+  if (!card) return;
+  const failed = cs.filter((c) => c.sendFailed && c.emailError)
+    .sort((a, b) => new Date(b.failedAt || 0) - new Date(a.failedAt || 0));
+  if (!failed.length) { card.style.display = "none"; return; }
+  card.style.display = "";
+
+  const info = getNextSendInfo();
+  const nextText = info.late ? "due now (GitHub is running late)" : fmtET(info.at);
+  document.getElementById("sendErrorsSummary").textContent =
+    failed.length + " lead" + (failed.length === 1 ? "" : "s") + " failed on their latest attempt. " + lastText + ". Next send: " + nextText + ".";
+
+  const lines = ["Outreach email send errors (as of " + fmtET(new Date()) + ")", lastText, "Next scheduled send: " + nextText, ""];
+  document.getElementById("sendErrorsList").innerHTML = failed.map((c, i) => {
+    const max = c.maxAttempts || 5;
+    const tries = c.sendAttempts || 0;
+    const attemptTxt = tries ? "attempt " + tries + " of " + max : "counter reset, 0 of " + max + " attempts used";
+    const p = parseSendError(c.emailError);
+    const headline = (p.status ? "Resend " + p.status + (p.name ? " (" + p.name + ")" : "") + ": " : "") + p.message;
+    lines.push((i + 1) + ". " + c.name + " <" + c.email + "> | " + attemptTxt + " | " + fmtET(c.failedAt));
+    lines.push("   " + headline);
+    lines.push("   Raw: " + String(c.emailError));
+    return '<div style="padding:8px 0; border-top:1px solid var(--border);">' +
+      "<div><strong>" + escHtml(c.name) + "</strong> &lt;" + escHtml(c.email) + "&gt; " +
+      '<span class="age-note" style="display:inline;">&middot; ' + escHtml(attemptTxt) + " &middot; " + escHtml(fmtET(c.failedAt)) + "</span></div>" +
+      '<div style="color:var(--bad); font-size:13px; margin-top:2px;">' + escHtml(headline) + "</div></div>";
+  }).join("");
+
+  const text = lines.join("\n");
+  const btn = document.getElementById("sendErrorsCopy");
+  btn.onclick = () => {
+    const done = () => { btn.textContent = "Copied!"; setTimeout(() => { btn.textContent = "Copy error details"; }, 2000); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, () => window.prompt("Copy this:", text));
+    } else {
+      window.prompt("Copy this:", text);
+    }
+  };
 }
 
 function startCountdown() {
@@ -309,30 +414,32 @@ document.addEventListener("click", (ev) => {
 });
 
 function outreachCell(c) {
+  const max = c.maxAttempts || 5;
+  const tries = c.sendAttempts || 0;
   if (c.sent) {
-    const via = c.sendAttempts > 1 ? `sent on attempt ${c.sendAttempts} · ` : "";
-    return `<span class="badge badge-sent">sent</span><span class="age-note">${via}${fmtDate(c.emailedAt)}</span>`;
-  }
-  if (c.sendFailed && !c.sendAttempts) {
-    return `<span class="badge badge-pending" title="${escAttr(c.emailError)}">queued to retry</span><span class="age-note">will send on the next run &middot; last error ${fmtDate(c.failedAt)}</span>`;
-  }
-  if (c.sendFailed) {
-    const max = c.maxAttempts || 5;
-    const tries = c.sendAttempts || 1;
-    const gaveUp = tries >= max;
-    const when = c.failedAt ? " · " + fmtDate(c.failedAt) : "";
-    return `<span class="badge badge-error" title="${escAttr(c.emailError)}">${gaveUp ? "error — gave up" : "error"}</span><span class="age-note stale">attempt ${tries} of ${max}${gaveUp ? " (no more retries)" : ""}${when}</span>`;
-  }
-  if (c.needsReview) {
-    const age = daysSince(c.foundAt);
-    return `<span class="badge badge-review" title="${escAttr(c.reviewReason)}">needs review</span>${age === null ? "" : `<span class="age-note${age >= 3 ? " stale" : ""}">waiting on you ${age}d</span>`}`;
+    const n = tries ? "attempt " + tries + " of " + max + " · " : "";
+    return `<span class="badge badge-sent">sent</span><span class="age-note">${n}${fmtET(c.emailedAt)}</span>`;
   }
   if (c.skipped) {
     return `<span class="badge badge-skipped" title="${escAttr(c.emailError)}">skipped</span>`;
   }
+  const info = getNextSendInfo();
+  const nextTry = info.late ? "due today, GitHub is running late" : "next try: " + fmtET(info.at);
+  if (c.sendFailed && tries > 0) {
+    const gaveUp = tries >= max;
+    return `<span class="badge badge-error" title="${escAttr(c.emailError)}">${gaveUp ? "failed — gave up" : "failed"}</span>` +
+      `<span class="age-note stale">attempt ${tries} of ${max} failed · ${fmtET(c.failedAt)}</span>` +
+      (gaveUp ? `<span class="age-note">no more automatic retries</span>` : `<span class="age-note">${nextTry}</span>`);
+  }
+  if (c.sendFailed) {
+    return `<span class="badge badge-pending" title="${escAttr(c.emailError)}">retry queued</span>` +
+      `<span class="age-note">0 of ${max} attempts since reset · ${nextTry}</span>` +
+      `<span class="age-note">last failure: ${fmtET(c.failedAt)}</span>`;
+  }
   const age = daysSince(c.foundAt);
-  const stale = age !== null && age >= 3;
-  return `<span class="badge badge-pending">not yet</span>${age === null ? "" : `<span class="age-note${stale ? " stale" : ""}">${age}d waiting</span>`}`;
+  return `<span class="badge badge-pending">waiting to send</span>` +
+    `<span class="age-note">not attempted yet · ${nextTry}</span>` +
+    (age === null ? "" : `<span class="age-note${age >= 3 ? " stale" : ""}">found ${age}d ago</span>`);
 }
 
 function renderCompanies(data) {
