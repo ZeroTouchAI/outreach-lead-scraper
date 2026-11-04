@@ -5439,5 +5439,21 @@
     "emailSource": null,
     "foundAt": "2026-11-03T19:59:56.867Z",
     "lastUpdatedAt": "2026-11-03T19:59:58.983Z"
+  },
+  {
+    "placeId": "ChIJV1k-1KU3K4gRIdin5-qTsx8",
+    "name": "Morning Flower",
+    "address": "4978 Dundas St W, Etobicoke, ON M9A 1B7, Canada",
+    "phone": "+1 416-239-0585",
+    "category": "florist",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=2284332073125140513&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-04T20:20:29.748Z",
+    "lastUpdatedAt": "2026-11-04T20:20:31.480Z"
   }
 ]

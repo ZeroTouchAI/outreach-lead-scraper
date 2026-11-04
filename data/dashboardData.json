@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-03T21:20:16.767Z",
+  "lastUpdated": "2026-11-04T20:20:31.817Z",
   "current": {
     "category": "florist",
-    "cityIndex": 3,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -147,7 +147,7 @@
     ],
     "active": {
       "category": "florist",
-      "leadsEnriched": 1,
+      "leadsEnriched": 2,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -155,23 +155,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "category": "florist",
-      "city": "North York, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 6,
-      "serpApiCalls": 3
+      "placesApiCalls": 8,
+      "serpApiCalls": 4
     },
     "serpApiFreeTierLimit": 250,
     "projectedMonthlySerpApiCalls": 30
   },
   "totals": {
-    "totalLeadsFound": 336,
+    "totalLeadsFound": 337,
     "totalEmailsFound": 11,
     "totalEmailsSent": 6,
     "totalNeedsReview": 0,
@@ -182,24 +182,6 @@
     "categoriesPending": 19
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-05",
-      "category": "photographer",
-      "city": "Oshawa, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-05",
-      "category": "photographer",
-      "city": "Whitby, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-06",
       "category": "photographer",
@@ -1260,6 +1242,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-04",
+      "category": "florist",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-04",
+      "category": "florist",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],
