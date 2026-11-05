@@ -5455,5 +5455,53 @@
     "emailSource": null,
     "foundAt": "2026-11-04T20:20:29.748Z",
     "lastUpdatedAt": "2026-11-04T20:20:31.480Z"
+  },
+  {
+    "placeId": "ChIJ47rLKTwzK4gR-ro1sZfPSJ0",
+    "name": "The Diamond Florist",
+    "address": "2018 Eglinton Ave W, York, ON M6E 2K3, Canada",
+    "phone": "+1 437-237-2377",
+    "category": "florist",
+    "searchLocation": "York, Toronto, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=11333536712697953018&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-05T20:30:39.777Z",
+    "lastUpdatedAt": "2026-11-05T20:30:41.721Z"
+  },
+  {
+    "placeId": "ChIJmYElfTPM1IkRcUEfOyOAjfQ",
+    "name": "St Clair Flowers",
+    "address": "2781 St Clair Ave E, East York, ON M4B 1N1, Canada",
+    "phone": "+1 647-348-3389",
+    "category": "florist",
+    "searchLocation": "East York, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=17621881805774733681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-05T20:30:40.356Z",
+    "lastUpdatedAt": "2026-11-05T20:30:43.178Z"
+  },
+  {
+    "placeId": "ChIJFRRtF2zM1IkRxXdq1uVGTvs",
+    "name": "Natural Florist",
+    "address": "1852 Danforth Ave, Toronto, ON M4C 1J4, Canada",
+    "phone": "+1 416-696-2620",
+    "category": "florist",
+    "searchLocation": "East York, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=18108489104662099909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-05T20:30:40.356Z",
+    "lastUpdatedAt": "2026-11-05T20:30:44.536Z"
   }
 ]
