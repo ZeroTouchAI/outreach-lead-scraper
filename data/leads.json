@@ -5503,5 +5503,37 @@
     "emailSource": null,
     "foundAt": "2026-11-05T20:30:40.356Z",
     "lastUpdatedAt": "2026-11-05T20:30:44.536Z"
+  },
+  {
+    "placeId": "ChIJtepE1L0TK4gRvhNq5E4ioOs",
+    "name": "Ever Petal Flower Shop",
+    "address": "31 Ringway Rd, Brampton, ON L7A 4T3, Canada",
+    "phone": "+1 437-224-3801",
+    "category": "florist",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "",
+    "googleMapsUrl": "https://maps.google.com/?cid=16978608317421720510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-06T19:54:02.360Z",
+    "lastUpdatedAt": "2026-11-06T19:54:04.098Z"
+  },
+  {
+    "placeId": "ChIJFazxt5wTK4gRx2Elmn4_6Wc",
+    "name": "Galaxy Flowers",
+    "address": "370 Main St N #109, Brampton, ON L6V 4A4, Canada",
+    "phone": "+1 416-399-2674",
+    "category": "florist",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=7487585668464730567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-06T19:54:02.360Z",
+    "lastUpdatedAt": "2026-11-06T19:54:05.664Z"
   }
 ]
