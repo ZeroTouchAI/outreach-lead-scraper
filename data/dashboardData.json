@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-06T20:43:28.878Z",
+  "lastUpdated": "2026-11-07T17:58:14.897Z",
   "current": {
     "category": "florist",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -155,20 +155,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "category": "florist",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 12,
+      "placesApiCalls": 14,
       "serpApiCalls": 9
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 45
+    "projectedMonthlySerpApiCalls": 39
   },
   "totals": {
     "totalLeadsFound": 342,
@@ -182,24 +182,6 @@
     "categoriesPending": 19
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-08",
-      "category": "photographer",
-      "city": "Milton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-08",
-      "category": "photographer",
-      "city": "Halton Hills, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-09",
       "category": "event planner",
@@ -1260,6 +1242,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-07",
+      "category": "florist",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-07",
+      "category": "florist",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],
