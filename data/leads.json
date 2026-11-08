@@ -5535,5 +5535,37 @@
     "emailSource": null,
     "foundAt": "2026-11-06T19:54:02.360Z",
     "lastUpdatedAt": "2026-11-06T19:54:05.664Z"
+  },
+  {
+    "placeId": "ChIJfdGuO8XV1IkR6y3u5nAGY4g",
+    "name": "Flower Shop 心意花店",
+    "address": "4300 Steeles Ave E Unit A9, Markham, ON L3R 0Y5, Canada",
+    "phone": "+1 905-305-1838",
+    "category": "florist",
+    "searchLocation": "Markham, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=9827705893833027051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-08T18:16:31.524Z",
+    "lastUpdatedAt": "2026-11-08T18:16:33.403Z"
+  },
+  {
+    "placeId": "ChIJtfyY0lPT1IkRq7dIdA4aSKQ",
+    "name": "81 Floral supermarket",
+    "address": "275 Don Park Rd Unit 3, Markham, ON L3R 1C2, Canada",
+    "phone": "+1 416-786-3795",
+    "category": "florist",
+    "searchLocation": "Markham, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=11837740269926135723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-08T18:16:31.524Z",
+    "lastUpdatedAt": "2026-11-08T18:16:34.649Z"
   }
 ]
