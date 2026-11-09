@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-09-10",
-      "category": "event planner",
-      "city": "Scarborough, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-10",
-      "category": "event planner",
-      "city": "Etobicoke, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-11",
       "category": "event planner",
       "city": "York, Toronto, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-11-09",
+      "category": "florist",
+      "city": "Newmarket, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-09",
+      "category": "florist",
+      "city": "Aurora, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1099,7 +1099,7 @@
       "serpApiCalls": 82
     },
     "2026-11": {
-      "placesApiCalls": 16,
+      "placesApiCalls": 18,
       "serpApiCalls": 11
     }
   }
