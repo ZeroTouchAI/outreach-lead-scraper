@@ -5567,5 +5567,21 @@
     "emailSource": null,
     "foundAt": "2026-11-08T18:16:31.524Z",
     "lastUpdatedAt": "2026-11-08T18:16:34.649Z"
+  },
+  {
+    "placeId": "ChIJiSlUthqgSKQR2WH3eGER0AU",
+    "name": "Fioritura Floral Design",
+    "address": "50 Willow Park Dr, Whitby, ON L1N 3N5, Canada",
+    "phone": "+1 289-200-0441",
+    "category": "florist",
+    "searchLocation": "Whitby, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=418853875684434393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-10T20:20:48.297Z",
+    "lastUpdatedAt": "2026-11-10T20:20:53.459Z"
   }
 ]

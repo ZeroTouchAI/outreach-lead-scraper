@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-09T23:42:44.355Z",
+  "lastUpdated": "2026-11-10T20:20:53.802Z",
   "current": {
     "category": "florist",
-    "cityIndex": 15,
+    "cityIndex": 17,
     "totalCities": 22,
-    "nextCity": "Oshawa, ON"
+    "nextCity": "Ajax, ON"
   },
   "leaderboard": {
     "completed": [
@@ -147,7 +147,7 @@
     ],
     "active": {
       "category": "florist",
-      "leadsEnriched": 9,
+      "leadsEnriched": 10,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -155,23 +155,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "category": "florist",
-      "city": "Aurora, ON",
+      "city": "Whitby, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 18,
-      "serpApiCalls": 11
+      "placesApiCalls": 20,
+      "serpApiCalls": 12
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 37
+    "projectedMonthlySerpApiCalls": 36
   },
   "totals": {
-    "totalLeadsFound": 344,
+    "totalLeadsFound": 345,
     "totalEmailsFound": 11,
     "totalEmailsSent": 11,
     "totalNeedsReview": 0,
@@ -182,24 +182,6 @@
     "categoriesPending": 19
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-11",
-      "category": "event planner",
-      "city": "York, Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-11",
-      "category": "event planner",
-      "city": "East York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-12",
       "category": "event planner",
@@ -1260,6 +1242,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-10",
+      "category": "florist",
+      "city": "Oshawa, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-10",
+      "category": "florist",
+      "city": "Whitby, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],
