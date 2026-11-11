@@ -5583,5 +5583,21 @@
     "emailSource": null,
     "foundAt": "2026-11-10T20:20:48.297Z",
     "lastUpdatedAt": "2026-11-10T20:20:53.459Z"
+  },
+  {
+    "placeId": "ChIJL9B9fSnf1IkRd_u2wRN8E1s",
+    "name": "Flower Bong Variety",
+    "address": "1105 Finch Ave Unit 1, Pickering, ON L1V 1J7, Canada",
+    "phone": "+1 905-831-1105",
+    "category": "florist",
+    "searchLocation": "Ajax, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=6562725506305162103&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-11T20:04:07.119Z",
+    "lastUpdatedAt": "2026-11-11T20:04:08.886Z"
   }
 ]
