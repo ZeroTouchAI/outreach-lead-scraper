@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-09-13",
-      "category": "event planner",
-      "city": "Caledon, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-13",
-      "category": "event planner",
-      "city": "Vaughan, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-14",
       "category": "event planner",
       "city": "Markham, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-11-12",
+      "category": "florist",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-12",
+      "category": "florist",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1099,8 +1099,8 @@
       "serpApiCalls": 82
     },
     "2026-11": {
-      "placesApiCalls": 22,
-      "serpApiCalls": 13
+      "placesApiCalls": 24,
+      "serpApiCalls": 15
     }
   }
 }

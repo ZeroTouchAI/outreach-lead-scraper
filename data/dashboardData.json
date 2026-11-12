@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-11T21:46:31.553Z",
+  "lastUpdated": "2026-11-12T20:42:02.895Z",
   "current": {
     "category": "florist",
-    "cityIndex": 19,
+    "cityIndex": 21,
     "totalCities": 22,
-    "nextCity": "Oakville, ON"
+    "nextCity": "Milton, ON"
   },
   "leaderboard": {
     "completed": [
@@ -147,7 +147,7 @@
     ],
     "active": {
       "category": "florist",
-      "leadsEnriched": 11,
+      "leadsEnriched": 13,
       "emailsFound": 0,
       "hitRate": 0
     },
@@ -155,23 +155,23 @@
   },
   "usage": {
     "today": {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "category": "florist",
-      "city": "Pickering, ON",
+      "city": "Burlington, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 22,
-      "serpApiCalls": 13
+      "placesApiCalls": 24,
+      "serpApiCalls": 15
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 35
+    "projectedMonthlySerpApiCalls": 38
   },
   "totals": {
-    "totalLeadsFound": 346,
+    "totalLeadsFound": 348,
     "totalEmailsFound": 11,
     "totalEmailsSent": 11,
     "totalNeedsReview": 0,
@@ -182,24 +182,6 @@
     "categoriesPending": 19
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-13",
-      "category": "event planner",
-      "city": "Caledon, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-13",
-      "category": "event planner",
-      "city": "Vaughan, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-14",
       "category": "event planner",
@@ -1260,6 +1242,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-12",
+      "category": "florist",
+      "city": "Oakville, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-12",
+      "category": "florist",
+      "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
       "emailsFound": 0
     }
   ],

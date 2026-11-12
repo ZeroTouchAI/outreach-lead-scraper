@@ -5599,5 +5599,37 @@
     "emailSource": null,
     "foundAt": "2026-11-11T20:04:07.119Z",
     "lastUpdatedAt": "2026-11-11T20:04:08.886Z"
+  },
+  {
+    "placeId": "ChIJucETFyJeK4gR_922-pUA2Us",
+    "name": "Late Bloom Florist",
+    "address": "5353 Lakeshore Rd. #10, Burlington, ON L7L 1C8, Canada",
+    "phone": "+1 905-631-9009",
+    "category": "florist",
+    "searchLocation": "Burlington, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=5465400266947223039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-12T20:41:59.339Z",
+    "lastUpdatedAt": "2026-11-12T20:42:00.994Z"
+  },
+  {
+    "placeId": "ChIJ9ZXfsMcrU4gR70THas7p6zY",
+    "name": "Custom Floral Creations",
+    "address": "1242 S Church St, Burlington, NC 27215, USA",
+    "phone": "+1 336-226-1562",
+    "category": "florist",
+    "searchLocation": "Burlington, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=3957513770339091695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-12T20:41:59.339Z",
+    "lastUpdatedAt": "2026-11-12T20:42:02.557Z"
   }
 ]
