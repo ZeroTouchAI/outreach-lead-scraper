@@ -5631,5 +5631,21 @@
     "emailSource": null,
     "foundAt": "2026-11-12T20:41:59.339Z",
     "lastUpdatedAt": "2026-11-12T20:42:02.557Z"
+  },
+  {
+    "placeId": "ChIJC_gSxuZtK4gR7MLNLN4Blo8",
+    "name": "Floré Studios",
+    "address": "87 Pennington Crescent, Georgetown, ON L7G 4L4, Canada",
+    "phone": "+1 647-921-0807",
+    "category": "florist",
+    "searchLocation": "Halton Hills, ON",
+    "primaryType": "florist",
+    "googleMapsUrl": "https://maps.google.com/?cid=10346459247676343020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-13T20:23:48.538Z",
+    "lastUpdatedAt": "2026-11-13T20:23:49.632Z"
   }
 ]

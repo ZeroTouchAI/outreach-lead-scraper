@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-12T21:45:43.283Z",
+  "lastUpdated": "2026-11-13T20:23:50.244Z",
   "current": {
-    "category": "florist",
-    "cityIndex": 21,
+    "category": "yoga studio",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -81,6 +81,14 @@
         "sampleType": "full_cycle"
       },
       {
+        "category": "florist",
+        "leadsEnriched": 14,
+        "emailsFound": 0,
+        "hitRate": 0,
+        "verdict": "reject",
+        "sampleType": "full_cycle"
+      },
+      {
         "category": "plumber",
         "leadsEnriched": 7,
         "emailsFound": 0,
@@ -146,60 +154,42 @@
       }
     ],
     "active": {
-      "category": "florist",
-      "leadsEnriched": 13,
+      "category": "yoga studio",
+      "leadsEnriched": 0,
       "emailsFound": 0,
-      "hitRate": 0
+      "hitRate": null
     },
-    "queuedCount": 10
+    "queuedCount": 9
   },
   "usage": {
     "today": {
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "category": "florist",
-      "city": "Burlington, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    "thisMonth": {
-      "placesApiCalls": 24,
-      "serpApiCalls": 15
-    },
-    "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 38
-  },
-  "totals": {
-    "totalLeadsFound": 348,
-    "totalEmailsFound": 11,
-    "totalEmailsSent": 11,
-    "totalNeedsReview": 0,
-    "totalCategories": 28,
-    "categoriesCompleted": 17,
-    "categoriesKept": 4,
-    "categoriesRejected": 5,
-    "categoriesPending": 19
-  },
-  "dailyHistory": [
-    {
-      "date": "2026-09-14",
-      "category": "event planner",
-      "city": "Markham, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
     },
-    {
-      "date": "2026-09-14",
-      "category": "event planner",
-      "city": "Richmond Hill, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
+    "thisMonth": {
+      "placesApiCalls": 26,
+      "serpApiCalls": 16
     },
+    "serpApiFreeTierLimit": 250,
+    "projectedMonthlySerpApiCalls": 37
+  },
+  "totals": {
+    "totalLeadsFound": 349,
+    "totalEmailsFound": 11,
+    "totalEmailsSent": 11,
+    "totalNeedsReview": 0,
+    "totalCategories": 28,
+    "categoriesCompleted": 18,
+    "categoriesKept": 4,
+    "categoriesRejected": 6,
+    "categoriesPending": 18
+  },
+  "dailyHistory": [
     {
       "date": "2026-09-15",
       "category": "event planner",
@@ -1260,6 +1250,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 2,
       "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-13",
+      "category": "florist",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-13",
+      "category": "florist",
+      "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
       "emailsFound": 0
     }
   ],
