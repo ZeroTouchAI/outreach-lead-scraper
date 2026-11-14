@@ -365,10 +365,13 @@
     "status": "active",
     "startedAt": "2026-11-13T20:23:50.175Z",
     "completedAt": null,
-    "citiesCovered": [],
-    "leadsFound": 0,
-    "leadsEnriched": 0,
-    "emailsFound": 0,
+    "citiesCovered": [
+      "Downtown Toronto, ON",
+      "North York, ON"
+    ],
+    "leadsFound": 2,
+    "leadsEnriched": 2,
+    "emailsFound": 2,
     "hitRate": null,
     "verdict": null
   },

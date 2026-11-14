@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-13T21:14:48.932Z",
+  "lastUpdated": "2026-11-14T18:40:39.616Z",
   "current": {
     "category": "yoga studio",
-    "cityIndex": 1,
+    "cityIndex": 3,
     "totalCities": 22,
-    "nextCity": "Downtown Toronto, ON"
+    "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
     "completed": [
@@ -155,32 +155,32 @@
     ],
     "active": {
       "category": "yoga studio",
-      "leadsEnriched": 0,
-      "emailsFound": 0,
-      "hitRate": null
+      "leadsEnriched": 2,
+      "emailsFound": 2,
+      "hitRate": 1
     },
     "queuedCount": 9
   },
   "usage": {
     "today": {
-      "date": "2026-11-13",
-      "category": "florist",
-      "city": "Halton Hills, ON",
+      "date": "2026-11-14",
+      "category": "yoga studio",
+      "city": "North York, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
-      "emailsFound": 0
+      "emailsFound": 1
     },
     "thisMonth": {
-      "placesApiCalls": 26,
-      "serpApiCalls": 16
+      "placesApiCalls": 28,
+      "serpApiCalls": 18
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 37
+    "projectedMonthlySerpApiCalls": 39
   },
   "totals": {
-    "totalLeadsFound": 349,
-    "totalEmailsFound": 11,
+    "totalLeadsFound": 351,
+    "totalEmailsFound": 13,
     "totalEmailsSent": 11,
     "totalNeedsReview": 0,
     "totalCategories": 28,
@@ -190,24 +190,6 @@
     "categoriesPending": 18
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-15",
-      "category": "event planner",
-      "city": "Newmarket, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-15",
-      "category": "event planner",
-      "city": "Aurora, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-16",
       "category": "event planner",
@@ -1269,9 +1251,69 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-11-14",
+      "category": "yoga studio",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 1
+    },
+    {
+      "date": "2026-11-14",
+      "category": "yoga studio",
+      "city": "North York, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 1
     }
   ],
   "reachedCompanies": [
+    {
+      "name": "Sunrise Studio",
+      "category": "yoga studio",
+      "location": "North York, ON",
+      "email": "info@sunriseltd.ca",
+      "emailSource": "https://www.google.com/goto?url=CAESYQHEIkXXXnbSeeLTykJxwX3leMAj7PEDkiDJjZlMfcOfaQb4_dGGnEQPLMDcKR89BTodkLDlzg7Mic2OCM7SubnqheBmXo9M1Mb1EG7viDXTP1pBGpyKhFXGNUsOFwdC-9w",
+      "phone": "+1 647-819-1028",
+      "foundAt": "2026-11-14T18:40:36.084Z",
+      "sent": false,
+      "sendFailed": false,
+      "skipped": false,
+      "emailedAt": null,
+      "failedAt": null,
+      "emailError": null,
+      "placeId": "ChIJfRdtwFQtK4gRg6hiAfbagsk",
+      "needsReview": false,
+      "reviewReason": null,
+      "emailSnippet": null,
+      "sendAttempts": 0,
+      "maxAttempts": 5
+    },
+    {
+      "name": "ORA YOGA",
+      "category": "yoga studio",
+      "location": "Downtown Toronto, ON",
+      "email": "aurorayogaspaab@zoho.com",
+      "emailSource": "https://www.google.com/goto?url=CAESbgHEIkXXFjkokDq7bpld_eW-lqkr0brj_rtcxgOXBirqT90KTb-0fuvpPrhQsu9Lp7gGO5q0sdto5RWVBPqhu4XNz6YE8JUgHUe4jtvCNbdHW5-VTkQlAH4AwvlpERsyRvOpZfC_PBVD0sKG4jUi",
+      "phone": "+1 306-715-1379",
+      "foundAt": "2026-11-14T18:40:35.555Z",
+      "sent": false,
+      "sendFailed": false,
+      "skipped": false,
+      "emailedAt": null,
+      "failedAt": null,
+      "emailError": null,
+      "placeId": "ChIJKRk2fS3L1IkRbokV_WMHvrk",
+      "needsReview": false,
+      "reviewReason": "Address looks like it belongs to this business, but the page doesn't mention its name.",
+      "emailSnippet": "1-866-445-9004. Telephone: +1 780 452 9388 Key Contact: Jaime Mckeag aurorayogaspaab@zoho.com. Hours of Operation Sunday: 10:00 am to 9:00 pm Monday: 10:00 am ...",
+      "sendAttempts": 0,
+      "maxAttempts": 5
+    },
     {
       "name": "Lunch Company The",
       "category": "catering company",
