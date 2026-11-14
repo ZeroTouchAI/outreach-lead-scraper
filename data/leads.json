@@ -5658,14 +5658,17 @@
     "primaryType": "yoga_studio",
     "googleMapsUrl": "https://maps.google.com/?cid=13384143268620896622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "aurorayogaspaab@zoho.com",
     "emailSource": "https://www.google.com/goto?url=CAESbgHEIkXXFjkokDq7bpld_eW-lqkr0brj_rtcxgOXBirqT90KTb-0fuvpPrhQsu9Lp7gGO5q0sdto5RWVBPqhu4XNz6YE8JUgHUe4jtvCNbdHW5-VTkQlAH4AwvlpERsyRvOpZfC_PBVD0sKG4jUi",
     "foundAt": "2026-11-14T18:40:35.555Z",
     "lastUpdatedAt": "2026-11-14T18:40:38.060Z",
     "emailConfidence": "review",
     "emailReviewReason": "Address looks like it belongs to this business, but the page doesn't mention its name.",
-    "emailSnippet": "1-866-445-9004. Telephone: +1 780 452 9388 Key Contact: Jaime Mckeag aurorayogaspaab@zoho.com. Hours of Operation Sunday: 10:00 am to 9:00 pm Monday: 10:00 am ..."
+    "emailSnippet": "1-866-445-9004. Telephone: +1 780 452 9388 Key Contact: Jaime Mckeag aurorayogaspaab@zoho.com. Hours of Operation Sunday: 10:00 am to 9:00 pm Monday: 10:00 am ...",
+    "emailedAt": "2026-11-14T19:47:25.571Z",
+    "resendId": "01a1db99-b2ed-78ea-b7e0-aa4b28173d89",
+    "sendAttempts": 1
   },
   {
     "placeId": "ChIJfRdtwFQtK4gRg6hiAfbagsk",
@@ -5677,11 +5680,14 @@
     "primaryType": "yoga_studio",
     "googleMapsUrl": "https://maps.google.com/?cid=14520408898715953283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     "hasWebsite": false,
-    "status": "enriched",
+    "status": "emailed",
     "email": "info@sunriseltd.ca",
     "emailSource": "https://www.google.com/goto?url=CAESYQHEIkXXXnbSeeLTykJxwX3leMAj7PEDkiDJjZlMfcOfaQb4_dGGnEQPLMDcKR89BTodkLDlzg7Mic2OCM7SubnqheBmXo9M1Mb1EG7viDXTP1pBGpyKhFXGNUsOFwdC-9w",
     "foundAt": "2026-11-14T18:40:36.084Z",
     "lastUpdatedAt": "2026-11-14T18:40:39.273Z",
-    "emailConfidence": "high"
+    "emailConfidence": "high",
+    "emailedAt": "2026-11-14T19:47:26.117Z",
+    "resendId": "01a1db99-b507-751f-a0c7-6bbccffdffce",
+    "sendAttempts": 1
   }
 ]
