@@ -5689,5 +5689,21 @@
     "emailedAt": "2026-11-14T19:47:26.117Z",
     "resendId": "01a1db99-b507-751f-a0c7-6bbccffdffce",
     "sendAttempts": 1
+  },
+  {
+    "placeId": "ChIJXR47EKrP1IkRX1bGcZROOdg",
+    "name": "Yogananda Shala",
+    "address": "63 Sylvan Ave, Scarborough, ON M1M 1J9, Canada",
+    "phone": "+1 416-990-9642",
+    "category": "yoga studio",
+    "searchLocation": "Scarborough, ON",
+    "primaryType": "yoga_studio",
+    "googleMapsUrl": "https://maps.google.com/?cid=15580570785335891551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-15T19:17:24.206Z",
+    "lastUpdatedAt": "2026-11-15T19:17:26.781Z"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-14T19:47:26.648Z",
+  "lastUpdated": "2026-11-15T19:17:27.123Z",
   "current": {
     "category": "yoga studio",
-    "cityIndex": 3,
+    "cityIndex": 5,
     "totalCities": 22,
-    "nextCity": "Scarborough, ON"
+    "nextCity": "York, Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -155,31 +155,31 @@
     ],
     "active": {
       "category": "yoga studio",
-      "leadsEnriched": 2,
+      "leadsEnriched": 3,
       "emailsFound": 2,
-      "hitRate": 1
+      "hitRate": 0.6666666666666666
     },
     "queuedCount": 9
   },
   "usage": {
     "today": {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "category": "yoga studio",
-      "city": "North York, ON",
+      "city": "Etobicoke, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 1
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 28,
-      "serpApiCalls": 18
+      "placesApiCalls": 30,
+      "serpApiCalls": 19
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 39
+    "projectedMonthlySerpApiCalls": 38
   },
   "totals": {
-    "totalLeadsFound": 351,
+    "totalLeadsFound": 352,
     "totalEmailsFound": 13,
     "totalEmailsSent": 13,
     "totalNeedsReview": 0,
@@ -190,24 +190,6 @@
     "categoriesPending": 18
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-16",
-      "category": "event planner",
-      "city": "Oshawa, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-16",
-      "category": "event planner",
-      "city": "Whitby, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-17",
       "category": "event planner",
@@ -1269,6 +1251,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-11-15",
+      "category": "yoga studio",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-15",
+      "category": "yoga studio",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "reachedCompanies": [

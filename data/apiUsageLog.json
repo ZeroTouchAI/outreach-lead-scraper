@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-09-16",
-      "category": "event planner",
-      "city": "Oshawa, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-16",
-      "category": "event planner",
-      "city": "Whitby, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-17",
       "category": "event planner",
       "city": "Ajax, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 1,
       "leadsFound": 1,
       "emailsFound": 1
+    },
+    {
+      "date": "2026-11-15",
+      "category": "yoga studio",
+      "city": "Scarborough, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-15",
+      "category": "yoga studio",
+      "city": "Etobicoke, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1099,8 +1099,8 @@
       "serpApiCalls": 82
     },
     "2026-11": {
-      "placesApiCalls": 28,
-      "serpApiCalls": 18
+      "placesApiCalls": 30,
+      "serpApiCalls": 19
     }
   }
 }
