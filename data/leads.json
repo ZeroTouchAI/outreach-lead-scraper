@@ -5705,5 +5705,37 @@
     "emailSource": null,
     "foundAt": "2026-11-15T19:17:24.206Z",
     "lastUpdatedAt": "2026-11-15T19:17:26.781Z"
+  },
+  {
+    "placeId": "ChIJfcjbto7N1IkRX45GPIb2i0Y",
+    "name": "Soma Yoga and Wellness",
+    "address": "42 Marlow Ave, East York, ON M4J 3T9, Canada",
+    "phone": "+1 416-830-2384",
+    "category": "yoga studio",
+    "searchLocation": "East York, ON",
+    "primaryType": "gym",
+    "googleMapsUrl": "https://maps.google.com/?cid=5083427660815044191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-16T22:47:26.484Z",
+    "lastUpdatedAt": "2026-11-16T22:47:39.659Z"
+  },
+  {
+    "placeId": "ChIJQ2f73rDN1IkRLconcirk9RI",
+    "name": "Zen Haven Yoga and Meditation Studio",
+    "address": "302 Glebemount Ave, East York, ON M4C 3V3, Canada",
+    "phone": "+1 416-897-8147",
+    "category": "yoga studio",
+    "searchLocation": "East York, ON",
+    "primaryType": "health",
+    "googleMapsUrl": "https://maps.google.com/?cid=1366248932931783213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-16T22:47:26.484Z",
+    "lastUpdatedAt": "2026-11-16T22:47:40.960Z"
   }
 ]
