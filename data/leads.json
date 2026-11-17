@@ -5737,5 +5737,21 @@
     "emailSource": null,
     "foundAt": "2026-11-16T22:47:26.484Z",
     "lastUpdatedAt": "2026-11-16T22:47:40.960Z"
+  },
+  {
+    "placeId": "ChIJrcPFDvwVK4gRquSUfUUPzLs",
+    "name": "Yogantra Studio",
+    "address": "Baffin Cres, Brampton, ON L7A 4K9, Canada",
+    "phone": "+1 289-946-4597",
+    "category": "yoga studio",
+    "searchLocation": "Brampton, ON",
+    "primaryType": "yoga_studio",
+    "googleMapsUrl": "https://maps.google.com/?cid=13532207771475567786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-17T21:37:06.745Z",
+    "lastUpdatedAt": "2026-11-17T21:37:19.297Z"
   }
 ]

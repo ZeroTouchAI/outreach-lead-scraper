@@ -371,10 +371,12 @@
       "Scarborough, ON",
       "Etobicoke, ON",
       "York, Toronto, ON",
-      "East York, ON"
+      "East York, ON",
+      "Mississauga, ON",
+      "Brampton, ON"
     ],
-    "leadsFound": 5,
-    "leadsEnriched": 5,
+    "leadsFound": 6,
+    "leadsEnriched": 6,
     "emailsFound": 2,
     "hitRate": null,
     "verdict": null
