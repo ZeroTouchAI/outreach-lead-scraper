@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-17T22:48:04.185Z",
+  "lastUpdated": "2026-11-18T21:13:23.872Z",
   "current": {
     "category": "yoga studio",
-    "cityIndex": 9,
+    "cityIndex": 11,
     "totalCities": 22,
-    "nextCity": "Caledon, ON"
+    "nextCity": "Markham, ON"
   },
   "leaderboard": {
     "completed": [
@@ -155,31 +155,31 @@
     ],
     "active": {
       "category": "yoga studio",
-      "leadsEnriched": 6,
+      "leadsEnriched": 8,
       "emailsFound": 2,
-      "hitRate": 0.3333333333333333
+      "hitRate": 0.25
     },
     "queuedCount": 9
   },
   "usage": {
     "today": {
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "category": "yoga studio",
-      "city": "Brampton, ON",
+      "city": "Vaughan, ON",
       "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 34,
-      "serpApiCalls": 22
+      "placesApiCalls": 36,
+      "serpApiCalls": 24
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 39
+    "projectedMonthlySerpApiCalls": 40
   },
   "totals": {
-    "totalLeadsFound": 355,
+    "totalLeadsFound": 357,
     "totalEmailsFound": 13,
     "totalEmailsSent": 13,
     "totalNeedsReview": 0,
@@ -190,24 +190,6 @@
     "categoriesPending": 18
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-19",
-      "category": "event planner",
-      "city": "Milton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-19",
-      "category": "event planner",
-      "city": "Halton Hills, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-20",
       "category": "bakery",
@@ -1268,6 +1250,24 @@
       "placesApiCalls": 1,
       "serpApiCalls": 1,
       "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-18",
+      "category": "yoga studio",
+      "city": "Caledon, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 2,
+      "leadsFound": 2,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-18",
+      "category": "yoga studio",
+      "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
       "emailsFound": 0
     }
   ],
