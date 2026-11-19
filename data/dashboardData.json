@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-18T22:29:40.736Z",
+  "lastUpdated": "2026-11-19T21:14:57.089Z",
   "current": {
     "category": "yoga studio",
-    "cityIndex": 11,
+    "cityIndex": 13,
     "totalCities": 22,
-    "nextCity": "Markham, ON"
+    "nextCity": "Newmarket, ON"
   },
   "leaderboard": {
     "completed": [
@@ -163,20 +163,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "category": "yoga studio",
-      "city": "Vaughan, ON",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 36,
+      "placesApiCalls": 38,
       "serpApiCalls": 24
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 40
+    "projectedMonthlySerpApiCalls": 38
   },
   "totals": {
     "totalLeadsFound": 357,
@@ -190,24 +190,6 @@
     "categoriesPending": 18
   },
   "dailyHistory": [
-    {
-      "date": "2026-09-20",
-      "category": "bakery",
-      "city": "Downtown Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-20",
-      "category": "bakery",
-      "city": "North York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
-      "emailsFound": 0
-    },
     {
       "date": "2026-09-21",
       "category": "bakery",
@@ -1265,6 +1247,24 @@
       "date": "2026-11-18",
       "category": "yoga studio",
       "city": "Vaughan, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-19",
+      "category": "yoga studio",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-19",
+      "category": "yoga studio",
+      "city": "Richmond Hill, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,

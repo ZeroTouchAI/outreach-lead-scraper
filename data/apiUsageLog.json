@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-09-20",
-      "category": "bakery",
-      "city": "Downtown Toronto, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 0,
-      "leadsFound": 0,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-20",
-      "category": "bakery",
-      "city": "North York, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 3,
-      "leadsFound": 3,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-21",
       "category": "bakery",
       "city": "Scarborough, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-11-19",
+      "category": "yoga studio",
+      "city": "Markham, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-19",
+      "category": "yoga studio",
+      "city": "Richmond Hill, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1099,7 +1099,7 @@
       "serpApiCalls": 82
     },
     "2026-11": {
-      "placesApiCalls": 36,
+      "placesApiCalls": 38,
       "serpApiCalls": 24
     }
   }
