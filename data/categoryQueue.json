@@ -377,10 +377,12 @@
       "Caledon, ON",
       "Vaughan, ON",
       "Markham, ON",
-      "Richmond Hill, ON"
+      "Richmond Hill, ON",
+      "Newmarket, ON",
+      "Aurora, ON"
     ],
-    "leadsFound": 8,
-    "leadsEnriched": 8,
+    "leadsFound": 9,
+    "leadsEnriched": 9,
     "emailsFound": 2,
     "hitRate": null,
     "verdict": null

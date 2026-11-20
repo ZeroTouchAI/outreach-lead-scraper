@@ -5785,5 +5785,21 @@
     "emailSource": null,
     "foundAt": "2026-11-18T21:13:19.655Z",
     "lastUpdatedAt": "2026-11-18T21:13:23.538Z"
+  },
+  {
+    "placeId": "ChIJAQAMGOTTKogRgZPvUpvK9Sk",
+    "name": "The Yoga Nest",
+    "address": "78 Centre St, Aurora, ON L4G 1J8, Canada",
+    "phone": "+1 416-556-6119",
+    "category": "yoga studio",
+    "searchLocation": "Aurora, ON",
+    "primaryType": "sports_complex",
+    "googleMapsUrl": "https://maps.google.com/?cid=3023545493309330305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-20T20:58:04.054Z",
+    "lastUpdatedAt": "2026-11-20T20:58:19.423Z"
   }
 ]
