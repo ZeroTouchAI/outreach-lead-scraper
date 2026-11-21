@@ -5801,5 +5801,37 @@
     "emailSource": null,
     "foundAt": "2026-11-20T20:58:04.054Z",
     "lastUpdatedAt": "2026-11-20T20:58:19.423Z"
+  },
+  {
+    "placeId": "ChIJ77ezrL4b1YkRSEhUOvE_GDw",
+    "name": "Tracy & Co Studio",
+    "address": "2063 Solar Pl, Oshawa, ON L1L 0A4, Canada",
+    "phone": "+1 289-240-8348",
+    "category": "yoga studio",
+    "searchLocation": "Oshawa, ON",
+    "primaryType": "spa",
+    "googleMapsUrl": "https://maps.google.com/?cid=4330281347015002184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-21T19:59:13.906Z",
+    "lastUpdatedAt": "2026-11-21T19:59:16.045Z"
+  },
+  {
+    "placeId": "ChIJPei3KxMe1YkRi717TtHXdDs",
+    "name": "Live With Spirit Yoga & Fitness Studio",
+    "address": "101 Mary St W B1, Whitby, ON L1N 2R4, Canada",
+    "phone": "+1 905-620-1151",
+    "category": "yoga studio",
+    "searchLocation": "Oshawa, ON",
+    "primaryType": "yoga_studio",
+    "googleMapsUrl": "https://maps.google.com/?cid=4284286439501053323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-21T19:59:13.907Z",
+    "lastUpdatedAt": "2026-11-21T19:59:17.795Z"
   }
 ]
