@@ -1,24 +1,6 @@
 {
   "daily": [
     {
-      "date": "2026-09-23",
-      "category": "bakery",
-      "city": "Mississauga, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-23",
-      "category": "bakery",
-      "city": "Brampton, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 5,
-      "leadsFound": 5,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-24",
       "category": "bakery",
       "city": "Caledon, ON",
@@ -1079,6 +1061,24 @@
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
+    },
+    {
+      "date": "2026-11-22",
+      "category": "yoga studio",
+      "city": "Ajax, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-22",
+      "category": "yoga studio",
+      "city": "Pickering, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
     }
   ],
   "monthlyTotals": {
@@ -1099,8 +1099,8 @@
       "serpApiCalls": 82
     },
     "2026-11": {
-      "placesApiCalls": 42,
-      "serpApiCalls": 27
+      "placesApiCalls": 44,
+      "serpApiCalls": 28
     }
   }
 }
