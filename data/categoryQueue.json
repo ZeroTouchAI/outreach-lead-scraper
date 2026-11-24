@@ -383,10 +383,12 @@
       "Oshawa, ON",
       "Whitby, ON",
       "Ajax, ON",
-      "Pickering, ON"
+      "Pickering, ON",
+      "Oakville, ON",
+      "Burlington, ON"
     ],
-    "leadsFound": 12,
-    "leadsEnriched": 12,
+    "leadsFound": 13,
+    "leadsEnriched": 13,
     "emailsFound": 2,
     "hitRate": null,
     "verdict": null
