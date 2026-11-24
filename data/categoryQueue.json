@@ -362,9 +362,9 @@
   {
     "order": 11,
     "category": "yoga studio",
-    "status": "active",
+    "status": "completed",
     "startedAt": "2026-11-13T20:23:50.175Z",
-    "completedAt": null,
+    "completedAt": "2026-11-24T22:57:10.962Z",
     "citiesCovered": [
       "Downtown Toronto, ON",
       "North York, ON",
@@ -385,19 +385,21 @@
       "Ajax, ON",
       "Pickering, ON",
       "Oakville, ON",
-      "Burlington, ON"
+      "Burlington, ON",
+      "Milton, ON",
+      "Halton Hills, ON"
     ],
-    "leadsFound": 13,
-    "leadsEnriched": 13,
+    "leadsFound": 14,
+    "leadsEnriched": 14,
     "emailsFound": 2,
-    "hitRate": null,
-    "verdict": null
+    "hitRate": 0.14285714285714285,
+    "verdict": "keep"
   },
   {
     "order": 12,
     "category": "martial arts studio",
-    "status": "queued",
-    "startedAt": null,
+    "status": "active",
+    "startedAt": "2026-11-24T22:57:10.962Z",
     "completedAt": null,
     "citiesCovered": [],
     "leadsFound": 0,

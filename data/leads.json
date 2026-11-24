@@ -5865,5 +5865,21 @@
     "emailSource": null,
     "foundAt": "2026-11-24T00:39:08.236Z",
     "lastUpdatedAt": "2026-11-24T00:39:10.247Z"
+  },
+  {
+    "placeId": "ChIJXyIjqXtvK4gRI7TfEtYsiGk",
+    "name": "Yoga With Shaista",
+    "address": "635 Willmott Crescent, Milton, ON L9T 6E9, Canada",
+    "phone": "+1 647-996-3235",
+    "category": "yoga studio",
+    "searchLocation": "Milton, ON",
+    "primaryType": "yoga_studio",
+    "googleMapsUrl": "https://maps.google.com/?cid=7604377268766356515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-24T22:57:08.248Z",
+    "lastUpdatedAt": "2026-11-24T22:57:10.625Z"
   }
 ]

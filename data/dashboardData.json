@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-24T02:01:35.344Z",
+  "lastUpdated": "2026-11-24T22:57:10.966Z",
   "current": {
-    "category": "yoga studio",
-    "cityIndex": 21,
+    "category": "martial arts studio",
+    "cityIndex": 1,
     "totalCities": 22,
-    "nextCity": "Milton, ON"
+    "nextCity": "Downtown Toronto, ON"
   },
   "leaderboard": {
     "completed": [
@@ -89,6 +89,14 @@
         "sampleType": "full_cycle"
       },
       {
+        "category": "yoga studio",
+        "leadsEnriched": 14,
+        "emailsFound": 2,
+        "hitRate": 0.14285714285714285,
+        "verdict": "keep",
+        "sampleType": "full_cycle"
+      },
+      {
         "category": "plumber",
         "leadsEnriched": 7,
         "emailsFound": 0,
@@ -154,61 +162,43 @@
       }
     ],
     "active": {
-      "category": "yoga studio",
-      "leadsEnriched": 13,
-      "emailsFound": 2,
-      "hitRate": 0.15384615384615385
+      "category": "martial arts studio",
+      "leadsEnriched": 0,
+      "emailsFound": 0,
+      "hitRate": null
     },
-    "queuedCount": 9
+    "queuedCount": 8
   },
   "usage": {
     "today": {
       "date": "2026-11-24",
       "category": "yoga studio",
-      "city": "Burlington, ON",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 46,
-      "serpApiCalls": 29
+      "placesApiCalls": 48,
+      "serpApiCalls": 30
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 36
+    "projectedMonthlySerpApiCalls": 38
   },
   "totals": {
-    "totalLeadsFound": 362,
+    "totalLeadsFound": 363,
     "totalEmailsFound": 13,
     "totalEmailsSent": 13,
     "totalNeedsReview": 0,
     "totalCategories": 28,
-    "categoriesCompleted": 18,
-    "categoriesKept": 4,
+    "categoriesCompleted": 19,
+    "categoriesKept": 5,
     "categoriesRejected": 6,
-    "categoriesPending": 18
+    "categoriesPending": 17
   },
   "dailyHistory": [
     {
-      "date": "2026-09-25",
-      "category": "bakery",
-      "city": "Markham, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-25",
-      "category": "bakery",
-      "city": "Richmond Hill, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 2,
-      "leadsFound": 2,
-      "emailsFound": 0
-    },
-    {
       "date": "2026-09-26",
       "category": "bakery",
       "city": "Newmarket, ON",
@@ -1265,6 +1255,24 @@
       "date": "2026-11-24",
       "category": "yoga studio",
       "city": "Burlington, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-24",
+      "category": "yoga studio",
+      "city": "Milton, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 1,
+      "leadsFound": 1,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-24",
+      "category": "yoga studio",
+      "city": "Halton Hills, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
