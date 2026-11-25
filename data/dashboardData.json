@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-24T23:47:20.263Z",
+  "lastUpdated": "2026-11-25T22:15:12.239Z",
   "current": {
     "category": "martial arts studio",
-    "cityIndex": 1,
+    "cityIndex": 3,
     "totalCities": 22,
-    "nextCity": "Downtown Toronto, ON"
+    "nextCity": "Scarborough, ON"
   },
   "leaderboard": {
     "completed": [
@@ -171,20 +171,20 @@
   },
   "usage": {
     "today": {
-      "date": "2026-11-24",
-      "category": "yoga studio",
-      "city": "Halton Hills, ON",
+      "date": "2026-11-25",
+      "category": "martial arts studio",
+      "city": "North York, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,
       "emailsFound": 0
     },
     "thisMonth": {
-      "placesApiCalls": 48,
+      "placesApiCalls": 50,
       "serpApiCalls": 30
     },
     "serpApiFreeTierLimit": 250,
-    "projectedMonthlySerpApiCalls": 38
+    "projectedMonthlySerpApiCalls": 36
   },
   "totals": {
     "totalLeadsFound": 363,
@@ -199,24 +199,6 @@
   },
   "dailyHistory": [
     {
-      "date": "2026-09-26",
-      "category": "bakery",
-      "city": "Newmarket, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 4,
-      "leadsFound": 4,
-      "emailsFound": 0
-    },
-    {
-      "date": "2026-09-26",
-      "category": "bakery",
-      "city": "Aurora, ON",
-      "placesApiCalls": 1,
-      "serpApiCalls": 1,
-      "leadsFound": 1,
-      "emailsFound": 1
-    },
-    {
       "date": "2026-09-27",
       "category": "bakery",
       "city": "Oshawa, ON",
@@ -1273,6 +1255,24 @@
       "date": "2026-11-24",
       "category": "yoga studio",
       "city": "Halton Hills, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-25",
+      "category": "martial arts studio",
+      "city": "Downtown Toronto, ON",
+      "placesApiCalls": 1,
+      "serpApiCalls": 0,
+      "leadsFound": 0,
+      "emailsFound": 0
+    },
+    {
+      "date": "2026-11-25",
+      "category": "martial arts studio",
+      "city": "North York, ON",
       "placesApiCalls": 1,
       "serpApiCalls": 0,
       "leadsFound": 0,

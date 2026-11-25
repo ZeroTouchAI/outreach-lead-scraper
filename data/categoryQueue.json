@@ -401,7 +401,10 @@
     "status": "active",
     "startedAt": "2026-11-24T22:57:10.962Z",
     "completedAt": null,
-    "citiesCovered": [],
+    "citiesCovered": [
+      "Downtown Toronto, ON",
+      "North York, ON"
+    ],
     "leadsFound": 0,
     "leadsEnriched": 0,
     "emailsFound": 0,
