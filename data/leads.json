@@ -5881,5 +5881,37 @@
     "emailSource": null,
     "foundAt": "2026-11-24T22:57:08.248Z",
     "lastUpdatedAt": "2026-11-24T22:57:10.625Z"
+  },
+  {
+    "placeId": "ChIJpXo1nT86K4gR6RHln6pccMU",
+    "name": "New Century Taekwondo",
+    "address": "335 Rexdale Blvd, Etobicoke, ON M9W 1R9, Canada",
+    "phone": "+1 416-747-2828",
+    "category": "martial arts studio",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "sports_school",
+    "googleMapsUrl": "https://maps.google.com/?cid=14226973110760182249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-26T22:11:20.599Z",
+    "lastUpdatedAt": "2026-11-26T22:11:23.206Z"
+  },
+  {
+    "placeId": "ChIJd_12NB44K4gRwncA-SB8FvQ",
+    "name": "International Shotokan Karate",
+    "address": "1570 Kipling Ave B1, Etobicoke, ON M9R 2Y1, Canada",
+    "phone": "+1 416-460-8659",
+    "category": "martial arts studio",
+    "searchLocation": "Etobicoke, ON",
+    "primaryType": "sports_school",
+    "googleMapsUrl": "https://maps.google.com/?cid=17588381875800405954&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-26T22:11:20.600Z",
+    "lastUpdatedAt": "2026-11-26T22:11:25.200Z"
   }
 ]
