@@ -5913,5 +5913,21 @@
     "emailSource": null,
     "foundAt": "2026-11-26T22:11:20.600Z",
     "lastUpdatedAt": "2026-11-26T22:11:25.200Z"
+  },
+  {
+    "placeId": "ChIJF2hORsbN1IkRpHLuBvJAWzc",
+    "name": "Kyokushin karate & Full contact, Ichiban Dojo Toronto",
+    "address": "2723 St Clair Ave E, East York, ON M4B 1M8, Canada",
+    "phone": "+1 647-627-9218",
+    "category": "martial arts studio",
+    "searchLocation": "East York, ON",
+    "primaryType": "sports_club",
+    "googleMapsUrl": "https://maps.google.com/?cid=3988853303209259684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "hasWebsite": false,
+    "status": "no_email_found",
+    "email": null,
+    "emailSource": null,
+    "foundAt": "2026-11-27T21:51:17.846Z",
+    "lastUpdatedAt": "2026-11-27T21:51:19.871Z"
   }
 ]
